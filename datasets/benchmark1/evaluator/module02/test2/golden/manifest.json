@@ -1,0 +1,16 @@
+{
+  "module_id": 2,
+  "family": "prefix_adder",
+  "archive_label": "medium",
+  "label_mode": "reference_complexity",
+  "reference_complexity": "medium",
+  "reasoning_difficulty": "medium",
+  "source_test_root": "evaluation/TestSet/module2/test1",
+  "generated_case_id": "module2_medium_001",
+  "primary_candidate": "candidate_00.v",
+  "alternate_candidates": [],
+  "admitted_candidates": [
+    "candidate_00.v"
+  ],
+  "notes": "Archived as a correct golden reference-complexity variant set with a visibly staged carry/prefix organization for the medium tier."
+}

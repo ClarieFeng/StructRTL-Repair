@@ -1,0 +1,16 @@
+{
+  "module_id": 11,
+  "family": "unsigned_adder_tree",
+  "archive_label": "low",
+  "label_mode": "reference_complexity",
+  "reference_complexity": "low",
+  "reasoning_difficulty": "low",
+  "source_test_root": "evaluation/TestSet/module11/test2",
+  "generated_case_id": "module11_low_001",
+  "primary_candidate": "candidate_00.v",
+  "alternate_candidates": [],
+  "admitted_candidates": [
+    "candidate_00.v"
+  ],
+  "notes": "Archived as a correct golden reference-complexity variant with a compact 6-input tree and minimal helper structure."
+}

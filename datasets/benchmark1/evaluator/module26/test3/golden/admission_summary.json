@@ -1,0 +1,59 @@
+{
+  "test_root": "<dataset_source>/module26/test1",
+  "candidate_dir": "<dataset_source>",
+  "family": "processing_element_row",
+  "difficulty": "high",
+  "run_sim": true,
+  "total_candidates": 1,
+  "admitted_candidates": 1,
+  "best_candidate": "candidate_00.v",
+  "results": [
+    {
+      "candidate": "<dataset_source>",
+      "admitted": true,
+      "functional_passed": true,
+      "structural_accepted": true,
+      "functional_validation": {
+        "candidate": "<dataset_source>",
+        "compile_ok": true,
+        "compile_log": "",
+        "simulation_ok": true,
+        "simulation_log": "------------------------------------------------\nTest Summary:\nTotal Tests: 50\nPassed Tests: 50\nFailed Tests: 0\nPassed Rate: 100.000000%\n------------------------------------------------\n<dataset_source>/module26/test1/code/tb.v:129: $finish called at 1040000 (1ps)\n",
+        "tests_total": 50,
+        "tests_passed": 50,
+        "pass_rate": 100.0,
+        "functional_ok": true
+      },
+      "structural_evaluation": {
+        "family": "processing_element_row",
+        "difficulty": "high",
+        "features": {
+          "effective_line_count": 101,
+          "wire_count": 35,
+          "reg_count": 0,
+          "assign_count": 16,
+          "always_count": 0,
+          "generate_count": 1,
+          "for_loop_count": 1,
+          "module_instantiation_like_count": 3,
+          "ternary_count": 0,
+          "intermediate_signal_count": 0,
+          "next_state_signal_count": 0,
+          "control_helper_count": 0,
+          "datapath_helper_count": 0,
+          "row_signal_count": 7,
+          "direct_add_assign_count": 0,
+          "sum0_signal_count": 0,
+          "sum1_signal_count": 0,
+          "carry0_signal_count": 0,
+          "carry1_signal_count": 0,
+          "carry_select_mux_count": 0,
+          "block_stage_signal_count": 6,
+          "single_path_helper_chain_count": 0
+        },
+        "accepted": true,
+        "notes": []
+      }
+    }
+  ]
+}

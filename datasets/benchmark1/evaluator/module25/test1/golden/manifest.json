@@ -1,0 +1,24 @@
+{
+  "module_id": 25,
+  "family": "processing_element",
+  "archive_label": "low",
+  "effective_difficulty": "low",
+  "source_test_root": "evaluation/TestSet/module25/test1",
+  "generated_case_id": "module25_low_001",
+  "primary_candidate": "candidate_00.v",
+  "alternate_candidates": [
+    "candidate_01.v",
+    "candidate_02.v",
+    "candidate_03.v"
+  ],
+  "admitted_candidates": [
+    "candidate_00.v",
+    "candidate_01.v",
+    "candidate_02.v",
+    "candidate_03.v"
+  ],
+  "notes": "Not yet formally checked; admitted via compile, simulation, and structural acceptance. Archived as a correct golden reference-complexity variant.",
+  "label_mode": "reference_complexity",
+  "reference_complexity": "low",
+  "reasoning_difficulty": "low"
+}

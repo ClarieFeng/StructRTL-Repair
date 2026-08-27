@@ -1,0 +1,16 @@
+{
+  "module_id": 22,
+  "family": "winograd_transform",
+  "archive_label": "medium",
+  "label_mode": "reference_complexity",
+  "reference_complexity": "medium",
+  "reasoning_difficulty": "medium",
+  "source_test_root": "evaluation/TestSet/module22/test2",
+  "generated_case_id": "module22_medium_001",
+  "primary_candidate": "candidate_00.v",
+  "alternate_candidates": [],
+  "admitted_candidates": [
+    "candidate_00.v"
+  ],
+  "notes": "Archived as a correct golden reference-complexity variant for the Winograd transform family."
+}

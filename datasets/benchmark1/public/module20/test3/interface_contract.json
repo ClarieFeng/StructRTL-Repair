@@ -1,0 +1,5 @@
+{
+  "top_module": "signed_serial_multiplier_12_PPA_Brent_Kung",
+  "module_header": "module signed_serial_multiplier_12_PPA_Brent_Kung #(\n    parameter width=12\n)(\n    input wire           clk  ,\n    input wire           rst_n,\n    input wire           en   ,\n    input wire [width-1:0] A    ,\n    input wire [width-1:0] B    ,\n    output reg           valid,\n    output reg [width*2:1] S\n);",
+  "source": "public_description"
+}

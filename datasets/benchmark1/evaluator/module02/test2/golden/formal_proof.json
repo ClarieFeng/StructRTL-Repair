@@ -1,0 +1,10 @@
+{
+  "module_id": 2,
+  "archive_label": "medium",
+  "label_mode": "reference_complexity",
+  "reference_complexity": "medium",
+  "primary_candidate": "candidate_00.v",
+  "formal_proof": "not_run",
+  "status": "pending",
+  "notes": "Not yet formally checked; admitted via compile, simulation, and structural acceptance."
+}

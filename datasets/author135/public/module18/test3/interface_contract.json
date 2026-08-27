@@ -1,0 +1,5 @@
+{
+  "top_module": "signed_parallel_multiplier_7_FA",
+  "module_header": "module signed_parallel_multiplier_7_FA #(\n    parameter width=7\n)(\n    input wire [width-1:0] A    ,\n    input wire [width-1:0] B    ,\n    output wire [width*2-1:0] S\n);",
+  "source": "public_description"
+}

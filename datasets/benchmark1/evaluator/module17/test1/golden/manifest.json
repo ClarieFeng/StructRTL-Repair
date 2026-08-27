@@ -1,0 +1,16 @@
+{
+  "module_id": 17,
+  "family": "booth_multiplier",
+  "archive_label": "low",
+  "label_mode": "reference_complexity",
+  "reference_complexity": "low",
+  "reasoning_difficulty": "low",
+  "source_test_root": "evaluation/TestSet/module17/test1",
+  "generated_case_id": "module17_low_001",
+  "primary_candidate": "candidate_00.v",
+  "alternate_candidates": [],
+  "admitted_candidates": [
+    "candidate_00.v"
+  ],
+  "notes": "Archived as a correct golden reference-complexity variant for the unsigned parallel multiplier family."
+}

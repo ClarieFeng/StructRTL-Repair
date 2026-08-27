@@ -1,0 +1,5 @@
+{
+  "top_module": "parallel_multiplier_8_C_Skip_A",
+  "module_header": "module parallel_multiplier_8_C_Skip_A #(\n    parameter width=8\n)(\n    input wire [width-1:0] A    ,\n    input wire [width-1:0] B    ,\n    output wire [width*2-1:0] S\n);",
+  "source": "public_description"
+}

@@ -1,0 +1,35 @@
+{
+  "datasets": {
+    "author135": {
+      "modules": 27,
+      "cases": 135,
+      "public_images_expected": 135,
+      "public_images_current": 135
+    },
+    "benchmark1": {
+      "modules": 27,
+      "cases": 81,
+      "public_images_expected": 81,
+      "public_images_current": 81
+    }
+  },
+  "main_results": {
+    "models": 7,
+    "model_dataset_runs": 14,
+    "modes": 3,
+    "case_evaluations_per_mode": 1512,
+    "expected_rows": 4536
+  },
+  "component_results": {
+    "models": 7,
+    "dataset": "benchmark1",
+    "cases_per_model": 81
+  },
+  "seed_results": {
+    "models": 2,
+    "seeds": 3,
+    "cases_per_seed": 12,
+    "modes": 3
+  },
+  "release_status": "staged_not_validated"
+}

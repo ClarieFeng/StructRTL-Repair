@@ -1,0 +1,10 @@
+{
+  "module_id": 6,
+  "archive_label": "high",
+  "label_mode": "reference_complexity",
+  "reference_complexity": "high",
+  "primary_candidate": "candidate_00.v",
+  "formal_proof": "not_run",
+  "status": "pending",
+  "notes": "Formal status not yet normalized in this packaging pass; archive kept because compile, simulation, and admission all passed."
+}

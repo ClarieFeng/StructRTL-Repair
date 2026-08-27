@@ -1,0 +1,29 @@
+# Local model and environment configuration
+configs/model_paths.local.yaml
+.env
+.venv/
+__pycache__/
+*.py[cod]
+
+# Generated execution artifacts
+reproduced/*
+!reproduced/.gitkeep
+*.vvp
+*.log
+!results/reference/**/*.log
+tmp/
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Transfer archives and model weights
+*.tar.gz
+*.zip
+*.safetensors
+*.pt
+*.pth
+pytorch_model*.bin
+model*.bin

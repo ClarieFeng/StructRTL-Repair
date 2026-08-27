@@ -1,0 +1,4 @@
+read_verilog golden/primary.v
+hierarchy -check -top CLA_24bit
+proc
+write_json golden/CLA_24bit.json

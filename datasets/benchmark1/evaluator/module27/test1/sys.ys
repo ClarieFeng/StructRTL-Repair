@@ -1,0 +1,7 @@
+read_verilog code/pe_array_code.v
+read_verilog code/pe_code.v
+read_verilog code/pe_row_code.v
+read_verilog golden/primary.v
+hierarchy -check -top PE_array
+proc
+write_json golden/PE_array.json

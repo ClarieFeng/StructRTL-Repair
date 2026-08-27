@@ -1,0 +1,16 @@
+{
+  "module_id": 13,
+  "family": "booth_multiplier",
+  "archive_label": "medium",
+  "label_mode": "reference_complexity",
+  "reference_complexity": "medium",
+  "reasoning_difficulty": "medium",
+  "source_test_root": "evaluation/TestSet/module13/test2",
+  "generated_case_id": "module13_medium_001",
+  "primary_candidate": "candidate_00.v",
+  "alternate_candidates": [],
+  "admitted_candidates": [
+    "candidate_00.v"
+  ],
+  "notes": "Archived as a correct golden reference-complexity variant for the unsigned Booth multiplier family."
+}

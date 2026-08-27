@@ -1,0 +1,4 @@
+read_verilog golden/primary.v
+hierarchy -check -top serial_multiplier_9_C_Sel_A
+proc
+write_json golden/serial_multiplier_9_C_Sel_A.json

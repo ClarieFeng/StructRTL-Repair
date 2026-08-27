@@ -1,0 +1,23 @@
+{
+  "module_id": 6,
+  "family": "carry_select_adder",
+  "archive_label": "medium",
+  "label_mode": "reference_complexity",
+  "reference_complexity": "medium",
+  "reasoning_difficulty": "medium",
+  "source_test_root": "evaluation/TestSet/module6/test2",
+  "generated_case_id": "module6_medium_001_promptv2",
+  "primary_candidate": "candidate_00.v",
+  "alternate_candidates": [
+    "candidate_01.v",
+    "candidate_02.v",
+    "candidate_03.v"
+  ],
+  "admitted_candidates": [
+    "candidate_00.v",
+    "candidate_01.v",
+    "candidate_02.v",
+    "candidate_03.v"
+  ],
+  "notes": "Archived as a correct golden reference-complexity variant set. Formal equivalence status is recorded separately."
+}

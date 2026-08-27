@@ -1,0 +1,5 @@
+{
+  "top_module": "C_Sel_A_19bit",
+  "module_header": "module C_Sel_A_19bit #(\n    parameter width=19\n) (\n    input wire [width:1] A,\n    input wire [width:1] B,\n    input wire cin,\n    output wire [width:1] S,\n    output wire cout\n);",
+  "source": "public_description"
+}

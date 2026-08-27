@@ -1,0 +1,2 @@
+dataset,model,manifest,raw_rows,expected_total,total,unique_observed,missing_cases,duplicate_cases,extra_cases,syntax_pass,compilation_pass,functional_pass,syntax_rate,compilation_rate,functional_rate
+author_eval135,InternVL3.5-8B-Instruct,<source_path>,140,135,135,134,1,6,0,41,39,1,0.3037037037037037,0.28888888888888886,0.007407407407407408

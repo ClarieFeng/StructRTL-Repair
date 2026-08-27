@@ -1,0 +1,5 @@
+{
+  "top_module": "Wino_BTDB_22_21",
+  "module_header": "module Wino_BTDB_22_21#(\n    parameter data_width = 23\n    )\n    (\n    // din = 2 * 3\n    input wire [data_width - 1 : 0] din0, din1, din2, din3, din4, din5,\n    // dout = BT * D * B\n    output wire [data_width - 1 : 0] dout0, dout1, dout2, dout3, dout4, dout5 \n    );",
+  "source": "public_description"
+}

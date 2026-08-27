@@ -1,0 +1,24 @@
+{
+  "module_id": 25,
+  "family": "processing_element",
+  "archive_label": "high_legacy_medium_equivalent",
+  "effective_difficulty": "medium",
+  "source_test_root": "evaluation/TestSet/module25/test3",
+  "generated_case_id": "module25_high_001",
+  "primary_candidate": "candidate_00.v",
+  "alternate_candidates": [
+    "candidate_01.v",
+    "candidate_02.v",
+    "candidate_03.v"
+  ],
+  "admitted_candidates": [
+    "candidate_00.v",
+    "candidate_01.v",
+    "candidate_02.v",
+    "candidate_03.v"
+  ],
+  "notes": "Legacy case id originally labeled high; archived as the high reference-complexity variant for module25, while its reasoning difficulty remains medium-equivalent. Formal equivalence not yet run.",
+  "label_mode": "reference_complexity",
+  "reference_complexity": "high",
+  "reasoning_difficulty": "medium"
+}

@@ -1,0 +1,4 @@
+read_verilog golden/primary.v
+hierarchy -check -top Multi_Booth_unsigned
+proc
+write_json golden/Multi_Booth_unsigned.json

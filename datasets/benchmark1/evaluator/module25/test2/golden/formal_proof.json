@@ -1,0 +1,9 @@
+{
+  "module_id": 25,
+  "archive_label": "medium",
+  "effective_difficulty": "medium",
+  "primary_candidate": "candidate_00.v",
+  "formal_proof": "not_run",
+  "status": "pending",
+  "notes": "Not yet formally checked; admitted via compile, simulation, and structural acceptance."
+}

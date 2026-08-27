@@ -1,0 +1,2 @@
+﻿model,dataset,total,observed_unique,missing,duplicate_rows,syntax_count,compile_count,functional_count,syntax_rate,compile_rate,functional_rate
+MiniCPM-V-4.5-8B,Author_Evaluation_135,135,133,2,6,35,21,1,0.2593,0.1556,0.0074

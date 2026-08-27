@@ -1,0 +1,4 @@
+read_verilog golden/primary.v
+hierarchy -check -top FA_19bit
+proc
+write_json golden/FA_19bit.json

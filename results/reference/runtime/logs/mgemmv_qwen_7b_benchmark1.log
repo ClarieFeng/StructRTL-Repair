@@ -1,0 +1,662 @@
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [00:04<56:27,  4.65s/it]Loading weights:   0%|          | 2/729 [00:09<55:42,  4.60s/it]Loading weights:   1%|          | 4/729 [00:09<21:49,  1.81s/it]Loading weights:   1%|          | 5/729 [00:10<18:43,  1.55s/it]Loading weights:   1%|          | 6/729 [00:10<14:32,  1.21s/it]Loading weights:   2%|▏         | 12/729 [00:11<04:13,  2.83it/s]Loading weights:   2%|▏         | 14/729 [00:11<03:18,  3.61it/s]Loading weights:   2%|▏         | 16/729 [00:11<03:09,  3.77it/s]Loading weights:   2%|▏         | 18/729 [00:13<04:35,  2.58it/s]Loading weights:   4%|▎         | 26/729 [00:13<01:51,  6.33it/s]Loading weights:   4%|▍         | 30/729 [00:15<02:54,  4.00it/s]Loading weights:   5%|▌         | 38/729 [00:15<01:36,  7.16it/s]Loading weights:   6%|▌         | 42/729 [00:15<01:44,  6.56it/s]Loading weights:   6%|▋         | 46/729 [00:16<01:22,  8.26it/s]Loading weights:   7%|▋         | 52/729 [00:16<01:21,  8.36it/s]Loading weights:   8%|▊         | 55/729 [00:17<01:17,  8.70it/s]Loading weights:   8%|▊         | 60/729 [00:17<00:57, 11.61it/s]Loading weights:   9%|▉         | 64/729 [00:17<01:00, 10.96it/s]Loading weights:   9%|▉         | 66/729 [00:18<01:23,  7.95it/s]Loading weights:   9%|▉         | 69/729 [00:18<01:08,  9.69it/s]Loading weights:  10%|█         | 76/729 [00:18<00:48, 13.49it/s]Loading weights:  11%|█         | 79/729 [00:19<01:01, 10.49it/s]Loading weights:  12%|█▏        | 84/729 [00:19<00:45, 14.33it/s]Loading weights:  12%|█▏        | 88/729 [00:19<00:49, 12.91it/s]Loading weights:  12%|█▏        | 91/729 [00:20<01:02, 10.23it/s]Loading weights:  13%|█▎        | 96/729 [00:20<00:45, 14.06it/s]Loading weights:  14%|█▎        | 100/729 [00:20<00:45, 13.88it/s]Loading weights:  14%|█▍        | 103/729 [00:20<00:58, 10.64it/s]Loading weights:  15%|█▌        | 110/729 [00:21<00:36, 16.97it/s]Loading weights:  16%|█▌        | 114/729 [00:21<01:03,  9.64it/s]Loading weights:  16%|█▋        | 119/729 [00:22<00:47, 12.81it/s]Loading weights:  17%|█▋        | 124/729 [00:22<00:44, 13.49it/s]Loading weights:  17%|█▋        | 127/729 [00:23<01:03,  9.42it/s]Loading weights:  18%|█▊        | 131/729 [00:23<00:49, 12.03it/s]Loading weights:  19%|█▊        | 136/729 [00:23<01:04,  9.25it/s]Loading weights:  19%|█▉        | 138/729 [00:24<01:12,  8.20it/s]Loading weights:  20%|█▉        | 144/729 [00:24<00:46, 12.65it/s]Loading weights:  20%|██        | 148/729 [00:24<00:45, 12.66it/s]Loading weights:  21%|██        | 151/729 [00:25<01:07,  8.57it/s]Loading weights:  21%|██▏       | 155/729 [00:25<00:53, 10.75it/s]Loading weights:  22%|██▏       | 160/729 [00:26<01:04,  8.88it/s]Loading weights:  22%|██▏       | 162/729 [00:26<01:11,  7.92it/s]Loading weights:  23%|██▎       | 167/729 [00:26<00:49, 11.31it/s]Loading weights:  24%|██▎       | 172/729 [00:27<00:43, 12.85it/s]Loading weights:  24%|██▍       | 174/729 [00:27<01:06,  8.28it/s]Loading weights:  25%|██▍       | 180/729 [00:28<00:43, 12.70it/s]Loading weights:  25%|██▌       | 184/729 [00:28<00:41, 13.14it/s]Loading weights:  26%|██▌       | 187/729 [00:28<00:53, 10.06it/s]Loading weights:  26%|██▋       | 192/729 [00:28<00:38, 14.04it/s]Loading weights:  27%|██▋       | 196/729 [00:29<00:52, 10.18it/s]Loading weights:  27%|██▋       | 199/729 [00:29<00:53,  9.97it/s]Loading weights:  28%|██▊       | 206/729 [00:30<00:32, 15.96it/s]Loading weights:  29%|██▉       | 210/729 [00:31<01:01,  8.46it/s]Loading weights:  29%|██▉       | 214/729 [00:31<00:48, 10.70it/s]Loading weights:  30%|██▉       | 217/729 [00:31<00:41, 12.48it/s]Loading weights:  30%|███       | 220/729 [00:31<00:47, 10.82it/s]Loading weights:  31%|███       | 223/729 [00:32<01:00,  8.32it/s]Loading weights:  31%|███▏      | 228/729 [00:32<00:41, 12.02it/s]Loading weights:  32%|███▏      | 232/729 [00:32<00:39, 12.52it/s]Loading weights:  32%|███▏      | 235/729 [00:33<00:54,  9.03it/s]Loading weights:  33%|███▎      | 240/729 [00:33<00:37, 12.94it/s]Loading weights:  33%|███▎      | 244/729 [00:33<00:38, 12.44it/s]Loading weights:  34%|███▍      | 247/729 [00:34<00:51,  9.45it/s]Loading weights:  35%|███▍      | 252/729 [00:34<00:35, 13.30it/s]Loading weights:  35%|███▌      | 256/729 [00:35<00:47,  9.88it/s]Loading weights:  35%|███▌      | 258/729 [00:35<00:50,  9.37it/s]Loading weights:  37%|███▋      | 267/729 [00:35<00:26, 17.70it/s]Loading weights:  37%|███▋      | 271/729 [00:36<00:40, 11.43it/s]Loading weights:  38%|███▊      | 274/729 [00:36<00:34, 13.11it/s]Loading weights:  38%|███▊      | 280/729 [00:36<00:28, 15.73it/s]Loading weights:  39%|███▉      | 283/729 [00:37<00:40, 10.90it/s]Loading weights:  40%|███▉      | 290/729 [00:37<00:26, 16.35it/s]Loading weights:  40%|████      | 294/729 [00:38<00:40, 10.73it/s]Loading weights:  41%|████▏     | 302/729 [00:38<00:25, 16.85it/s]Loading weights:  42%|████▏     | 307/729 [00:38<00:37, 11.39it/s]Loading weights:  43%|████▎     | 314/729 [00:39<00:25, 16.09it/s]Loading weights:  44%|████▍     | 319/729 [00:40<00:40, 10.20it/s]Loading weights:  45%|████▍     | 326/729 [00:40<00:27, 14.41it/s]Loading weights:  45%|████▌     | 331/729 [00:40<00:37, 10.52it/s]Loading weights:  46%|████▌     | 335/729 [00:41<00:34, 11.45it/s]Loading weights:  47%|████▋     | 341/729 [00:41<00:24, 15.59it/s]Loading weights:  49%|████▉     | 356/729 [00:41<00:12, 29.33it/s]Loading weights:  51%|█████     | 369/729 [00:41<00:08, 42.21it/s]Loading weights:  52%|█████▏    | 377/729 [00:41<00:07, 47.28it/s]Loading weights:  53%|█████▎    | 389/729 [00:41<00:05, 59.01it/s]Loading weights:  55%|█████▍    | 398/729 [00:41<00:05, 64.60it/s]Loading weights:  57%|█████▋    | 415/729 [00:41<00:03, 87.79it/s]Loading weights:  59%|█████▊    | 428/729 [00:42<00:03, 94.64it/s]Loading weights:  62%|██████▏   | 451/729 [00:42<00:02, 126.73it/s]Loading weights:  64%|██████▍   | 469/729 [00:42<00:01, 136.38it/s]Loading weights:  67%|██████▋   | 487/729 [00:42<00:01, 147.91it/s]Loading weights:  69%|██████▉   | 505/729 [00:42<00:01, 150.99it/s]Loading weights:  72%|███████▏  | 524/729 [00:42<00:01, 161.06it/s]Loading weights:  74%|███████▍  | 541/729 [00:42<00:01, 153.28it/s]Loading weights:  77%|███████▋  | 558/729 [00:42<00:01, 151.16it/s]Loading weights:  79%|███████▉  | 577/729 [00:42<00:00, 158.31it/s]Loading weights:  82%|████████▏ | 595/729 [00:43<00:00, 161.69it/s]Loading weights:  84%|████████▍ | 612/729 [00:43<00:00, 150.36it/s]Loading weights:  86%|████████▌ | 628/729 [00:43<00:00, 137.21it/s]Loading weights:  88%|████████▊ | 643/729 [00:43<00:00, 135.64it/s]Loading weights:  91%|█████████ | 663/729 [00:43<00:00, 151.97it/s]Loading weights:  93%|█████████▎| 679/729 [00:43<00:00, 138.35it/s]Loading weights:  95%|█████████▌| 695/729 [00:43<00:00, 139.92it/s]Loading weights:  98%|█████████▊| 713/729 [00:43<00:00, 149.41it/s]Loading weights: 100%|██████████| 729/729 [00:44<00:00, 98.72it/s] Loading weights: 100%|██████████| 729/729 [00:44<00:00, 16.48it/s]
+[INFO] Base path: <repository>/benchmark_clean_expansion/results/staged_eval_dataset_81_clean
+[INFO] Output CSV: <repository>/benchmark_clean_expansion/results/reflect_runs_v6_2_81clean/reflect_ablation_mgemmv_qwen_7b_v6_2_81clean_seed1234_20260611_1240.csv
+[INFO] Experiment root: <repository>/benchmark_clean_expansion/results/reflect_runs_v6_2_81clean/experiments/reflect_ablation_mgemmv_qwen_7b_v6_2_81clean_seed1234_20260611_1240
+[INFO] RAG library: <repository>/evaluation/TestSet/python/error_repair_library.jsonl
+[INFO] Total cases: 81
+
+[CASE 1/81] module1/test1 seed=1234
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=6.8s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=30.9s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=False functional_ok=False elapsed=16.7s
+
+[CASE 2/81] module1/test2 seed=1334
+  [START] origin
+  [DONE] origin syntax_ok=True functional_ok=False elapsed=6.4s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=11.2s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=7.3s
+
+[CASE 3/81] module1/test3 seed=1434
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=14.3s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=18.0s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=14.0s
+
+[CASE 4/81] module2/test1 seed=1534
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=9.7s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=15.3s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=14.5s
+
+[CASE 5/81] module2/test2 seed=1634
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=18.3s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=101.3s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=28.8s
+
+[CASE 6/81] module2/test3 seed=1734
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=13.9s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=46.1s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=62.1s
+
+[CASE 7/81] module3/test1 seed=1834
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=11.9s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=15.7s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=16.6s
+
+[CASE 8/81] module3/test2 seed=1934
+  [START] origin
+  [DONE] origin syntax_ok=True functional_ok=False elapsed=6.9s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=11.4s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=21.4s
+
+[CASE 9/81] module3/test3 seed=2034
+  [START] origin
+  [DONE] origin syntax_ok=True functional_ok=False elapsed=6.9s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=11.5s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=16.0s
+
+[CASE 10/81] module4/test1 seed=2134
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=10.5s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=15.2s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=22.7s
+
+[CASE 11/81] module4/test2 seed=2234
+  [START] origin
+  [DONE] origin syntax_ok=True functional_ok=False elapsed=6.9s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=6.9s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=6.9s
+
+[CASE 12/81] module4/test3 seed=2334
+  [START] origin
+  [DONE] origin syntax_ok=True functional_ok=False elapsed=6.9s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=40.7s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=27.7s
+
+[CASE 13/81] module5/test1 seed=2434
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=27.5s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=106.7s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=False functional_ok=False elapsed=64.1s
+
+[CASE 14/81] module5/test2 seed=2534
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=10.0s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=13.5s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=89.3s
+
+[CASE 15/81] module5/test3 seed=2634
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=12.6s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=48.7s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=12.7s
+
+[CASE 16/81] module6/test1 seed=2734
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=7.0s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=16.6s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=False functional_ok=False elapsed=82.1s
+
+[CASE 17/81] module6/test2 seed=2834
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=31.7s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=32.4s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=False functional_ok=False elapsed=124.3s
+
+[CASE 18/81] module6/test3 seed=2934
+  [START] origin
+  [DONE] origin syntax_ok=True functional_ok=False elapsed=8.1s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=39.6s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=False functional_ok=False elapsed=25.2s
+
+[CASE 19/81] module7/test1 seed=3034
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=11.2s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=39.6s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=False functional_ok=False elapsed=54.6s
+
+[CASE 20/81] module7/test2 seed=3134
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=59.6s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=107.7s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=False functional_ok=False elapsed=109.4s
+
+[CASE 21/81] module7/test3 seed=3234
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=16.3s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=52.6s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=False functional_ok=False elapsed=136.5s
+
+[CASE 22/81] module8/test1 seed=3334
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=21.8s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=86.3s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=False functional_ok=False elapsed=68.2s
+
+[CASE 23/81] module8/test2 seed=3434
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=10.8s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=False elapsed=52.8s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=False elapsed=40.3s
+
+[CASE 24/81] module8/test3 seed=3534
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=18.3s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=False elapsed=73.4s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=False elapsed=71.5s
+
+[CASE 25/81] module9/test1 seed=3634
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=6.0s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=50.5s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=False functional_ok=False elapsed=26.5s
+
+[CASE 26/81] module9/test2 seed=3734
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=16.7s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=90.7s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=50.3s
+
+[CASE 27/81] module9/test3 seed=3834
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=17.7s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=167.9s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=69.0s
+
+[CASE 28/81] module10/test1 seed=3934
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=20.1s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=134.1s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=False functional_ok=False elapsed=102.8s
+
+[CASE 29/81] module10/test2 seed=4034
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=26.3s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=106.6s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=False functional_ok=False elapsed=108.5s
+
+[CASE 30/81] module10/test3 seed=4134
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=20.4s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=130.9s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=False functional_ok=False elapsed=114.5s
+
+[CASE 31/81] module11/test1 seed=4234
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=18.1s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=94.0s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=False functional_ok=False elapsed=89.8s
+
+[CASE 32/81] module11/test2 seed=4334
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=11.3s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=63.3s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=False functional_ok=False elapsed=49.5s
+
+[CASE 33/81] module11/test3 seed=4434
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=10.5s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=82.3s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=False functional_ok=False elapsed=55.0s
+
+[CASE 34/81] module12/test1 seed=4534
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=7.7s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=18.7s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=7.4s
+
+[CASE 35/81] module12/test2 seed=4634
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=6.5s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=14.5s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=6.5s
+
+[CASE 36/81] module12/test3 seed=4734
+  [START] origin
+  [DONE] origin syntax_ok=True functional_ok=False elapsed=11.0s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=16.1s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=20.8s
+
+[CASE 37/81] module13/test1 seed=4834
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=3.2s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=7.6s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=3.3s
+
+[CASE 38/81] module13/test2 seed=4934
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=5.3s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=13.4s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=5.3s
+
+[CASE 39/81] module13/test3 seed=5034
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=21.3s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=82.4s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=21.8s
+
+[CASE 40/81] module14/test1 seed=5134
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=8.3s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=13.6s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=14.9s
+
+[CASE 41/81] module14/test2 seed=5234
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=11.2s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=56.4s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=False functional_ok=False elapsed=43.8s
+
+[CASE 42/81] module14/test3 seed=5334
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=16.4s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=20.0s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=26.1s
+
+[CASE 43/81] module15/test1 seed=5434
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=3.4s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=48.7s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=False functional_ok=False elapsed=32.4s
+
+[CASE 44/81] module15/test2 seed=5534
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=25.0s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=87.8s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=False functional_ok=False elapsed=126.2s
+
+[CASE 45/81] module15/test3 seed=5634
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=13.4s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=61.2s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=23.4s
+
+[CASE 46/81] module16/test1 seed=5734
+  [START] origin
+  [DONE] origin syntax_ok=True functional_ok=False elapsed=4.8s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=False elapsed=44.5s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=False elapsed=19.2s
+
+[CASE 47/81] module16/test2 seed=5834
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=24.9s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=False elapsed=93.1s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=False elapsed=66.3s
+
+[CASE 48/81] module16/test3 seed=5934
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=26.8s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=98.3s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=False functional_ok=False elapsed=139.8s
+
+[CASE 49/81] module17/test1 seed=6034
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=8.1s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=81.9s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=False functional_ok=False elapsed=30.3s
+
+[CASE 50/81] module17/test2 seed=6134
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=15.6s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=21.0s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=23.6s
+
+[CASE 51/81] module17/test3 seed=6234
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=35.2s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=40.6s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=35.5s
+
+[CASE 52/81] module18/test1 seed=6334
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=6.7s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=108.0s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=False functional_ok=False elapsed=27.0s
+
+[CASE 53/81] module18/test2 seed=6434
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=23.0s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=37.8s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=22.8s
+
+[CASE 54/81] module18/test3 seed=6534
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=10.8s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=56.6s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=21.2s
+
+[CASE 55/81] module19/test1 seed=6634
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=59.4s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=117.8s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=169.8s
+
+[CASE 56/81] module19/test2 seed=6734
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=27.8s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=28.7s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=29.4s
+
+[CASE 57/81] module19/test3 seed=6834
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=19.2s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=58.3s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=19.4s
+
+[CASE 58/81] module20/test1 seed=6934
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=59.6s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=169.6s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=False functional_ok=False elapsed=144.6s
+
+[CASE 59/81] module20/test2 seed=7034
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=23.4s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=23.8s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=48.8s
+
+[CASE 60/81] module20/test3 seed=7134
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=20.0s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=20.7s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=36.4s
+
+[CASE 61/81] module21/test1 seed=7234
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=7.5s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=61.6s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=False functional_ok=False elapsed=37.7s
+
+[CASE 62/81] module21/test2 seed=7334
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=29.2s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=False elapsed=101.1s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=False functional_ok=False elapsed=64.2s
+
+[CASE 63/81] module21/test3 seed=7434
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=14.0s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=83.5s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=False functional_ok=False elapsed=43.0s
+
+[CASE 64/81] module22/test1 seed=7534
+  [START] origin
+  [DONE] origin syntax_ok=True functional_ok=True elapsed=6.7s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=6.8s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=6.8s
+
+[CASE 65/81] module22/test2 seed=7634
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=34.2s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=False elapsed=119.8s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=False elapsed=57.6s
+
+[CASE 66/81] module22/test3 seed=7734
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=19.3s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=68.6s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=False elapsed=41.9s
+
+[CASE 67/81] module23/test1 seed=7834
+  [START] origin
+  [DONE] origin syntax_ok=True functional_ok=True elapsed=7.2s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=7.1s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=7.2s
+
+[CASE 68/81] module23/test2 seed=7934
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=17.8s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=50.7s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=False functional_ok=False elapsed=49.5s
+
+[CASE 69/81] module23/test3 seed=8034
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=18.5s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=97.7s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=False functional_ok=False elapsed=109.5s
+
+[CASE 70/81] module24/test1 seed=8134
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=3.6s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=16.9s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=11.5s
+
+[CASE 71/81] module24/test2 seed=8234
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=21.7s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=61.9s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=22.2s
+
+[CASE 72/81] module24/test3 seed=8334
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=6.8s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=16.1s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=7.1s
+
+[CASE 73/81] module25/test1 seed=8434
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=9.9s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=False elapsed=74.3s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=False elapsed=68.0s
+
+[CASE 74/81] module25/test2 seed=8534
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=11.9s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=False elapsed=74.7s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=False functional_ok=False elapsed=65.4s
+
+[CASE 75/81] module25/test3 seed=8634
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=13.0s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=False elapsed=75.1s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=False elapsed=66.0s
+
+[CASE 76/81] module26/test1 seed=8734
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=15.7s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=False elapsed=277.5s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=19.6s
+
+[CASE 77/81] module26/test2 seed=8834
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=25.2s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=89.7s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=182.2s
+
+[CASE 78/81] module26/test3 seed=8934
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=11.6s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=94.1s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=236.3s
+
+[CASE 79/81] module27/test1 seed=9034
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=60.0s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=66.3s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=59.4s
+
+[CASE 80/81] module27/test2 seed=9134
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=61.7s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=95.9s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=60.8s
+
+[CASE 81/81] module27/test3 seed=9234
+  [START] origin
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=29.9s
+  [START] reflect_patch
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=42.7s
+  [START] reflect_rag_skeleton
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=43.7s
+Reflect Ablation Summary
+========================
+origin             total=81 syntax=10 functional=2
+reflect_patch      total=81 syntax=45 functional=35
+reflect_rag_skeleton total=81 syntax=52 functional=44
+
+CSV saved to <repository>/benchmark_clean_expansion/results/reflect_runs_v6_2_81clean/reflect_ablation_mgemmv_qwen_7b_v6_2_81clean_seed1234_20260611_1240.csv
+Elapsed: 10586.21s

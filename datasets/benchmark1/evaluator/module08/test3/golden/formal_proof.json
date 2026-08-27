@@ -1,0 +1,8 @@
+{
+  "module_id": 8,
+  "difficulty": "high",
+  "primary_candidate": "candidate_00.v",
+  "formal_proof": "yosys equiv_simple + equiv_status -assert",
+  "status": "proven",
+  "notes": "Proved equivalent to direct signed sum on all inputs."
+}

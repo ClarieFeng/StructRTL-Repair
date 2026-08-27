@@ -1,0 +1,26 @@
+{
+  "protocol": "rq1_workflow_visual_controls_v1",
+  "model_path": "<model_or_source_path>",
+  "model_label": "minicpm_v_4_5_8b",
+  "backend": "minicpm",
+  "benchmark_root": "<repository>/benchmark_clean_expansion/results/staged_eval_dataset_81_clean",
+  "overlay": "<repository>/paper_single_agent_workflow/results/rq1_multimodal/overlay_20260718_1832_hashclean",
+  "output_csv": "<repository>/paper_single_agent_workflow/results/rq1_multimodal/workflow_minicpm/rq1_workflow_target12_20260718_2214.csv",
+  "prompt_protocols": [
+    "full_description",
+    "interface_contract"
+  ],
+  "settings": [
+    "original",
+    "shuffled_image"
+  ],
+  "modes": [
+    "origin",
+    "reflect_patch",
+    "reflect_rag_skeleton"
+  ],
+  "seed": 1234,
+  "evaluation_access": "public_only",
+  "paired_seed_policy": "base_seed_plus_sorted_case_index_times_100",
+  "repair_visual_policy": "same prompt and image condition at every iteration"
+}

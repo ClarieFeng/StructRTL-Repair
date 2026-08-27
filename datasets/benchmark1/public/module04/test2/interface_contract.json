@@ -1,0 +1,5 @@
+{
+  "top_module": "PPA_Brent_Kung_20bit",
+  "module_header": "module PPA_Brent_Kung_20bit #(\n    parameter width=20\n) (\n    input wire [width-1:0] A, // input A \n    input wire [width-1:0] B, // input B \n    input wire cin, // carry input \n    output wire [width-1:0] S, // sum output \n    output wire cout // carry output \n);",
+  "source": "public_description"
+}

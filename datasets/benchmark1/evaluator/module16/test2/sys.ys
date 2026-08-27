@@ -1,0 +1,4 @@
+read_verilog golden/primary.v
+hierarchy -check -top booth_multiplier_9_CLA
+proc
+write_json golden/booth_multiplier_9_CLA.json

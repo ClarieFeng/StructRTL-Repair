@@ -1,0 +1,5 @@
+read_verilog code/code0.v
+read_verilog golden/primary.v
+hierarchy -check -top Wino_ATZA_22_23
+proc
+write_json golden/Wino_ATZA_22_23.json

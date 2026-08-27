@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "evaluation_access": "public_only",
+  "precision": "bf16",
+  "samples_per_case_condition": 1,
+  "generation": {
+    "temperature": 0.2,
+    "top_p": 0.9,
+    "initial_max_new_tokens": 1536,
+    "repair_max_new_tokens": 1536,
+    "diagnosis_max_new_tokens": 384
+  },
+  "visual_preprocessing": {
+    "strategy": "adaptive_crops",
+    "overview_image_pixels": 589824,
+    "crop_image_pixels": 589824,
+    "max_image_crops": 4
+  },
+  "workflow": {
+    "max_outer_rounds": 3,
+    "includes_initial_generation": true,
+    "early_stop_on_functional_pass": true,
+    "return_best_candidate_on_exhaustion": true
+  },
+  "randomness": {
+    "main_run_seed": 1234,
+    "case_seed_formula": "run_seed + 100 * zero_based_case_index",
+    "seed_study": [1234, 2234, 3234]
+  },
+  "verification": {
+    "syntax_tool": "iverilog",
+    "simulation_tool": "vvp",
+    "simulation_timeout_seconds": 60,
+    "functional_failure_on_timeout": true,
+    "functional_failure_on_oom": true,
+    "functional_failure_on_missing_record": true
+  },
+  "reported_environment": {
+    "gpu": "NVIDIA A800 80 GB",
+    "os": "Ubuntu",
+    "python": "3.10",
+    "iverilog": "14.0 devel s20260301-172-g311c22e4d-dirty",
+    "yosys": "0.65+71 e56c6a954"
+  },
+  "release_status": "validated_a800_public_smoke"
+}

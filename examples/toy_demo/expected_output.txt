@@ -1,0 +1,9 @@
+StructRTL-Repair CPU toy demo
+Case: benchmark1/module02/test1
+Backend: deterministic candidate replay
+Round 1: gate=pass syntax=pass functional=fail
+  evidence=functional_wrong_arithmetic action=regenerate_self_contained
+Round 2: gate=pass syntax=pass functional=pass
+Selected: round 2, score 2
+Public feedback audit: PASS
+DEMO PASS

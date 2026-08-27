@@ -1,0 +1,16 @@
+{
+  "module_id": 2,
+  "family": "prefix_adder",
+  "archive_label": "low",
+  "label_mode": "reference_complexity",
+  "reference_complexity": "low",
+  "reasoning_difficulty": "low",
+  "source_test_root": "evaluation/TestSet/module2/test2",
+  "generated_case_id": "module2_low_001",
+  "primary_candidate": "candidate_00.v",
+  "alternate_candidates": [],
+  "admitted_candidates": [
+    "candidate_00.v"
+  ],
+  "notes": "Archived as a correct golden reference-complexity variant set with intentionally smaller structural footprint for the low tier."
+}

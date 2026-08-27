@@ -1,0 +1,5 @@
+{
+  "top_module": "signed_addertree_17_7_PPA_Brent_Kung",
+  "module_header": "module signed_addertree_17_7_PPA_Brent_Kung #(\n    parameter width=17\n)(\n    input wire [width:1] A1,\n    input wire [width:1] A2,\n    input wire [width:1] A3,\n    input wire [width:1] A4,\n    input wire [width:1] A5,\n    input wire [width:1] A6,\n    input wire [width:1] A7,\n    output wire [width + 3:1] S\n);",
+  "source": "public_description"
+}

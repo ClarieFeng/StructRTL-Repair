@@ -1,0 +1,5 @@
+{
+  "top_module": "Multi_Booth_unsigned",
+  "module_header": "module Multi_Booth_unsigned #(\n    parameter width=8\n)(\n    input wire [width:1] A,\n    input wire [width:1] B,\n    output wire [width*2:1] P\n);",
+  "source": "public_description"
+}

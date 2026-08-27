@@ -1,0 +1,4 @@
+read_verilog golden/primary.v
+hierarchy -check -top C_Sel_A_20bit
+proc
+write_json golden/C_Sel_A_20bit.json

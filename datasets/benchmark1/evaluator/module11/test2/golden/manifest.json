@@ -1,0 +1,16 @@
+{
+  "module_id": 11,
+  "family": "unsigned_adder_tree",
+  "archive_label": "medium",
+  "label_mode": "reference_complexity",
+  "reference_complexity": "medium",
+  "reasoning_difficulty": "medium",
+  "source_test_root": "evaluation/TestSet/module11/test1",
+  "generated_case_id": "module11_medium_001",
+  "primary_candidate": "candidate_00.v",
+  "alternate_candidates": [],
+  "admitted_candidates": [
+    "candidate_00.v"
+  ],
+  "notes": "Archived as a correct golden reference-complexity variant with a visible three-way reduction stage."
+}

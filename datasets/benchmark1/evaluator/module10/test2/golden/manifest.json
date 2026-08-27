@@ -1,0 +1,16 @@
+{
+  "module_id": 10,
+  "family": "signed_adder_tree",
+  "archive_label": "medium",
+  "label_mode": "reference_complexity",
+  "reference_complexity": "medium",
+  "reasoning_difficulty": "medium",
+  "source_test_root": "evaluation/TestSet/module10/test2",
+  "generated_case_id": "module10_medium_001",
+  "primary_candidate": "candidate_00.v",
+  "alternate_candidates": [],
+  "admitted_candidates": [
+    "candidate_00.v"
+  ],
+  "notes": "Archived as a correct golden reference-complexity variant set with intentionally large structural differences across low, medium, and high."
+}

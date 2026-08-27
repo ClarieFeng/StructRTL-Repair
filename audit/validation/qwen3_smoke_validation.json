@@ -1,0 +1,8 @@
+{
+  "kind": "run",
+  "status": "PASS",
+  "rows": 3,
+  "shared_initial_checks": 1,
+  "path_findings": [],
+  "findings": []
+}

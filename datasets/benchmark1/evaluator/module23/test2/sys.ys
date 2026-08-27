@@ -1,0 +1,5 @@
+read_verilog code/code0.v
+read_verilog golden/primary.v
+hierarchy -check -top Wino_BTDB_22_22
+proc
+write_json golden/Wino_BTDB_22_22.json

@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software or replication package, please cite the associated paper."
+title: "StructRTL-Repair: A Tool-Grounded Single-Agent Framework for Verilog Generation from Circuit Diagrams"
+type: software
+authors:
+  - family-names: "Zheng"
+    given-names: "Wei"
+    email: "wzheng@nwpu.edu.cn"
+    affiliation: "School of Software, Northwestern Polytechnical University, Xi'an 710100, China"
+  - family-names: "Feng"
+    given-names: "Jiahui"
+    email: "fengjiahui@mail.nwpu.edu.cn"
+    affiliation: "School of Software, Northwestern Polytechnical University, Xi'an 710100, China"
+  - family-names: "Hu"
+    given-names: "Peng"
+    email: "hupeng2025@mail.nwpu.edu.cn"
+    affiliation: "School of Software, Northwestern Polytechnical University, Xi'an 710100, China"
+version: "0.1.0"
+license: "Apache-2.0"
+keywords:
+  - "Verilog generation"
+  - "automated program repair"
+  - "multimodal hardware design"
+  - "EDA verification"
+preferred-citation:
+  type: article
+  title: "StructRTL-Repair: A Tool-Grounded Single-Agent Framework for Verilog Generation from Circuit Diagrams"
+  authors:
+    - family-names: "Zheng"
+      given-names: "Wei"
+    - family-names: "Feng"
+      given-names: "Jiahui"
+    - family-names: "Hu"
+      given-names: "Peng"
+  year: 2026

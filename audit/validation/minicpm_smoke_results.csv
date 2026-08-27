@@ -1,0 +1,5 @@
+evaluation_access,mode,module_id,test_id,num_iterations,final_iteration,selection_reason,syntax_ok,functional_ok,final_source,reflection_categories,retrieved_rule_count,repair_best_status,repair_current_stage,repair_active_categories,interface_gate_action,interface_gate_expected_top,skeleton_gate_action,skeleton_gate_expected_ports,port_gate_action,static_gate_action,static_gate_categories,static_gate_count,preferred_action,diagnosis_family,detail
+public_only,origin,2,1,1,0,origin,False,False,raw,,0,,,,,,,,,,,,,,"<HOME>/data/tmp/reflect_syntax__3jgygw4/candidate.v:13: syntax error
+I give up."
+public_only,reflect_patch,2,1,2,1,best_functional,True,True,raw,,0,functional_pass,functional,unclassified,,PPA_Sklansky_17bit,,,,,,0,patch,"Combinational logic for a Sklansky Parallel Prefix Adder with 17-bit inputs, carry-in, sum outputs, and carry-out.",public_functional: pass
+public_only,reflect_rag_skeleton,2,1,2,1,best_functional,True,True,raw,,0,functional_pass,functional,unclassified,,PPA_Sklansky_17bit,,"A,B,cin,S,cout",,,,0,,,public_functional: pass

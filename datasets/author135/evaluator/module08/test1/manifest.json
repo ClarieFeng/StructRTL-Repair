@@ -1,0 +1,73 @@
+{
+  "module_id": 8,
+  "family": "signed_adder_tree",
+  "source_examples": [
+    "evaluation/TestSet/module8/test1",
+    "evaluation/TestSet/module8/test2",
+    "evaluation/TestSet/module8/test3",
+    "evaluation/TestSet/module8/test4",
+    "evaluation/TestSet/module8/test5"
+  ],
+  "interface_style": {
+    "bus_convention": "signed scalar inputs with a widened signed sum output",
+    "ports": [
+      "input wire signed [width-1:0] A1",
+      "input wire signed [width-1:0] A2",
+      "input wire signed [width-1:0] A3",
+      "input wire signed [width-1:0] A4",
+      "input wire signed [width-1:0] A5",
+      "input wire signed [width-1:0] A6",
+      "input wire signed [width-1:0] A7",
+      "input wire signed [width-1:0] A8",
+      "input wire signed [width-1:0] A9",
+      "input wire signed [width-1:0] A10",
+      "output wire signed [width+4:1] S"
+    ]
+  },
+  "difficulty_plan": {
+    "low": {
+      "goal": "compact signed adder tree with correct signed handling and minimal internal staging",
+      "line_hint": {
+        "min": 70,
+        "max": 140
+      }
+    },
+    "medium": {
+      "goal": "clear multi-stage signed reduction tree with explicit intermediate sums and carries",
+      "line_hint": {
+        "min": 140,
+        "max": 260
+      }
+    },
+    "high": {
+      "goal": "fully explicit signed adder tree with richer staging, visible reduction layers, and clean final prefix-adder structure",
+      "line_hint": {
+        "min": 260,
+        "max": 520
+      }
+    }
+  },
+  "target_new_cases": [
+    {
+      "new_case_id": "module8_low_001",
+      "difficulty": "low",
+      "reference_test_root": "evaluation/TestSet/module8/test1"
+    },
+    {
+      "new_case_id": "module8_medium_001",
+      "difficulty": "medium",
+      "reference_test_root": "evaluation/TestSet/module8/test2"
+    },
+    {
+      "new_case_id": "module8_medium_001_promptv2",
+      "difficulty": "medium",
+      "reference_test_root": "evaluation/TestSet/module8/test2"
+    },
+    {
+      "new_case_id": "module8_high_001",
+      "difficulty": "high",
+      "reference_test_root": "evaluation/TestSet/module8/test3"
+    }
+  ],
+  "notes": "This pilot validates signed_adder_tree generation and admission before copying the same workflow to the other signed-adder-tree modules."
+}

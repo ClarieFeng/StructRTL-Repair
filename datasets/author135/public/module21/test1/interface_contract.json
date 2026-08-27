@@ -1,0 +1,5 @@
+{
+  "top_module": "DataReOrganize",
+  "module_header": "module DataReOrganize#(\n    parameter data_width = 24,\n    parameter  a_tile_column_size = 8\n    )(\n    // interface to system\n    input wire clk,                         \n    input wire rst_n,                   \n    input wire en, \n    input wire [data_width * a_tile_column_size - 1 : 0] din,\n    output reg [data_width * a_tile_column_size - 1 : 0] dout\n    );",
+  "source": "public_description"
+}

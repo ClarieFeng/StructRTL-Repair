@@ -1,0 +1,59 @@
+{
+  "test_root": "<dataset_source>/module9/test4",
+  "candidate_dir": "<dataset_source>",
+  "family": "unsigned_adder_tree",
+  "difficulty": "high",
+  "run_sim": true,
+  "total_candidates": 1,
+  "admitted_candidates": 1,
+  "best_candidate": "candidate_00.v",
+  "results": [
+    {
+      "candidate": "<dataset_source>",
+      "admitted": true,
+      "functional_passed": true,
+      "structural_accepted": true,
+      "functional_validation": {
+        "candidate": "<dataset_source>",
+        "compile_ok": true,
+        "compile_log": "",
+        "simulation_ok": true,
+        "simulation_log": "Starting testbench...\n=> golden={{010101000111000100011}}, module={{010101000111000100011}}\nTest passed.\n=> golden={{011100100000101100111}}, module={{011100100000101100111}}\nTest passed.\n=> golden={{001100010111111000110}}, module={{001100010111111000110}}\nTest passed.\n=> golden={{001111110011010100011}}, module={{001111110011010100011}}\nTest passed.\n=> golden={{010010111111100010110}}, module={{010010111111100010110}}\nTest passed.\n=> golden={{010000111111110010111}}, module={{010000111111110010111}}\nTest passed.\n=> golden={{010100000000100000111}}, module={{010100000000100000111}}\nTest passed.\n=> golden={{001100100111000010111}}, module={{001100100111000010111}}\nTest passed.\n=> golden={{011001010111111100001}}, module={{011001010111111100001}}\nTest passed.\n=> golden={{010011101000011110110}}, module={{010011101000011110110}}\nTest passed.\n=> golden={{010100100000101100001}}, module={{010100100000101100001}}\nTest passed.\n=> golden={{010000010010110001101}}, module={{010000010010110001101}}\nTest passed.\n=> golden={{010011011111010110010}}, module={{010011011111010110010}}\nTest passed.\n=> golden={{010100110101111110100}}, module={{010100110101111110100}}\nTest passed.\n=> golden={{010101000101011100011}}, module={{010101000101011100011}}\nTest passed.\n=> golden={{011000001001111110111}}, module={{011000001001111110111}}\nTest passed.\n=> golden={{010010001110001101000}}, module={{010010001110001101000}}\nTest passed.\n=> golden={{010000100111111111011}}, module={{010000100111111111011}}\nTest passed.\n=> golden={{010010001000110110000}}, module={{010010001000110110000}}\nTest passed.\n=> golden={{010100110110111111000}}, module={{010100110110111111000}}\nTest passed.\n=> golden={{001111111010010001110}}, module={{001111111010010001110}}\nTest passed.\n=> golden={{010110011100011010110}}, module={{010110011100011010110}}\nTest passed.\n=> golden={{010010000000001100111}}, module={{010010000000001100111}}\nTest passed.\n=> golden={{001110100110000001100}}, module={{001110100110000001100}}\nTest passed.\n=> golden={{011000011010111000011}}, module={{011000011010111000011}}\nTest passed.\n=> golden={{010101001111111000100}}, module={{010101001111111000100}}\nTest passed.\n=> golden={{011000001001010101010}}, module={{011000001001010101010}}\nTest passed.\n=> golden={{010101001100001000100}}, module={{010101001100001000100}}\nTest passed.\n=> golden={{010101000011000110000}}, module={{010101000011000110000}}\nTest passed.\n=> golden={{010011011111011000000}}, module={{010011011111011000000}}\nTest passed.\n=> golden={{010001101000010110001}}, module={{010001101000010110001}}\nTest passed.\n=> golden={{010011101111011010101}}, module={{010011101111011010101}}\nTest passed.\n=> golden={{010000101001010010101}}, module={{010000101001010010101}}\nTest passed.\n=> golden={{010011001100000010010}}, module={{010011001100000010010}}\nTest passed.\n=> golden={{010001000110010100011}}, module={{010001000110010100011}}\nTest passed.\n=> golden={{010001000011000000001}}, module={{010001000011000000001}}\nTest passed.\n=> golden={{001111101000001111000}}, module={{001111101000001111000}}\nTest passed.\n=> golden={{010001110010101100111}}, module={{010001110010101100111}}\nTest passed.\n=> golden={{010110100111110111000}}, module={{010110100111110111000}}\nTest passed.\n=> golden={{001111010100111100010}}, module={{001111010100111100010}}\nTest passed.\n=> golden={{001111110000101010110}}, module={{001111110000101010110}}\nTest passed.\n=> golden={{010000010010110100001}}, module={{010000010010110100001}}\nTest passed.\n=> golden={{010011110101011001010}}, module={{010011110101011001010}}\nTest passed.\n=> golden={{010100010000101101010}}, module={{010100010000101101010}}\nTest passed.\n=> golden={{010000011000111111011}}, module={{010000011000111111011}}\nTest passed.\n=> golden={{010011000101110110000}}, module={{010011000101110110000}}\nTest passed.\n=> golden={{001111110100101101100}}, module={{001111110100101101100}}\nTest passed.\n=> golden={{010001001000000110000}}, module={{010001001000000110000}}\nTest passed.\n=> golden={{010110011101100000100}}, module={{010110011101100000100}}\nTest passed.\n=> golden={{010110001110010001001}}, module={{010110001110010001001}}\nTest passed.\nTestbench completed.\nPassed tests:          50/         50\nPass rate: 100.00%\n<dataset_source>/module9/test4/code/tb.v:76: $finish called at 510 (1s)\n",
+        "tests_total": 50,
+        "tests_passed": 50,
+        "pass_rate": 100.0,
+        "functional_ok": true
+      },
+      "structural_evaluation": {
+        "family": "unsigned_adder_tree",
+        "difficulty": "high",
+        "features": {
+          "effective_line_count": 304,
+          "wire_count": 109,
+          "reg_count": 0,
+          "assign_count": 123,
+          "always_count": 0,
+          "generate_count": 0,
+          "for_loop_count": 0,
+          "module_instantiation_like_count": 8,
+          "ternary_count": 20,
+          "intermediate_signal_count": 21,
+          "next_state_signal_count": 0,
+          "control_helper_count": 0,
+          "datapath_helper_count": 0,
+          "row_signal_count": 0,
+          "direct_add_assign_count": 0,
+          "sum0_signal_count": 175,
+          "sum1_signal_count": 179,
+          "carry0_signal_count": 35,
+          "carry1_signal_count": 23,
+          "carry_select_mux_count": 20,
+          "block_stage_signal_count": 57,
+          "single_path_helper_chain_count": 0
+        },
+        "accepted": true,
+        "notes": []
+      }
+    }
+  ]
+}

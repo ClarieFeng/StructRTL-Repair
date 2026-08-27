@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "demo_scope": "model_free_control_loop_with_real_eda",
+  "case": "benchmark1/module02/test1",
+  "public_image_sha256": "11f223838c719e795f0a906ff67d36bf23e10750e5dd551153de5920ade0ac0d",
+  "max_rounds": 3,
+  "executed_rounds": 2,
+  "selected_round": 2,
+  "selected_score": 2,
+  "functional_pass": true,
+  "history": [
+    {
+      "round": 1,
+      "gate": "pass",
+      "gate_violations": [],
+      "stage": "functional",
+      "syntax": true,
+      "functional": false,
+      "public_observation": "functional_wrong_arithmetic",
+      "retrieved_category": "functional_wrong_arithmetic",
+      "family_skeleton": "self_contained_ppa_adder",
+      "action": "regenerate_self_contained"
+    },
+    {
+      "round": 2,
+      "gate": "pass",
+      "gate_violations": [],
+      "stage": "functional",
+      "syntax": true,
+      "functional": true,
+      "public_observation": "pass",
+      "action": "early_stop"
+    }
+  ]
+}

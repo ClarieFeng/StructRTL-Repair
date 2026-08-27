@@ -1,0 +1,208 @@
+{
+  "creator": "Yosys 0.33 (git sha1 2584903a060)",
+  "modules": {
+    "$paramod\\u18_low_mul_core\\W=s32'00000000000000000000000000000111": {
+      "attributes": {
+        "dynports": "00000000000000000000000000000001",
+        "hdlname": "\\u18_low_mul_core",
+        "src": "<dataset_source>/module18/test1/golden/primary.v:1.1-16.10"
+      },
+      "parameter_default_values": {
+        "W": "00000000000000000000000000000111"
+      },
+      "ports": {
+        "a_s": {
+          "direction": "input",
+          "signed": 1,
+          "bits": [ 2, 3, 4, 5, 6, 7, 8 ]
+        },
+        "b_s": {
+          "direction": "input",
+          "signed": 1,
+          "bits": [ 9, 10, 11, 12, 13, 14, 15 ]
+        },
+        "product": {
+          "direction": "output",
+          "signed": 1,
+          "bits": [ 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29 ]
+        }
+      },
+      "cells": {
+        "$mul$<dataset_source>/module18/test1/golden/primary.v:14$2": {
+          "hide_name": 1,
+          "type": "$mul",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000001",
+            "A_WIDTH": "00000000000000000000000000001110",
+            "B_SIGNED": "00000000000000000000000000000001",
+            "B_WIDTH": "00000000000000000000000000001110",
+            "Y_WIDTH": "00000000000000000000000000001110"
+          },
+          "attributes": {
+            "src": "<dataset_source>/module18/test1/golden/primary.v:14.26-14.39"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2, 3, 4, 5, 6, 7, 8, 8, 8, 8, 8, 8, 8, 8 ],
+            "B": [ 9, 10, 11, 12, 13, 14, 15, 15, 15, 15, 15, 15, 15, 15 ],
+            "Y": [ 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29 ]
+          }
+        }
+      },
+      "netnames": {
+        "$mul$<dataset_source>/module18/test1/golden/primary.v:14$2_Y": {
+          "hide_name": 1,
+          "bits": [ 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29 ],
+          "signed": 1,
+          "attributes": {
+            "src": "<dataset_source>/module18/test1/golden/primary.v:14.26-14.39"
+          }
+        },
+        "a_ext": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 8, 8, 8, 8, 8, 8, 8 ],
+          "signed": 1,
+          "attributes": {
+            "src": "<dataset_source>/module18/test1/golden/primary.v:8.29-8.34"
+          }
+        },
+        "a_s": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5, 6, 7, 8 ],
+          "signed": 1,
+          "attributes": {
+            "src": "<dataset_source>/module18/test1/golden/primary.v:4.31-4.34"
+          }
+        },
+        "b_ext": {
+          "hide_name": 0,
+          "bits": [ 9, 10, 11, 12, 13, 14, 15, 15, 15, 15, 15, 15, 15, 15 ],
+          "signed": 1,
+          "attributes": {
+            "src": "<dataset_source>/module18/test1/golden/primary.v:9.29-9.34"
+          }
+        },
+        "b_s": {
+          "hide_name": 0,
+          "bits": [ 9, 10, 11, 12, 13, 14, 15 ],
+          "signed": 1,
+          "attributes": {
+            "src": "<dataset_source>/module18/test1/golden/primary.v:5.31-5.34"
+          }
+        },
+        "product": {
+          "hide_name": 0,
+          "bits": [ 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29 ],
+          "signed": 1,
+          "attributes": {
+            "src": "<dataset_source>/module18/test1/golden/primary.v:6.36-6.43"
+          }
+        },
+        "product_int": {
+          "hide_name": 0,
+          "bits": [ 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29 ],
+          "signed": 1,
+          "attributes": {
+            "src": "<dataset_source>/module18/test1/golden/primary.v:10.29-10.40"
+          }
+        }
+      }
+    },
+    "signed_parallel_multiplier_7_FA": {
+      "attributes": {
+        "dynports": "00000000000000000000000000000001",
+        "top": "00000000000000000000000000000001",
+        "src": "<dataset_source>/module18/test1/golden/primary.v:18.1-39.10"
+      },
+      "parameter_default_values": {
+        "width": "00000000000000000000000000000111"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [ 2, 3, 4, 5, 6, 7, 8 ]
+        },
+        "B": {
+          "direction": "input",
+          "bits": [ 9, 10, 11, 12, 13, 14, 15 ]
+        },
+        "S": {
+          "direction": "output",
+          "bits": [ 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29 ]
+        }
+      },
+      "cells": {
+        "u_core": {
+          "hide_name": 0,
+          "type": "$paramod\\u18_low_mul_core\\W=s32'00000000000000000000000000000111",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "<dataset_source>/module18/test1/golden/primary.v:32.35-36.6"
+          },
+          "port_directions": {
+            "a_s": "input",
+            "b_s": "input",
+            "product": "output"
+          },
+          "connections": {
+            "a_s": [ 2, 3, 4, 5, 6, 7, 8 ],
+            "b_s": [ 9, 10, 11, 12, 13, 14, 15 ],
+            "product": [ 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29 ]
+          }
+        }
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5, 6, 7, 8 ],
+          "attributes": {
+            "src": "<dataset_source>/module18/test1/golden/primary.v:21.28-21.29"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [ 9, 10, 11, 12, 13, 14, 15 ],
+          "attributes": {
+            "src": "<dataset_source>/module18/test1/golden/primary.v:22.28-22.29"
+          }
+        },
+        "S": {
+          "hide_name": 0,
+          "bits": [ 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29 ],
+          "attributes": {
+            "src": "<dataset_source>/module18/test1/golden/primary.v:23.31-23.32"
+          }
+        },
+        "a_s": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5, 6, 7, 8 ],
+          "signed": 1,
+          "attributes": {
+            "src": "<dataset_source>/module18/test1/golden/primary.v:25.29-25.32"
+          }
+        },
+        "b_s": {
+          "hide_name": 0,
+          "bits": [ 9, 10, 11, 12, 13, 14, 15 ],
+          "signed": 1,
+          "attributes": {
+            "src": "<dataset_source>/module18/test1/golden/primary.v:26.29-26.32"
+          }
+        },
+        "product_bits": {
+          "hide_name": 0,
+          "bits": [ 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29 ],
+          "signed": 1,
+          "attributes": {
+            "src": "<dataset_source>/module18/test1/golden/primary.v:27.33-27.45"
+          }
+        }
+      }
+    }
+  }
+}

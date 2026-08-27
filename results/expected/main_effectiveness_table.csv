@@ -1,0 +1,16 @@
+model,dataset,n,origin_syntax,origin_functional,patch_syntax,patch_functional,full_syntax,full_functional,delta_origin_pp,delta_patch_pp
+MGEMMV-Llama-11B,Author135,135,48,26,62,29,126,111,63.0,60.7
+MGEMMV-Llama-11B,Benchmark1,81,33,7,44,9,78,70,77.8,75.3
+MGEMMV-Qwen-7B,Author135,135,11,4,85,70,89,72,50.4,1.5
+MGEMMV-Qwen-7B,Benchmark1,81,10,2,45,35,52,44,51.9,11.1
+MiniCPM-V-4.5-8B,Author135,135,37,0,92,61,128,108,80.0,34.8
+MiniCPM-V-4.5-8B,Benchmark1,81,22,0,56,36,79,68,84.0,39.5
+Qwen2.5-VL-7B,Author135,135,8,0,77,55,94,64,47.4,6.7
+Qwen2.5-VL-7B,Benchmark1,81,6,0,39,21,53,34,42.0,16.0
+Qwen3-VL-8B,Author135,135,36,1,93,34,126,106,77.8,53.3
+Qwen3-VL-8B,Benchmark1,81,32,0,59,18,79,65,80.2,58.0
+Llama-3.2-11B-Vision,Author135,135,42,1,83,3,119,92,67.4,65.9
+Llama-3.2-11B-Vision,Benchmark1,81,29,2,56,3,75,55,65.4,64.2
+InternVL3.5-8B,Author135,135,11,0,25,22,80,59,43.7,27.4
+InternVL3.5-8B,Benchmark1,81,5,0,13,10,54,38,46.9,34.6
+ALL,Both,1512,330,43,829,406,1232,986,62.4,38.4

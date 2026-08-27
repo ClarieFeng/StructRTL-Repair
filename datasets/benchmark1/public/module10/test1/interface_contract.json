@@ -1,0 +1,5 @@
+{
+  "top_module": "signed_addertree_19_8_PPA_Sklansky",
+  "module_header": "module signed_addertree_19_8_PPA_Sklansky #(\n    parameter width=19\n)(\n    input wire [width:1] A1,\n    input wire [width:1] A2,\n    input wire [width:1] A3,\n    input wire [width:1] A4,\n    input wire [width:1] A5,\n    input wire [width:1] A6,\n    input wire [width:1] A7,\n    input wire [width:1] A8,\n    output wire [width + 3:1] S\n);",
+  "source": "public_description"
+}

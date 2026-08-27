@@ -1,0 +1,5 @@
+{
+  "top_module": "serial_multiplier_8_C_Skip_A",
+  "module_header": "module serial_multiplier_8_C_Skip_A #(\n    parameter width=8\n)(\n    input wire           clk  ,\n    input wire           rst_n,\n    input wire           en   ,\n    input wire [width-1:0] A    ,\n    input wire [width-1:0] B    ,\n    output reg           valid,\n    output reg [width*2:1] S\n);",
+  "source": "public_description"
+}

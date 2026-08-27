@@ -1,0 +1,2 @@
+# The CPU toy demo uses only the Python 3.10 standard library.
+# Icarus Verilog is installed through environment-demo.yml.

@@ -1,0 +1,5 @@
+read_verilog code/pe_code.v
+read_verilog golden/primary.v
+hierarchy -check -top PE
+proc
+write_json golden/PE.json

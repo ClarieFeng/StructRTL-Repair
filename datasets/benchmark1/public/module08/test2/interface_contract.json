@@ -1,0 +1,5 @@
+{
+  "top_module": "AdderTree_signed",
+  "module_header": "module AdderTree_signed #(\n    parameter width=21\n)(\n    input wire [width:1] A1,\n    input wire [width:1] A2,\n    input wire [width:1] A3,\n    input wire [width:1] A4,\n    input wire [width:1] A5,\n    output wire [width + 3:1] S\n);",
+  "source": "public_description"
+}

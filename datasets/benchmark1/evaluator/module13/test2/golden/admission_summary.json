@@ -1,0 +1,67 @@
+{
+  "test_root": "<dataset_source>/module13/test2",
+  "candidate_dir": "<dataset_source>",
+  "family": "booth_multiplier",
+  "difficulty": "medium",
+  "run_sim": true,
+  "total_candidates": 1,
+  "admitted_candidates": 1,
+  "best_candidate": "candidate_00.v",
+  "results": [
+    {
+      "candidate": "<dataset_source>",
+      "admitted": true,
+      "functional_passed": true,
+      "structural_accepted": true,
+      "functional_validation": {
+        "candidate": "<dataset_source>",
+        "compile_ok": true,
+        "compile_log": "",
+        "simulation_ok": true,
+        "simulation_log": "Starting testbench...\n=> golden={000000100100}, module={000000100100}\nTest passed.\n=> golden={000100111011}, module={000100111011}\nTest passed.\n=> golden={000010101001}, module={000010101001}\nTest passed.\n=> golden={001010011010}, module={001010011010}\nTest passed.\n=> golden={000000001101}, module={000000001101}\nTest passed.\n=> golden={110011011110}, module={110011011110}\nTest passed.\n=> golden={001000011100}, module={001000011100}\nTest passed.\n=> golden={000101010110}, module={000101010110}\nTest passed.\n=> golden={000011010010}, module={000011010010}\nTest passed.\n=> golden={011111110011}, module={011111110011}\nTest passed.\n=> golden={000100001110}, module={000100001110}\nTest passed.\n=> golden={001010111100}, module={001010111100}\nTest passed.\n=> golden={000011001000}, module={000011001000}\nTest passed.\n=> golden={011010101100}, module={011010101100}\nTest passed.\n=> golden={011010000001}, module={011010000001}\nTest passed.\n=> golden={000101011110}, module={000101011110}\nTest passed.\n=> golden={000000000000}, module={000000000000}\nTest passed.\n=> golden={010011000010}, module={010011000010}\nTest passed.\n=> golden={000110100010}, module={000110100010}\nTest passed.\n=> golden={000011110111}, module={000011110111}\nTest passed.\n=> golden={001110000111}, module={001110000111}\nTest passed.\n=> golden={000001011100}, module={000001011100}\nTest passed.\n=> golden={000110110011}, module={000110110011}\nTest passed.\n=> golden={000101011110}, module={000101011110}\nTest passed.\n=> golden={001001011000}, module={001001011000}\nTest passed.\n=> golden={000111110100}, module={000111110100}\nTest passed.\n=> golden={000000011000}, module={000000011000}\nTest passed.\n=> golden={000111111000}, module={000111111000}\nTest passed.\n=> golden={100100010010}, module={100100010010}\nTest passed.\n=> golden={000100010100}, module={000100010100}\nTest passed.\n=> golden={100111011000}, module={100111011000}\nTest passed.\n=> golden={001000011011}, module={001000011011}\nTest passed.\n=> golden={000001001011}, module={000001001011}\nTest passed.\n=> golden={110101011110}, module={110101011110}\nTest passed.\n=> golden={010100010110}, module={010100010110}\nTest passed.\n=> golden={010011001001}, module={010011001001}\nTest passed.\n=> golden={000110011000}, module={000110011000}\nTest passed.\n=> golden={000111010001}, module={000111010001}\nTest passed.\n=> golden={110000001000}, module={110000001000}\nTest passed.\n=> golden={001101100100}, module={001101100100}\nTest passed.\n=> golden={000011110011}, module={000011110011}\nTest passed.\n=> golden={000010010000}, module={000010010000}\nTest passed.\n=> golden={000110000111}, module={000110000111}\nTest passed.\n=> golden={000100001000}, module={000100001000}\nTest passed.\n=> golden={000000010000}, module={000000010000}\nTest passed.\n=> golden={110100011011}, module={110100011011}\nTest passed.\n=> golden={010001011100}, module={010001011100}\nTest passed.\n=> golden={101000000101}, module={101000000101}\nTest passed.\n=> golden={001001001101}, module={001001001101}\nTest passed.\n=> golden={000100011000}, module={000100011000}\nTest passed.\nTestbench completed.\nPassed tests:          50/         50\nPass rate: 100.00%\n<dataset_source>/module13/test2/code/tb.v:54: $finish called at 510 (1s)\n",
+        "tests_total": 50,
+        "tests_passed": 50,
+        "pass_rate": 100.0,
+        "functional_ok": true
+      },
+      "structural_evaluation": {
+        "family": "booth_multiplier",
+        "difficulty": "medium",
+        "features": {
+          "effective_line_count": 64,
+          "wire_count": 21,
+          "reg_count": 0,
+          "assign_count": 13,
+          "always_count": 0,
+          "generate_count": 0,
+          "for_loop_count": 0,
+          "module_instantiation_like_count": 3,
+          "ternary_count": 2,
+          "intermediate_signal_count": 0,
+          "next_state_signal_count": 0,
+          "control_helper_count": 0,
+          "datapath_helper_count": 0,
+          "row_signal_count": 0,
+          "skip_signal_count": 0,
+          "direct_add_assign_count": 0,
+          "sum0_signal_count": 29,
+          "sum1_signal_count": 17,
+          "carry0_signal_count": 0,
+          "carry1_signal_count": 0,
+          "carry_select_mux_count": 0,
+          "block_stage_signal_count": 24,
+          "single_path_helper_chain_count": 0,
+          "gp_helper_count": 0,
+          "fa_helper_count": 0,
+          "csa_helper_count": 0,
+          "cla_helper_count": 0,
+          "csel_helper_count": 0,
+          "ppa_sklansky_helper_count": 0,
+          "ppa_brent_kung_helper_count": 0
+        },
+        "accepted": true,
+        "notes": []
+      }
+    }
+  ]
+}

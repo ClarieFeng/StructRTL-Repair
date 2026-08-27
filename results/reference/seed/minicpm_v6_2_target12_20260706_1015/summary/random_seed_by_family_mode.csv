@@ -1,0 +1,37 @@
+model,dataset,subset,seed,family_group,mode,total,syntax,functional,functional_rate
+MiniCPM-V-4.5-8B,target_subset,benchmark1_target12,1234,adder / PPA,origin,3,0,0,0.0000
+MiniCPM-V-4.5-8B,target_subset,benchmark1_target12,1234,adder / PPA,reflect_patch,3,2,2,0.6667
+MiniCPM-V-4.5-8B,target_subset,benchmark1_target12,1234,adder / PPA,reflect_rag_skeleton,3,3,3,1.0000
+MiniCPM-V-4.5-8B,target_subset,benchmark1_target12,1234,multiplier,origin,3,1,0,0.0000
+MiniCPM-V-4.5-8B,target_subset,benchmark1_target12,1234,multiplier,reflect_patch,3,3,3,1.0000
+MiniCPM-V-4.5-8B,target_subset,benchmark1_target12,1234,multiplier,reflect_rag_skeleton,3,3,3,1.0000
+MiniCPM-V-4.5-8B,target_subset,benchmark1_target12,1234,PE / PE-row / PE-array,origin,3,2,0,0.0000
+MiniCPM-V-4.5-8B,target_subset,benchmark1_target12,1234,PE / PE-row / PE-array,reflect_patch,3,2,0,0.0000
+MiniCPM-V-4.5-8B,target_subset,benchmark1_target12,1234,PE / PE-row / PE-array,reflect_rag_skeleton,3,3,3,1.0000
+MiniCPM-V-4.5-8B,target_subset,benchmark1_target12,1234,Winograd / transform / dataflow,origin,3,0,0,0.0000
+MiniCPM-V-4.5-8B,target_subset,benchmark1_target12,1234,Winograd / transform / dataflow,reflect_patch,3,2,1,0.3333
+MiniCPM-V-4.5-8B,target_subset,benchmark1_target12,1234,Winograd / transform / dataflow,reflect_rag_skeleton,3,3,2,0.6667
+MiniCPM-V-4.5-8B,target_subset,benchmark1_target12,2234,adder / PPA,origin,3,2,0,0.0000
+MiniCPM-V-4.5-8B,target_subset,benchmark1_target12,2234,adder / PPA,reflect_patch,3,3,3,1.0000
+MiniCPM-V-4.5-8B,target_subset,benchmark1_target12,2234,adder / PPA,reflect_rag_skeleton,3,3,3,1.0000
+MiniCPM-V-4.5-8B,target_subset,benchmark1_target12,2234,multiplier,origin,3,1,0,0.0000
+MiniCPM-V-4.5-8B,target_subset,benchmark1_target12,2234,multiplier,reflect_patch,3,3,3,1.0000
+MiniCPM-V-4.5-8B,target_subset,benchmark1_target12,2234,multiplier,reflect_rag_skeleton,3,3,3,1.0000
+MiniCPM-V-4.5-8B,target_subset,benchmark1_target12,2234,PE / PE-row / PE-array,origin,3,1,0,0.0000
+MiniCPM-V-4.5-8B,target_subset,benchmark1_target12,2234,PE / PE-row / PE-array,reflect_patch,3,1,0,0.0000
+MiniCPM-V-4.5-8B,target_subset,benchmark1_target12,2234,PE / PE-row / PE-array,reflect_rag_skeleton,3,3,3,1.0000
+MiniCPM-V-4.5-8B,target_subset,benchmark1_target12,2234,Winograd / transform / dataflow,origin,3,1,0,0.0000
+MiniCPM-V-4.5-8B,target_subset,benchmark1_target12,2234,Winograd / transform / dataflow,reflect_patch,3,3,2,0.6667
+MiniCPM-V-4.5-8B,target_subset,benchmark1_target12,2234,Winograd / transform / dataflow,reflect_rag_skeleton,3,3,2,0.6667
+MiniCPM-V-4.5-8B,target_subset,benchmark1_target12,3234,adder / PPA,origin,3,1,0,0.0000
+MiniCPM-V-4.5-8B,target_subset,benchmark1_target12,3234,adder / PPA,reflect_patch,3,2,2,0.6667
+MiniCPM-V-4.5-8B,target_subset,benchmark1_target12,3234,adder / PPA,reflect_rag_skeleton,3,3,3,1.0000
+MiniCPM-V-4.5-8B,target_subset,benchmark1_target12,3234,multiplier,origin,3,1,0,0.0000
+MiniCPM-V-4.5-8B,target_subset,benchmark1_target12,3234,multiplier,reflect_patch,3,3,3,1.0000
+MiniCPM-V-4.5-8B,target_subset,benchmark1_target12,3234,multiplier,reflect_rag_skeleton,3,3,3,1.0000
+MiniCPM-V-4.5-8B,target_subset,benchmark1_target12,3234,PE / PE-row / PE-array,origin,3,0,0,0.0000
+MiniCPM-V-4.5-8B,target_subset,benchmark1_target12,3234,PE / PE-row / PE-array,reflect_patch,3,0,0,0.0000
+MiniCPM-V-4.5-8B,target_subset,benchmark1_target12,3234,PE / PE-row / PE-array,reflect_rag_skeleton,3,3,3,1.0000
+MiniCPM-V-4.5-8B,target_subset,benchmark1_target12,3234,Winograd / transform / dataflow,origin,3,0,0,0.0000
+MiniCPM-V-4.5-8B,target_subset,benchmark1_target12,3234,Winograd / transform / dataflow,reflect_patch,3,3,2,0.6667
+MiniCPM-V-4.5-8B,target_subset,benchmark1_target12,3234,Winograd / transform / dataflow,reflect_rag_skeleton,3,3,2,0.6667

@@ -1,0 +1,16 @@
+{
+  "module_id": 20,
+  "family": "booth_multiplier",
+  "archive_label": "high",
+  "label_mode": "reference_complexity",
+  "reference_complexity": "high",
+  "reasoning_difficulty": "high",
+  "source_test_root": "evaluation/TestSet/module20/test2",
+  "generated_case_id": "module20_high_001",
+  "primary_candidate": "candidate_00.v",
+  "alternate_candidates": [],
+  "admitted_candidates": [
+    "candidate_00.v"
+  ],
+  "notes": "Archived as a correct golden reference-complexity variant for the signed serial multiplier family."
+}

@@ -1,0 +1,5 @@
+{
+  "top_module": "booth_multiplier_9_C_Skip_A",
+  "module_header": "module booth_multiplier_9_C_Skip_A #(\n    parameter width=9\n)(\n    input wire [width:1] A,\n    input wire [width:1] B,\n    output wire [width*2:1] S\n);",
+  "source": "public_description"
+}

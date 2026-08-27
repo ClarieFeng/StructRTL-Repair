@@ -1,0 +1,5 @@
+{
+  "top_module": "MAC_signed",
+  "module_header": "module MAC_signed#(\n    parameter width=22\n    )(\n    input wire [width:1] A,  \n    input wire [width:1] B,  \n    input wire [width*2:1] acc_in, \n    output wire [width*2+1:1] result\n    );",
+  "source": "public_description"
+}

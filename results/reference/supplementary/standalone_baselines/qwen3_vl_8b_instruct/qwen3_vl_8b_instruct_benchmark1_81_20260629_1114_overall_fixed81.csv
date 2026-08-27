@@ -1,0 +1,2 @@
+﻿model,dataset,total,observed,missing,syntax_count,compile_count,functional_count,syntax_rate,compile_rate,functional_rate
+Qwen3-VL-8B-Instruct,Benchmark1_81,81,78,3,36,27,0,0.4444,0.3333,0.0

@@ -1,0 +1,333 @@
+[
+  {
+    "model": "internvl3_5_8b",
+    "directory_name": "InternVL3_5-8B-Instruct",
+    "status": "present",
+    "revision": "local_directory_no_revision_metadata",
+    "config": {
+      "architectures": [
+        "InternVLChatModel"
+      ],
+      "model_type": "internvl_chat",
+      "transformers_version": null,
+      "auto_map": {
+        "AutoConfig": "configuration_internvl_chat.InternVLChatConfig",
+        "AutoModel": "modeling_internvl_chat.InternVLChatModel",
+        "AutoModelForCausalLM": "modeling_internvl_chat.InternVLChatModel"
+      }
+    },
+    "tracked_files": [
+      {
+        "name": "config.json",
+        "bytes": 5752,
+        "sha256": "b445bab5ff636ac2d5b4a1fb81006dd5acd6de4c5050c81d73eaf55bda283244"
+      },
+      {
+        "name": "configuration_intern_vit.py",
+        "bytes": 5546,
+        "sha256": "6530df52748e4f7766568825e1d11f55dfa6cc421990020a640c548dc6cd2646"
+      },
+      {
+        "name": "configuration_internvl_chat.py",
+        "bytes": 4700,
+        "sha256": "e9fdff47225fd380d940a4a2b6818b303fd2a5fdddf44fce0a75b05a4beb1539"
+      },
+      {
+        "name": "conversation.py",
+        "bytes": 15309,
+        "sha256": "b1b9f280e9cb9211e519e2b8071002b57cc742aadb2f49b05fa674ee3c7d83ee"
+      },
+      {
+        "name": "generation_config.json",
+        "bytes": 69,
+        "sha256": "d599f7f3bee654c13b4b53652d239efb4bf80fbf4b4e46f57318f41b981bae9a"
+      },
+      {
+        "name": "modeling_intern_vit.py",
+        "bytes": 18151,
+        "sha256": "a33ec11c517041c7fcbaaff3d736d846498468efaf4a64400a89d55132d5f638"
+      },
+      {
+        "name": "modeling_internvl_chat.py",
+        "bytes": 16518,
+        "sha256": "ec972dd3d1c7f5da06455034d5cfe54968a9555dff60804edee9a7fb5759db34"
+      },
+      {
+        "name": "special_tokens_map.json",
+        "bytes": 744,
+        "sha256": "13a6dea522a937ef05172912c66214162c75165e723a3d6cf4ae2d09752013bf"
+      },
+      {
+        "name": "tokenizer_config.json",
+        "bytes": 11480,
+        "sha256": "2d0129d708f6433a0b09f1fc346d3e3c834e2b0ae6f817ad5b491779e39299ab"
+      }
+    ]
+  },
+  {
+    "model": "llama3_2_11b_vision",
+    "directory_name": "Llama-3.2-11B-Vision-Instruct",
+    "status": "present",
+    "revision": "local_directory_no_revision_metadata",
+    "config": {
+      "architectures": [
+        "MllamaForConditionalGeneration"
+      ],
+      "model_type": "mllama",
+      "transformers_version": "4.45.0.dev0"
+    },
+    "tracked_files": [
+      {
+        "name": "config.json",
+        "bytes": 5068,
+        "sha256": "db708a72a246253fdf8aa3837a5f0b80ac1960692495ce05cb3101833128e845"
+      },
+      {
+        "name": "generation_config.json",
+        "bytes": 215,
+        "sha256": "5488638fbe27ea01a7a013f7f320ae83c364e6bcb839df065155e82325f19a88"
+      },
+      {
+        "name": "preprocessor_config.json",
+        "bytes": 437,
+        "sha256": "acfe80ff8a9190c2f02424cb4879ed6eeca08704f5233b7f9e73e38c54f7f958"
+      },
+      {
+        "name": "special_tokens_map.json",
+        "bytes": 454,
+        "sha256": "94e708c3f5e64acf85bbe5ad01467a1248faadb73e83b41793087ecced586e8f"
+      },
+      {
+        "name": "tokenizer_config.json",
+        "bytes": 55782,
+        "sha256": "c1bc3f9322fdbcd0a07f7522c3378f0ffd86a8cc5cf8b4e11ee0be110b20a14a"
+      }
+    ]
+  },
+  {
+    "model": "mgemmv_llama_11b",
+    "directory_name": "MGEMMV-Llama-11b",
+    "status": "present",
+    "revision": "local_directory_no_revision_metadata",
+    "config": {
+      "architectures": [
+        "MllamaForConditionalGeneration"
+      ],
+      "model_type": "mllama",
+      "transformers_version": "4.51.3"
+    },
+    "tracked_files": [
+      {
+        "name": "config.json",
+        "bytes": 1937,
+        "sha256": "7867f85fb000c3855809dd9bc24e01928ced5c7ff139592fda4e704bb667f504"
+      },
+      {
+        "name": "generation_config.json",
+        "bytes": 210,
+        "sha256": "19b1b97376903fb75c7b7208da5d13f087bb07a86042e86413914dc99e1b46c2"
+      },
+      {
+        "name": "preprocessor_config.json",
+        "bytes": 477,
+        "sha256": "5c6713b0e6bd4fd45fb3048615ca5446d30053986af73c7620d4103f91eb4784"
+      },
+      {
+        "name": "special_tokens_map.json",
+        "bytes": 779,
+        "sha256": "bb02b98e64b1fde4f5b70e36ac5a49c0c9ab19715b546393eabc92fd8b298bd5"
+      },
+      {
+        "name": "tokenizer_config.json",
+        "bytes": 55980,
+        "sha256": "b55aa59015f895cc8e5429c46f0e6b2e85cd8a434ad8e9d2b76045729f2ee264"
+      }
+    ]
+  },
+  {
+    "model": "mgemmv_qwen_7b",
+    "directory_name": "MGEMMV-Qwen-7b",
+    "status": "present",
+    "revision": "local_directory_no_revision_metadata",
+    "config": {
+      "architectures": [
+        "Qwen2_5_VLForConditionalGeneration"
+      ],
+      "model_type": "qwen2_5_vl",
+      "transformers_version": "4.51.3"
+    },
+    "tracked_files": [
+      {
+        "name": "config.json",
+        "bytes": 1490,
+        "sha256": "148e98d13e805de79c63483ba73d9e5bb825297c2a12496f6a602bb86ebf6c5d"
+      },
+      {
+        "name": "generation_config.json",
+        "bytes": 214,
+        "sha256": "11c32bf551cf5cceeca5d418bf0d946cbe18820a45c5a6691b248431e899257f"
+      },
+      {
+        "name": "preprocessor_config.json",
+        "bytes": 575,
+        "sha256": "549c158011407dfb750d9ec578047cf76f5bfe365cd0aa069a50137d3f98d9dd"
+      },
+      {
+        "name": "special_tokens_map.json",
+        "bytes": 613,
+        "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd"
+      },
+      {
+        "name": "tokenizer_config.json",
+        "bytes": 5802,
+        "sha256": "8c76dc20144bfd091ce99ff9cc643778d14dfa02d540f9a0784a3d3164bb4ea0"
+      }
+    ]
+  },
+  {
+    "model": "minicpm_v_4_5_8b",
+    "directory_name": "MiniCPM-V-4_5-8B",
+    "status": "present",
+    "revision": "local_directory_no_revision_metadata",
+    "config": {
+      "_name_or_path": "openbmb/MiniCPM-V-4_5",
+      "architectures": [
+        "MiniCPMV"
+      ],
+      "model_type": "minicpmv",
+      "transformers_version": "4.51.0",
+      "auto_map": {
+        "AutoConfig": "configuration_minicpm.MiniCPMVConfig",
+        "AutoModel": "modeling_minicpmv.MiniCPMV",
+        "AutoModelForCausalLM": "modeling_minicpmv.MiniCPMV"
+      }
+    },
+    "tracked_files": [
+      {
+        "name": "config.json",
+        "bytes": 1461,
+        "sha256": "1d6f6eb441da34dcb43db72cf3960254c7045cc2c595a3c836ae71136655ccc8"
+      },
+      {
+        "name": "configuration_minicpm.py",
+        "bytes": 3288,
+        "sha256": "bfdb65b291246e0d709831df2e10aaba96b94d2369f670f3ad831711d2f97e45"
+      },
+      {
+        "name": "generation_config.json",
+        "bytes": 268,
+        "sha256": "4009ca3d9e615561897c0f4963bd01c26bccff50eda4b00fcf2c13cf3fcc86db"
+      },
+      {
+        "name": "image_processing_minicpmv.py",
+        "bytes": 20757,
+        "sha256": "52888748938f40fec0827d187383b4a8fa857f4cffad5a0939e2e449051950d7"
+      },
+      {
+        "name": "modeling_minicpmv.py",
+        "bytes": 18583,
+        "sha256": "da7e53e9fd1ee931f8888ea5d78a53a903edb97a5634f0961d3347571f411cc6"
+      },
+      {
+        "name": "modeling_navit_siglip.py",
+        "bytes": 41835,
+        "sha256": "c71ca316fe7405325b7097364f98f71c317fff8c9f5c8820f30d3362b1ed5bfa"
+      },
+      {
+        "name": "preprocessor_config.json",
+        "bytes": 714,
+        "sha256": "5c0dbc92920ded2304e2ed6ad4251da56029aa1f3f69427117ac6df9bc68496e"
+      },
+      {
+        "name": "processing_minicpmv.py",
+        "bytes": 11026,
+        "sha256": "aeb292555aba3362108eb10827234c48b9fede526398cc15bdbec798ba2c7fdd"
+      },
+      {
+        "name": "special_tokens_map.json",
+        "bytes": 12103,
+        "sha256": "742d22f66cc33f367b17d45d8dcb5ffde7d777fe94a9b05ee858dc43018c2016"
+      },
+      {
+        "name": "tokenization_minicpmv_fast.py",
+        "bytes": 1647,
+        "sha256": "770e4a934f2e74e0e88e85126bceea93e345d84b411d21e99b38c5cfd095f736"
+      },
+      {
+        "name": "tokenizer_config.json",
+        "bytes": 25786,
+        "sha256": "8cbacbea273108831f02441518bbbc73627c15e34ddaa3fec6369e7bd07b720c"
+      }
+    ]
+  },
+  {
+    "model": "qwen2_5_vl_7b",
+    "directory_name": "Qwen2.5-VL-7B-Instruct",
+    "status": "present",
+    "revision": "local_directory_no_revision_metadata",
+    "config": {
+      "architectures": [
+        "Qwen2_5_VLForConditionalGeneration"
+      ],
+      "model_type": "qwen2_5_vl",
+      "transformers_version": "4.41.2"
+    },
+    "tracked_files": [
+      {
+        "name": "config.json",
+        "bytes": 1374,
+        "sha256": "77d9ec7321cc572e3579e2c84799c9cadaded63c49ce93b101733349fc330c43"
+      },
+      {
+        "name": "generation_config.json",
+        "bytes": 216,
+        "sha256": "0a3aea82869fe29f20dc95ccf3e2bcff380eca1f5ad6447a4a4b37110b08e43e"
+      },
+      {
+        "name": "preprocessor_config.json",
+        "bytes": 350,
+        "sha256": "f2058c716eef96ccaed1cc1e2d0c08306b62586d535b28d9d08e691b2fab7ca0"
+      },
+      {
+        "name": "tokenizer_config.json",
+        "bytes": 5702,
+        "sha256": "4abd3520120e266da84c0864fee064d1fb10806f02225911a47253dd38dc5f56"
+      }
+    ]
+  },
+  {
+    "model": "qwen3_vl_8b",
+    "directory_name": "Qwen3-VL-8B-Instruct",
+    "status": "present",
+    "revision": "local_directory_no_revision_metadata",
+    "config": {
+      "architectures": [
+        "Qwen3VLForConditionalGeneration"
+      ],
+      "model_type": "qwen3_vl",
+      "transformers_version": "4.57.0.dev0"
+    },
+    "tracked_files": [
+      {
+        "name": "config.json",
+        "bytes": 1474,
+        "sha256": "5cd452860dc1e9c29dd71cc3cef7f39b338b7a40793f7a260655c2d3568f3661"
+      },
+      {
+        "name": "generation_config.json",
+        "bytes": 269,
+        "sha256": "8469742d1fce0de951c8909b26a2c0c0d8490837ce476efb114da9e0cefc4d44"
+      },
+      {
+        "name": "preprocessor_config.json",
+        "bytes": 390,
+        "sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516"
+      },
+      {
+        "name": "tokenizer_config.json",
+        "bytes": 10868,
+        "sha256": "c2da771801886ad9ae98181793ffd3dfb7f1af30f6f7c6a4e15d7dbba52e2399"
+      }
+    ]
+  }
+]

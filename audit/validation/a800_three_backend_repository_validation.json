@@ -1,0 +1,25 @@
+{
+  "kind": "repository",
+  "status": "PASS",
+  "datasets": {
+    "author135": {
+      "cases": 135,
+      "modules": 27,
+      "images": 135
+    },
+    "benchmark1": {
+      "cases": 81,
+      "modules": 27,
+      "images": 81
+    }
+  },
+  "main_rows": 4536,
+  "mode_counts": {
+    "origin": 1512,
+    "reflect_patch": 1512,
+    "reflect_rag_skeleton": 1512
+  },
+  "checksum_mismatches": [],
+  "path_findings": [],
+  "findings": []
+}

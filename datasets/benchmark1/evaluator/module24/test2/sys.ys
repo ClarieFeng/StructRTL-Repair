@@ -1,0 +1,11 @@
+read_verilog code/code1.v
+read_verilog code/code2.v
+read_verilog code/code3.v
+read_verilog code/code4.v
+read_verilog code/code5.v
+read_verilog code/code6.v
+read_verilog code/multi_code.v
+read_verilog golden/primary.v
+hierarchy -check -top MAC_signed
+proc
+write_json golden/MAC_signed.json

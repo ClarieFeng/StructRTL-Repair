@@ -1,0 +1,20 @@
+protocol: configs/frozen_protocol.json
+dataset: benchmark1
+models:
+  - mgemmv_qwen_7b
+  - mgemmv_llama_11b
+  - qwen2_5_vl_7b
+  - qwen3_vl_8b
+  - llama3_2_11b_vision
+  - minicpm_v_4_5_8b
+  - internvl3_5_8b
+modes:
+  - origin_shared
+  - reflect_patch
+  - reflect_patch_rag
+  - reflect_patch_rag_skeleton_nogate
+  - reflect_full
+  - reflect_constraint_only
+  - reflect_builtin_skeleton_gate
+seed: 1234
+expected_cases_per_model: 81

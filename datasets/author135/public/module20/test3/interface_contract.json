@@ -1,0 +1,5 @@
+{
+  "top_module": "signed_serial_multiplier_10_FA",
+  "module_header": "module signed_serial_multiplier_10_FA #(\n    parameter width=10\n)(\n    input wire           clk  ,\n    input wire           rst_n,\n    input wire           en   ,\n    input wire [width-1:0] A    ,\n    input wire [width-1:0] B    ,\n    output reg           valid,\n    output reg [width*2:1] S\n);",
+  "source": "public_description"
+}

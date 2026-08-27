@@ -1,0 +1,7 @@
+{
+  "protocol": "public_only_artifact_audit_v1",
+  "experiment_root": "smoke_qwen3_vl_8b",
+  "files_checked": 8,
+  "findings": [],
+  "status": "PASS"
+}

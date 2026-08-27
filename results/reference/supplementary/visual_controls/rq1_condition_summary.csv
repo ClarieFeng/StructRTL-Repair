@@ -1,0 +1,9 @@
+﻿stage,model,prompt_protocol,mode,setting,cases,syntax_pass,compile_pass,functional_pass,avg_elapsed_seconds,syntax_rate,compile_rate,functional_rate
+single_pass,qwen25_vl_7b,full_description,origin,blank_image,81,17,12,2,47.01462962962963,0.20987654320987653,0.14814814814814814,0.024691358024691357
+single_pass,qwen25_vl_7b,full_description,origin,original,81,18,14,0,48.87953086419754,0.2222222222222222,0.1728395061728395,0.0
+single_pass,qwen25_vl_7b,full_description,origin,shuffled_image,81,15,14,1,44.68053086419753,0.18518518518518517,0.1728395061728395,0.012345679012345678
+single_pass,qwen25_vl_7b,full_description,origin,text_only,81,19,11,0,48.12097530864198,0.2345679012345679,0.13580246913580246,0.0
+single_pass,qwen25_vl_7b,interface_contract,origin,blank_image,81,47,46,4,19.721679012345678,0.5802469135802469,0.5679012345679012,0.04938271604938271
+single_pass,qwen25_vl_7b,interface_contract,origin,original,81,30,30,0,29.620419753086423,0.37037037037037035,0.37037037037037035,0.0
+single_pass,qwen25_vl_7b,interface_contract,origin,shuffled_image,81,31,30,3,34.97028395061729,0.38271604938271603,0.37037037037037035,0.037037037037037035
+single_pass,qwen25_vl_7b,interface_contract,origin,text_only,81,49,49,3,26.345246913580254,0.6049382716049383,0.6049382716049383,0.037037037037037035

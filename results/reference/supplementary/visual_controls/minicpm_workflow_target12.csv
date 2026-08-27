@@ -1,0 +1,783 @@
+rq1_protocol,model_label,backend,case_id,prompt_protocol,setting,image_mode,image_case_id,prompt_sha256,image_sha256,case_seed,elapsed_seconds,evaluation_access,mode,module_id,test_id,num_iterations,final_iteration,selection_reason,syntax_ok,functional_ok,final_source,reflection_categories,retrieved_rule_count,repair_best_status,repair_current_stage,repair_active_categories,interface_gate_action,interface_gate_expected_top,skeleton_gate_action,skeleton_gate_expected_ports,port_gate_action,static_gate_action,static_gate_categories,static_gate_count,preferred_action,diagnosis_family,detail
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module02_test01,full_description,original,original,module02_test01,5fd3d72fcae10eb75b9152184da8a705f153eabe4946dfb6158489a9e09ffa4c,11f223838c719e795f0a906ff67d36bf23e10750e5dd551153de5920ade0ac0d,1234,24.092,public_only,origin,2,1,1,0,origin,False,False,raw,,0,,,,,,,,,,,,,,"<tmp>:21: syntax error
+<tmp>:21: error: Invalid module instantiation
+<tmp>:22: syntax error
+<tmp>:22: error: Invalid module item.
+<tmp>:22: syntax error
+<tmp>:22: error: Invalid module instantiation
+<tmp>:22: error: Invalid module instantiation
+<tmp>:25: error: Invalid module item."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module02_test01,full_description,original,original,module02_test01,5fd3d72fcae10eb75b9152184da8a705f153eabe4946dfb6158489a9e09ffa4c,11f223838c719e795f0a906ff67d36bf23e10750e5dd551153de5920ade0ac0d,1234,33.417,public_only,reflect_patch,2,1,1,0,best_functional,True,True,raw,,0,functional_pass,functional,unclassified,,PPA_Sklansky_17bit,,,,,,0,patch,Adder (Parallel Prefix Adder),public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module02_test01,full_description,original,original,module02_test01,5fd3d72fcae10eb75b9152184da8a705f153eabe4946dfb6158489a9e09ffa4c,11f223838c719e795f0a906ff67d36bf23e10750e5dd551153de5920ade0ac0d,1234,32.595,public_only,reflect_rag_skeleton,2,1,1,0,best_functional,True,True,raw,"bad_instantiation,nonsynth_or_bad_always,syntax_verilog2001",3,functional_pass,functional,"bad_instantiation,nonsynth_or_bad_always,syntax_verilog2001",,PPA_Sklansky_17bit,,"A,B,cin,S,cout",,,,0,patch_template,ppa_adder,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module02_test01,full_description,shuffled_image,shuffled,module14_test01,5fd3d72fcae10eb75b9152184da8a705f153eabe4946dfb6158489a9e09ffa4c,1aeb185e700dc20ea2b789dcc5b27a6a7ad84e37a6a12ac2b16d59757f927b4d,1234,60.91,public_only,origin,2,1,1,0,origin,False,False,raw,,0,,,,,,,,,,,,,,"<tmp>:31: error: generate/endgenerate regions cannot nest.
+<tmp>:32: syntax error
+<tmp>:32: error: Invalid module instantiation
+<tmp>:35: error: Invalid module item.
+<tmp>:37: syntax error
+<tmp>:38: error: Invalid module item.
+<tmp>:49: error: generate/endgenerate regions cannot nest.
+<tmp>:50: syntax error
+<tmp>:50: error: Invalid module instantiation
+<tmp>:52: error: Invalid module item.
+<tmp>:66: syntax error
+<tmp>:69: error: Invalid module item.
+<tmp>:72: syntax error
+<tmp>:75: error: Invalid module item.
+<tmp>:83: error: generate/endgenerate regions cannot nest.
+<tmp>:84: syntax error
+<tmp>:84: error: Invalid module instantiation
+<tmp>:87: error: Invalid module item.
+<tmp>:89: syntax error
+<tmp>:90: error: Invalid module item.
+<tmp>:101: error: generate/endgenerate regions cannot nest.
+<tmp>:102: syntax error
+<tmp>:102: error: Invalid module instantiation
+<tmp>:104: error: Invalid module item.
+<tmp>:118: syntax error
+<tmp>:121: error: Invalid module item.
+<tmp>:123: syntax error
+<tmp>:127: error: Invalid module item.
+<tmp>:132: syntax error
+I give up."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module02_test01,full_description,shuffled_image,shuffled,module14_test01,5fd3d72fcae10eb75b9152184da8a705f153eabe4946dfb6158489a9e09ffa4c,1aeb185e700dc20ea2b789dcc5b27a6a7ad84e37a6a12ac2b16d59757f927b4d,1234,70.566,public_only,reflect_patch,2,1,1,0,best_functional,True,True,raw,,0,functional_pass,functional,unclassified,,PPA_Sklansky_17bit,,,,,,0,patch,Combinational/Sequential Logic,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module02_test01,full_description,shuffled_image,shuffled,module14_test01,5fd3d72fcae10eb75b9152184da8a705f153eabe4946dfb6158489a9e09ffa4c,1aeb185e700dc20ea2b789dcc5b27a6a7ad84e37a6a12ac2b16d59757f927b4d,1234,60.467,public_only,reflect_rag_skeleton,2,1,1,0,best_functional,True,True,raw,,0,functional_pass,functional,"skeleton_boundary,skeleton_template_enforced",,PPA_Sklansky_17bit,template_enforced:ppa_adder,"A,B,cin,S,cout",,,skeleton_template_enforced,1,,,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module02_test01,interface_contract,original,original,module02_test01,cab488e197726dbdac5b0191df53546ccaa4a35770976c9442ef16d88c57b255,11f223838c719e795f0a906ff67d36bf23e10750e5dd551153de5920ade0ac0d,1234,5.605,public_only,origin,2,1,1,0,origin,True,False,raw,,0,,,,,,,,,,,,,,"public_functional: functional_mismatch. The private evaluator found behavior inconsistent with the public specification; no vectors, expected values, or testbench details are exposed."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module02_test01,interface_contract,original,original,module02_test01,cab488e197726dbdac5b0191df53546ccaa4a35770976c9442ef16d88c57b255,11f223838c719e795f0a906ff67d36bf23e10750e5dd551153de5920ade0ac0d,1234,60.376,public_only,reflect_patch,2,1,3,2,best_syntax,True,False,raw,,0,syntax_pass,functional,unclassified,,PPA_Sklansky_17bit,,,,,,0,patch,Adder,"public_functional: functional_mismatch. The private evaluator found behavior inconsistent with the public specification; no vectors, expected values, or testbench details are exposed."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module02_test01,interface_contract,original,original,module02_test01,cab488e197726dbdac5b0191df53546ccaa4a35770976c9442ef16d88c57b255,11f223838c719e795f0a906ff67d36bf23e10750e5dd551153de5920ade0ac0d,1234,16.547,public_only,reflect_rag_skeleton,2,1,1,0,best_functional,True,True,patched,,0,functional_pass,functional,unclassified,,PPA_Sklansky_17bit,,"A,B,cin,S,cout",,,,0,patch_template,ppa_adder,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module02_test01,interface_contract,shuffled_image,shuffled,module14_test01,cab488e197726dbdac5b0191df53546ccaa4a35770976c9442ef16d88c57b255,1aeb185e700dc20ea2b789dcc5b27a6a7ad84e37a6a12ac2b16d59757f927b4d,1234,8.426,public_only,origin,2,1,1,0,origin,True,False,raw,,0,,,,,,,,,,,,,,"public_functional: functional_mismatch. The private evaluator found behavior inconsistent with the public specification; no vectors, expected values, or testbench details are exposed."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module02_test01,interface_contract,shuffled_image,shuffled,module14_test01,cab488e197726dbdac5b0191df53546ccaa4a35770976c9442ef16d88c57b255,1aeb185e700dc20ea2b789dcc5b27a6a7ad84e37a6a12ac2b16d59757f927b4d,1234,57.109,public_only,reflect_patch,2,1,3,2,best_syntax,True,False,raw,,0,syntax_pass,functional,unclassified,,PPA_Sklansky_17bit,,,,,,0,patch,17-bit Parallel Prefix Adder (PPA),"public_functional: functional_mismatch. The private evaluator found behavior inconsistent with the public specification; no vectors, expected values, or testbench details are exposed."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module02_test01,interface_contract,shuffled_image,shuffled,module14_test01,cab488e197726dbdac5b0191df53546ccaa4a35770976c9442ef16d88c57b255,1aeb185e700dc20ea2b789dcc5b27a6a7ad84e37a6a12ac2b16d59757f927b4d,1234,17.72,public_only,reflect_rag_skeleton,2,1,1,0,best_functional,True,True,patched,,0,functional_pass,functional,unclassified,,PPA_Sklansky_17bit,,"A,B,cin,S,cout",,,,0,patch_template,ppa_adder,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module03_test01,full_description,original,original,module03_test01,76c66ea27fd23a47304c89f0a0f25fcb895d27cac1acf18ee82f5b9f661eb75a,d5860d03888b622533258a9663cbb488bea056dd9bd2c08b42ba30517e38fbef,1334,19.486,public_only,origin,3,1,1,0,origin,False,False,raw,,0,,,,,,,,,,,,,,"<tmp>:21: error: Unknown module type: full_adder
+<tmp>:21: error: Unknown module type: full_adder
+<tmp>:21: error: Unknown module type: full_adder
+<tmp>:21: error: Unknown module type: full_adder
+<tmp>:21: error: Unknown module type: full_adder
+<tmp>:21: error: Unknown module type: full_adder
+<tmp>:21: error: Unknown module type: full_adder
+<tmp>:21: error: Unknown module type: full_adder
+<tmp>:21: error: Unknown module type: full_adder
+<tmp>:21: error: Unknown module type: full_adder
+10 error(s) during elaboration.
+*** These modules were missing:
+        full_adder referenced 10 times.
+***"
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module03_test01,full_description,original,original,module03_test01,76c66ea27fd23a47304c89f0a0f25fcb895d27cac1acf18ee82f5b9f661eb75a,d5860d03888b622533258a9663cbb488bea056dd9bd2c08b42ba30517e38fbef,1334,30.087,public_only,reflect_patch,3,1,1,0,best_functional,True,True,raw,,0,functional_pass,functional,unclassified,,PPA_Kogge_Stone_19bit,,,,,,0,patch_template,Combinational logic with carry propagation (Kogge-Stone PPA).,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module03_test01,full_description,original,original,module03_test01,76c66ea27fd23a47304c89f0a0f25fcb895d27cac1acf18ee82f5b9f661eb75a,d5860d03888b622533258a9663cbb488bea056dd9bd2c08b42ba30517e38fbef,1334,19.572,public_only,reflect_rag_skeleton,3,1,1,0,best_functional,True,True,raw,,0,functional_pass,functional,"skeleton_boundary,skeleton_template_enforced",,PPA_Kogge_Stone_19bit,template_enforced:ppa_adder,"A,B,cin,S,cout",,,skeleton_template_enforced,1,,,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module03_test01,full_description,shuffled_image,shuffled,module02_test01,76c66ea27fd23a47304c89f0a0f25fcb895d27cac1acf18ee82f5b9f661eb75a,11f223838c719e795f0a906ff67d36bf23e10750e5dd551153de5920ade0ac0d,1334,30.772,public_only,origin,3,1,1,0,origin,False,False,raw,,0,,,,,,,,,,,,,,"<tmp>:21: warning: macro i undefined (and assumed null) at this point.
+<tmp>:32: warning: macro i undefined (and assumed null) at this point.
+<tmp>:43: warning: macro i undefined (and assumed null) at this point.
+<tmp>:64: syntax error
+<tmp>:63: error: Invalid module instantiation"
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module03_test01,full_description,shuffled_image,shuffled,module02_test01,76c66ea27fd23a47304c89f0a0f25fcb895d27cac1acf18ee82f5b9f661eb75a,11f223838c719e795f0a906ff67d36bf23e10750e5dd551153de5920ade0ac0d,1334,42.061,public_only,reflect_patch,3,1,1,0,best_functional,True,True,raw,,0,functional_pass,functional,unclassified,,PPA_Kogge_Stone_19bit,,,,,,0,patch,Adder (Parallel Prefix Adder),public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module03_test01,full_description,shuffled_image,shuffled,module02_test01,76c66ea27fd23a47304c89f0a0f25fcb895d27cac1acf18ee82f5b9f661eb75a,11f223838c719e795f0a906ff67d36bf23e10750e5dd551153de5920ade0ac0d,1334,30.415,public_only,reflect_rag_skeleton,3,1,1,0,best_functional,True,True,raw,,0,functional_pass,functional,"skeleton_boundary,skeleton_template_enforced",,PPA_Kogge_Stone_19bit,template_enforced:ppa_adder,"A,B,cin,S,cout",,,skeleton_template_enforced,1,,,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module03_test01,interface_contract,original,original,module03_test01,979c99b1c5f7d0371a6537ba6554b0f1d871640d40adb56c67fbf449fd197643,d5860d03888b622533258a9663cbb488bea056dd9bd2c08b42ba30517e38fbef,1334,8.24,public_only,origin,3,1,1,0,origin,True,False,raw,,0,,,,,,,,,,,,,,"public_functional: functional_mismatch. The private evaluator found behavior inconsistent with the public specification; no vectors, expected values, or testbench details are exposed."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module03_test01,interface_contract,original,original,module03_test01,979c99b1c5f7d0371a6537ba6554b0f1d871640d40adb56c67fbf449fd197643,d5860d03888b622533258a9663cbb488bea056dd9bd2c08b42ba30517e38fbef,1334,64.978,public_only,reflect_patch,3,1,3,2,best_syntax,True,False,raw,,0,syntax_pass,functional,unclassified,,PPA_Kogge_Stone_19bit,,,,,,0,patch_template,PPA (Parallel Prefix Adder),"public_functional: functional_mismatch. The private evaluator found behavior inconsistent with the public specification; no vectors, expected values, or testbench details are exposed."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module03_test01,interface_contract,original,original,module03_test01,979c99b1c5f7d0371a6537ba6554b0f1d871640d40adb56c67fbf449fd197643,d5860d03888b622533258a9663cbb488bea056dd9bd2c08b42ba30517e38fbef,1334,18.006,public_only,reflect_rag_skeleton,3,1,1,0,best_functional,True,True,patched,,0,functional_pass,functional,unclassified,,PPA_Kogge_Stone_19bit,,"A,B,cin,S,cout",,,,0,patch_template,ppa_adder,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module03_test01,interface_contract,shuffled_image,shuffled,module02_test01,979c99b1c5f7d0371a6537ba6554b0f1d871640d40adb56c67fbf449fd197643,11f223838c719e795f0a906ff67d36bf23e10750e5dd551153de5920ade0ac0d,1334,25.09,public_only,origin,3,1,1,0,origin,False,False,raw,,0,,,,,,,,,,,,,,"<tmp>:14: syntax error
+<tmp>:14: error: Syntax error in left side of continuous assignment."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module03_test01,interface_contract,shuffled_image,shuffled,module02_test01,979c99b1c5f7d0371a6537ba6554b0f1d871640d40adb56c67fbf449fd197643,11f223838c719e795f0a906ff67d36bf23e10750e5dd551153de5920ade0ac0d,1334,112.427,public_only,reflect_patch,3,1,3,2,last_attempt,False,False,raw,,0,none,syntax,unclassified,,PPA_Kogge_Stone_19bit,,,,,,0,patch,Kogge-Stone Parallel Prefix Adder,"<tmp>:14: syntax error
+<tmp>:14: error: Syntax error in left side of continuous assignment."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module03_test01,interface_contract,shuffled_image,shuffled,module02_test01,979c99b1c5f7d0371a6537ba6554b0f1d871640d40adb56c67fbf449fd197643,11f223838c719e795f0a906ff67d36bf23e10750e5dd551153de5920ade0ac0d,1334,35.324,public_only,reflect_rag_skeleton,3,1,1,0,best_functional,True,True,raw,"nonsynth_or_bad_always,syntax_verilog2001",2,functional_pass,functional,"nonsynth_or_bad_always,syntax_verilog2001",,PPA_Kogge_Stone_19bit,,"A,B,cin,S,cout",,,,0,patch_template,ppa_adder,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module04_test01,full_description,original,original,module04_test01,e03706256baac07a5edfb6d155788988de39450ccb97f5e9084db60d7855c28f,11f223838c719e795f0a906ff67d36bf23e10750e5dd551153de5920ade0ac0d,1434,34.222,public_only,origin,4,1,1,0,origin,False,False,raw,,0,,,,,,,,,,,,,,"<tmp>:49: syntax error
+I give up."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module04_test01,full_description,original,original,module04_test01,e03706256baac07a5edfb6d155788988de39450ccb97f5e9084db60d7855c28f,11f223838c719e795f0a906ff67d36bf23e10750e5dd551153de5920ade0ac0d,1434,169.305,public_only,reflect_patch,4,1,3,2,best_functional,True,True,raw,,0,functional_pass,functional,unclassified,,PPA_Brent_Kung_17bit,,,,,,0,patch,17-bit Brent-Kung Parallel Prefix Adder (PPA),public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module04_test01,full_description,original,original,module04_test01,e03706256baac07a5edfb6d155788988de39450ccb97f5e9084db60d7855c28f,11f223838c719e795f0a906ff67d36bf23e10750e5dd551153de5920ade0ac0d,1434,34.312,public_only,reflect_rag_skeleton,4,1,1,0,best_functional,True,True,raw,,0,functional_pass,functional,"skeleton_boundary,skeleton_template_enforced",,PPA_Brent_Kung_17bit,template_enforced:ppa_adder,"A,B,cin,S,cout",,,skeleton_template_enforced,1,,,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module04_test01,full_description,shuffled_image,shuffled,module13_test01,e03706256baac07a5edfb6d155788988de39450ccb97f5e9084db60d7855c28f,1aeb185e700dc20ea2b789dcc5b27a6a7ad84e37a6a12ac2b16d59757f927b4d,1434,60.497,public_only,origin,4,1,1,0,origin,False,False,raw,,0,,,,,,,,,,,,,,"<tmp>:68: syntax error
+I give up."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module04_test01,full_description,shuffled_image,shuffled,module13_test01,e03706256baac07a5edfb6d155788988de39450ccb97f5e9084db60d7855c28f,1aeb185e700dc20ea2b789dcc5b27a6a7ad84e37a6a12ac2b16d59757f927b4d,1434,130.98,public_only,reflect_patch,4,1,3,2,last_attempt,False,False,raw,,0,none,syntax,unclassified,,PPA_Brent_Kung_17bit,,,,,,0,patch,17-bit Brent-Kung Parallel Prefix Adder (PPA).,"<tmp>:33: syntax error
+I give up."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module04_test01,full_description,shuffled_image,shuffled,module13_test01,e03706256baac07a5edfb6d155788988de39450ccb97f5e9084db60d7855c28f,1aeb185e700dc20ea2b789dcc5b27a6a7ad84e37a6a12ac2b16d59757f927b4d,1434,71.402,public_only,reflect_rag_skeleton,4,1,1,0,best_functional,True,True,raw,"nonsynth_or_bad_always,syntax_verilog2001",2,functional_pass,functional,"nonsynth_or_bad_always,syntax_verilog2001",,PPA_Brent_Kung_17bit,,"A,B,cin,S,cout",,,,0,patch_template,ppa_adder,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module04_test01,interface_contract,original,original,module04_test01,8c3892f28061fba3cfd051afef6a5cf35a12439186ad012bbb38777250e818f5,11f223838c719e795f0a906ff67d36bf23e10750e5dd551153de5920ade0ac0d,1434,9.32,public_only,origin,4,1,1,0,origin,True,False,raw,,0,,,,,,,,,,,,,,"public_functional: functional_mismatch. The private evaluator found behavior inconsistent with the public specification; no vectors, expected values, or testbench details are exposed."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module04_test01,interface_contract,original,original,module04_test01,8c3892f28061fba3cfd051afef6a5cf35a12439186ad012bbb38777250e818f5,11f223838c719e795f0a906ff67d36bf23e10750e5dd551153de5920ade0ac0d,1434,53.67,public_only,reflect_patch,4,1,3,2,best_syntax,True,False,raw,,0,syntax_pass,functional,unclassified,,PPA_Brent_Kung_17bit,,,,,,0,patch,PPA_Brent_Kung_17bit,"public_functional: functional_mismatch. The private evaluator found behavior inconsistent with the public specification; no vectors, expected values, or testbench details are exposed."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module04_test01,interface_contract,original,original,module04_test01,8c3892f28061fba3cfd051afef6a5cf35a12439186ad012bbb38777250e818f5,11f223838c719e795f0a906ff67d36bf23e10750e5dd551153de5920ade0ac0d,1434,19.101,public_only,reflect_rag_skeleton,4,1,1,0,best_functional,True,True,patched,,0,functional_pass,functional,unclassified,,PPA_Brent_Kung_17bit,,"A,B,cin,S,cout",,,,0,patch_template,ppa_adder,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module04_test01,interface_contract,shuffled_image,shuffled,module13_test01,8c3892f28061fba3cfd051afef6a5cf35a12439186ad012bbb38777250e818f5,1aeb185e700dc20ea2b789dcc5b27a6a7ad84e37a6a12ac2b16d59757f927b4d,1434,13.663,public_only,origin,4,1,1,0,origin,True,False,raw,,0,,,,,,,,,,,,,,"public_functional: functional_mismatch. The private evaluator found behavior inconsistent with the public specification; no vectors, expected values, or testbench details are exposed."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module04_test01,interface_contract,shuffled_image,shuffled,module13_test01,8c3892f28061fba3cfd051afef6a5cf35a12439186ad012bbb38777250e818f5,1aeb185e700dc20ea2b789dcc5b27a6a7ad84e37a6a12ac2b16d59757f927b4d,1434,65.904,public_only,reflect_patch,4,1,3,2,best_syntax,True,False,raw,,0,syntax_pass,functional,unclassified,,PPA_Brent_Kung_17bit,,,,,,0,patch,Addition/Subtraction (PPA),"public_functional: functional_mismatch. The private evaluator found behavior inconsistent with the public specification; no vectors, expected values, or testbench details are exposed."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module04_test01,interface_contract,shuffled_image,shuffled,module13_test01,8c3892f28061fba3cfd051afef6a5cf35a12439186ad012bbb38777250e818f5,1aeb185e700dc20ea2b789dcc5b27a6a7ad84e37a6a12ac2b16d59757f927b4d,1434,24.622,public_only,reflect_rag_skeleton,4,1,1,0,best_functional,True,True,patched,,0,functional_pass,functional,unclassified,,PPA_Brent_Kung_17bit,,"A,B,cin,S,cout",,,,0,patch,ppa_adder,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module17_test01,full_description,original,original,module17_test01,e1021c9ec4fdfca9a126611f4a6380b3d46daa4f3a08eda56c5063b3d178da87,de786dff4a65e9e73c5d559d2f0cf77f21678d7e0857434259139871a20b87f3,1534,26.268,public_only,origin,17,1,1,0,origin,False,False,raw,,0,,,,,,,,,,,,,,"<tmp>:16: error: Concatenation operand ""'sd0"" has indefinite width.
+<tmp>:16: error: Unable to elaborate r-value: ({A, 'sd0})*(B[gen])
+<tmp>:16: error: Concatenation operand ""'sd0"" has indefinite width.
+<tmp>:16: error: Unable to elaborate r-value: ({A, 'sd0})*(B[gen])
+<tmp>:16: error: Concatenation operand ""'sd0"" has indefinite width.
+<tmp>:16: error: Unable to elaborate r-value: ({A, 'sd0})*(B[gen])
+<tmp>:16: error: Concatenation operand ""'sd0"" has indefinite width.
+<tmp>:16: error: Unable to elaborate r-value: ({A, 'sd0})*(B[gen])
+<tmp>:16: error: Concatenation operand ""'sd0"" has indefinite width.
+<tmp>:16: error: Unable to elaborate r-value: ({A, 'sd0})*(B[gen])
+<tmp>:16: error: Concatenation operand ""'sd0"" has indefinite width.
+<tmp>:16: error: Unable to elaborate r-value: ({A, 'sd0})*(B[gen])
+<tmp>:16: error: Concatenation operand ""'sd0"" has indefinite width.
+<tmp>:16: error: Unable to elaborate r-value: ({A, 'sd0})*(B[gen])
+14 error(s) during elaboration."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module17_test01,full_description,original,original,module17_test01,e1021c9ec4fdfca9a126611f4a6380b3d46daa4f3a08eda56c5063b3d178da87,de786dff4a65e9e73c5d559d2f0cf77f21678d7e0857434259139871a20b87f3,1534,93.518,public_only,reflect_patch,17,1,3,2,best_syntax,True,False,raw,,0,syntax_pass,functional,unclassified,,parallel_multiplier_7_PPA_Kogge_Stone,,,,,,0,patch,Combinational multiplier with parallel partial product addition using Kogge-Stone PPA architecture.,"public_functional: functional_mismatch. The private evaluator found behavior inconsistent with the public specification; no vectors, expected values, or testbench details are exposed."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module17_test01,full_description,original,original,module17_test01,e1021c9ec4fdfca9a126611f4a6380b3d46daa4f3a08eda56c5063b3d178da87,de786dff4a65e9e73c5d559d2f0cf77f21678d7e0857434259139871a20b87f3,1534,25.686,public_only,reflect_rag_skeleton,17,1,1,0,best_functional,True,True,raw,,0,functional_pass,functional,"skeleton_boundary,skeleton_template_enforced",,parallel_multiplier_7_PPA_Kogge_Stone,template_enforced:parallel_multiplier,"A,B,S",,,skeleton_template_enforced,1,,,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module17_test01,full_description,shuffled_image,shuffled,module18_test01,e1021c9ec4fdfca9a126611f4a6380b3d46daa4f3a08eda56c5063b3d178da87,be82c2630e38340522df5f3e85965b0fbb364d99a8bca8fa8088aa89761afcb0,1534,31.606,public_only,origin,17,1,1,0,origin,True,False,raw,,0,,,,,,,,,,,,,,"public_functional: functional_mismatch. The private evaluator found behavior inconsistent with the public specification; no vectors, expected values, or testbench details are exposed."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module17_test01,full_description,shuffled_image,shuffled,module18_test01,e1021c9ec4fdfca9a126611f4a6380b3d46daa4f3a08eda56c5063b3d178da87,be82c2630e38340522df5f3e85965b0fbb364d99a8bca8fa8088aa89761afcb0,1534,117.254,public_only,reflect_patch,17,1,3,2,best_syntax,True,False,raw,,0,syntax_pass,functional,unclassified,,parallel_multiplier_7_PPA_Kogge_Stone,,,,,,0,patch_template,Combinational multiplier with PPA_Kogge_Stone adder architecture for 7-bit inputs.,"public_functional: functional_mismatch. The private evaluator found behavior inconsistent with the public specification; no vectors, expected values, or testbench details are exposed."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module17_test01,full_description,shuffled_image,shuffled,module18_test01,e1021c9ec4fdfca9a126611f4a6380b3d46daa4f3a08eda56c5063b3d178da87,be82c2630e38340522df5f3e85965b0fbb364d99a8bca8fa8088aa89761afcb0,1534,32.317,public_only,reflect_rag_skeleton,17,1,1,0,best_functional,True,True,raw,,0,functional_pass,functional,"skeleton_boundary,skeleton_template_enforced",,parallel_multiplier_7_PPA_Kogge_Stone,template_enforced:parallel_multiplier,"A,B,S",,,skeleton_template_enforced,1,,,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module17_test01,interface_contract,original,original,module17_test01,92cfbb57bee572fc352e7cd98e5807a109daa4dd6996b45da6834ec0834e4e13,de786dff4a65e9e73c5d559d2f0cf77f21678d7e0857434259139871a20b87f3,1534,5.486,public_only,origin,17,1,1,0,origin,True,True,raw,,0,,,,,,,,,,,,,,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module17_test01,interface_contract,original,original,module17_test01,92cfbb57bee572fc352e7cd98e5807a109daa4dd6996b45da6834ec0834e4e13,de786dff4a65e9e73c5d559d2f0cf77f21678d7e0857434259139871a20b87f3,1534,5.755,public_only,reflect_patch,17,1,1,0,best_functional,True,True,raw,,0,functional_pass,functional,unclassified,,parallel_multiplier_7_PPA_Kogge_Stone,,,,,,0,,,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module17_test01,interface_contract,original,original,module17_test01,92cfbb57bee572fc352e7cd98e5807a109daa4dd6996b45da6834ec0834e4e13,de786dff4a65e9e73c5d559d2f0cf77f21678d7e0857434259139871a20b87f3,1534,5.717,public_only,reflect_rag_skeleton,17,1,1,0,best_functional,True,True,raw,,0,functional_pass,functional,unclassified,,parallel_multiplier_7_PPA_Kogge_Stone,,"A,B,S",,,,0,,,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module17_test01,interface_contract,shuffled_image,shuffled,module18_test01,92cfbb57bee572fc352e7cd98e5807a109daa4dd6996b45da6834ec0834e4e13,be82c2630e38340522df5f3e85965b0fbb364d99a8bca8fa8088aa89761afcb0,1534,5.976,public_only,origin,17,1,1,0,origin,True,False,raw,,0,,,,,,,,,,,,,,"public_functional: functional_mismatch. The private evaluator found behavior inconsistent with the public specification; no vectors, expected values, or testbench details are exposed."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module17_test01,interface_contract,shuffled_image,shuffled,module18_test01,92cfbb57bee572fc352e7cd98e5807a109daa4dd6996b45da6834ec0834e4e13,be82c2630e38340522df5f3e85965b0fbb364d99a8bca8fa8088aa89761afcb0,1534,75.029,public_only,reflect_patch,17,1,3,2,best_syntax,True,False,raw,,0,syntax_pass,functional,unclassified,,parallel_multiplier_7_PPA_Kogge_Stone,,,,,,0,patch,Multiplier,"public_functional: functional_mismatch. The private evaluator found behavior inconsistent with the public specification; no vectors, expected values, or testbench details are exposed."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module17_test01,interface_contract,shuffled_image,shuffled,module18_test01,92cfbb57bee572fc352e7cd98e5807a109daa4dd6996b45da6834ec0834e4e13,be82c2630e38340522df5f3e85965b0fbb364d99a8bca8fa8088aa89761afcb0,1534,16.29,public_only,reflect_rag_skeleton,17,1,1,0,best_functional,True,True,patched,family_unsigned_multiplier_skeleton,1,functional_pass,functional,family_unsigned_multiplier_skeleton,,parallel_multiplier_7_PPA_Kogge_Stone,,"A,B,S",,,,0,patch,parallel_multiplier,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module17_test02,full_description,original,original,module17_test02,3c05f8430240aa9a05e64c9c92627b968a9b5240a9cd601ffae4a74ddc3dc9fc,6100023262d6ae8c9f6c62dca0d7ed56c4310be23b48d05172aef5d72c3663e8,1634,25.406,public_only,origin,17,2,1,0,origin,False,False,raw,,0,,,,,,,,,,,,,,"<tmp>:10: warning: Use of SystemVerilog [size] dimension. Use at least -g2005-sv to remove this warning.
+<tmp>:26: error: Array partial_product['sd0] needs 2 indices, but got only 1.
+<tmp>:26: error: Array partial_product['sd1] needs 2 indices, but got only 1.
+<tmp>:26: error: Array partial_product['sd2] needs 2 indices, but got only 1.
+<tmp>:26: error: Array partial_product['sd3] needs 2 indices, but got only 1.
+<tmp>:26: error: Unable to elaborate r-value: (((partial_product['sd0])+(partial_product['sd1]))+(partial_product['sd2]))+(partial_product['sd3])
+<tmp>:27: error: Array partial_product['sd4] needs 2 indices, but got only 1.
+<tmp>:27: error: Array partial_product['sd5] needs 2 indices, but got only 1.
+<tmp>:27: error: Array partial_product['sd6] needs 2 indices, but got only 1.
+<tmp>:27: error: Array partial_product['sd7] needs 2 indices, but got only 1.
+<tmp>:27: error: Unable to elaborate r-value: (((partial_product['sd4])+(partial_product['sd5]))+(partial_product['sd6]))+(partial_product['sd7])
+<tmp>:28: error: Array partial_product['sd8] needs 2 indices, but got only 1.
+<tmp>:28: error: Array partial_product['sd9] needs 2 indices, but got only 1.
+<tmp>:28: error: Array partial_product['sd10] needs 2 indices, but got only 1.
+<tmp>:28: error: Unable to elaborate r-value: ((partial_product['sd8])+(partial_product['sd9]))+(partial_product['sd10])
+<tmp>:31: error: Array partial_product['sd11] needs 2 indices, but got only 1.
+<tmp>:31: error: Unable to elaborate r-value: partial_product['sd11]
+<tmp>:15: error: 'partial_product[i]' is not a valid l-value for a procedural assignment.
+<tmp>:10:      : 'partial_product[i]' is declared here as a wire.
+<tmp>:13: warning: @* found no sensitivities so it will never trigger.
+17 error(s) during elaboration."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module17_test02,full_description,original,original,module17_test02,3c05f8430240aa9a05e64c9c92627b968a9b5240a9cd601ffae4a74ddc3dc9fc,6100023262d6ae8c9f6c62dca0d7ed56c4310be23b48d05172aef5d72c3663e8,1634,93.842,public_only,reflect_patch,17,2,3,2,last_attempt,False,False,raw,,0,none,syntax,unclassified,,parallel_multiplier_11_PPA_Kogge_Stone,,,,,,0,patch_template,Multiplier (combinational),"<tmp>:10: warning: Use of SystemVerilog [size] dimension. Use at least -g2005-sv to remove this warning.
+<tmp>:14: syntax error
+<tmp>:14: error: Invalid module item."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module17_test02,full_description,original,original,module17_test02,3c05f8430240aa9a05e64c9c92627b968a9b5240a9cd601ffae4a74ddc3dc9fc,6100023262d6ae8c9f6c62dca0d7ed56c4310be23b48d05172aef5d72c3663e8,1634,25.354,public_only,reflect_rag_skeleton,17,2,1,0,best_functional,True,True,raw,,0,functional_pass,functional,"skeleton_boundary,skeleton_template_enforced",,parallel_multiplier_11_PPA_Kogge_Stone,template_enforced:parallel_multiplier,"A,B,S",,,skeleton_template_enforced,1,,,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module17_test02,full_description,shuffled_image,shuffled,module15_test02,3c05f8430240aa9a05e64c9c92627b968a9b5240a9cd601ffae4a74ddc3dc9fc,059b1b44c934aba333edb5d0371ae424a853917feb8e58bcf004c9955f967fbf,1634,35.037,public_only,origin,17,2,1,0,origin,False,False,raw,,0,,,,,,,,,,,,,,"<tmp>:48: error: Unable to bind wire/reg/memory `pair_sum8' in `parallel_multiplier_11_PPA_Kogge_Stone'
+<tmp>:48: error: Unable to elaborate r-value: (kogge_stone_sum)+(pair_sum8)
+<tmp>:49: error: Unable to bind wire/reg/memory `pair_sum9' in `parallel_multiplier_11_PPA_Kogge_Stone'
+<tmp>:49: error: Unable to elaborate r-value: (u15_partial_tail)+(pair_sum9)
+<tmp>:52: error: Unable to bind wire/reg/memory `pair_sum10' in `parallel_multiplier_11_PPA_Kogge_Stone'
+<tmp>:52: error: Unable to elaborate r-value: (u15_partial_tail)+(pair_sum10)
+6 error(s) during elaboration."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module17_test02,full_description,shuffled_image,shuffled,module15_test02,3c05f8430240aa9a05e64c9c92627b968a9b5240a9cd601ffae4a74ddc3dc9fc,059b1b44c934aba333edb5d0371ae424a853917feb8e58bcf004c9955f967fbf,1634,195.068,public_only,reflect_patch,17,2,3,2,last_attempt,False,False,raw,,0,none,syntax,unclassified,,parallel_multiplier_11_PPA_Kogge_Stone,,,,,,0,patch_template,Combinational/Sequential Hardware Multiplier with Kogge-Stone Adder Pipeline,"<tmp>:108: error: 'pair_sum0' has already been declared in this scope.
+<tmp>:10:      : It was declared here as a net.
+<tmp>:109: error: 'pair_sum1' has already been declared in this scope.
+<tmp>:11:      : It was declared here as a net.
+<tmp>:110: error: 'pair_sum2' has already been declared in this scope.
+<tmp>:12:      : It was declared here as a net.
+<tmp>:111: error: 'pair_sum3' has already been declared in this scope.
+<tmp>:13:      : It was declared here as a net.
+<tmp>:112: error: 'pair_sum4' has already been declared in this scope.
+<tmp>:14:      : It was declared here as a net.
+<tmp>:113: error: 'pair_sum5' has already been declared in this scope.
+<tmp>:15:      : It was declared here as a net.
+<tmp>:114: error: 'pair_sum6' has already been declared in this scope.
+<tmp>:16:      : It was declared here as a net.
+<tmp>:115: error: 'pair_sum7' has already been declared in this scope.
+<tmp>:17:      : It was declared here as a net.
+<tmp>:116: error: 'pair_sum8' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:117: error: 'pair_sum9' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:118: error: 'pair_sum10' has already been declared in this scope.
+<tmp>:20:      : It was declared here as a net.
+<tmp>:120: syntax error
+I give up."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module17_test02,full_description,shuffled_image,shuffled,module15_test02,3c05f8430240aa9a05e64c9c92627b968a9b5240a9cd601ffae4a74ddc3dc9fc,059b1b44c934aba333edb5d0371ae424a853917feb8e58bcf004c9955f967fbf,1634,34.418,public_only,reflect_rag_skeleton,17,2,1,0,best_functional,True,True,raw,,0,functional_pass,functional,"skeleton_boundary,skeleton_template_enforced",,parallel_multiplier_11_PPA_Kogge_Stone,template_enforced:parallel_multiplier,"A,B,S",,,skeleton_template_enforced,1,,,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module17_test02,interface_contract,original,original,module17_test02,41aa8fb22e5257a8ed0bf09b9b72f50b2de0fa1418153b93a7b074a5bf103f86,6100023262d6ae8c9f6c62dca0d7ed56c4310be23b48d05172aef5d72c3663e8,1634,62.582,public_only,origin,17,2,1,0,origin,False,False,raw,,0,,,,,,,,,,,,,,"<tmp>:99: syntax error
+I give up."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module17_test02,interface_contract,original,original,module17_test02,41aa8fb22e5257a8ed0bf09b9b72f50b2de0fa1418153b93a7b074a5bf103f86,6100023262d6ae8c9f6c62dca0d7ed56c4310be23b48d05172aef5d72c3663e8,1634,206.932,public_only,reflect_patch,17,2,3,2,last_attempt,False,False,raw,,0,none,syntax,unclassified,,parallel_multiplier_11_PPA_Kogge_Stone,,,,,,0,patch,Bit-serial parallel multiplier (Kogge-Stone),"<tmp>:79: error: Unable to bind wire/reg/memory `c10' in `parallel_multiplier_11_PPA_Kogge_Stone'
+<tmp>:79: error: Unable to elaborate r-value: (g10)+(c10)
+2 error(s) during elaboration."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module17_test02,interface_contract,original,original,module17_test02,41aa8fb22e5257a8ed0bf09b9b72f50b2de0fa1418153b93a7b074a5bf103f86,6100023262d6ae8c9f6c62dca0d7ed56c4310be23b48d05172aef5d72c3663e8,1634,72.871,public_only,reflect_rag_skeleton,17,2,1,0,best_functional,True,True,raw,"nonsynth_or_bad_always,syntax_verilog2001,family_unsigned_multiplier_skeleton",3,functional_pass,functional,"nonsynth_or_bad_always,syntax_verilog2001,family_unsigned_multiplier_skeleton",,parallel_multiplier_11_PPA_Kogge_Stone,,"A,B,S",,,,0,patch_template,parallel_multiplier,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module17_test02,interface_contract,shuffled_image,shuffled,module15_test02,41aa8fb22e5257a8ed0bf09b9b72f50b2de0fa1418153b93a7b074a5bf103f86,059b1b44c934aba333edb5d0371ae424a853917feb8e58bcf004c9955f967fbf,1634,43.232,public_only,origin,17,2,1,0,origin,True,False,raw,,0,,,,,,,,,,,,,,"public_functional: functional_mismatch. The private evaluator found behavior inconsistent with the public specification; no vectors, expected values, or testbench details are exposed."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module17_test02,interface_contract,shuffled_image,shuffled,module15_test02,41aa8fb22e5257a8ed0bf09b9b72f50b2de0fa1418153b93a7b074a5bf103f86,059b1b44c934aba333edb5d0371ae424a853917feb8e58bcf004c9955f967fbf,1634,191.383,public_only,reflect_patch,17,2,3,1,best_syntax,True,False,raw,,0,syntax_pass,functional,unclassified,,parallel_multiplier_11_PPA_Kogge_Stone,,,,,,0,patch_template,Bit-serial parallel multiplier with Kogge-Stone adder backend.,"public_functional: functional_mismatch. The private evaluator found behavior inconsistent with the public specification; no vectors, expected values, or testbench details are exposed."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module17_test02,interface_contract,shuffled_image,shuffled,module15_test02,41aa8fb22e5257a8ed0bf09b9b72f50b2de0fa1418153b93a7b074a5bf103f86,059b1b44c934aba333edb5d0371ae424a853917feb8e58bcf004c9955f967fbf,1634,53.415,public_only,reflect_rag_skeleton,17,2,1,0,best_functional,True,True,patched,family_unsigned_multiplier_skeleton,1,functional_pass,functional,family_unsigned_multiplier_skeleton,,parallel_multiplier_11_PPA_Kogge_Stone,,"A,B,S",,,,0,patch,parallel_multiplier,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module20_test01,full_description,original,original,module20_test01,505164e1135cdd883cbe84d21cc4bcfde8d047f4ed107ab84b380671a6375501,b28e5930dde3f3505637c0ff75d812082502fc4de89dc26382dd1687db6fda3f,1734,25.884,public_only,origin,20,1,1,0,origin,True,False,raw,,0,,,,,,,,,,,,,,"public_functional: functional_mismatch. The private evaluator found behavior inconsistent with the public specification; no vectors, expected values, or testbench details are exposed."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module20_test01,full_description,original,original,module20_test01,505164e1135cdd883cbe84d21cc4bcfde8d047f4ed107ab84b380671a6375501,b28e5930dde3f3505637c0ff75d812082502fc4de89dc26382dd1687db6fda3f,1734,105.177,public_only,reflect_patch,20,1,3,2,best_syntax,True,False,raw,,0,syntax_pass,functional,unclassified,,signed_serial_multiplier_10_FA,,,,,,0,patch,"Combinational/sequential circuit with partial product accumulation using full adders (FA), targeting hardware synthesis.","public_functional: functional_mismatch. The private evaluator found behavior inconsistent with the public specification; no vectors, expected values, or testbench details are exposed."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module20_test01,full_description,original,original,module20_test01,505164e1135cdd883cbe84d21cc4bcfde8d047f4ed107ab84b380671a6375501,b28e5930dde3f3505637c0ff75d812082502fc4de89dc26382dd1687db6fda3f,1734,63.74,public_only,reflect_rag_skeleton,20,1,2,1,best_functional,True,True,patched,,0,functional_pass,functional,unclassified,,signed_serial_multiplier_10_FA,,"clk,rst_n,en,A,B,valid,S",,,,0,patch_template,serial_multiplier,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module20_test01,full_description,shuffled_image,shuffled,module21_test03,505164e1135cdd883cbe84d21cc4bcfde8d047f4ed107ab84b380671a6375501,58074dea12c0451ce94ef67a4ec51e106f1a4c46295ae2c5c5535b108243a8e4,1734,32.377,public_only,origin,20,1,1,0,origin,False,False,raw,,0,,,,,,,,,,,,,,"<tmp>:20: syntax error
+<tmp>:20: error: Syntax error in continuous assignment
+<tmp>:24: syntax error
+<tmp>:24: error: Malformed event control expression.
+<tmp>:24: error: Invalid event control."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module20_test01,full_description,shuffled_image,shuffled,module21_test03,505164e1135cdd883cbe84d21cc4bcfde8d047f4ed107ab84b380671a6375501,58074dea12c0451ce94ef67a4ec51e106f1a4c46295ae2c5c5535b108243a8e4,1734,42.067,public_only,reflect_patch,20,1,1,0,best_functional,True,True,raw,,0,functional_pass,functional,unclassified,,signed_serial_multiplier_10_FA,,,,,,0,patch,Combinational/Sequential Logic with Synchronous Reset,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module20_test01,full_description,shuffled_image,shuffled,module21_test03,505164e1135cdd883cbe84d21cc4bcfde8d047f4ed107ab84b380671a6375501,58074dea12c0451ce94ef67a4ec51e106f1a4c46295ae2c5c5535b108243a8e4,1734,43.693,public_only,reflect_rag_skeleton,20,1,1,0,best_functional,True,True,raw,"nonsynth_or_bad_always,syntax_verilog2001",2,functional_pass,functional,"nonsynth_or_bad_always,syntax_verilog2001,skeleton_boundary,multi_driver",,signed_serial_multiplier_10_FA,multi_driver:carry_in,"clk,rst_n,en,A,B,valid,S",,multi_driver:carry_in,multi_driver,1,patch_template,serial_multiplier,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module20_test01,interface_contract,original,original,module20_test01,b518e65f36d3466863417e874c3f3b50c4518b58385164aabd113b8adafb6348,b28e5930dde3f3505637c0ff75d812082502fc4de89dc26382dd1687db6fda3f,1734,62.407,public_only,origin,20,1,1,0,origin,False,False,raw,,0,,,,,,,,,,,,,,"<tmp>:125: syntax error
+I give up."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module20_test01,interface_contract,original,original,module20_test01,b518e65f36d3466863417e874c3f3b50c4518b58385164aabd113b8adafb6348,b28e5930dde3f3505637c0ff75d812082502fc4de89dc26382dd1687db6fda3f,1734,122.335,public_only,reflect_patch,20,1,3,2,best_syntax,True,False,raw,,0,syntax_pass,functional,unclassified,,signed_serial_multiplier_10_FA,,,,,,0,patch,Signed serial multiplier.,"public_functional: functional_mismatch. The private evaluator found behavior inconsistent with the public specification; no vectors, expected values, or testbench details are exposed."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module20_test01,interface_contract,original,original,module20_test01,b518e65f36d3466863417e874c3f3b50c4518b58385164aabd113b8adafb6348,b28e5930dde3f3505637c0ff75d812082502fc4de89dc26382dd1687db6fda3f,1734,74.366,public_only,reflect_rag_skeleton,20,1,1,0,best_functional,True,True,raw,"nonsynth_or_bad_always,syntax_verilog2001",2,functional_pass,functional,"nonsynth_or_bad_always,syntax_verilog2001",,signed_serial_multiplier_10_FA,,"clk,rst_n,en,A,B,valid,S",,,,0,patch_template,serial_multiplier,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module20_test01,interface_contract,shuffled_image,shuffled,module21_test03,b518e65f36d3466863417e874c3f3b50c4518b58385164aabd113b8adafb6348,58074dea12c0451ce94ef67a4ec51e106f1a4c46295ae2c5c5535b108243a8e4,1734,54.266,public_only,origin,20,1,1,0,origin,False,False,raw,,0,,,,,,,,,,,,,,"<tmp>:62: error: 's_out_next' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module20_test01,interface_contract,shuffled_image,shuffled,module21_test03,b518e65f36d3466863417e874c3f3b50c4518b58385164aabd113b8adafb6348,58074dea12c0451ce94ef67a4ec51e106f1a4c46295ae2c5c5535b108243a8e4,1734,109.559,public_only,reflect_patch,20,1,2,1,best_functional,True,True,raw,,0,functional_pass,functional,unclassified,,signed_serial_multiplier_10_FA,,,,,,0,patch,Serial multiplier with valid output and 2*width-bit result.,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module20_test01,interface_contract,shuffled_image,shuffled,module21_test03,b518e65f36d3466863417e874c3f3b50c4518b58385164aabd113b8adafb6348,58074dea12c0451ce94ef67a4ec51e106f1a4c46295ae2c5c5535b108243a8e4,1734,64.47,public_only,reflect_rag_skeleton,20,1,1,0,best_functional,True,True,raw,,0,functional_pass,functional,unclassified,,signed_serial_multiplier_10_FA,,"clk,rst_n,en,A,B,valid,S",,,,0,patch_template,serial_multiplier,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module24_test01,full_description,original,original,module24_test01,3fef820bc68fd9761c9c82c9b58d29440d5826b9dbf5fd36471fbfe964d91fd6,fa20e5325653a244a909c0a0cfe13d87522c07ea9eacb6eddf9adf2c10783f12,1834,23.803,public_only,origin,24,1,1,0,origin,False,False,raw,,0,,,,,,,,,,,,,,"<tmp>:14: error: System function $mul not defined in system table or SFT file(s).
+<tmp>:14: internal error: Failed to synthesize expression: <select=$mul(A[22:1], B[22:1])[(0)+:43] expr_type=logic>
+2 error(s) during elaboration."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module24_test01,full_description,original,original,module24_test01,3fef820bc68fd9761c9c82c9b58d29440d5826b9dbf5fd36471fbfe964d91fd6,fa20e5325653a244a909c0a0cfe13d87522c07ea9eacb6eddf9adf2c10783f12,1834,85.208,public_only,reflect_patch,24,1,3,2,last_attempt,False,False,raw,,0,none,syntax,unclassified,,MAC_signed,,,,,,0,patch,Signed Multiply-Accumulate unit with 22-bit inputs and 44-bit internal operations.,"<tmp>:15: syntax error
+<tmp>:15: error: Syntax error between internal '}' and closing '}' of repeat concatenation.
+<tmp>:15: syntax error
+<tmp>:15: error: Syntax error between internal '}' and closing '}' of repeat concatenation.
+<tmp>:18: syntax error
+<tmp>:18: error: Syntax error between internal '}' and closing '}' of repeat concatenation."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module24_test01,full_description,original,original,module24_test01,3fef820bc68fd9761c9c82c9b58d29440d5826b9dbf5fd36471fbfe964d91fd6,fa20e5325653a244a909c0a0cfe13d87522c07ea9eacb6eddf9adf2c10783f12,1834,33.876,public_only,reflect_rag_skeleton,24,1,1,0,best_functional,True,True,raw,,0,functional_pass,functional,unclassified,,MAC_signed,,"A,B,acc_in,result",,,,0,patch_template,signed_mac,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module24_test01,full_description,shuffled_image,shuffled,module24_test03,3fef820bc68fd9761c9c82c9b58d29440d5826b9dbf5fd36471fbfe964d91fd6,457a9e737b426664836dc80af24462d6a33e3a4dbff3627b3a697e0fa4a7bdb6,1834,20.774,public_only,origin,24,1,1,0,origin,False,False,raw,,0,,,,,,,,,,,,,,"<tmp>:15: syntax error
+<tmp>:15: error: Invalid module instantiation
+<tmp>:24: error: Invalid module instantiation
+<tmp>:32: error: Invalid module instantiation"
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module24_test01,full_description,shuffled_image,shuffled,module24_test03,3fef820bc68fd9761c9c82c9b58d29440d5826b9dbf5fd36471fbfe964d91fd6,457a9e737b426664836dc80af24462d6a33e3a4dbff3627b3a697e0fa4a7bdb6,1834,31.693,public_only,reflect_patch,24,1,1,0,best_functional,True,True,raw,,0,functional_pass,functional,unclassified,,MAC_signed,,,,,,0,patch,"Signed Multiply-Accumulate unit with 22-bit width, using standard multiplier and full adder modules.",public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module24_test01,full_description,shuffled_image,shuffled,module24_test03,3fef820bc68fd9761c9c82c9b58d29440d5826b9dbf5fd36471fbfe964d91fd6,457a9e737b426664836dc80af24462d6a33e3a4dbff3627b3a697e0fa4a7bdb6,1834,31.463,public_only,reflect_rag_skeleton,24,1,1,0,best_functional,True,True,raw,"bad_instantiation,nonsynth_or_bad_always,syntax_verilog2001",3,functional_pass,functional,"bad_instantiation,nonsynth_or_bad_always,syntax_verilog2001",,MAC_signed,,"A,B,acc_in,result",,,,0,patch_template,signed_mac,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module24_test01,interface_contract,original,original,module24_test01,153220c64ae4a9d9e9b2d6dfd3c29b7cc2ca22610dff15dd9676f40b634e0e60,fa20e5325653a244a909c0a0cfe13d87522c07ea9eacb6eddf9adf2c10783f12,1834,6.824,public_only,origin,24,1,1,0,origin,True,False,raw,,0,,,,,,,,,,,,,,"public_functional: functional_mismatch. The private evaluator found behavior inconsistent with the public specification; no vectors, expected values, or testbench details are exposed."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module24_test01,interface_contract,original,original,module24_test01,153220c64ae4a9d9e9b2d6dfd3c29b7cc2ca22610dff15dd9676f40b634e0e60,fa20e5325653a244a909c0a0cfe13d87522c07ea9eacb6eddf9adf2c10783f12,1834,54.459,public_only,reflect_patch,24,1,3,2,best_functional,True,True,raw,,0,functional_pass,functional,unclassified,,MAC_signed,,,,,,0,patch_template,Signed multi-adder (MAC) unit with accumulator input and signed output.,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module24_test01,interface_contract,original,original,module24_test01,153220c64ae4a9d9e9b2d6dfd3c29b7cc2ca22610dff15dd9676f40b634e0e60,fa20e5325653a244a909c0a0cfe13d87522c07ea9eacb6eddf9adf2c10783f12,1834,28.666,public_only,reflect_rag_skeleton,24,1,2,1,best_functional,True,True,patched,,0,functional_pass,functional,unclassified,,MAC_signed,,"A,B,acc_in,result",,,,0,patch_template,signed_mac,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module24_test01,interface_contract,shuffled_image,shuffled,module24_test03,153220c64ae4a9d9e9b2d6dfd3c29b7cc2ca22610dff15dd9676f40b634e0e60,457a9e737b426664836dc80af24462d6a33e3a4dbff3627b3a697e0fa4a7bdb6,1834,16.499,public_only,origin,24,1,1,0,origin,False,False,raw,,0,,,,,,,,,,,,,,"<tmp>:24: error: Unknown module type: u24_high_mul_core
+<tmp>:34: error: Unknown module type: u24_high_sign_extend
+3 error(s) during elaboration.
+*** These modules were missing:
+        u24_high_mul_core referenced 1 times.
+        u24_high_sign_extend referenced 1 times.
+***"
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module24_test01,interface_contract,shuffled_image,shuffled,module24_test03,153220c64ae4a9d9e9b2d6dfd3c29b7cc2ca22610dff15dd9676f40b634e0e60,457a9e737b426664836dc80af24462d6a33e3a4dbff3627b3a697e0fa4a7bdb6,1834,28.371,public_only,reflect_patch,24,1,1,0,best_functional,True,True,raw,,0,functional_pass,functional,unclassified,,MAC_signed,,,,,,0,patch_template,"Multiplier-accumulator (MAC) with signed arithmetic, likely using a high-radix approach to avoid multiple stages of partial products.",public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module24_test01,interface_contract,shuffled_image,shuffled,module24_test03,153220c64ae4a9d9e9b2d6dfd3c29b7cc2ca22610dff15dd9676f40b634e0e60,457a9e737b426664836dc80af24462d6a33e3a4dbff3627b3a697e0fa4a7bdb6,1834,16.446,public_only,reflect_rag_skeleton,24,1,1,0,best_functional,True,True,raw,,0,functional_pass,functional,"skeleton_boundary,skeleton_template_enforced",,MAC_signed,template_enforced:signed_mac,"A,B,acc_in,result",,,skeleton_template_enforced,1,,,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module24_test02,full_description,original,original,module24_test02,1c793b03a5ee481228c8ddb33a3356a160dc4a116bffca9d8fc44e4f54a18fec,1dc39e9b30306641db33c3456697065fbbabb1a7ca602a09399d7069953523d9,1934,22.586,public_only,origin,24,2,1,0,origin,False,False,raw,,0,,,,,,,,,,,,,,"<tmp>:36: syntax error
+<tmp>:35: error: Syntax error in parameter value assignment list.
+<tmp>:35: error: Invalid module instantiation"
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module24_test02,full_description,original,original,module24_test02,1c793b03a5ee481228c8ddb33a3356a160dc4a116bffca9d8fc44e4f54a18fec,1dc39e9b30306641db33c3456697065fbbabb1a7ca602a09399d7069953523d9,1934,34.33,public_only,reflect_patch,24,2,1,0,best_functional,True,True,raw,,0,functional_pass,functional,unclassified,,MAC_signed,,,,,,0,patch,Signed Multiply-Accumulate (MAC) unit with 22-bit inputs and outputs.,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module24_test02,full_description,original,original,module24_test02,1c793b03a5ee481228c8ddb33a3356a160dc4a116bffca9d8fc44e4f54a18fec,1dc39e9b30306641db33c3456697065fbbabb1a7ca602a09399d7069953523d9,1934,30.882,public_only,reflect_rag_skeleton,24,2,1,0,best_functional,True,True,raw,"bad_instantiation,nonsynth_or_bad_always,syntax_verilog2001",3,functional_pass,functional,"bad_instantiation,nonsynth_or_bad_always,syntax_verilog2001",,MAC_signed,,"A,B,acc_in,result",,,,0,patch_template,signed_mac,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module24_test02,full_description,shuffled_image,shuffled,module24_test01,1c793b03a5ee481228c8ddb33a3356a160dc4a116bffca9d8fc44e4f54a18fec,fa20e5325653a244a909c0a0cfe13d87522c07ea9eacb6eddf9adf2c10783f12,1934,27.398,public_only,origin,24,2,1,0,origin,False,False,raw,,0,,,,,,,,,,,,,,"<tmp>:28: error: Unknown module type: cs_sel_add
+2 error(s) during elaboration.
+*** These modules were missing:
+        cs_sel_add referenced 1 times.
+***"
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module24_test02,full_description,shuffled_image,shuffled,module24_test01,1c793b03a5ee481228c8ddb33a3356a160dc4a116bffca9d8fc44e4f54a18fec,fa20e5325653a244a909c0a0cfe13d87522c07ea9eacb6eddf9adf2c10783f12,1934,36.996,public_only,reflect_patch,24,2,1,0,best_functional,True,True,raw,,0,functional_pass,functional,unclassified,,MAC_signed,,,,,,0,patch,"The MAC module interfaces with a standard multiplier and a carry select adder, both parameterized by bit width (44 bits).",public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module24_test02,full_description,shuffled_image,shuffled,module24_test01,1c793b03a5ee481228c8ddb33a3356a160dc4a116bffca9d8fc44e4f54a18fec,fa20e5325653a244a909c0a0cfe13d87522c07ea9eacb6eddf9adf2c10783f12,1934,27.22,public_only,reflect_rag_skeleton,24,2,1,0,best_functional,True,True,raw,,0,functional_pass,functional,"skeleton_boundary,skeleton_template_enforced",,MAC_signed,template_enforced:signed_mac,"A,B,acc_in,result",,,skeleton_template_enforced,1,,,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module24_test02,interface_contract,original,original,module24_test02,153220c64ae4a9d9e9b2d6dfd3c29b7cc2ca22610dff15dd9676f40b634e0e60,1dc39e9b30306641db33c3456697065fbbabb1a7ca602a09399d7069953523d9,1934,14.179,public_only,origin,24,2,1,0,origin,False,False,raw,,0,,,,,,,,,,,,,,"<tmp>:29: syntax error
+<tmp>:29: error: Invalid module instantiation"
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module24_test02,interface_contract,original,original,module24_test02,153220c64ae4a9d9e9b2d6dfd3c29b7cc2ca22610dff15dd9676f40b634e0e60,1dc39e9b30306641db33c3456697065fbbabb1a7ca602a09399d7069953523d9,1934,23.212,public_only,reflect_patch,24,2,1,0,best_functional,True,True,raw,,0,functional_pass,functional,unclassified,,MAC_signed,,,,,,0,patch_template,signed_mac,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module24_test02,interface_contract,original,original,module24_test02,153220c64ae4a9d9e9b2d6dfd3c29b7cc2ca22610dff15dd9676f40b634e0e60,1dc39e9b30306641db33c3456697065fbbabb1a7ca602a09399d7069953523d9,1934,14.225,public_only,reflect_rag_skeleton,24,2,1,0,best_functional,True,True,raw,,0,functional_pass,functional,"skeleton_boundary,skeleton_template_enforced",,MAC_signed,template_enforced:signed_mac,"A,B,acc_in,result",,,skeleton_template_enforced,1,,,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module24_test02,interface_contract,shuffled_image,shuffled,module24_test01,153220c64ae4a9d9e9b2d6dfd3c29b7cc2ca22610dff15dd9676f40b634e0e60,fa20e5325653a244a909c0a0cfe13d87522c07ea9eacb6eddf9adf2c10783f12,1934,6.259,public_only,origin,24,2,1,0,origin,True,False,raw,,0,,,,,,,,,,,,,,"public_functional: functional_mismatch. The private evaluator found behavior inconsistent with the public specification; no vectors, expected values, or testbench details are exposed."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module24_test02,interface_contract,shuffled_image,shuffled,module24_test01,153220c64ae4a9d9e9b2d6dfd3c29b7cc2ca22610dff15dd9676f40b634e0e60,fa20e5325653a244a909c0a0cfe13d87522c07ea9eacb6eddf9adf2c10783f12,1934,51.637,public_only,reflect_patch,24,2,3,2,best_functional,True,True,raw,,0,functional_pass,functional,unclassified,,MAC_signed,,,,,,0,patch,signed_mac,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module24_test02,interface_contract,shuffled_image,shuffled,module24_test01,153220c64ae4a9d9e9b2d6dfd3c29b7cc2ca22610dff15dd9676f40b634e0e60,fa20e5325653a244a909c0a0cfe13d87522c07ea9eacb6eddf9adf2c10783f12,1934,13.655,public_only,reflect_rag_skeleton,24,2,1,0,best_functional,True,True,patched,,0,functional_pass,functional,unclassified,,MAC_signed,,"A,B,acc_in,result",,,,0,patch_template,signed_mac,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module25_test01,full_description,original,original,module25_test01,4b7962cc96145fa5cfe4b5e359b3b144ae850b6cc133b643f473afbac0289841,b2f963960ff7e429b869a0b95fc28f333f97a9276a2e203203ed4039751fae09,2034,41.568,public_only,origin,25,1,1,0,origin,False,False,raw,,0,,,,,,,,,,,,,,"<tmp>:85: error: Variable 'active_right' cannot be driven by a continuous assignment/module.
+<tmp>:85:      : This is allowed when SystemVerilog is enabled.
+1 error(s) during elaboration."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module25_test01,full_description,original,original,module25_test01,4b7962cc96145fa5cfe4b5e359b3b144ae850b6cc133b643f473afbac0289841,b2f963960ff7e429b869a0b95fc28f333f97a9276a2e203203ed4039751fae09,2034,125.088,public_only,reflect_patch,25,1,3,2,best_syntax,True,False,raw,,0,syntax_pass,functional,unclassified,,PE,,,,,,0,patch,WS (Weighted Sum) data flow processing element with combinational and sequential operations.,"public_functional: functional_mismatch. The private evaluator found behavior inconsistent with the public specification; no vectors, expected values, or testbench details are exposed."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module25_test01,full_description,original,original,module25_test01,4b7962cc96145fa5cfe4b5e359b3b144ae850b6cc133b643f473afbac0289841,b2f963960ff7e429b869a0b95fc28f333f97a9276a2e203203ed4039751fae09,2034,121.316,public_only,reflect_rag_skeleton,25,1,3,2,best_syntax,True,False,patched,family_processing_element_skeleton,1,syntax_pass,functional,"family_processing_element_skeleton,skeleton_boundary,helper_module_missing",,PE,post_patch:missing_helper_instances:i,"clk,rst_n,w_en,w_compute,active_left,active_right,in_sum,out_sum,in_weight_above,out_weight_below",,,helper_module_missing,1,patch_template,processing_element,"public_functional: functional_mismatch. The private evaluator found behavior inconsistent with the public specification; no vectors, expected values, or testbench details are exposed."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module25_test01,full_description,shuffled_image,shuffled,module27_test01,4b7962cc96145fa5cfe4b5e359b3b144ae850b6cc133b643f473afbac0289841,7e8c2822d6392bb99850140de046479371b0d952fc0515d5b9a007779bdd1683,2034,25.605,public_only,origin,25,1,1,0,origin,False,False,raw,,0,,,,,,,,,,,,,,"<tmp>:36: error: Variable 'out_sum' cannot be driven by a continuous assignment/module.
+<tmp>:36:      : This is allowed when SystemVerilog is enabled.
+1 error(s) during elaboration."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module25_test01,full_description,shuffled_image,shuffled,module27_test01,4b7962cc96145fa5cfe4b5e359b3b144ae850b6cc133b643f473afbac0289841,7e8c2822d6392bb99850140de046479371b0d952fc0515d5b9a007779bdd1683,2034,99.458,public_only,reflect_patch,25,1,3,2,best_syntax,True,False,raw,,0,syntax_pass,functional,unclassified,,PE,,,,,,0,patch,WS data flow with combinational/sequential processing of inputs to produce outputs under specific control conditions.,"public_functional: functional_mismatch. The private evaluator found behavior inconsistent with the public specification; no vectors, expected values, or testbench details are exposed."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module25_test01,full_description,shuffled_image,shuffled,module27_test01,4b7962cc96145fa5cfe4b5e359b3b144ae850b6cc133b643f473afbac0289841,7e8c2822d6392bb99850140de046479371b0d952fc0515d5b9a007779bdd1683,2034,101.82,public_only,reflect_rag_skeleton,25,1,3,2,best_syntax,True,False,patched,family_processing_element_skeleton,1,syntax_pass,functional,"family_processing_element_skeleton,skeleton_boundary,helper_module_missing",,PE,post_patch:missing_helper_instances:i,"clk,rst_n,w_en,w_compute,active_left,active_right,in_sum,out_sum,in_weight_above,out_weight_below",,,helper_module_missing,1,patch_template,processing_element,"public_functional: functional_mismatch. The private evaluator found behavior inconsistent with the public specification; no vectors, expected values, or testbench details are exposed."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module25_test01,interface_contract,original,original,module25_test01,31f26328db96b093451312ba02988161d75e89ea726a7db8dcc0fcaee2903b9f,b2f963960ff7e429b869a0b95fc28f333f97a9276a2e203203ed4039751fae09,2034,19.796,public_only,origin,25,1,1,0,origin,False,False,raw,,0,,,,,,,,,,,,,,"<tmp>:30: error: 'sadff_q1' is not a valid l-value for a procedural assignment.
+<tmp>:19:      : 'sadff_q1' is declared here as a wire.
+<tmp>:31: error: 'sadff_q2' is not a valid l-value for a procedural assignment.
+<tmp>:19:      : 'sadff_q2' is declared here as a wire.
+<tmp>:32: error: 'sadff_q3' is not a valid l-value for a procedural assignment.
+<tmp>:19:      : 'sadff_q3' is declared here as a wire.
+<tmp>:37: error: 'sadff_q1' is not a valid l-value for a procedural assignment.
+<tmp>:19:      : 'sadff_q1' is declared here as a wire.
+<tmp>:38: error: 'sadff_q2' is not a valid l-value for a procedural assignment.
+<tmp>:19:      : 'sadff_q2' is declared here as a wire.
+<tmp>:39: error: 'sadff_q3' is not a valid l-value for a procedural assignment.
+<tmp>:19:      : 'sadff_q3' is declared here as a wire.
+6 error(s) during elaboration."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module25_test01,interface_contract,original,original,module25_test01,31f26328db96b093451312ba02988161d75e89ea726a7db8dcc0fcaee2903b9f,b2f963960ff7e429b869a0b95fc28f333f97a9276a2e203203ed4039751fae09,2034,92.468,public_only,reflect_patch,25,1,3,2,best_syntax,True,False,raw,,0,syntax_pass,functional,unclassified,,PE,,,,,,0,patch,Digital Signal Processing (DSP) / Neural Network Processing Element (PE).,"public_functional: functional_mismatch. The private evaluator found behavior inconsistent with the public specification; no vectors, expected values, or testbench details are exposed."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module25_test01,interface_contract,original,original,module25_test01,31f26328db96b093451312ba02988161d75e89ea726a7db8dcc0fcaee2903b9f,b2f963960ff7e429b869a0b95fc28f333f97a9276a2e203203ed4039751fae09,2034,89.872,public_only,reflect_rag_skeleton,25,1,3,2,best_syntax,True,False,patched,family_processing_element_skeleton,1,syntax_pass,functional,"family_processing_element_skeleton,skeleton_boundary,helper_module_missing",,PE,post_patch:missing_helper_instances:i,"clk,rst_n,w_en,w_compute,active_left,active_right,in_sum,out_sum,in_weight_above,out_weight_below",,,helper_module_missing,1,patch,processing_element,"public_functional: functional_mismatch. The private evaluator found behavior inconsistent with the public specification; no vectors, expected values, or testbench details are exposed."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module25_test01,interface_contract,shuffled_image,shuffled,module27_test01,31f26328db96b093451312ba02988161d75e89ea726a7db8dcc0fcaee2903b9f,7e8c2822d6392bb99850140de046479371b0d952fc0515d5b9a007779bdd1683,2034,61.092,public_only,origin,25,1,1,0,origin,False,False,raw,,0,,,,,,,,,,,,,,"<tmp>:20: error: 'in_weight_above_r' has already been declared in this scope.
+<tmp>:17:      : It was declared here as a net.
+<tmp>:21: error: 'in_weight_above_l' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:22: error: 'in_weight_above_c' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:23: error: 'in_weight_above_r' has already been declared in this scope.
+<tmp>:17:      : It was declared here as a net.
+<tmp>:24: error: 'in_weight_above_l' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:25: error: 'in_weight_above_c' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:26: error: 'in_weight_above_r' has already been declared in this scope.
+<tmp>:17:      : It was declared here as a net.
+<tmp>:27: error: 'in_weight_above_l' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:28: error: 'in_weight_above_c' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:29: error: 'in_weight_above_r' has already been declared in this scope.
+<tmp>:17:      : It was declared here as a net.
+<tmp>:30: error: 'in_weight_above_l' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:31: error: 'in_weight_above_c' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:32: error: 'in_weight_above_r' has already been declared in this scope.
+<tmp>:17:      : It was declared here as a net.
+<tmp>:33: error: 'in_weight_above_l' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:34: error: 'in_weight_above_c' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:35: error: 'in_weight_above_r' has already been declared in this scope.
+<tmp>:17:      : It was declared here as a net.
+<tmp>:36: error: 'in_weight_above_l' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:37: error: 'in_weight_above_c' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:38: error: 'in_weight_above_r' has already been declared in this scope.
+<tmp>:17:      : It was declared here as a net.
+<tmp>:39: error: 'in_weight_above_l' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:40: error: 'in_weight_above_c' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:41: error: 'in_weight_above_r' has already been declared in this scope.
+<tmp>:17:      : It was declared here as a net.
+<tmp>:42: error: 'in_weight_above_l' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:43: error: 'in_weight_above_c' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:44: error: 'in_weight_above_r' has already been declared in this scope.
+<tmp>:17:      : It was declared here as a net.
+<tmp>:45: error: 'in_weight_above_l' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:46: error: 'in_weight_above_c' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:47: error: 'in_weight_above_r' has already been declared in this scope.
+<tmp>:17:      : It was declared here as a net.
+<tmp>:48: error: 'in_weight_above_l' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:49: error: 'in_weight_above_c' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:50: error: 'in_weight_above_r' has already been declared in this scope.
+<tmp>:17:      : It was declared here as a net.
+<tmp>:51: error: 'in_weight_above_l' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:52: error: 'in_weight_above_c' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:53: error: 'in_weight_above_r' has already been declared in this scope.
+<tmp>:17:      : It was declared here as a net.
+<tmp>:54: error: 'in_weight_above_l' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:55: error: 'in_weight_above_c' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:56: error: 'in_weight_above_r' has already been declared in this scope.
+<tmp>:17:      : It was declared here as a net.
+<tmp>:57: error: 'in_weight_above_l' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:58: error: 'in_weight_above_c' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:59: error: 'in_weight_above_r' has already been declared in this scope.
+<tmp>:17:      : It was declared here as a net.
+<tmp>:60: error: 'in_weight_above_l' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:61: error: 'in_weight_above_c' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:62: error: 'in_weight_above_r' has already been declared in this scope.
+<tmp>:17:      : It was declared here as a net.
+<tmp>:63: error: 'in_weight_above_l' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:64: error: 'in_weight_above_c' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:65: error: 'in_weight_above_r' has already been declared in this scope.
+<tmp>:17:      : It was declared here as a net.
+<tmp>:66: error: 'in_weight_above_l' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:67: error: 'in_weight_above_c' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:68: error: 'in_weight_above_r' has already been declared in this scope.
+<tmp>:17:      : It was declared here as a net.
+<tmp>:69: error: 'in_weight_above_l' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:70: error: 'in_weight_above_c' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:71: error: 'in_weight_above_r' has already been declared in this scope.
+<tmp>:17:      : It was declared here as a net.
+<tmp>:72: error: 'in_weight_above_l' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:73: error: 'in_weight_above_c' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:74: error: 'in_weight_above_r' has already been declared in this scope.
+<tmp>:17:      : It was declared here as a net.
+<tmp>:75: error: 'in_weight_above_l' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:76: error: 'in_weight_above_c' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:77: error: 'in_weight_above_r' has already been declared in this scope.
+<tmp>:17:      : It was declared here as a net.
+<tmp>:78: error: 'in_weight_above_l' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:79: error: 'in_weight_above_c' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:80: error: 'in_weight_above_r' has already been declared in this scope.
+<tmp>:17:      : It was declared here as a net.
+<tmp>:81: error: 'in_weight_above_l' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:82: error: 'in_weight_above_c' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:83: error: 'in_weight_above_r' has already been declared in this scope.
+<tmp>:17:      : It was declared here as a net.
+<tmp>:84: error: 'in_weight_above_l' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:85: error: 'in_weight_above_c' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:86: error: 'in_weight_above_r' has already been declared in this scope.
+<tmp>:17:      : It was declared here as a net.
+<tmp>:87: error: 'in_weight_above_l' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:88: error: 'in_weight_above_c' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:89: error: 'in_weight_above_r' has already been declared in this scope.
+<tmp>:17:      : It was declared here as a net.
+<tmp>:90: error: 'in_weight_above_l' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:91: error: 'in_weight_above_c' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:92: error: 'in_weight_above_r' has already been declared in this scope.
+<tmp>:17:      : It was declared here as a net.
+<tmp>:93: error: 'in_weight_above_l' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:94: error: 'in_weight_above_c' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:95: error: 'in_weight_above_r' has already been declared in this scope.
+<tmp>:17:      : It was declared here as a net.
+<tmp>:96: error: 'in_weight_above_l' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:97: error: 'in_weight_above_c' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:99: syntax error
+I give up."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module25_test01,interface_contract,shuffled_image,shuffled,module27_test01,31f26328db96b093451312ba02988161d75e89ea726a7db8dcc0fcaee2903b9f,7e8c2822d6392bb99850140de046479371b0d952fc0515d5b9a007779bdd1683,2034,142.382,public_only,reflect_patch,25,1,3,2,best_syntax,True,False,raw,,0,syntax_pass,functional,unclassified,,PE,,,,,,0,patch,Finite State Machine (FSM) based control for processing inputs.,"public_functional: functional_mismatch. The private evaluator found behavior inconsistent with the public specification; no vectors, expected values, or testbench details are exposed."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module25_test01,interface_contract,shuffled_image,shuffled,module27_test01,31f26328db96b093451312ba02988161d75e89ea726a7db8dcc0fcaee2903b9f,7e8c2822d6392bb99850140de046479371b0d952fc0515d5b9a007779bdd1683,2034,131.696,public_only,reflect_rag_skeleton,25,1,3,2,best_syntax,True,False,patched,family_processing_element_skeleton,1,syntax_pass,functional,"family_processing_element_skeleton,skeleton_boundary,helper_module_missing",,PE,post_patch:missing_helper_instances:i,"clk,rst_n,w_en,w_compute,active_left,active_right,in_sum,out_sum,in_weight_above,out_weight_below",,,helper_module_missing,1,patch,processing_element,"public_functional: functional_mismatch. The private evaluator found behavior inconsistent with the public specification; no vectors, expected values, or testbench details are exposed."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module26_test01,full_description,original,original,module26_test01,716e0d9a3fd32c534becc06039db52506767ede5dfed3de3f0c78f1fa4e4ab8f,f8af435dd690ea420abce463a7786e4d5f6b9f0045171c006929c379c8f0c8ab,2134,47.769,public_only,origin,26,1,1,0,origin,False,False,raw,,0,,,,,,,,,,,,,,"<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+24 error(s) during elaboration.
+*** These modules were missing:
+        PE referenced 24 times.
+***"
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module26_test01,full_description,original,original,module26_test01,716e0d9a3fd32c534becc06039db52506767ede5dfed3de3f0c78f1fa4e4ab8f,f8af435dd690ea420abce463a7786e4d5f6b9f0045171c006929c379c8f0c8ab,2134,159.94,public_only,reflect_patch,26,1,3,2,last_attempt,False,False,raw,,0,none,syntax,unclassified,,PE_row,,,,,,0,patch,PE_row is a top-level module connecting multiple PE units; PEs are assumed to be combinational/sequential processing elements with specified ports.,"<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+<tmp>:33: error: Unknown module type: PE
+24 error(s) during elaboration.
+*** These modules were missing:
+        PE referenced 24 times.
+***"
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module26_test01,full_description,original,original,module26_test01,716e0d9a3fd32c534becc06039db52506767ede5dfed3de3f0c78f1fa4e4ab8f,f8af435dd690ea420abce463a7786e4d5f6b9f0045171c006929c379c8f0c8ab,2134,128.729,public_only,reflect_rag_skeleton,26,1,3,2,best_functional,True,True,patched,family_processing_element_row_skeleton,1,functional_pass,functional,family_processing_element_row_skeleton,,PE_row,,"clk,rst_n,w_en,w_compute,active_left,active_right,in_weight_above,out_weight_below,in_sum,out_sum",,,,0,patch_template,processing_element_row,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module26_test01,full_description,shuffled_image,shuffled,module02_test02,716e0d9a3fd32c534becc06039db52506767ede5dfed3de3f0c78f1fa4e4ab8f,b621d767da0ee8407df338afbdbc26a7d3bc56809bedb711c37806385f066ac7,2134,62.045,public_only,origin,26,1,1,0,origin,False,False,raw,,0,,,,,,,,,,,,,,"<tmp>:89: syntax error
+<tmp>:89: error: Malformed statement
+<tmp>:98: syntax error
+<tmp>:98: error: Invalid module instantiation"
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module26_test01,full_description,shuffled_image,shuffled,module02_test02,716e0d9a3fd32c534becc06039db52506767ede5dfed3de3f0c78f1fa4e4ab8f,b621d767da0ee8407df338afbdbc26a7d3bc56809bedb711c37806385f066ac7,2134,184.615,public_only,reflect_patch,26,1,3,2,last_attempt,False,False,raw,,0,none,syntax,unclassified,,PE_row,,,,,,0,patch,PE_row (parallel processing element row).,"<tmp>:90: syntax error
+<tmp>:90: error: Malformed statement"
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module26_test01,full_description,shuffled_image,shuffled,module02_test02,716e0d9a3fd32c534becc06039db52506767ede5dfed3de3f0c78f1fa4e4ab8f,b621d767da0ee8407df338afbdbc26a7d3bc56809bedb711c37806385f066ac7,2134,144.932,public_only,reflect_rag_skeleton,26,1,3,2,last_attempt,False,False,patched,"multi_driver_or_reg_assign,systolic_dataflow_rule,family_processing_element_row_skeleton",4,none,syntax,"multi_driver_or_reg_assign,systolic_dataflow_rule,family_processing_element_row_skeleton",,PE_row,,"clk,rst_n,w_en,w_compute,active_left,active_right,in_weight_above,out_weight_below,in_sum,out_sum",,,,0,patch_template,processing_element_row,"<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+13 error(s) during elaboration.
+*** These modules were missing:
+        PE referenced 13 times.
+***"
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module26_test01,interface_contract,original,original,module26_test01,c68a3d934782cb8b9c79562c6c9c32917174788348b386295bfd5b554f5f09fb,f8af435dd690ea420abce463a7786e4d5f6b9f0045171c006929c379c8f0c8ab,2134,63.508,public_only,origin,26,1,1,0,origin,False,False,raw,,0,,,,,,,,,,,,,,"<tmp>:15: syntax error
+<tmp>:1: error: Syntax error in variable list.
+<tmp>:16: syntax error
+<tmp>:16: error: Invalid module item.
+<tmp>:62: syntax error
+I give up."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module26_test01,interface_contract,original,original,module26_test01,c68a3d934782cb8b9c79562c6c9c32917174788348b386295bfd5b554f5f09fb,f8af435dd690ea420abce463a7786e4d5f6b9f0045171c006929c379c8f0c8ab,2134,219.901,public_only,reflect_patch,26,1,3,2,last_attempt,False,False,raw,,0,none,syntax,unclassified,,PE_row,,,,,,0,patch,Arithmetic logic (adders),"<tmp>:27: error: Unknown module type: adder
+<tmp>:40: error: Unknown module type: adder
+<tmp>:53: error: Unknown module type: adder
+<tmp>:66: error: Unknown module type: adder
+<tmp>:79: error: Unknown module type: adder
+<tmp>:92: error: Unknown module type: adder
+<tmp>:105: error: Unknown module type: adder
+<tmp>:118: error: Unknown module type: adder
+<tmp>:131: error: Unknown module type: adder
+<tmp>:144: error: Unknown module type: adder
+<tmp>:157: error: Unknown module type: adder
+12 error(s) during elaboration.
+*** These modules were missing:
+        adder referenced 11 times.
+***"
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module26_test01,interface_contract,original,original,module26_test01,c68a3d934782cb8b9c79562c6c9c32917174788348b386295bfd5b554f5f09fb,f8af435dd690ea420abce463a7786e4d5f6b9f0045171c006929c379c8f0c8ab,2134,116.484,public_only,reflect_rag_skeleton,26,1,2,1,best_functional,True,True,patched,family_processing_element_row_skeleton,1,functional_pass,functional,family_processing_element_row_skeleton,,PE_row,,"clk,rst_n,w_en,w_compute,active_left,active_right,in_weight_above,out_weight_below,in_sum,out_sum",,,,0,patch_template,processing_element_row,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module26_test01,interface_contract,shuffled_image,shuffled,module02_test02,c68a3d934782cb8b9c79562c6c9c32917174788348b386295bfd5b554f5f09fb,b621d767da0ee8407df338afbdbc26a7d3bc56809bedb711c37806385f066ac7,2134,57.018,public_only,origin,26,1,1,0,origin,False,False,raw,,0,,,,,,,,,,,,,,"<tmp>:99: syntax error
+<tmp>:99: error: Invalid module instantiation"
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module26_test01,interface_contract,shuffled_image,shuffled,module02_test02,c68a3d934782cb8b9c79562c6c9c32917174788348b386295bfd5b554f5f09fb,b621d767da0ee8407df338afbdbc26a7d3bc56809bedb711c37806385f066ac7,2134,188.15,public_only,reflect_patch,26,1,3,2,last_attempt,False,False,raw,,0,none,syntax,unclassified,,PE_row,,,,,,0,patch,PE_row (Processing Element row),"<tmp>:76: error: Variable 'reg_active_right' cannot be driven by a continuous assignment/module.
+<tmp>:76:      : This is allowed when SystemVerilog is enabled.
+1 error(s) during elaboration."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module26_test01,interface_contract,shuffled_image,shuffled,module02_test02,c68a3d934782cb8b9c79562c6c9c32917174788348b386295bfd5b554f5f09fb,b621d767da0ee8407df338afbdbc26a7d3bc56809bedb711c37806385f066ac7,2134,101.05,public_only,reflect_rag_skeleton,26,1,2,1,best_functional,True,True,patched,family_processing_element_row_skeleton,1,functional_pass,functional,family_processing_element_row_skeleton,,PE_row,,"clk,rst_n,w_en,w_compute,active_left,active_right,in_weight_above,out_weight_below,in_sum,out_sum",,,,0,patch_template,processing_element_row,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module26_test02,full_description,original,original,module26_test02,716e0d9a3fd32c534becc06039db52506767ede5dfed3de3f0c78f1fa4e4ab8f,c7351601ac5d4cdd51f18135365ee0bc6898fe71a99a11543a77212e53d6e2a5,2234,62.773,public_only,origin,26,2,1,0,origin,False,False,raw,,0,,,,,,,,,,,,,,"<tmp>:38: syntax error
+I give up."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module26_test02,full_description,original,original,module26_test02,716e0d9a3fd32c534becc06039db52506767ede5dfed3de3f0c78f1fa4e4ab8f,c7351601ac5d4cdd51f18135365ee0bc6898fe71a99a11543a77212e53d6e2a5,2234,153.049,public_only,reflect_patch,26,2,3,2,best_syntax,True,False,raw,,0,syntax_pass,functional,unclassified,,PE_row,,,,,,0,patch,Parallel processing element (PE) array interface for neural network or matrix multiplication.,"public_functional: functional_mismatch. The private evaluator found behavior inconsistent with the public specification; no vectors, expected values, or testbench details are exposed."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module26_test02,full_description,original,original,module26_test02,716e0d9a3fd32c534becc06039db52506767ede5dfed3de3f0c78f1fa4e4ab8f,c7351601ac5d4cdd51f18135365ee0bc6898fe71a99a11543a77212e53d6e2a5,2234,152.318,public_only,reflect_rag_skeleton,26,2,3,2,last_attempt,False,False,patched,"multi_driver_or_reg_assign,systolic_dataflow_rule,family_processing_element_row_skeleton",4,none,syntax,"multi_driver_or_reg_assign,systolic_dataflow_rule,family_processing_element_row_skeleton",,PE_row,,"clk,rst_n,w_en,w_compute,active_left,active_right,in_weight_above,out_weight_below,in_sum,out_sum",,,,0,patch_template,processing_element_row,"<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+13 error(s) during elaboration.
+*** These modules were missing:
+        PE referenced 13 times.
+***"
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module26_test02,full_description,shuffled_image,shuffled,module26_test03,716e0d9a3fd32c534becc06039db52506767ede5dfed3de3f0c78f1fa4e4ab8f,34b4e2a179a288313dbe15025b42954aa8acc00bd841f1aa033dc7b30c8bee55,2234,61.604,public_only,origin,26,2,1,0,origin,False,False,raw,,0,,,,,,,,,,,,,,"<tmp>:44: syntax error
+<tmp>:42: error: Invalid module instantiation
+<tmp>:106: syntax error
+<tmp>:106: error: Syntax error between internal '}' and closing '}' of repeat concatenation.
+<tmp>:106: syntax error
+<tmp>:106: error: Syntax error between internal '}' and closing '}' of repeat concatenation.
+<tmp>:106: syntax error
+<tmp>:104: error: Syntax error in continuous assignment
+<tmp>:120: syntax error
+I give up."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module26_test02,full_description,shuffled_image,shuffled,module26_test03,716e0d9a3fd32c534becc06039db52506767ede5dfed3de3f0c78f1fa4e4ab8f,34b4e2a179a288313dbe15025b42954aa8acc00bd841f1aa033dc7b30c8bee55,2234,203.852,public_only,reflect_patch,26,2,3,2,last_attempt,False,False,raw,,0,none,syntax,unclassified,,PE_row,,,,,,0,patch,PE array processing unit row,"<tmp>:53: error: generate/endgenerate regions cannot nest.
+<tmp>:77: syntax error
+<tmp>:77: error: Syntax error between internal '}' and closing '}' of repeat concatenation.
+<tmp>:77: syntax error
+<tmp>:77: error: Syntax error between internal '}' and closing '}' of repeat concatenation.
+<tmp>:77: syntax error
+<tmp>:75: error: Syntax error in continuous assignment
+<tmp>:113: syntax error
+<tmp>:113: error: Syntax error in continuous assignment
+<tmp>:115: syntax error
+<tmp>:115: error: Syntax error in continuous assignment"
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module26_test02,full_description,shuffled_image,shuffled,module26_test03,716e0d9a3fd32c534becc06039db52506767ede5dfed3de3f0c78f1fa4e4ab8f,34b4e2a179a288313dbe15025b42954aa8acc00bd841f1aa033dc7b30c8bee55,2234,139.684,public_only,reflect_rag_skeleton,26,2,3,2,last_attempt,False,False,patched,"multi_driver_or_reg_assign,systolic_dataflow_rule,family_processing_element_row_skeleton",4,none,syntax,"multi_driver_or_reg_assign,systolic_dataflow_rule,family_processing_element_row_skeleton",,PE_row,,"clk,rst_n,w_en,w_compute,active_left,active_right,in_weight_above,out_weight_below,in_sum,out_sum",,,,0,patch_template,processing_element_row,"<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+13 error(s) during elaboration.
+*** These modules were missing:
+        PE referenced 13 times.
+***"
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module26_test02,interface_contract,original,original,module26_test02,c68a3d934782cb8b9c79562c6c9c32917174788348b386295bfd5b554f5f09fb,c7351601ac5d4cdd51f18135365ee0bc6898fe71a99a11543a77212e53d6e2a5,2234,44.247,public_only,origin,26,2,1,0,origin,False,False,raw,,0,,,,,,,,,,,,,,"<tmp>:25: error: Unknown module type: weight_tile_column
+<tmp>:35: error: Unknown module type: sum_tile_column
+3 error(s) during elaboration.
+*** These modules were missing:
+        sum_tile_column referenced 1 times.
+        weight_tile_column referenced 1 times.
+***"
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module26_test02,interface_contract,original,original,module26_test02,c68a3d934782cb8b9c79562c6c9c32917174788348b386295bfd5b554f5f09fb,c7351601ac5d4cdd51f18135365ee0bc6898fe71a99a11543a77212e53d6e2a5,2234,189.266,public_only,reflect_patch,26,2,3,2,last_attempt,False,False,raw,,0,none,syntax,unclassified,,PE_row,,,,,,0,patch,Digital signal processing (DSP) with pipelined columnar processing of weights and sums.,"<tmp>:100: syntax error
+<tmp>:100: error: Invalid module instantiation
+<tmp>:104: syntax error
+<tmp>:104: error: Invalid module instantiation
+<tmp>:106: syntax error
+<tmp>:106: error: Invalid module instantiation
+<tmp>:109: syntax error
+<tmp>:109: error: Invalid module instantiation
+<tmp>:116: syntax error
+<tmp>:116: error: Invalid module instantiation
+<tmp>:120: syntax error
+<tmp>:120: error: Invalid module instantiation
+<tmp>:122: syntax error
+<tmp>:122: error: Invalid module instantiation
+<tmp>:125: syntax error
+<tmp>:125: error: Invalid module instantiation"
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module26_test02,interface_contract,original,original,module26_test02,c68a3d934782cb8b9c79562c6c9c32917174788348b386295bfd5b554f5f09fb,c7351601ac5d4cdd51f18135365ee0bc6898fe71a99a11543a77212e53d6e2a5,2234,146.222,public_only,reflect_rag_skeleton,26,2,3,2,last_attempt,False,False,patched,"width_or_slice,systolic_dataflow_rule,family_processing_element_row_skeleton",3,none,syntax,"width_or_slice,systolic_dataflow_rule,family_processing_element_row_skeleton",,PE_row,,"clk,rst_n,w_en,w_compute,active_left,active_right,in_weight_above,out_weight_below,in_sum,out_sum",,,,0,patch_template,processing_element_row,"<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+13 error(s) during elaboration.
+*** These modules were missing:
+        PE referenced 13 times.
+***"
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module26_test02,interface_contract,shuffled_image,shuffled,module26_test03,c68a3d934782cb8b9c79562c6c9c32917174788348b386295bfd5b554f5f09fb,34b4e2a179a288313dbe15025b42954aa8acc00bd841f1aa033dc7b30c8bee55,2234,32.257,public_only,origin,26,2,1,0,origin,True,False,raw,,0,,,,,,,,,,,,,,"public_functional: functional_mismatch. The private evaluator found behavior inconsistent with the public specification; no vectors, expected values, or testbench details are exposed."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module26_test02,interface_contract,shuffled_image,shuffled,module26_test03,c68a3d934782cb8b9c79562c6c9c32917174788348b386295bfd5b554f5f09fb,34b4e2a179a288313dbe15025b42954aa8acc00bd841f1aa033dc7b30c8bee55,2234,125.513,public_only,reflect_patch,26,2,3,2,best_syntax,True,False,raw,,0,syntax_pass,functional,unclassified,,PE_row,,,,,,0,patch,Signal processing pipeline (multiply-accumulate + output computation).,"public_functional: functional_mismatch. The private evaluator found behavior inconsistent with the public specification; no vectors, expected values, or testbench details are exposed."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module26_test02,interface_contract,shuffled_image,shuffled,module26_test03,c68a3d934782cb8b9c79562c6c9c32917174788348b386295bfd5b554f5f09fb,34b4e2a179a288313dbe15025b42954aa8acc00bd841f1aa033dc7b30c8bee55,2234,44.06,public_only,reflect_rag_skeleton,26,2,1,0,best_functional,True,True,patched,family_processing_element_row_skeleton,1,functional_pass,functional,family_processing_element_row_skeleton,,PE_row,,"clk,rst_n,w_en,w_compute,active_left,active_right,in_weight_above,out_weight_below,in_sum,out_sum",,,,0,patch_template,processing_element_row,public_functional: pass
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module27_test01,full_description,original,original,module27_test01,270cef24e90112df5e2078920e86fa2b35aed7ee172b0d0c99bde828016dd523,7e8c2822d6392bb99850140de046479371b0d952fc0515d5b9a007779bdd1683,2334,62.593,public_only,origin,27,1,1,0,origin,False,False,raw,,0,,,,,,,,,,,,,,"<tmp>:30: error: Unknown module type: PE_row
+<tmp>:46: error: Unknown module type: PE_row
+<tmp>:62: error: Unknown module type: PE_row
+<tmp>:78: error: Unknown module type: PE_row
+5 error(s) during elaboration.
+*** These modules were missing:
+        PE_row referenced 4 times.
+***"
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module27_test01,full_description,original,original,module27_test01,270cef24e90112df5e2078920e86fa2b35aed7ee172b0d0c99bde828016dd523,7e8c2822d6392bb99850140de046479371b0d952fc0515d5b9a007779bdd1683,2334,177.686,public_only,reflect_patch,27,1,3,2,last_attempt,False,False,raw,,0,none,syntax,unclassified,,PE_array,,,,,,0,patch_template,Parallel processing PE array interface,"<tmp>:25: syntax error
+<tmp>:25: error: Invalid module instantiation
+<tmp>:29: error: Invalid module instantiation
+<tmp>:30: error: Invalid module instantiation
+<tmp>:32: error: Invalid module item.
+<tmp>:33: syntax error
+<tmp>:37: error: Invalid module item.
+<tmp>:41: syntax error
+<tmp>:41: error: Invalid module instantiation
+<tmp>:43: error: Invalid module instantiation
+<tmp>:43: error: Invalid module instantiation
+<tmp>:45: error: Invalid module instantiation
+<tmp>:48: error: Invalid module item.
+<tmp>:48: syntax error
+<tmp>:48: error: Invalid module instantiation
+<tmp>:48: error: Invalid module instantiation
+<tmp>:50: error: Invalid module instantiation
+<tmp>:56: error: Invalid module item."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module27_test01,full_description,original,original,module27_test01,270cef24e90112df5e2078920e86fa2b35aed7ee172b0d0c99bde828016dd523,7e8c2822d6392bb99850140de046479371b0d952fc0515d5b9a007779bdd1683,2334,159.971,public_only,reflect_rag_skeleton,27,1,3,2,last_attempt,False,False,patched,"bad_instantiation,family_processing_element_array_skeleton",2,none,syntax,"bad_instantiation,family_processing_element_array_skeleton",,PE_array,,"clk,rst_n,w_en,w_compute,active_left,active_right,in_weight_above,out_weight_below,in_sum,out_sum",,,,0,patch_template,processing_element_array,"<tmp>:29: error: Unknown module type: PE_row
+<tmp>:29: error: Unknown module type: PE_row
+<tmp>:29: error: Unknown module type: PE_row
+<tmp>:29: error: Unknown module type: PE_row
+4 error(s) during elaboration.
+*** These modules were missing:
+        PE_row referenced 4 times.
+***"
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module27_test01,full_description,shuffled_image,shuffled,module25_test01,270cef24e90112df5e2078920e86fa2b35aed7ee172b0d0c99bde828016dd523,b2f963960ff7e429b869a0b95fc28f333f97a9276a2e203203ed4039751fae09,2334,46.996,public_only,origin,27,1,1,0,origin,False,False,raw,,0,,,,,,,,,,,,,,"<tmp>:31: syntax error
+<tmp>:36: error: Invalid module item.
+<tmp>:39: syntax error
+<tmp>:43: error: Invalid module item."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module27_test01,full_description,shuffled_image,shuffled,module25_test01,270cef24e90112df5e2078920e86fa2b35aed7ee172b0d0c99bde828016dd523,b2f963960ff7e429b869a0b95fc28f333f97a9276a2e203203ed4039751fae09,2334,149.191,public_only,reflect_patch,27,1,3,2,last_attempt,False,False,raw,,0,none,syntax,unclassified,,PE_array,,,,,,0,patch,PE array with parallel processing (matrix multiplication-like).,"<tmp>:30: syntax error
+<tmp>:30: error: Invalid module instantiation
+<tmp>:34: syntax error
+<tmp>:34: error: Invalid module instantiation
+<tmp>:33: error: generate else is missing matching if.
+<tmp>:37: syntax error
+<tmp>:43: error: Invalid module item.
+<tmp>:43: syntax error
+<tmp>:43: error: Invalid module instantiation
+<tmp>:43: error: Invalid module instantiation
+<tmp>:50: error: Invalid module item.
+<tmp>:50: syntax error
+<tmp>:50: error: Invalid module instantiation
+<tmp>:50: error: Invalid module instantiation
+<tmp>:56: error: Invalid module item."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module27_test01,full_description,shuffled_image,shuffled,module25_test01,270cef24e90112df5e2078920e86fa2b35aed7ee172b0d0c99bde828016dd523,b2f963960ff7e429b869a0b95fc28f333f97a9276a2e203203ed4039751fae09,2334,145.929,public_only,reflect_rag_skeleton,27,1,3,2,last_attempt,False,False,patched,"nonsynth_or_bad_always,syntax_verilog2001,family_processing_element_array_skeleton",3,none,syntax,"nonsynth_or_bad_always,syntax_verilog2001,family_processing_element_array_skeleton,interface_mismatch",rename_top:PE_unit->PE_array,PE_array,,"clk,rst_n,w_en,w_compute,active_left,active_right,in_weight_above,out_weight_below,in_sum,out_sum",,,,0,patch,processing_element_array,"<tmp>:29: error: Unknown module type: PE_row
+<tmp>:29: error: Unknown module type: PE_row
+<tmp>:29: error: Unknown module type: PE_row
+<tmp>:29: error: Unknown module type: PE_row
+<tmp>:29: error: Unknown module type: PE_row
+<tmp>:29: error: Unknown module type: PE_row
+<tmp>:29: error: Unknown module type: PE_row
+<tmp>:29: error: Unknown module type: PE_row
+8 error(s) during elaboration.
+*** These modules were missing:
+        PE_row referenced 8 times.
+***"
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module27_test01,interface_contract,original,original,module27_test01,3ccc7dd990e0be4a94f37b90e79ca9c562eb88cc29e3afc22e2d1ebaebfa3618,7e8c2822d6392bb99850140de046479371b0d952fc0515d5b9a007779bdd1683,2334,32.674,public_only,origin,27,1,1,0,origin,False,False,raw,,0,,,,,,,,,,,,,,"<tmp>:34: warning: macro gen_row undefined (and assumed null) at this point.
+<tmp>:39: warning: macro gen_row undefined (and assumed null) at this point.
+<tmp>:40: warning: macro gen_row undefined (and assumed null) at this point.
+<tmp>:41: warning: macro gen_row undefined (and assumed null) at this point.
+<tmp>:42: warning: macro gen_row undefined (and assumed null) at this point.
+<tmp>:43: warning: macro gen_row undefined (and assumed null) at this point.
+<tmp>:44: warning: macro gen_row undefined (and assumed null) at this point.
+<tmp>:39: syntax error
+<tmp>:39: error: Invalid port connection expression.
+<tmp>:40: syntax error
+<tmp>:40: error: Invalid port connection expression.
+<tmp>:41: syntax error
+<tmp>:41: error: Invalid port connection expression.
+<tmp>:42: syntax error
+<tmp>:42: error: Invalid port connection expression.
+<tmp>:43: syntax error
+<tmp>:43: error: Invalid port connection expression.
+<tmp>:44: syntax error
+<tmp>:44: error: Invalid port connection expression."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module27_test01,interface_contract,original,original,module27_test01,3ccc7dd990e0be4a94f37b90e79ca9c562eb88cc29e3afc22e2d1ebaebfa3618,7e8c2822d6392bb99850140de046479371b0d952fc0515d5b9a007779bdd1683,2334,137.697,public_only,reflect_patch,27,1,3,2,last_attempt,False,False,raw,,0,none,syntax,unclassified,,PE_array,,,,,,0,patch_template,PE array with row-wise processing and column-wise connections for weights and sums.,"<tmp>:34: warning: macro gen_row undefined (and assumed null) at this point.
+<tmp>:34: error: Unknown module type: PE_row
+<tmp>:34: error: Unknown module type: PE_row
+<tmp>:34: error: Unknown module type: PE_row
+<tmp>:34: error: Unknown module type: PE_row
+4 error(s) during elaboration.
+*** These modules were missing:
+        PE_row referenced 4 times.
+***"
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module27_test01,interface_contract,original,original,module27_test01,3ccc7dd990e0be4a94f37b90e79ca9c562eb88cc29e3afc22e2d1ebaebfa3618,7e8c2822d6392bb99850140de046479371b0d952fc0515d5b9a007779bdd1683,2334,127.711,public_only,reflect_rag_skeleton,27,1,3,2,last_attempt,False,False,patched,"multi_driver_or_reg_assign,processing_element_rule,systolic_dataflow_rule,family_processing_element_row_skeleton",4,none,syntax,"multi_driver_or_reg_assign,processing_element_rule,systolic_dataflow_rule,family_processing_element_row_skeleton,interface_mismatch",rename_top:PE_row->PE_array,PE_array,,"clk,rst_n,w_en,w_compute,active_left,active_right,in_weight_above,out_weight_below,in_sum,out_sum",,,,0,patch_template,processing_element_row,"<tmp>:25: error: Unknown module type: PE
+<tmp>:25: error: Unknown module type: PE
+2 error(s) during elaboration.
+*** These modules were missing:
+        PE referenced 2 times.
+***"
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module27_test01,interface_contract,shuffled_image,shuffled,module25_test01,3ccc7dd990e0be4a94f37b90e79ca9c562eb88cc29e3afc22e2d1ebaebfa3618,b2f963960ff7e429b869a0b95fc28f333f97a9276a2e203203ed4039751fae09,2334,42.005,public_only,origin,27,1,1,0,origin,False,False,raw,,0,,,,,,,,,,,,,,"<tmp>:28: error: Variable 'smul_out' cannot be driven by a continuous assignment/module.
+<tmp>:28:      : This is allowed when SystemVerilog is enabled.
+<tmp>:29: error: Variable 'smul_out' cannot be driven by a continuous assignment/module.
+<tmp>:29:      : This is allowed when SystemVerilog is enabled.
+<tmp>:45: error: part select active_left[0:18] is out of order.
+<tmp>:46: error: part select active_left[19:37] is out of order.
+<tmp>:47: error: part select in_weight_above[0:18] is out of order.
+<tmp>:48: error: part select in_weight_above[19:37] is out of order.
+<tmp>:49: error: part select in_weight_above[76:94] is out of order.
+<tmp>:50: error: part select in_weight_above[77:95] is out of order.
+<tmp>:51: error: part select in_sum[76:94] is out of order.
+<tmp>:52: error: part select in_sum[77:95] is out of order.
+<tmp>:53: error: part select out_weight_below[0:18] is out of order.
+<tmp>:54: error: part select out_weight_below[19:37] is out of order.
+12 error(s) during elaboration."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module27_test01,interface_contract,shuffled_image,shuffled,module25_test01,3ccc7dd990e0be4a94f37b90e79ca9c562eb88cc29e3afc22e2d1ebaebfa3618,b2f963960ff7e429b869a0b95fc28f333f97a9276a2e203203ed4039751fae09,2334,150.794,public_only,reflect_patch,27,1,3,2,last_attempt,False,False,raw,,0,none,syntax,unclassified,,PE_array,,,,,,0,patch,"PE array with tile-based parallel processing, input/output for weights, sums, and active signals.","<tmp>:40: error: part select active_left[0:18] is out of order.
+<tmp>:41: error: part select active_left[19:37] is out of order.
+<tmp>:42: error: part select in_weight_above[0:18] is out of order.
+<tmp>:43: error: part select in_weight_above[19:37] is out of order.
+<tmp>:44: error: part select in_weight_above[38:56] is out of order.
+<tmp>:45: error: part select in_weight_above[57:75] is out of order.
+<tmp>:46: error: part select in_sum[38:56] is out of order.
+<tmp>:47: error: part select in_sum[57:75] is out of order.
+<tmp>:48: error: part select out_weight_below[0:18] is out of order.
+<tmp>:49: error: part select out_weight_below[19:37] is out of order.
+10 error(s) during elaboration."
+rq1_workflow_visual_controls_v1,minicpm_v_4_5_8b,minicpm,module27_test01,interface_contract,shuffled_image,shuffled,module25_test01,3ccc7dd990e0be4a94f37b90e79ca9c562eb88cc29e3afc22e2d1ebaebfa3618,b2f963960ff7e429b869a0b95fc28f333f97a9276a2e203203ed4039751fae09,2334,155.688,public_only,reflect_rag_skeleton,27,1,3,2,last_attempt,False,False,patched,"multi_driver_or_reg_assign,processing_element_rule,systolic_dataflow_rule,family_processing_element_array_skeleton",4,none,syntax,"multi_driver_or_reg_assign,processing_element_rule,systolic_dataflow_rule,family_processing_element_array_skeleton,interface_mismatch",rename_top:PE_row->PE_array,PE_array,,"clk,rst_n,w_en,w_compute,active_left,active_right,in_weight_above,out_weight_below,in_sum,out_sum",,,,0,patch_template,processing_element_array,"<tmp>:29: error: Unknown module type: PE_row
+<tmp>:29: error: Unknown module type: PE_row
+<tmp>:29: error: Unknown module type: PE_row
+<tmp>:29: error: Unknown module type: PE_row
+<tmp>:29: error: Unknown module type: PE_row
+<tmp>:29: error: Unknown module type: PE_row
+<tmp>:29: error: Unknown module type: PE_row
+<tmp>:29: error: Unknown module type: PE_row
+8 error(s) during elaboration.
+*** These modules were missing:
+        PE_row referenced 8 times.
+***"

@@ -1,0 +1,1390 @@
+{
+  "creator": "Yosys 0.33 (git sha1 2584903a060)",
+  "modules": {
+    "$paramod\\u23_high_bt_column\\data_width=s32'00000000000000000000000000010100": {
+      "attributes": {
+        "dynports": "00000000000000000000000000000001",
+        "hdlname": "\\u23_high_bt_column",
+        "src": "<dataset_source>/module23/test3/golden/primary.v:1.1-36.10"
+      },
+      "parameter_default_values": {
+        "data_width": "00000000000000000000000000010100"
+      },
+      "ports": {
+        "top_in": {
+          "direction": "input",
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+        },
+        "mid_in": {
+          "direction": "input",
+          "bits": [ 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41 ]
+        },
+        "low_in": {
+          "direction": "input",
+          "bits": [ 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61 ]
+        },
+        "tail_in": {
+          "direction": "input",
+          "bits": [ 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81 ]
+        },
+        "bt_stage0": {
+          "direction": "output",
+          "bits": [ 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101 ]
+        },
+        "bt_stage1": {
+          "direction": "output",
+          "bits": [ 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121 ]
+        },
+        "bt_stage2": {
+          "direction": "output",
+          "bits": [ 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141 ]
+        },
+        "bt_stage3": {
+          "direction": "output",
+          "bits": [ 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161 ]
+        }
+      },
+      "cells": {
+        "$add$<dataset_source>/module23/test3/golden/primary.v:28$36": {
+          "hide_name": 1,
+          "type": "$add",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000010100",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000010100",
+            "Y_WIDTH": "00000000000000000000000000010100"
+          },
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:28.32-28.53"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41 ],
+            "B": [ 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61 ],
+            "Y": [ 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121 ]
+          }
+        },
+        "$sub$<dataset_source>/module23/test3/golden/primary.v:27$35": {
+          "hide_name": 1,
+          "type": "$sub",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000010100",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000010100",
+            "Y_WIDTH": "00000000000000000000000000010100"
+          },
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:27.32-27.53"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ],
+            "B": [ 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61 ],
+            "Y": [ 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101 ]
+          }
+        },
+        "$sub$<dataset_source>/module23/test3/golden/primary.v:29$37": {
+          "hide_name": 1,
+          "type": "$sub",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000010100",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000010100",
+            "Y_WIDTH": "00000000000000000000000000010100"
+          },
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:29.32-29.53"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61 ],
+            "B": [ 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41 ],
+            "Y": [ 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141 ]
+          }
+        },
+        "$sub$<dataset_source>/module23/test3/golden/primary.v:30$38": {
+          "hide_name": 1,
+          "type": "$sub",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000010100",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000010100",
+            "Y_WIDTH": "00000000000000000000000000010100"
+          },
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:30.33-30.55"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41 ],
+            "B": [ 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81 ],
+            "Y": [ 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161 ]
+          }
+        }
+      },
+      "netnames": {
+        "$add$<dataset_source>/module23/test3/golden/primary.v:28$36_Y": {
+          "hide_name": 1,
+          "bits": [ 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:28.32-28.53"
+          }
+        },
+        "$sub$<dataset_source>/module23/test3/golden/primary.v:27$35_Y": {
+          "hide_name": 1,
+          "bits": [ 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:27.32-27.53"
+          }
+        },
+        "$sub$<dataset_source>/module23/test3/golden/primary.v:29$37_Y": {
+          "hide_name": 1,
+          "bits": [ 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:29.32-29.53"
+          }
+        },
+        "$sub$<dataset_source>/module23/test3/golden/primary.v:30$38_Y": {
+          "hide_name": 1,
+          "bits": [ 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:30.33-30.55"
+          }
+        },
+        "bt_stage0": {
+          "hide_name": 0,
+          "bits": [ 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:8.36-8.45"
+          }
+        },
+        "bt_stage1": {
+          "hide_name": 0,
+          "bits": [ 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:9.36-9.45"
+          }
+        },
+        "bt_stage2": {
+          "hide_name": 0,
+          "bits": [ 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:10.36-10.45"
+          }
+        },
+        "bt_stage3": {
+          "hide_name": 0,
+          "bits": [ 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:11.36-11.45"
+          }
+        },
+        "low_alias": {
+          "hide_name": 0,
+          "bits": [ 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:15.29-15.38"
+          }
+        },
+        "low_in": {
+          "hide_name": 0,
+          "bits": [ 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:6.35-6.41"
+          }
+        },
+        "mid_alias": {
+          "hide_name": 0,
+          "bits": [ 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:14.29-14.38"
+          }
+        },
+        "mid_in": {
+          "hide_name": 0,
+          "bits": [ 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:5.35-5.41"
+          }
+        },
+        "stage_add_mid_low": {
+          "hide_name": 0,
+          "bits": [ 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:18.29-18.46"
+          }
+        },
+        "stage_sub_low_mid": {
+          "hide_name": 0,
+          "bits": [ 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:19.29-19.46"
+          }
+        },
+        "stage_sub_mid_tail": {
+          "hide_name": 0,
+          "bits": [ 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:20.29-20.47"
+          }
+        },
+        "stage_sub_top_low": {
+          "hide_name": 0,
+          "bits": [ 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:17.29-17.46"
+          }
+        },
+        "tail_alias": {
+          "hide_name": 0,
+          "bits": [ 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:16.29-16.39"
+          }
+        },
+        "tail_in": {
+          "hide_name": 0,
+          "bits": [ 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:7.35-7.42"
+          }
+        },
+        "top_alias": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:13.29-13.38"
+          }
+        },
+        "top_in": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:4.35-4.41"
+          }
+        }
+      }
+    },
+    "$paramod\\u23_high_lane_alias\\data_width=s32'00000000000000000000000000010100": {
+      "attributes": {
+        "dynports": "00000000000000000000000000000001",
+        "hdlname": "\\u23_high_lane_alias",
+        "src": "<dataset_source>/module23/test3/golden/primary.v:68.1-78.10"
+      },
+      "parameter_default_values": {
+        "data_width": "00000000000000000000000000010100"
+      },
+      "ports": {
+        "lane_in": {
+          "direction": "input",
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+        },
+        "lane_out": {
+          "direction": "output",
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "lane_in": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:71.35-71.42"
+          }
+        },
+        "lane_out": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:72.36-72.44"
+          }
+        },
+        "lane_stage": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:74.29-74.39"
+          }
+        }
+      }
+    },
+    "$paramod\\u23_high_output_group\\data_width=s32'00000000000000000000000000010100": {
+      "attributes": {
+        "dynports": "00000000000000000000000000000001",
+        "hdlname": "\\u23_high_output_group",
+        "src": "<dataset_source>/module23/test3/golden/primary.v:38.1-66.10"
+      },
+      "parameter_default_values": {
+        "data_width": "00000000000000000000000000010100"
+      },
+      "ports": {
+        "left_in": {
+          "direction": "input",
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+        },
+        "center_in": {
+          "direction": "input",
+          "bits": [ 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41 ]
+        },
+        "right_in": {
+          "direction": "input",
+          "bits": [ 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61 ]
+        },
+        "dout0": {
+          "direction": "output",
+          "bits": [ 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81 ]
+        },
+        "dout1": {
+          "direction": "output",
+          "bits": [ 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101 ]
+        },
+        "dout2": {
+          "direction": "output",
+          "bits": [ 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121 ]
+        }
+      },
+      "cells": {
+        "$add$<dataset_source>/module23/test3/golden/primary.v:55$32": {
+          "hide_name": 1,
+          "type": "$add",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000010100",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000010100",
+            "Y_WIDTH": "00000000000000000000000000010100"
+          },
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:55.24-55.43"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ],
+            "B": [ 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41 ],
+            "Y": [ 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81 ]
+          }
+        },
+        "$sub$<dataset_source>/module23/test3/golden/primary.v:56$33": {
+          "hide_name": 1,
+          "type": "$sub",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000010100",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000010100",
+            "Y_WIDTH": "00000000000000000000000000010100"
+          },
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:56.28-56.47"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41 ],
+            "B": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ],
+            "Y": [ 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101 ]
+          }
+        },
+        "$sub$<dataset_source>/module23/test3/golden/primary.v:57$34": {
+          "hide_name": 1,
+          "type": "$sub",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000010100",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000010100",
+            "Y_WIDTH": "00000000000000000000000000010100"
+          },
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:57.28-57.46"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61 ],
+            "B": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ],
+            "Y": [ 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121 ]
+          }
+        }
+      },
+      "netnames": {
+        "$add$<dataset_source>/module23/test3/golden/primary.v:55$32_Y": {
+          "hide_name": 1,
+          "bits": [ 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:55.24-55.43"
+          }
+        },
+        "$sub$<dataset_source>/module23/test3/golden/primary.v:56$33_Y": {
+          "hide_name": 1,
+          "bits": [ 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:56.28-56.47"
+          }
+        },
+        "$sub$<dataset_source>/module23/test3/golden/primary.v:57$34_Y": {
+          "hide_name": 1,
+          "bits": [ 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:57.28-57.46"
+          }
+        },
+        "center_in": {
+          "hide_name": 0,
+          "bits": [ 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:42.35-42.44"
+          }
+        },
+        "dout0": {
+          "hide_name": 0,
+          "bits": [ 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:44.36-44.41"
+          }
+        },
+        "dout0_alias": {
+          "hide_name": 0,
+          "bits": [ 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:51.29-51.40"
+          }
+        },
+        "dout1": {
+          "hide_name": 0,
+          "bits": [ 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:45.36-45.41"
+          }
+        },
+        "dout1_alias": {
+          "hide_name": 0,
+          "bits": [ 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:52.29-52.40"
+          }
+        },
+        "dout2": {
+          "hide_name": 0,
+          "bits": [ 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:46.36-46.41"
+          }
+        },
+        "dout2_alias": {
+          "hide_name": 0,
+          "bits": [ 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:53.29-53.40"
+          }
+        },
+        "left_in": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:41.35-41.42"
+          }
+        },
+        "right_in": {
+          "hide_name": 0,
+          "bits": [ 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:43.35-43.43"
+          }
+        },
+        "stage_diff_ba": {
+          "hide_name": 0,
+          "bits": [ 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:49.29-49.42"
+          }
+        },
+        "stage_diff_ca": {
+          "hide_name": 0,
+          "bits": [ 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:50.29-50.42"
+          }
+        },
+        "stage_sum": {
+          "hide_name": 0,
+          "bits": [ 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:48.29-48.38"
+          }
+        }
+      }
+    },
+    "Wino_BTDB_22_32": {
+      "attributes": {
+        "dynports": "00000000000000000000000000000001",
+        "top": "00000000000000000000000000000001",
+        "src": "<dataset_source>/module23/test3/golden/primary.v:80.1-214.10"
+      },
+      "parameter_default_values": {
+        "data_width": "00000000000000000000000000010100"
+      },
+      "ports": {
+        "din0": {
+          "direction": "input",
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+        },
+        "din1": {
+          "direction": "input",
+          "bits": [ 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41 ]
+        },
+        "din2": {
+          "direction": "input",
+          "bits": [ 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61 ]
+        },
+        "din3": {
+          "direction": "input",
+          "bits": [ 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81 ]
+        },
+        "din4": {
+          "direction": "input",
+          "bits": [ 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101 ]
+        },
+        "din5": {
+          "direction": "input",
+          "bits": [ 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121 ]
+        },
+        "din6": {
+          "direction": "input",
+          "bits": [ 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141 ]
+        },
+        "din7": {
+          "direction": "input",
+          "bits": [ 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161 ]
+        },
+        "din8": {
+          "direction": "input",
+          "bits": [ 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181 ]
+        },
+        "din9": {
+          "direction": "input",
+          "bits": [ 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201 ]
+        },
+        "din10": {
+          "direction": "input",
+          "bits": [ 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221 ]
+        },
+        "din11": {
+          "direction": "input",
+          "bits": [ 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241 ]
+        },
+        "dout0": {
+          "direction": "output",
+          "bits": [ 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261 ]
+        },
+        "dout1": {
+          "direction": "output",
+          "bits": [ 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281 ]
+        },
+        "dout2": {
+          "direction": "output",
+          "bits": [ 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301 ]
+        },
+        "dout3": {
+          "direction": "output",
+          "bits": [ 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321 ]
+        },
+        "dout4": {
+          "direction": "output",
+          "bits": [ 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341 ]
+        },
+        "dout5": {
+          "direction": "output",
+          "bits": [ 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361 ]
+        },
+        "dout6": {
+          "direction": "output",
+          "bits": [ 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380, 381 ]
+        },
+        "dout7": {
+          "direction": "output",
+          "bits": [ 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401 ]
+        },
+        "dout8": {
+          "direction": "output",
+          "bits": [ 402, 403, 404, 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421 ]
+        },
+        "dout9": {
+          "direction": "output",
+          "bits": [ 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441 ]
+        },
+        "dout10": {
+          "direction": "output",
+          "bits": [ 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 453, 454, 455, 456, 457, 458, 459, 460, 461 ]
+        },
+        "dout11": {
+          "direction": "output",
+          "bits": [ 462, 463, 464, 465, 466, 467, 468, 469, 470, 471, 472, 473, 474, 475, 476, 477, 478, 479, 480, 481 ]
+        }
+      },
+      "cells": {
+        "bt_col0": {
+          "hide_name": 0,
+          "type": "$paramod\\u23_high_bt_column\\data_width=s32'00000000000000000000000000010100",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:133.51-142.6"
+          },
+          "port_directions": {
+            "bt_stage0": "output",
+            "bt_stage1": "output",
+            "bt_stage2": "output",
+            "bt_stage3": "output",
+            "low_in": "input",
+            "mid_in": "input",
+            "tail_in": "input",
+            "top_in": "input"
+          },
+          "connections": {
+            "bt_stage0": [ 482, 483, 484, 485, 486, 487, 488, 489, 490, 491, 492, 493, 494, 495, 496, 497, 498, 499, 500, 501 ],
+            "bt_stage1": [ 502, 503, 504, 505, 506, 507, 508, 509, 510, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 521 ],
+            "bt_stage2": [ 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 541 ],
+            "bt_stage3": [ 542, 543, 544, 545, 546, 547, 548, 549, 550, 551, 552, 553, 554, 555, 556, 557, 558, 559, 560, 561 ],
+            "low_in": [ 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141 ],
+            "mid_in": [ 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81 ],
+            "tail_in": [ 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201 ],
+            "top_in": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+          }
+        },
+        "bt_col1": {
+          "hide_name": 0,
+          "type": "$paramod\\u23_high_bt_column\\data_width=s32'00000000000000000000000000010100",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:144.51-153.6"
+          },
+          "port_directions": {
+            "bt_stage0": "output",
+            "bt_stage1": "output",
+            "bt_stage2": "output",
+            "bt_stage3": "output",
+            "low_in": "input",
+            "mid_in": "input",
+            "tail_in": "input",
+            "top_in": "input"
+          },
+          "connections": {
+            "bt_stage0": [ 562, 563, 564, 565, 566, 567, 568, 569, 570, 571, 572, 573, 574, 575, 576, 577, 578, 579, 580, 581 ],
+            "bt_stage1": [ 582, 583, 584, 585, 586, 587, 588, 589, 590, 591, 592, 593, 594, 595, 596, 597, 598, 599, 600, 601 ],
+            "bt_stage2": [ 602, 603, 604, 605, 606, 607, 608, 609, 610, 611, 612, 613, 614, 615, 616, 617, 618, 619, 620, 621 ],
+            "bt_stage3": [ 622, 623, 624, 625, 626, 627, 628, 629, 630, 631, 632, 633, 634, 635, 636, 637, 638, 639, 640, 641 ],
+            "low_in": [ 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161 ],
+            "mid_in": [ 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101 ],
+            "tail_in": [ 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221 ],
+            "top_in": [ 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41 ]
+          }
+        },
+        "bt_col2": {
+          "hide_name": 0,
+          "type": "$paramod\\u23_high_bt_column\\data_width=s32'00000000000000000000000000010100",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:155.51-164.6"
+          },
+          "port_directions": {
+            "bt_stage0": "output",
+            "bt_stage1": "output",
+            "bt_stage2": "output",
+            "bt_stage3": "output",
+            "low_in": "input",
+            "mid_in": "input",
+            "tail_in": "input",
+            "top_in": "input"
+          },
+          "connections": {
+            "bt_stage0": [ 642, 643, 644, 645, 646, 647, 648, 649, 650, 651, 652, 653, 654, 655, 656, 657, 658, 659, 660, 661 ],
+            "bt_stage1": [ 662, 663, 664, 665, 666, 667, 668, 669, 670, 671, 672, 673, 674, 675, 676, 677, 678, 679, 680, 681 ],
+            "bt_stage2": [ 682, 683, 684, 685, 686, 687, 688, 689, 690, 691, 692, 693, 694, 695, 696, 697, 698, 699, 700, 701 ],
+            "bt_stage3": [ 702, 703, 704, 705, 706, 707, 708, 709, 710, 711, 712, 713, 714, 715, 716, 717, 718, 719, 720, 721 ],
+            "low_in": [ 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181 ],
+            "mid_in": [ 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121 ],
+            "tail_in": [ 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241 ],
+            "top_in": [ 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61 ]
+          }
+        },
+        "lane0": {
+          "hide_name": 0,
+          "type": "$paramod\\u23_high_lane_alias\\data_width=s32'00000000000000000000000000010100",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:202.52-202.97"
+          },
+          "port_directions": {
+            "lane_in": "input",
+            "lane_out": "output"
+          },
+          "connections": {
+            "lane_in": [ 722, 723, 724, 725, 726, 727, 728, 729, 730, 731, 732, 733, 734, 735, 736, 737, 738, 739, 740, 741 ],
+            "lane_out": [ 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261 ]
+          }
+        },
+        "lane1": {
+          "hide_name": 0,
+          "type": "$paramod\\u23_high_lane_alias\\data_width=s32'00000000000000000000000000010100",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:203.52-203.97"
+          },
+          "port_directions": {
+            "lane_in": "input",
+            "lane_out": "output"
+          },
+          "connections": {
+            "lane_in": [ 742, 743, 744, 745, 746, 747, 748, 749, 750, 751, 752, 753, 754, 755, 756, 757, 758, 759, 760, 761 ],
+            "lane_out": [ 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281 ]
+          }
+        },
+        "lane10": {
+          "hide_name": 0,
+          "type": "$paramod\\u23_high_lane_alias\\data_width=s32'00000000000000000000000000010100",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:212.52-212.100"
+          },
+          "port_directions": {
+            "lane_in": "input",
+            "lane_out": "output"
+          },
+          "connections": {
+            "lane_in": [ 762, 763, 764, 765, 766, 767, 768, 769, 770, 771, 772, 773, 774, 775, 776, 777, 778, 779, 780, 781 ],
+            "lane_out": [ 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 453, 454, 455, 456, 457, 458, 459, 460, 461 ]
+          }
+        },
+        "lane11": {
+          "hide_name": 0,
+          "type": "$paramod\\u23_high_lane_alias\\data_width=s32'00000000000000000000000000010100",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:213.52-213.100"
+          },
+          "port_directions": {
+            "lane_in": "input",
+            "lane_out": "output"
+          },
+          "connections": {
+            "lane_in": [ 782, 783, 784, 785, 786, 787, 788, 789, 790, 791, 792, 793, 794, 795, 796, 797, 798, 799, 800, 801 ],
+            "lane_out": [ 462, 463, 464, 465, 466, 467, 468, 469, 470, 471, 472, 473, 474, 475, 476, 477, 478, 479, 480, 481 ]
+          }
+        },
+        "lane2": {
+          "hide_name": 0,
+          "type": "$paramod\\u23_high_lane_alias\\data_width=s32'00000000000000000000000000010100",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:204.52-204.97"
+          },
+          "port_directions": {
+            "lane_in": "input",
+            "lane_out": "output"
+          },
+          "connections": {
+            "lane_in": [ 802, 803, 804, 805, 806, 807, 808, 809, 810, 811, 812, 813, 814, 815, 816, 817, 818, 819, 820, 821 ],
+            "lane_out": [ 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301 ]
+          }
+        },
+        "lane3": {
+          "hide_name": 0,
+          "type": "$paramod\\u23_high_lane_alias\\data_width=s32'00000000000000000000000000010100",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:205.52-205.97"
+          },
+          "port_directions": {
+            "lane_in": "input",
+            "lane_out": "output"
+          },
+          "connections": {
+            "lane_in": [ 822, 823, 824, 825, 826, 827, 828, 829, 830, 831, 832, 833, 834, 835, 836, 837, 838, 839, 840, 841 ],
+            "lane_out": [ 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321 ]
+          }
+        },
+        "lane4": {
+          "hide_name": 0,
+          "type": "$paramod\\u23_high_lane_alias\\data_width=s32'00000000000000000000000000010100",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:206.52-206.97"
+          },
+          "port_directions": {
+            "lane_in": "input",
+            "lane_out": "output"
+          },
+          "connections": {
+            "lane_in": [ 842, 843, 844, 845, 846, 847, 848, 849, 850, 851, 852, 853, 854, 855, 856, 857, 858, 859, 860, 861 ],
+            "lane_out": [ 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341 ]
+          }
+        },
+        "lane5": {
+          "hide_name": 0,
+          "type": "$paramod\\u23_high_lane_alias\\data_width=s32'00000000000000000000000000010100",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:207.52-207.97"
+          },
+          "port_directions": {
+            "lane_in": "input",
+            "lane_out": "output"
+          },
+          "connections": {
+            "lane_in": [ 862, 863, 864, 865, 866, 867, 868, 869, 870, 871, 872, 873, 874, 875, 876, 877, 878, 879, 880, 881 ],
+            "lane_out": [ 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361 ]
+          }
+        },
+        "lane6": {
+          "hide_name": 0,
+          "type": "$paramod\\u23_high_lane_alias\\data_width=s32'00000000000000000000000000010100",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:208.52-208.97"
+          },
+          "port_directions": {
+            "lane_in": "input",
+            "lane_out": "output"
+          },
+          "connections": {
+            "lane_in": [ 882, 883, 884, 885, 886, 887, 888, 889, 890, 891, 892, 893, 894, 895, 896, 897, 898, 899, 900, 901 ],
+            "lane_out": [ 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380, 381 ]
+          }
+        },
+        "lane7": {
+          "hide_name": 0,
+          "type": "$paramod\\u23_high_lane_alias\\data_width=s32'00000000000000000000000000010100",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:209.52-209.97"
+          },
+          "port_directions": {
+            "lane_in": "input",
+            "lane_out": "output"
+          },
+          "connections": {
+            "lane_in": [ 902, 903, 904, 905, 906, 907, 908, 909, 910, 911, 912, 913, 914, 915, 916, 917, 918, 919, 920, 921 ],
+            "lane_out": [ 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401 ]
+          }
+        },
+        "lane8": {
+          "hide_name": 0,
+          "type": "$paramod\\u23_high_lane_alias\\data_width=s32'00000000000000000000000000010100",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:210.52-210.97"
+          },
+          "port_directions": {
+            "lane_in": "input",
+            "lane_out": "output"
+          },
+          "connections": {
+            "lane_in": [ 922, 923, 924, 925, 926, 927, 928, 929, 930, 931, 932, 933, 934, 935, 936, 937, 938, 939, 940, 941 ],
+            "lane_out": [ 402, 403, 404, 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421 ]
+          }
+        },
+        "lane9": {
+          "hide_name": 0,
+          "type": "$paramod\\u23_high_lane_alias\\data_width=s32'00000000000000000000000000010100",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:211.52-211.97"
+          },
+          "port_directions": {
+            "lane_in": "input",
+            "lane_out": "output"
+          },
+          "connections": {
+            "lane_in": [ 942, 943, 944, 945, 946, 947, 948, 949, 950, 951, 952, 953, 954, 955, 956, 957, 958, 959, 960, 961 ],
+            "lane_out": [ 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441 ]
+          }
+        },
+        "out_group0": {
+          "hide_name": 0,
+          "type": "$paramod\\u23_high_output_group\\data_width=s32'00000000000000000000000000010100",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:166.54-173.6"
+          },
+          "port_directions": {
+            "center_in": "input",
+            "dout0": "output",
+            "dout1": "output",
+            "dout2": "output",
+            "left_in": "input",
+            "right_in": "input"
+          },
+          "connections": {
+            "center_in": [ 562, 563, 564, 565, 566, 567, 568, 569, 570, 571, 572, 573, 574, 575, 576, 577, 578, 579, 580, 581 ],
+            "dout0": [ 722, 723, 724, 725, 726, 727, 728, 729, 730, 731, 732, 733, 734, 735, 736, 737, 738, 739, 740, 741 ],
+            "dout1": [ 742, 743, 744, 745, 746, 747, 748, 749, 750, 751, 752, 753, 754, 755, 756, 757, 758, 759, 760, 761 ],
+            "dout2": [ 802, 803, 804, 805, 806, 807, 808, 809, 810, 811, 812, 813, 814, 815, 816, 817, 818, 819, 820, 821 ],
+            "left_in": [ 482, 483, 484, 485, 486, 487, 488, 489, 490, 491, 492, 493, 494, 495, 496, 497, 498, 499, 500, 501 ],
+            "right_in": [ 642, 643, 644, 645, 646, 647, 648, 649, 650, 651, 652, 653, 654, 655, 656, 657, 658, 659, 660, 661 ]
+          }
+        },
+        "out_group1": {
+          "hide_name": 0,
+          "type": "$paramod\\u23_high_output_group\\data_width=s32'00000000000000000000000000010100",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:175.54-182.6"
+          },
+          "port_directions": {
+            "center_in": "input",
+            "dout0": "output",
+            "dout1": "output",
+            "dout2": "output",
+            "left_in": "input",
+            "right_in": "input"
+          },
+          "connections": {
+            "center_in": [ 582, 583, 584, 585, 586, 587, 588, 589, 590, 591, 592, 593, 594, 595, 596, 597, 598, 599, 600, 601 ],
+            "dout0": [ 822, 823, 824, 825, 826, 827, 828, 829, 830, 831, 832, 833, 834, 835, 836, 837, 838, 839, 840, 841 ],
+            "dout1": [ 842, 843, 844, 845, 846, 847, 848, 849, 850, 851, 852, 853, 854, 855, 856, 857, 858, 859, 860, 861 ],
+            "dout2": [ 862, 863, 864, 865, 866, 867, 868, 869, 870, 871, 872, 873, 874, 875, 876, 877, 878, 879, 880, 881 ],
+            "left_in": [ 502, 503, 504, 505, 506, 507, 508, 509, 510, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 521 ],
+            "right_in": [ 662, 663, 664, 665, 666, 667, 668, 669, 670, 671, 672, 673, 674, 675, 676, 677, 678, 679, 680, 681 ]
+          }
+        },
+        "out_group2": {
+          "hide_name": 0,
+          "type": "$paramod\\u23_high_output_group\\data_width=s32'00000000000000000000000000010100",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:184.54-191.6"
+          },
+          "port_directions": {
+            "center_in": "input",
+            "dout0": "output",
+            "dout1": "output",
+            "dout2": "output",
+            "left_in": "input",
+            "right_in": "input"
+          },
+          "connections": {
+            "center_in": [ 602, 603, 604, 605, 606, 607, 608, 609, 610, 611, 612, 613, 614, 615, 616, 617, 618, 619, 620, 621 ],
+            "dout0": [ 882, 883, 884, 885, 886, 887, 888, 889, 890, 891, 892, 893, 894, 895, 896, 897, 898, 899, 900, 901 ],
+            "dout1": [ 902, 903, 904, 905, 906, 907, 908, 909, 910, 911, 912, 913, 914, 915, 916, 917, 918, 919, 920, 921 ],
+            "dout2": [ 922, 923, 924, 925, 926, 927, 928, 929, 930, 931, 932, 933, 934, 935, 936, 937, 938, 939, 940, 941 ],
+            "left_in": [ 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 541 ],
+            "right_in": [ 682, 683, 684, 685, 686, 687, 688, 689, 690, 691, 692, 693, 694, 695, 696, 697, 698, 699, 700, 701 ]
+          }
+        },
+        "out_group3": {
+          "hide_name": 0,
+          "type": "$paramod\\u23_high_output_group\\data_width=s32'00000000000000000000000000010100",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:193.54-200.6"
+          },
+          "port_directions": {
+            "center_in": "input",
+            "dout0": "output",
+            "dout1": "output",
+            "dout2": "output",
+            "left_in": "input",
+            "right_in": "input"
+          },
+          "connections": {
+            "center_in": [ 622, 623, 624, 625, 626, 627, 628, 629, 630, 631, 632, 633, 634, 635, 636, 637, 638, 639, 640, 641 ],
+            "dout0": [ 942, 943, 944, 945, 946, 947, 948, 949, 950, 951, 952, 953, 954, 955, 956, 957, 958, 959, 960, 961 ],
+            "dout1": [ 762, 763, 764, 765, 766, 767, 768, 769, 770, 771, 772, 773, 774, 775, 776, 777, 778, 779, 780, 781 ],
+            "dout2": [ 782, 783, 784, 785, 786, 787, 788, 789, 790, 791, 792, 793, 794, 795, 796, 797, 798, 799, 800, 801 ],
+            "left_in": [ 542, 543, 544, 545, 546, 547, 548, 549, 550, 551, 552, 553, 554, 555, 556, 557, 558, 559, 560, 561 ],
+            "right_in": [ 702, 703, 704, 705, 706, 707, 708, 709, 710, 711, 712, 713, 714, 715, 716, 717, 718, 719, 720, 721 ]
+          }
+        }
+      },
+      "netnames": {
+        "bt_col0_stage0": {
+          "hide_name": 0,
+          "bits": [ 482, 483, 484, 485, 486, 487, 488, 489, 490, 491, 492, 493, 494, 495, 496, 497, 498, 499, 500, 501 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:108.29-108.43"
+          }
+        },
+        "bt_col0_stage1": {
+          "hide_name": 0,
+          "bits": [ 502, 503, 504, 505, 506, 507, 508, 509, 510, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 521 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:111.29-111.43"
+          }
+        },
+        "bt_col0_stage2": {
+          "hide_name": 0,
+          "bits": [ 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 541 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:114.29-114.43"
+          }
+        },
+        "bt_col0_stage3": {
+          "hide_name": 0,
+          "bits": [ 542, 543, 544, 545, 546, 547, 548, 549, 550, 551, 552, 553, 554, 555, 556, 557, 558, 559, 560, 561 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:117.29-117.43"
+          }
+        },
+        "bt_col1_stage0": {
+          "hide_name": 0,
+          "bits": [ 562, 563, 564, 565, 566, 567, 568, 569, 570, 571, 572, 573, 574, 575, 576, 577, 578, 579, 580, 581 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:109.29-109.43"
+          }
+        },
+        "bt_col1_stage1": {
+          "hide_name": 0,
+          "bits": [ 582, 583, 584, 585, 586, 587, 588, 589, 590, 591, 592, 593, 594, 595, 596, 597, 598, 599, 600, 601 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:112.29-112.43"
+          }
+        },
+        "bt_col1_stage2": {
+          "hide_name": 0,
+          "bits": [ 602, 603, 604, 605, 606, 607, 608, 609, 610, 611, 612, 613, 614, 615, 616, 617, 618, 619, 620, 621 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:115.29-115.43"
+          }
+        },
+        "bt_col1_stage3": {
+          "hide_name": 0,
+          "bits": [ 622, 623, 624, 625, 626, 627, 628, 629, 630, 631, 632, 633, 634, 635, 636, 637, 638, 639, 640, 641 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:118.29-118.43"
+          }
+        },
+        "bt_col2_stage0": {
+          "hide_name": 0,
+          "bits": [ 642, 643, 644, 645, 646, 647, 648, 649, 650, 651, 652, 653, 654, 655, 656, 657, 658, 659, 660, 661 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:110.29-110.43"
+          }
+        },
+        "bt_col2_stage1": {
+          "hide_name": 0,
+          "bits": [ 662, 663, 664, 665, 666, 667, 668, 669, 670, 671, 672, 673, 674, 675, 676, 677, 678, 679, 680, 681 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:113.29-113.43"
+          }
+        },
+        "bt_col2_stage2": {
+          "hide_name": 0,
+          "bits": [ 682, 683, 684, 685, 686, 687, 688, 689, 690, 691, 692, 693, 694, 695, 696, 697, 698, 699, 700, 701 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:116.29-116.43"
+          }
+        },
+        "bt_col2_stage3": {
+          "hide_name": 0,
+          "bits": [ 702, 703, 704, 705, 706, 707, 708, 709, 710, 711, 712, 713, 714, 715, 716, 717, 718, 719, 720, 721 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:119.29-119.43"
+          }
+        },
+        "din0": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:83.35-83.39"
+          }
+        },
+        "din1": {
+          "hide_name": 0,
+          "bits": [ 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:84.35-84.39"
+          }
+        },
+        "din10": {
+          "hide_name": 0,
+          "bits": [ 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:93.35-93.40"
+          }
+        },
+        "din11": {
+          "hide_name": 0,
+          "bits": [ 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:94.35-94.40"
+          }
+        },
+        "din2": {
+          "hide_name": 0,
+          "bits": [ 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:85.35-85.39"
+          }
+        },
+        "din3": {
+          "hide_name": 0,
+          "bits": [ 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:86.35-86.39"
+          }
+        },
+        "din4": {
+          "hide_name": 0,
+          "bits": [ 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:87.35-87.39"
+          }
+        },
+        "din5": {
+          "hide_name": 0,
+          "bits": [ 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:88.35-88.39"
+          }
+        },
+        "din6": {
+          "hide_name": 0,
+          "bits": [ 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:89.35-89.39"
+          }
+        },
+        "din7": {
+          "hide_name": 0,
+          "bits": [ 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:90.35-90.39"
+          }
+        },
+        "din8": {
+          "hide_name": 0,
+          "bits": [ 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:91.35-91.39"
+          }
+        },
+        "din9": {
+          "hide_name": 0,
+          "bits": [ 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:92.35-92.39"
+          }
+        },
+        "dout0": {
+          "hide_name": 0,
+          "bits": [ 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:95.36-95.41"
+          }
+        },
+        "dout1": {
+          "hide_name": 0,
+          "bits": [ 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:96.36-96.41"
+          }
+        },
+        "dout10": {
+          "hide_name": 0,
+          "bits": [ 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 453, 454, 455, 456, 457, 458, 459, 460, 461 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:105.36-105.42"
+          }
+        },
+        "dout11": {
+          "hide_name": 0,
+          "bits": [ 462, 463, 464, 465, 466, 467, 468, 469, 470, 471, 472, 473, 474, 475, 476, 477, 478, 479, 480, 481 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:106.36-106.42"
+          }
+        },
+        "dout2": {
+          "hide_name": 0,
+          "bits": [ 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:97.36-97.41"
+          }
+        },
+        "dout3": {
+          "hide_name": 0,
+          "bits": [ 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:98.36-98.41"
+          }
+        },
+        "dout4": {
+          "hide_name": 0,
+          "bits": [ 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:99.36-99.41"
+          }
+        },
+        "dout5": {
+          "hide_name": 0,
+          "bits": [ 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:100.36-100.41"
+          }
+        },
+        "dout6": {
+          "hide_name": 0,
+          "bits": [ 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380, 381 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:101.36-101.41"
+          }
+        },
+        "dout7": {
+          "hide_name": 0,
+          "bits": [ 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:102.36-102.41"
+          }
+        },
+        "dout8": {
+          "hide_name": 0,
+          "bits": [ 402, 403, 404, 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:103.36-103.41"
+          }
+        },
+        "dout9": {
+          "hide_name": 0,
+          "bits": [ 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:104.36-104.41"
+          }
+        },
+        "raw_dout0": {
+          "hide_name": 0,
+          "bits": [ 722, 723, 724, 725, 726, 727, 728, 729, 730, 731, 732, 733, 734, 735, 736, 737, 738, 739, 740, 741 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:120.29-120.38"
+          }
+        },
+        "raw_dout1": {
+          "hide_name": 0,
+          "bits": [ 742, 743, 744, 745, 746, 747, 748, 749, 750, 751, 752, 753, 754, 755, 756, 757, 758, 759, 760, 761 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:121.29-121.38"
+          }
+        },
+        "raw_dout10": {
+          "hide_name": 0,
+          "bits": [ 762, 763, 764, 765, 766, 767, 768, 769, 770, 771, 772, 773, 774, 775, 776, 777, 778, 779, 780, 781 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:130.29-130.39"
+          }
+        },
+        "raw_dout11": {
+          "hide_name": 0,
+          "bits": [ 782, 783, 784, 785, 786, 787, 788, 789, 790, 791, 792, 793, 794, 795, 796, 797, 798, 799, 800, 801 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:131.29-131.39"
+          }
+        },
+        "raw_dout2": {
+          "hide_name": 0,
+          "bits": [ 802, 803, 804, 805, 806, 807, 808, 809, 810, 811, 812, 813, 814, 815, 816, 817, 818, 819, 820, 821 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:122.29-122.38"
+          }
+        },
+        "raw_dout3": {
+          "hide_name": 0,
+          "bits": [ 822, 823, 824, 825, 826, 827, 828, 829, 830, 831, 832, 833, 834, 835, 836, 837, 838, 839, 840, 841 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:123.29-123.38"
+          }
+        },
+        "raw_dout4": {
+          "hide_name": 0,
+          "bits": [ 842, 843, 844, 845, 846, 847, 848, 849, 850, 851, 852, 853, 854, 855, 856, 857, 858, 859, 860, 861 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:124.29-124.38"
+          }
+        },
+        "raw_dout5": {
+          "hide_name": 0,
+          "bits": [ 862, 863, 864, 865, 866, 867, 868, 869, 870, 871, 872, 873, 874, 875, 876, 877, 878, 879, 880, 881 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:125.29-125.38"
+          }
+        },
+        "raw_dout6": {
+          "hide_name": 0,
+          "bits": [ 882, 883, 884, 885, 886, 887, 888, 889, 890, 891, 892, 893, 894, 895, 896, 897, 898, 899, 900, 901 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:126.29-126.38"
+          }
+        },
+        "raw_dout7": {
+          "hide_name": 0,
+          "bits": [ 902, 903, 904, 905, 906, 907, 908, 909, 910, 911, 912, 913, 914, 915, 916, 917, 918, 919, 920, 921 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:127.29-127.38"
+          }
+        },
+        "raw_dout8": {
+          "hide_name": 0,
+          "bits": [ 922, 923, 924, 925, 926, 927, 928, 929, 930, 931, 932, 933, 934, 935, 936, 937, 938, 939, 940, 941 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:128.29-128.38"
+          }
+        },
+        "raw_dout9": {
+          "hide_name": 0,
+          "bits": [ 942, 943, 944, 945, 946, 947, 948, 949, 950, 951, 952, 953, 954, 955, 956, 957, 958, 959, 960, 961 ],
+          "attributes": {
+            "src": "<dataset_source>/module23/test3/golden/primary.v:129.29-129.38"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "test_root": "<dataset_source>/module21/test1",
+  "candidate_dir": "<dataset_source>",
+  "family": "data_reorganize",
+  "difficulty": "high",
+  "run_sim": true,
+  "total_candidates": 1,
+  "admitted_candidates": 1,
+  "best_candidate": "candidate_00.v",
+  "results": [
+    {
+      "candidate": "<dataset_source>",
+      "admitted": true,
+      "functional_passed": true,
+      "structural_accepted": true,
+      "functional_validation": {
+        "candidate": "<dataset_source>",
+        "compile_ok": true,
+        "compile_log": "",
+        "simulation_ok": true,
+        "simulation_log": "Total Tests: 100\nCorrect Count: 100\nAccuracy: 100.00%\n<dataset_source>/module21/test1/code/tb.v:70: $finish called at 2010 (1s)\n",
+        "tests_total": 100,
+        "tests_passed": null,
+        "pass_rate": null,
+        "functional_ok": true
+      },
+      "structural_evaluation": {
+        "family": "data_reorganize",
+        "difficulty": "high",
+        "features": {
+          "effective_line_count": 166,
+          "wire_count": 65,
+          "reg_count": 9,
+          "assign_count": 9,
+          "always_count": 1,
+          "generate_count": 0,
+          "for_loop_count": 0,
+          "module_instantiation_like_count": 25,
+          "ternary_count": 0,
+          "intermediate_signal_count": 0,
+          "next_state_signal_count": 67,
+          "control_helper_count": 0,
+          "datapath_helper_count": 0,
+          "row_signal_count": 0,
+          "skip_signal_count": 0,
+          "direct_add_assign_count": 0,
+          "sum0_signal_count": 0,
+          "sum1_signal_count": 0,
+          "carry0_signal_count": 5,
+          "carry1_signal_count": 5,
+          "carry_select_mux_count": 0,
+          "block_stage_signal_count": 0,
+          "single_path_helper_chain_count": 0,
+          "gp_helper_count": 0,
+          "fa_helper_count": 0,
+          "csa_helper_count": 0,
+          "cla_helper_count": 0,
+          "csel_helper_count": 0,
+          "ppa_sklansky_helper_count": 0,
+          "ppa_brent_kung_helper_count": 0
+        },
+        "accepted": true,
+        "notes": []
+      }
+    }
+  ]
+}

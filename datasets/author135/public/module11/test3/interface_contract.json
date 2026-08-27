@@ -1,0 +1,5 @@
+{
+  "top_module": "addertree_23_6_PPA_Brent_Kung",
+  "module_header": "module addertree_23_6_PPA_Brent_Kung #(\n    parameter width=23\n)(\n    input wire [width:1] A1,\n    input wire [width:1] A2,\n    input wire [width:1] A3,\n    input wire [width:1] A4,\n    input wire [width:1] A5,\n    input wire [width:1] A6,\n    output wire [width + 3:1] S\n);",
+  "source": "public_description"
+}

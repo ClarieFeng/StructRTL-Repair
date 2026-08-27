@@ -1,0 +1,4 @@
+read_verilog golden/primary.v
+hierarchy -check -top PPA_Brent_Kung_17bit
+proc
+write_json golden/PPA_Brent_Kung_17bit.json

@@ -1,0 +1,15 @@
+{
+  "case_id": "module26/test4",
+  "status": "regenerated_from_released_yosys_json",
+  "source": "datasets/author135/evaluator/module26/test4/PE_row_16_22bit.json",
+  "source_sha256": "c97395061c964d86b582323a268ba4bf266ad68910738ff721669277fa5f87fb",
+  "renderer": "netlistsvg",
+  "renderer_version": "usage: ../transfer/netlistsvg_offline/package/node_modules/netlistsvg/bin/netlistsvg.js input_json_file [-o output_svg_file] [--skin skin_file] [--layout elk_json_file]",
+  "conversion": "svglib.svg2rlg + reportlab.renderPM JPEG",
+  "dpi": 150,
+  "width": 10679,
+  "height": 5658,
+  "image": "datasets/author135/public/module26/test4/circuit.jpg",
+  "image_sha256": "a15e6e3207307c9e8221f013dac399ecae3d31e04ef0394d2f43823e6a680bd0",
+  "generated_utc": "2026-08-23T12:29:39.022147+00:00"
+}

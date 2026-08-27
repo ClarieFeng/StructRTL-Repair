@@ -1,0 +1,6 @@
+name: structrtl-repair-demo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.20
+  - iverilog=12.0

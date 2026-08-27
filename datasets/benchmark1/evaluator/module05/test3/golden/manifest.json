@@ -1,0 +1,16 @@
+{
+  "module_id": 5,
+  "family": "carry_skip_adder",
+  "archive_label": "high",
+  "label_mode": "reference_complexity",
+  "reference_complexity": "high",
+  "reasoning_difficulty": "high",
+  "source_test_root": "evaluation/TestSet/module5/test3",
+  "generated_case_id": "module5_high_001",
+  "primary_candidate": "candidate_00.v",
+  "alternate_candidates": [],
+  "admitted_candidates": [
+    "candidate_00.v"
+  ],
+  "notes": "Archived as a correct golden reference-complexity variant for the carry-skip-adder family. Formal equivalence not yet run."
+}

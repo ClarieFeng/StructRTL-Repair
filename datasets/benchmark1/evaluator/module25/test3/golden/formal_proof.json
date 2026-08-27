@@ -1,0 +1,9 @@
+{
+  "module_id": 25,
+  "archive_label": "high_legacy_medium_equivalent",
+  "effective_difficulty": "medium",
+  "primary_candidate": "candidate_00.v",
+  "formal_proof": "not_run",
+  "status": "pending",
+  "notes": "Legacy case id originally labeled high; archived as medium-equivalent under the updated difficulty policy. Formal equivalence not yet run."
+}

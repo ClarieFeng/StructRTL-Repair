@@ -1,0 +1,215 @@
+nohup: ignoring input
+Loading weights:   0%|          | 0/687 [00:00<?, ?it/s]Loading weights:   0%|          | 2/687 [00:00<02:34,  4.45it/s]Loading weights:   0%|          | 3/687 [00:00<02:06,  5.41it/s]Loading weights:   2%|▏         | 14/687 [00:00<00:38, 17.34it/s]Loading weights:   2%|▏         | 16/687 [00:01<00:42, 15.71it/s]Loading weights:   3%|▎         | 23/687 [00:01<00:31, 21.41it/s]Loading weights:   4%|▍         | 26/687 [00:01<00:33, 19.57it/s]Loading weights:   5%|▍         | 32/687 [00:01<00:35, 18.63it/s]Loading weights:   6%|▌         | 41/687 [00:02<00:35, 17.98it/s]Loading weights:   7%|▋         | 50/687 [00:02<00:31, 20.19it/s]Loading weights:   9%|▊         | 59/687 [00:03<00:29, 21.09it/s]Loading weights:  10%|▉         | 68/687 [00:03<00:25, 24.51it/s]Loading weights:  10%|█         | 71/687 [00:03<00:25, 23.95it/s]Loading weights:  11%|█         | 77/687 [00:03<00:28, 21.07it/s]Loading weights:  12%|█▏        | 83/687 [00:04<00:44, 13.49it/s]Loading weights:  13%|█▎        | 86/687 [00:05<00:45, 13.31it/s]Loading weights:  14%|█▍        | 95/687 [00:05<00:42, 13.85it/s]Loading weights:  15%|█▌        | 104/687 [00:06<00:36, 16.07it/s]Loading weights:  16%|█▋        | 113/687 [00:06<00:31, 18.22it/s]Loading weights:  18%|█▊        | 122/687 [00:06<00:30, 18.53it/s]Loading weights:  19%|█▉        | 131/687 [00:07<00:29, 19.15it/s]Loading weights:  20%|██        | 140/687 [00:07<00:27, 20.09it/s]Loading weights:  22%|██▏       | 149/687 [00:08<00:25, 21.28it/s]Loading weights:  23%|██▎       | 158/687 [00:08<00:24, 21.53it/s]Loading weights:  24%|██▍       | 164/687 [00:08<00:21, 24.70it/s]Loading weights:  24%|██▍       | 168/687 [00:09<00:26, 19.30it/s]Loading weights:  26%|██▌       | 176/687 [00:09<00:26, 19.01it/s]Loading weights:  27%|██▋       | 185/687 [00:10<00:29, 17.30it/s]Loading weights:  28%|██▊       | 194/687 [00:10<00:29, 16.70it/s]Loading weights:  30%|██▉       | 203/687 [00:10<00:24, 19.39it/s]Loading weights:  30%|███       | 208/687 [00:11<00:21, 21.79it/s]Loading weights:  31%|███       | 211/687 [00:11<00:21, 21.75it/s]Loading weights:  31%|███       | 214/687 [00:11<00:24, 19.54it/s]Loading weights:  32%|███▏      | 221/687 [00:11<00:21, 21.20it/s]Loading weights:  33%|███▎      | 225/687 [00:11<00:19, 23.65it/s]Loading weights:  33%|███▎      | 230/687 [00:12<00:22, 20.66it/s]Loading weights:  35%|███▍      | 239/687 [00:12<00:20, 21.62it/s]Loading weights:  36%|███▌      | 248/687 [00:12<00:20, 21.65it/s]Loading weights:  37%|███▋      | 254/687 [00:13<00:17, 25.07it/s]Loading weights:  37%|███▋      | 257/687 [00:13<00:21, 19.96it/s]Loading weights:  39%|███▊      | 266/687 [00:13<00:19, 22.11it/s]Loading weights:  39%|███▉      | 269/687 [00:13<00:18, 22.63it/s]Loading weights:  40%|████      | 275/687 [00:14<00:20, 19.83it/s]Loading weights:  41%|████▏     | 284/687 [00:14<00:19, 20.80it/s]Loading weights:  43%|████▎     | 296/687 [00:14<00:12, 31.85it/s]Loading weights:  49%|████▉     | 337/687 [00:14<00:04, 83.75it/s]Loading weights:  52%|█████▏    | 355/687 [00:15<00:03, 91.60it/s]Loading weights:  59%|█████▊    | 403/687 [00:15<00:01, 156.48it/s]Loading weights:  63%|██████▎   | 434/687 [00:15<00:01, 186.50it/s]Loading weights:  69%|██████▉   | 474/687 [00:15<00:00, 224.37it/s]Loading weights:  75%|███████▍  | 513/687 [00:15<00:00, 260.48it/s]Loading weights:  80%|███████▉  | 547/687 [00:15<00:00, 260.95it/s]Loading weights:  89%|████████▉ | 611/687 [00:15<00:00, 353.79it/s]Loading weights:  95%|█████████▍| 651/687 [00:15<00:00, 313.53it/s]Loading weights: 100%|██████████| 687/687 [00:15<00:00, 43.06it/s] 
+[INFO] Base path: <repository>/evaluation/TestSet
+[INFO] Output CSV: <repository>/paper_single_agent_workflow/results/llava_v6_2_compact/reflect_ablation_llava_v1_6_mistral_7b_v6_2_compact_target12_seed1234_20260703_1358.csv
+[INFO] Experiment root: <repository>/paper_single_agent_workflow/results/llava_v6_2_compact/experiments/reflect_ablation_llava_v1_6_mistral_7b_v6_2_compact_target12_seed1234_20260703_1358
+[INFO] RAG library: <repository>/evaluation/TestSet/python/error_repair_library.jsonl
+[INFO] Total cases: 12
+
+[CASE 1/12] module3/test1 seed=1234
+  [START] origin
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=38.5s
+  [START] reflect_patch
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=63.6s
+  [START] reflect_rag_skeleton
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=42.7s
+
+[CASE 2/12] module3/test2 seed=1334
+  [START] origin
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=68.1s
+  [START] reflect_patch
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=231.3s
+  [START] reflect_rag_skeleton
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=81.7s
+
+[CASE 3/12] module3/test3 seed=1434
+  [START] origin
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=30.6s
+  [START] reflect_patch
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=99.1s
+  [START] reflect_rag_skeleton
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=38.5s
+
+[CASE 4/12] module4/test1 seed=1534
+  [START] origin
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=24.9s
+  [START] reflect_patch
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+  [DONE] reflect_patch syntax_ok=True functional_ok=False elapsed=85.4s
+  [START] reflect_rag_skeleton
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=24.8s
+
+[CASE 5/12] module4/test2 seed=1634
+  [START] origin
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=51.0s
+  [START] reflect_patch
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=102.8s
+  [START] reflect_rag_skeleton
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=63.6s
+
+[CASE 6/12] module4/test3 seed=1734
+  [START] origin
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=31.2s
+  [START] reflect_patch
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=101.7s
+  [START] reflect_rag_skeleton
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=30.6s
+
+[CASE 7/12] module17/test1 seed=1834
+  [START] origin
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=41.6s
+  [START] reflect_patch
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=132.5s
+  [START] reflect_rag_skeleton
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=40.9s
+
+[CASE 8/12] module17/test2 seed=1934
+  [START] origin
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=43.6s
+  [START] reflect_patch
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=58.8s
+  [START] reflect_rag_skeleton
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=44.1s
+
+[CASE 9/12] module17/test3 seed=2034
+  [START] origin
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=39.3s
+  [START] reflect_patch
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+  [DONE] reflect_patch syntax_ok=True functional_ok=True elapsed=52.7s
+  [START] reflect_rag_skeleton
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=True elapsed=48.3s
+
+[CASE 10/12] module26/test1 seed=2134
+  [START] origin
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=69.4s
+  [START] reflect_patch
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+  [DONE] reflect_patch syntax_ok=True functional_ok=False elapsed=139.4s
+  [START] reflect_rag_skeleton
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=False elapsed=174.6s
+
+[CASE 11/12] module26/test2 seed=2234
+  [START] origin
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=68.3s
+  [START] reflect_patch
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=234.3s
+  [START] reflect_rag_skeleton
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=False elapsed=188.9s
+
+[CASE 12/12] module26/test3 seed=2334
+  [START] origin
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+  [DONE] origin syntax_ok=False functional_ok=False elapsed=69.2s
+  [START] reflect_patch
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+  [DONE] reflect_patch syntax_ok=False functional_ok=False elapsed=241.2s
+  [START] reflect_rag_skeleton
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+  [DONE] reflect_rag_skeleton syntax_ok=True functional_ok=False elapsed=180.6s
+Reflect Ablation Summary
+========================
+origin             total=12 syntax=0 functional=0
+reflect_patch      total=12 syntax=7 functional=5
+reflect_rag_skeleton total=12 syntax=12 functional=9
+
+CSV saved to <repository>/paper_single_agent_workflow/results/llava_v6_2_compact/reflect_ablation_llava_v1_6_mistral_7b_v6_2_compact_target12_seed1234_20260703_1358.csv
+Elapsed: 3077.61s

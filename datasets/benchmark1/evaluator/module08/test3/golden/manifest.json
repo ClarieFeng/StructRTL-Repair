@@ -1,0 +1,16 @@
+{
+  "module_id": 8,
+  "family": "signed_adder_tree",
+  "archive_label": "high",
+  "label_mode": "reference_complexity",
+  "reference_complexity": "high",
+  "reasoning_difficulty": "high_candidate_under_current_assets",
+  "source_test_root": "evaluation/TestSet/module8/test3",
+  "generated_case_id": "module8_high_001",
+  "primary_candidate": "candidate_00.v",
+  "alternate_candidates": [],
+  "admitted_candidates": [
+    "candidate_00.v"
+  ],
+  "notes": "Archived as a correct golden reference-complexity variant set. Formal equivalence status is recorded separately."
+}

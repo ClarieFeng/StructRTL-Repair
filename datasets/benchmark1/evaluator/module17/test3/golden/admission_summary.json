@@ -1,0 +1,67 @@
+{
+  "test_root": "<dataset_source>/module17/test4",
+  "candidate_dir": "<dataset_source>",
+  "family": "booth_multiplier",
+  "difficulty": "high",
+  "run_sim": true,
+  "total_candidates": 1,
+  "admitted_candidates": 1,
+  "best_candidate": "candidate_00.v",
+  "results": [
+    {
+      "candidate": "<dataset_source>",
+      "admitted": true,
+      "functional_passed": true,
+      "structural_accepted": true,
+      "functional_validation": {
+        "candidate": "<dataset_source>",
+        "compile_ok": true,
+        "compile_log": "",
+        "simulation_ok": true,
+        "simulation_log": "Starting testbench...\n=> golden={010010101000111100100100}, module={010010101000111100100100}\nTest passed.\n=> golden={001001101000101101111011}, module={001001101000101101111011}\nTest passed.\n=> golden={011010011000101100101001}, module={011010011000101100101001}\nTest passed.\n=> golden={000010010001100100011010}, module={000010010001100100011010}\nTest passed.\n=> golden={001001110011010000001101}, module={001001110011010000001101}\nTest passed.\n=> golden={000100110101011100011110}, module={000100110101011100011110}\nTest passed.\n=> golden={001110111101000010011100}, module={001110111101000010011100}\nTest passed.\n=> golden={001011111001101010010110}, module={001011111001101010010110}\nTest passed.\n=> golden={000011001011010011010010}, module={000011001011010011010010}\nTest passed.\n=> golden={000100110111010101110011}, module={000100110111010101110011}\nTest passed.\n=> golden={010001100010101000001110}, module={010001100010101000001110}\nTest passed.\n=> golden={010000111010110010111100}, module={010000111010110010111100}\nTest passed.\n=> golden={101000010001010010001000}, module={101000010001010010001000}\nTest passed.\n=> golden={010100011100100011101100}, module={010100011100100011101100}\nTest passed.\n=> golden={001101000100011111000001}, module={001101000100011111000001}\nTest passed.\n=> golden={000100001100110011011110}, module={000100001100110011011110}\nTest passed.\n=> golden={000000101101000000000000}, module={000000101101000000000000}\nTest passed.\n=> golden={010001110111000101000010}, module={010001110111000101000010}\nTest passed.\n=> golden={011101011100010100100010}, module={011101011100010100100010}\nTest passed.\n=> golden={001100101110101000110111}, module={001100101110101000110111}\nTest passed.\n=> golden={100100010101100000000111}, module={100100010101100000000111}\nTest passed.\n=> golden={100100101110100101011100}, module={100100101110100101011100}\nTest passed.\n=> golden={000110011001100001110011}, module={000110011001100001110011}\nTest passed.\n=> golden={001011100000101001011110}, module={001011100000101001011110}\nTest passed.\n=> golden={100000111111111101011000}, module={100000111111111101011000}\nTest passed.\n=> golden={000101010111011001110100}, module={000101010111011001110100}\nTest passed.\n=> golden={000011111100001011011000}, module={000011111100001011011000}\nTest passed.\n=> golden={000010001100101100111000}, module={000010001100101100111000}\nTest passed.\n=> golden={010011110111110000010010}, module={010011110111110000010010}\nTest passed.\n=> golden={001000111111011010010100}, module={001000111111011010010100}\nTest passed.\n=> golden={001000111111111011011000}, module={001000111111111011011000}\nTest passed.\n=> golden={100100010000100011011011}, module={100100010000100011011011}\nTest passed.\n=> golden={000010000001000100001011}, module={000010000001000100001011}\nTest passed.\n=> golden={000000001011111001011110}, module={000000001011111001011110}\nTest passed.\n=> golden={000110111001111001010110}, module={000110111001111001010110}\nTest passed.\n=> golden={100011010111101001001001}, module={100011010111101001001001}\nTest passed.\n=> golden={010100110110011100011000}, module={010100110110011100011000}\nTest passed.\n=> golden={000010001100001011010001}, module={000010001100001011010001}\nTest passed.\n=> golden={000001110010000001001000}, module={000001110010000001001000}\nTest passed.\n=> golden={000111001101110100100100}, module={000111001101110100100100}\nTest passed.\n=> golden={000000101010110110110011}, module={000000101010110110110011}\nTest passed.\n=> golden={001000011101100101010000}, module={001000011101100101010000}\nTest passed.\n=> golden={000010100101100000000111}, module={000010100101100000000111}\nTest passed.\n=> golden={111010101000010100001000}, module={111010101000010100001000}\nTest passed.\n=> golden={110010110110000110010000}, module={110010110110000110010000}\nTest passed.\n=> golden={100010101000100101011011}, module={100010101000100101011011}\nTest passed.\n=> golden={000001010111001011011100}, module={000001010111001011011100}\nTest passed.\n=> golden={000010100100110001000101}, module={000010100100110001000101}\nTest passed.\n=> golden={011001110011000010001101}, module={011001110011000010001101}\nTest passed.\n=> golden={100000110110111001011000}, module={100000110110111001011000}\nTest passed.\nTestbench completed.\nPassed tests:          50/         50\nPass rate: 100.00%\n<dataset_source>/module17/test4/code/tb.v:56: $finish called at 510 (1s)\n",
+        "tests_total": 50,
+        "tests_passed": 50,
+        "pass_rate": 100.0,
+        "functional_ok": true
+      },
+      "structural_evaluation": {
+        "family": "booth_multiplier",
+        "difficulty": "high",
+        "features": {
+          "effective_line_count": 233,
+          "wire_count": 78,
+          "reg_count": 0,
+          "assign_count": 16,
+          "always_count": 0,
+          "generate_count": 1,
+          "for_loop_count": 1,
+          "module_instantiation_like_count": 28,
+          "ternary_count": 1,
+          "intermediate_signal_count": 0,
+          "next_state_signal_count": 0,
+          "control_helper_count": 0,
+          "datapath_helper_count": 0,
+          "row_signal_count": 0,
+          "skip_signal_count": 0,
+          "direct_add_assign_count": 0,
+          "sum0_signal_count": 94,
+          "sum1_signal_count": 50,
+          "carry0_signal_count": 0,
+          "carry1_signal_count": 0,
+          "carry_select_mux_count": 0,
+          "block_stage_signal_count": 187,
+          "single_path_helper_chain_count": 0,
+          "gp_helper_count": 0,
+          "fa_helper_count": 0,
+          "csa_helper_count": 0,
+          "cla_helper_count": 0,
+          "csel_helper_count": 0,
+          "ppa_sklansky_helper_count": 0,
+          "ppa_brent_kung_helper_count": 0
+        },
+        "accepted": true,
+        "notes": []
+      }
+    }
+  ]
+}

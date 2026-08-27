@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-08-23T13:13:45.494408+00:00",
+  "model": "qwen3_vl_8b",
+  "model_path_basename": "Qwen3-VL-8B-Instruct",
+  "dataset": "benchmark1",
+  "cases": [
+    "module02/test1"
+  ],
+  "modes": [
+    "origin",
+    "reflect_patch",
+    "reflect_rag_skeleton"
+  ],
+  "seed": 1234,
+  "evaluation_access": "public_only",
+  "protocol": {
+    "schema_version": 1,
+    "evaluation_access": "public_only",
+    "precision": "bf16",
+    "samples_per_case_condition": 1,
+    "generation": {
+      "temperature": 0.2,
+      "top_p": 0.9,
+      "initial_max_new_tokens": 1536,
+      "repair_max_new_tokens": 1536,
+      "diagnosis_max_new_tokens": 384
+    },
+    "visual_preprocessing": {
+      "strategy": "adaptive_crops",
+      "overview_image_pixels": 589824,
+      "crop_image_pixels": 589824,
+      "max_image_crops": 4
+    },
+    "workflow": {
+      "max_outer_rounds": 3,
+      "includes_initial_generation": true,
+      "early_stop_on_functional_pass": true,
+      "return_best_candidate_on_exhaustion": true
+    },
+    "randomness": {
+      "main_run_seed": 1234,
+      "case_seed_formula": "run_seed + 100 * zero_based_case_index",
+      "seed_study": [
+        1234,
+        2234,
+        3234
+      ]
+    },
+    "verification": {
+      "syntax_tool": "iverilog",
+      "simulation_tool": "vvp",
+      "simulation_timeout_seconds": 60,
+      "functional_failure_on_timeout": true,
+      "functional_failure_on_oom": true,
+      "functional_failure_on_missing_record": true
+    },
+    "reported_environment": {
+      "gpu": "NVIDIA A800 80 GB",
+      "os": "Ubuntu",
+      "python": "3.10",
+      "iverilog": "14.0 devel s20260301-172-g311c22e4d-dirty",
+      "yosys": "0.65+71 e56c6a954"
+    },
+    "release_status": "requires_end_to_end_validation"
+  },
+  "backend": "ablation_v6_2_public_protocol.py",
+  "command": [
+    "<python>",
+    "<repo>/src/structrtl_repair/frozen/ablation_v6_2_public_protocol.py",
+    "--base-directory",
+    "<runtime_dataset>",
+    "--model-path",
+    "<model_path>",
+    "--cases",
+    "2:1",
+    "--output-csv",
+    "<output_dir>/results.csv",
+    "--seed",
+    "1234",
+    "--strategy-profile",
+    "benchmark_clean",
+    "--evaluation-access",
+    "public_only",
+    "--rag-path",
+    "<repo>/src/structrtl_repair/knowledge/error_repair_library.jsonl",
+    "--origin-max-new-tokens",
+    "1536",
+    "--fresh"
+  ],
+  "status": "complete",
+  "returncode": 0
+}

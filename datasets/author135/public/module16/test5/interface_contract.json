@@ -1,0 +1,5 @@
+{
+  "top_module": "booth_multiplier_8_CLA",
+  "module_header": "module booth_multiplier_8_CLA #(\n    parameter width=8\n)(\n    input wire [width:1] A,\n    input wire [width:1] B,\n    output wire [width*2:1] S\n);",
+  "source": "public_description"
+}

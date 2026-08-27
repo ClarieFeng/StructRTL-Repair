@@ -1,0 +1,144 @@
+dataset,model,problem_id,module_id,test_id,num_samples,syntax_pass_at_1,compilation_pass_at_1,functional_pass_at_1,detail
+author_eval135,InternVL3.5-8B-Instruct,module1/test1/description0,1,1,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module1/test2/description0,1,2,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module1/test3/description0,1,3,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module1/test4/description0,1,4,1,1.0,1.0,0.0,Pass rate: 0.0%
+author_eval135,InternVL3.5-8B-Instruct,module1/test5/description0,1,5,1,1.0,1.0,0.0,Pass rate: 0.0%
+author_eval135,InternVL3.5-8B-Instruct,module2/test1/description0,2,1,1,1.0,1.0,0.0,Pass rate: 0.0%
+author_eval135,InternVL3.5-8B-Instruct,module2/test2/description0,2,2,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module2/test3/description0,2,3,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module2/test4/description0,2,4,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module2/test5/description0,2,5,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module3/test1/description0,3,1,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module3/test2/description0,3,2,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module3/test3/description0,3,3,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module3/test4/description0,3,4,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module3/test5/description0,3,5,1,1.0,1.0,0.0,Pass rate: 0.0%
+author_eval135,InternVL3.5-8B-Instruct,module4/test1/description0,4,1,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module4/test2/description0,4,2,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module4/test3/description0,4,3,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module4/test4/description0,4,4,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module4/test5/description0,4,5,1,1.0,1.0,0.0,Pass rate: 0.0%
+author_eval135,InternVL3.5-8B-Instruct,module5/test1/description0,5,1,1,1.0,1.0,0.0,Pass rate: 0.0%
+author_eval135,InternVL3.5-8B-Instruct,module5/test2/description0,5,2,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module5/test3/description0,5,3,1,1.0,1.0,0.0,Pass rate: 0.0%
+author_eval135,InternVL3.5-8B-Instruct,module5/test4/description0,5,4,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module5/test5/description0,5,5,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module6/test1/description0,6,1,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module6/test2/description0,6,2,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module6/test3/description0,6,3,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module6/test4/description0,6,4,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module6/test5/description0,6,5,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module7/test1/description0,7,1,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module7/test2/description0,7,2,1,1.0,1.0,0.0,Pass rate: 0.0%
+author_eval135,InternVL3.5-8B-Instruct,module7/test3/description0,7,3,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module7/test4/description0,7,4,1,1.0,1.0,0.0,Pass rate: 0.0%
+author_eval135,InternVL3.5-8B-Instruct,module7/test5/description0,7,5,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module8/test1/description0,8,1,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module8/test2/description0,8,2,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module8/test3/description0,8,3,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module8/test4/description0,8,4,1,1.0,1.0,0.0,Pass rate: 0.0%
+author_eval135,InternVL3.5-8B-Instruct,module8/test5/description0,8,5,1,1.0,1.0,0.0,Pass rate: 0.0%
+author_eval135,InternVL3.5-8B-Instruct,module9/test1/description0,9,1,1,1.0,1.0,0.0,Pass rate: 0.0%
+author_eval135,InternVL3.5-8B-Instruct,module9/test2/description0,9,2,1,1.0,1.0,0.0,Pass rate: 0.0%
+author_eval135,InternVL3.5-8B-Instruct,module9/test3/description0,9,3,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module9/test4/description0,9,4,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module9/test5/description0,9,5,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module10/test1/description0,10,1,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module10/test2/description0,10,2,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module10/test3/description0,10,3,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module10/test4/description0,10,4,1,1.0,1.0,0.0,Pass rate: 0.0%
+author_eval135,InternVL3.5-8B-Instruct,module10/test5/description0,10,5,1,1.0,1.0,0.0,Pass rate: 0.0%
+author_eval135,InternVL3.5-8B-Instruct,module11/test1/description0,11,1,1,1.0,1.0,0.0,Pass rate: 0.0%
+author_eval135,InternVL3.5-8B-Instruct,module11/test2/description0,11,2,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module11/test3/description0,11,3,1,1.0,1.0,0.0,Pass rate: 0.0%
+author_eval135,InternVL3.5-8B-Instruct,module11/test4/description0,11,4,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module11/test5/description0,11,5,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module12/test1/description0,12,1,1,1.0,1.0,0.0,Pass rate: 0.0%
+author_eval135,InternVL3.5-8B-Instruct,module12/test2/description0,12,2,2,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module12/test3/description0,12,3,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module12/test4/description0,12,4,2,1.0,1.0,0.0,"Pass rate: 0.0% | Compile error:
+<tmp>:18: error: Unknown module type: Multi_Booth_signed_odd
+2 error(s) during elaboration.
+*** These m"
+author_eval135,InternVL3.5-8B-Instruct,module12/test5/description0,12,5,2,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module13/test1/description0,13,1,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module13/test2/description0,13,2,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module13/test3/description0,13,3,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module13/test4/description0,13,4,1,1.0,1.0,1.0,Pass rate: 100.0%
+author_eval135,InternVL3.5-8B-Instruct,module13/test5/description0,13,5,1,1.0,1.0,0.0,Pass rate: 0.0%
+author_eval135,InternVL3.5-8B-Instruct,module14/test1/description0,14,1,1,1.0,1.0,0.0,Pass rate: 0.0%
+author_eval135,InternVL3.5-8B-Instruct,module14/test2/description0,14,2,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module14/test3/description0,14,3,1,1.0,1.0,0.0,Pass rate: 0.0%
+author_eval135,InternVL3.5-8B-Instruct,module14/test4/description0,14,4,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module14/test5/description0,14,5,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module15/test1/description0,15,1,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module15/test2/description0,15,2,1,1.0,1.0,0.0,Pass rate: 0.0%
+author_eval135,InternVL3.5-8B-Instruct,module15/test3/description0,15,3,1,1.0,1.0,0.0,Pass rate: 0.0%
+author_eval135,InternVL3.5-8B-Instruct,module15/test4/description0,15,4,1,1.0,1.0,0.0,Pass rate: 0.0%
+author_eval135,InternVL3.5-8B-Instruct,module15/test5/description0,15,5,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module16/test1/description0,16,1,2,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module16/test2/description0,16,2,2,1.0,1.0,0.0,Pass rate: 0.0% | Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module16/test3/description0,16,3,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module16/test4/description0,16,4,2,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module16/test5/description0,16,5,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module17/test1/description0,17,1,1,1.0,1.0,0.0,Pass rate: 0.0%
+author_eval135,InternVL3.5-8B-Instruct,module17/test2/description0,17,2,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module17/test3/description0,17,3,1,1.0,1.0,0.0,Pass rate: 0.0%
+author_eval135,InternVL3.5-8B-Instruct,module17/test4/description0,17,4,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module17/test5/description0,17,5,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module18/test1/description0,18,1,1,1.0,1.0,0.0,Pass rate: 0.0%
+author_eval135,InternVL3.5-8B-Instruct,module18/test2/description0,18,2,1,1.0,1.0,0.0,Pass rate: 0.0%
+author_eval135,InternVL3.5-8B-Instruct,module18/test3/description0,18,3,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module18/test4/description0,18,4,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module18/test5/description0,18,5,1,1.0,1.0,0.0,Pass rate: 0.0%
+author_eval135,InternVL3.5-8B-Instruct,module19/test1/description0,19,1,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module19/test2/description0,19,2,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module19/test3/description0,19,3,1,1.0,0.0,0.0,"Compile error:
+<tmp>:21: error: You can not instantiate module serial_multiplier_8_C_Skip_A within itself.
+/hom"
+author_eval135,InternVL3.5-8B-Instruct,module19/test4/description0,19,4,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module19/test5/description0,19,5,1,1.0,1.0,0.0,Pass rate: 50.0%
+author_eval135,InternVL3.5-8B-Instruct,module20/test1/description0,20,1,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module20/test2/description0,20,2,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module20/test3/description0,20,3,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module20/test4/description0,20,4,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module20/test5/description0,20,5,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module21/test1/description0,21,1,1,1.0,0.0,0.0,"Compile error:
+<tmp>:26: error: Unknown module type: DataReOrganize_golden
+2 error(s) during elaboration.
+*** These mo"
+author_eval135,InternVL3.5-8B-Instruct,module21/test2/description0,21,2,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module21/test3/description0,21,3,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module21/test4/description0,21,4,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module21/test5/description0,21,5,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module22/test1/description0,22,1,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module22/test2/description0,22,2,1,1.0,1.0,0.0,Accuracy: 0.0%
+author_eval135,InternVL3.5-8B-Instruct,module22/test3/description0,22,3,1,1.0,1.0,0.0,Accuracy: 0.0%
+author_eval135,InternVL3.5-8B-Instruct,module22/test4/description0,22,4,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module22/test5/description0,22,5,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module23/test1/description0,23,1,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module23/test2/description0,23,2,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module23/test3/description0,23,3,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module23/test4/description0,23,4,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module23/test5/description0,23,5,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module24/test1/description0,24,1,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module24/test2/description0,24,2,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module24/test3/description0,24,3,1,1.0,1.0,0.0,Pass rate: 0.0%
+author_eval135,InternVL3.5-8B-Instruct,module24/test4/description0,24,4,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module24/test5/description0,24,5,1,1.0,1.0,0.0,Pass rate: 26.0%
+author_eval135,InternVL3.5-8B-Instruct,module25/test1/description0,25,1,1,1.0,1.0,0.0,Pass rate: 0.0%
+author_eval135,InternVL3.5-8B-Instruct,module25/test2/description0,25,2,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module25/test3/description0,25,3,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module25/test4/description0,25,4,1,1.0,1.0,0.0,Pass rate: 0.0%
+author_eval135,InternVL3.5-8B-Instruct,module25/test5/description0,25,5,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module26/test1/description0,26,1,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module26/test2/description0,26,2,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module26/test3/description0,26,3,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module26/test4/description0,26,4,0,0.0,0.0,0.0,missing manifest row
+author_eval135,InternVL3.5-8B-Instruct,module26/test5/description0,26,5,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module27/test1/description0,27,1,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module27/test2/description0,27,2,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module27/test3/description0,27,3,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module27/test4/description0,27,4,1,0.0,0.0,0.0,Syntax check failed
+author_eval135,InternVL3.5-8B-Instruct,module27/test5/description0,27,5,1,0.0,0.0,0.0,Syntax check failed

@@ -1,0 +1,4 @@
+model,subset,mode,num_seeds,mean_functional,std_functional,min_functional,max_functional,mean_syntax,std_syntax,min_syntax,max_syntax
+Qwen3-VL-8B-Instruct,benchmark1_target12,origin,3,0.3333,0.4714,0,1,5.3333,1.2472,4,7
+Qwen3-VL-8B-Instruct,benchmark1_target12,reflect_patch,3,3.0000,1.4142,2,5,10.3333,1.2472,9,12
+Qwen3-VL-8B-Instruct,benchmark1_target12,reflect_rag_skeleton,3,11.0000,0.0000,11,11,12.0000,0.0000,12,12

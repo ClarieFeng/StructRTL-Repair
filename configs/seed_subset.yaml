@@ -1,0 +1,27 @@
+protocol: configs/frozen_protocol.json
+dataset: benchmark1
+models:
+  - minicpm_v_4_5_8b
+  - qwen3_vl_8b
+seeds:
+  - 1234
+  - 2234
+  - 3234
+modes:
+  - origin
+  - reflect_patch
+  - reflect_rag_skeleton
+cases:
+  - module02/test1
+  - module03/test1
+  - module04/test1
+  - module17/test1
+  - module17/test2
+  - module20/test1
+  - module26/test1
+  - module26/test2
+  - module27/test1
+  - module24/test1
+  - module24/test2
+  - module25/test1
+

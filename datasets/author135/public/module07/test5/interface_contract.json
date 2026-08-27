@@ -1,0 +1,5 @@
+{
+  "top_module": "CLA_24bit",
+  "module_header": "module CLA_24bit #(\n    parameter width=24\n) (\n    input wire [width:1] A, // input A \n    input wire [width:1] B, // input B \n    input wire cin, // carry input \n    output wire [width:1] S, // sum output \n    output wire cout, // carry output \n    output wire p_1_24, // propagate signal \n    output wire g_1_24 // generate signal \n);",
+  "source": "public_description"
+}

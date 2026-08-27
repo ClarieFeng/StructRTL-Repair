@@ -1,0 +1,23 @@
+protocol: configs/frozen_protocol.json
+datasets:
+  - author135
+  - benchmark1
+models:
+  - mgemmv_qwen_7b
+  - mgemmv_llama_11b
+  - qwen2_5_vl_7b
+  - qwen3_vl_8b
+  - llama3_2_11b_vision
+  - minicpm_v_4_5_8b
+  - internvl3_5_8b
+modes:
+  - origin
+  - reflect_patch
+  - reflect_rag_skeleton
+pairing:
+  shared_initial_candidate: true
+  shared_case_seed: true
+expected:
+  model_dataset_runs: 14
+  case_evaluations_per_mode: 1512
+

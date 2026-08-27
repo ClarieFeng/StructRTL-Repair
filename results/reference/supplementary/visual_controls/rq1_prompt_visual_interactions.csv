@@ -1,0 +1,3 @@
+﻿stage,model,mode,metric,paired_cases,interface_minus_full_visual_effect,bootstrap_ci_low,bootstrap_ci_high
+single_pass,qwen25_vl_7b,origin,syntax,81,-0.04938271604938271,-0.20987654320987653,0.09876543209876543
+single_pass,qwen25_vl_7b,origin,functional,81,-0.024691358024691357,-0.06172839506172839,0.0

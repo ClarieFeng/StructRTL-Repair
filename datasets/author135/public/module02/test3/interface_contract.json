@@ -1,0 +1,5 @@
+{
+  "top_module": "PPA_Sklansky_23bit",
+  "module_header": "module PPA_Sklansky_23bit #(\n    parameter width=23\n) (\n    input wire [width-1:0] A, // input A \n    input wire [width-1:0] B, // input B \n    input wire cin, // carry input \n    output wire [width-1:0] S, // sum output \n    output wire cout // carry output \n);",
+  "source": "public_description"
+}

@@ -1,0 +1,16 @@
+{
+  "module_id": 3,
+  "family": "prefix_adder",
+  "archive_label": "high",
+  "label_mode": "reference_complexity",
+  "reference_complexity": "high",
+  "reasoning_difficulty": "high",
+  "source_test_root": "evaluation/TestSet/module3/test1",
+  "generated_case_id": "module3_high_001",
+  "primary_candidate": "candidate_00.v",
+  "alternate_candidates": [],
+  "admitted_candidates": [
+    "candidate_00.v"
+  ],
+  "notes": "Archived as a correct golden reference-complexity variant set with a layered prefix-tree hierarchy for the high tier."
+}

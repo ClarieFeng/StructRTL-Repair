@@ -1,0 +1,6 @@
+﻿mode,mode_label,qwen_syntax,qwen_functional,minicpm_syntax,minicpm_functional,combined_n,combined_functional,combined_functional_rate,combined_delta_count_vs_patch,combined_delta_pp_vs_patch
+origin,Origin,10,2,22,0,162,2,0.012345679012345678,-73,-45.06172839506173
+reflect_patch,Patch only,49,37,58,38,162,75,0.46296296296296297,0,0.0
+reflect_patch_rag,Patch + RAG,37,26,78,66,162,92,0.5679012345679012,17,10.493827160493828
+reflect_patch_skeleton,Patch + Skeleton/Gate,50,40,62,47,162,87,0.5370370370370371,12,7.407407407407407
+reflect_rag_skeleton,RAG + Skeleton/Gate (full),54,43,79,67,162,110,0.6790123456790124,35,21.604938271604937

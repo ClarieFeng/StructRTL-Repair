@@ -1,0 +1,5 @@
+{
+  "top_module": "PE_array",
+  "module_header": "module PE_array#(\n    parameter data_width = 24,\n    parameter  a_tile_row_size = 6,\n    parameter  w_tile_column_size = 3\n    )\n\t(\n\t// interface to system\n    input wire clk,                         \n    input wire rst_n,                  \n    input wire w_en,  \n    input wire w_compute,\n\tinput wire [data_width * a_tile_row_size - 1 : 0] active_left,\n    output wire [data_width * a_tile_row_size - 1 : 0] active_right,\n\tinput wire [data_width * w_tile_column_size - 1 : 0] in_weight_above,\n\toutput wire [data_width * w_tile_column_size - 1 : 0] out_weight_below,\n\tinput wire [data_width * 2 * w_tile_column_size - 1 : 0]  in_sum,\n\toutput wire [data_width * 2 * w_tile_column_size - 1 : 0]  out_sum\n\t);",
+  "source": "public_description"
+}

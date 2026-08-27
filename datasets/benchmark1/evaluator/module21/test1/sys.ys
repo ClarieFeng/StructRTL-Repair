@@ -1,0 +1,5 @@
+read_verilog code/code0.v
+read_verilog golden/primary.v
+hierarchy -check -top DataReOrganize
+proc
+write_json golden/DataReOrganize.json

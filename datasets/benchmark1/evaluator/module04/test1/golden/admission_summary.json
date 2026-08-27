@@ -1,0 +1,61 @@
+{
+  "test_root": "<dataset_source>/module4/test1",
+  "candidate_dir": "<dataset_source>",
+  "family": "brent_kung_adder",
+  "difficulty": "low",
+  "run_sim": true,
+  "total_candidates": 1,
+  "admitted_candidates": 1,
+  "best_candidate": "candidate_00.v",
+  "results": [
+    {
+      "candidate": "<dataset_source>",
+      "admitted": true,
+      "functional_passed": true,
+      "structural_accepted": true,
+      "functional_validation": {
+        "candidate": "<dataset_source>",
+        "compile_ok": true,
+        "compile_log": "",
+        "simulation_ok": true,
+        "simulation_log": "Starting testbench...\nA=10011010100100100, B=10101111010000001, cin=1 => golden={101001001110100110}, module={101001001110100110}\nTest passed.\nA=00101011001100011, B=10111101100001101, cin=1 => golden={011101000101110001}, module={011101000101110001}\nTest passed.\nA=01000010001100101, B=10101001000010010, cin=1 => golden={011101011001111000}, module={011101011001111000}\nTest passed.\nA=11100110100001101, B=11111000101110110, cin=1 => golden={111011111010000100}, module={111011111010000100}\nTest passed.\nA=00101011111101101, B=11111011110001100, cin=1 => golden={100100111101111010}, module={100100111101111010}\nTest passed.\nA=10010010011000110, B=11000010011000101, cin=0 => golden={101010100110001011}, module={101010100110001011}\nTest passed.\nA=11111011111100101, B=00111001001110111, cin=0 => golden={100110101001011100}, module={100110101001011100}\nTest passed.\nA=01101101110001111, B=00110100111110010, cin=0 => golden={010100010110000001}, module={010100010110000001}\nTest passed.\nA=00111101011101000, B=00100111011000101, cin=0 => golden={001100100110101101}, module={001100100110101101}\nTest passed.\nA=00010100010111101, B=10101100000101101, cin=1 => golden={011000000011101011}, module={011000000011101011}\nTest passed.\nA=10110001001100011, B=11000011100001010, cin=0 => golden={101110100101101101}, module={101110100101101101}\nTest passed.\nA=00010000100100000, B=00100010110101010, cin=1 => golden={000110011011001011}, module={000110011011001011}\nTest passed.\nA=00011111010010110, B=11011100000010011, cin=1 => golden={011111011010101010}, module={011111011010101010}\nTest passed.\nA=11101011001010011, B=11101110101101011, cin=1 => golden={111011001110111111}, module={111011001110111111}\nTest passed.\nA=10100101000000010, B=00011111010101110, cin=1 => golden={011000100010110001}, module={011000100010110001}\nTest passed.\nA=10111001011001111, B=00100100100100011, cin=0 => golden={011011101111110010}, module={011011101111110010}\nTest passed.\nA=10000101011001010, B=10100110000111100, cin=0 => golden={100101011100000110}, module={100101011100000110}\nTest passed.\nA=00110000110001010, B=01011001101000001, cin=0 => golden={010001010011001011}, module={010001010011001011}\nTest passed.\nA=01111001101111000, B=00001001010001001, cin=1 => golden={010000011000000010}, module={010000011000000010}\nTest passed.\nA=00110010110110110, B=11111100111000110, cin=0 => golden={100101111101111100}, module={100101111101111100}\nTest passed.\nA=10000001010111100, B=11101110100101010, cin=1 => golden={101101111111100111}, module={101101111111100111}\nTest passed.\nA=11011111001110001, B=00100000110000101, cin=1 => golden={011111111111110111}, module={011111111111110111}\nTest passed.\nA=00110000000111011, B=00011001100111010, cin=0 => golden={001001001101110101}, module={001001001101110101}\nTest passed.\nA=00100101100010101, B=11001101111110001, cin=1 => golden={011110011100000111}, module={011110011100000111}\nTest passed.\nA=10000011101100010, B=11111101101001100, cin=1 => golden={110000001010101111}, module={110000001010101111}\nTest passed.\nA=11010000110001111, B=11010100111111000, cin=1 => golden={110100101110001000}, module={110100101110001000}\nTest passed.\nA=00101011010011111, B=11001010001011100, cin=1 => golden={011110101011111100}, module={011110101011111100}\nTest passed.\nA=00011011110001001, B=00011001001001001, cin=0 => golden={000110100111010010}, module={000110100111010010}\nTest passed.\nA=01100000011010111, B=11111110001010001, cin=0 => golden={101011110100101000}, module={101011110100101000}\nTest passed.\nA=10111111100001100, B=01100111011000010, cin=0 => golden={100100110111001110}, module={100100110111001110}\nTest passed.\nA=00101101001110111, B=01110110100111101, cin=0 => golden={010100011110110100}, module={010100011110110100}\nTest passed.\nA=10000000001111110, B=11000000101101101, cin=1 => golden={101000000111101100}, module={101000000111101100}\nTest passed.\nA=01000111100011111, B=11111011011010011, cin=1 => golden={101000010111110011}, module={101000010111110011}\nTest passed.\nA=01000100001111000, B=00101100101011011, cin=1 => golden={001110000111010100}, module={001110000111010100}\nTest passed.\nA=01010111000111111, B=01010111100101010, cin=0 => golden={010101110101101001}, module={010101110101101001}\nTest passed.\nA=10011100010000110, B=00000110010001110, cin=0 => golden={010100010100010100}, module={010100010100010100}\nTest passed.\nA=11001100111111010, B=11011110000100110, cin=1 => golden={110101011000100001}, module={110101011000100001}\nTest passed.\nA=11011010010100011, B=11010100000101111, cin=1 => golden={110101110011010011}, module={110101110011010011}\nTest passed.\nA=00101011001011111, B=10000110101000100, cin=1 => golden={010110001110100100}, module={010110001110100100}\nTest passed.\nA=10011011011001011, B=10001101011100110, cin=0 => golden={100101000110110001}, module={100101000110110001}\nTest passed.\nA=11100000100101001, B=01110001011101101, cin=0 => golden={101010010000010110}, module={101010010000010110}\nTest passed.\nA=11011011001100101, B=01110001010110101, cin=1 => golden={101001100100011011}, module={101001100100011011}\nTest passed.\nA=10001100101111001, B=11111111101000100, cin=0 => golden={110001100010111101}, module={110001100010111101}\nTest passed.\nA=10000101100101010, B=01010110110101011, cin=0 => golden={011011100011010101}, module={011011100011010101}\nTest passed.\nA=11010110111011100, B=01011110010011010, cin=1 => golden={100110101001110111}, module={100110101001110111}\nTest passed.\nA=10000001011000011, B=01110110101010110, cin=0 => golden={011111000000011001}, module={011111000000011001}\nTest passed.\nA=10111011001100111, B=10011010000001010, cin=0 => golden={101010101001110001}, module={101010101001110001}\nTest passed.\nA=01000101000111000, B=11000011101111001, cin=0 => golden={100001000110110001}, module={100001000110110001}\nTest passed.\nA=01011111110010100, B=00101110110010011, cin=0 => golden={010001110100100111}, module={010001110100100111}\nTest passed.\nA=11100101001011001, B=10110100111011011, cin=1 => golden={110011010000110101}, module={110011010000110101}\nTest passed.\nTestbench completed.\nPassed tests:          50/         50\nPass rate: 100.00%\n<dataset_source>/module4/test1/code/tb.v:60: $finish called at 500 (1s)\n",
+        "tests_total": 50,
+        "tests_passed": 50,
+        "pass_rate": 100.0,
+        "functional_ok": true
+      },
+      "structural_evaluation": {
+        "family": "brent_kung_adder",
+        "difficulty": "low",
+        "features": {
+          "effective_line_count": 11,
+          "wire_count": 5,
+          "reg_count": 0,
+          "assign_count": 1,
+          "always_count": 0,
+          "generate_count": 0,
+          "for_loop_count": 0,
+          "module_instantiation_like_count": 0,
+          "ternary_count": 0,
+          "intermediate_signal_count": 2,
+          "next_state_signal_count": 0,
+          "control_helper_count": 0,
+          "datapath_helper_count": 0,
+          "row_signal_count": 0,
+          "skip_signal_count": 0,
+          "direct_add_assign_count": 1,
+          "sum0_signal_count": 0,
+          "sum1_signal_count": 0,
+          "carry0_signal_count": 0,
+          "carry1_signal_count": 0,
+          "carry_select_mux_count": 0,
+          "block_stage_signal_count": 0,
+          "single_path_helper_chain_count": 0,
+          "gp_helper_count": 0
+        },
+        "accepted": true,
+        "notes": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,2367 @@
+mode,prompt_protocol,module_id,test_id,num_iterations,final_iteration,selection_reason,syntax_ok,functional_ok,final_source,repair_lora_adapter,repair_lora_enabled,repair_lora_any_enabled,repair_lora_policy,repair_lora_gate_reason,reflection_categories,retrieved_rule_count,repair_best_status,repair_current_stage,repair_active_categories,interface_gate_action,interface_gate_expected_top,skeleton_gate_action,skeleton_gate_expected_ports,port_gate_action,static_gate_action,static_gate_categories,static_gate_count,preferred_action,diagnosis_family,detail
+origin,shared_origin,1,1,1,0,origin,True,False,raw,,False,False,,,,0,,,,,,,,,,,,,,"Starting testbench...
+A=1010011010100100100, B=0010101111010000001, cin=1 => golden={01101001001110100110}, module={x0111001010001011010}
+Mismatch! Expected {01101001001110100110}, got {x0111001010001011010}
+A=0000101011001100011, B=0010111101100001101, cin=1 => golden={00011101000101110001}, module={x1101101001010010001}
+Mismatch! Expected {00011101000101110001}, got {x1101101001010010001}
+A=0101000010001100101, B=1110101001000010010, cin=1 => golden={10011101011001111000}, module={x0100010100110001000}
+Mismatch! Expected {10011101011001111000}, got {x0100010100110001000}
+A=1111100110100001101, B=0111111000101110110, cin=1 => golden={10111011111010000100}, module={x0111100001110000100}
+Mismatch! Expected {10111011111010000100}, got {x0111100001110000100}
+A=1000101011111101101, B=1011111011110001100, cin=1 => golden={10100100111101111010}, module={x1100101111110011110}
+Mismatch! Expected {10100100111101111010}, got {x1100101111110011110}
+A=1110010010011000110, B=1111000010011000101, cin=0 => golden={11101010100110001011}, module={x0001010000000000011}
+Mismatch! Expected {11101010100110001011}, got {x0001010000000000011}
+A=1111111011111100101, B=0100111001001110111, cin=0 => golden={10100110101001011100}, module={x1011000010110010010}
+Mismatch! Expected {10100110101001011100}, got {x1011000010110010010}
+A=1001101101110001111, B=0000110100111110010, cin=0 => golden={01010100010110000001}, module={x1001011001001111101}
+Mismatch! Expected {01010100010110000001}, got {x1001011001001111101}
+A=0000111101011101000, B=0100100111011000101, cin=0 => golden={00101100100110101101}, module={x0100011010000101101}
+Mismatch! Expected {00101100100110101101}, got {x0100011010000101101}
+A=1100010100010111101, B=0110101100000101101, cin=1 => golden={10011000000011101011}, module={x0101000111101101111}
+Mismatch! Expected {10011000000011101011}, got {x0101000111101101111}
+A=1110110001001100011, B=0111000011100001010, cin=0 => golden={10101110100101101101}, module={x1001110010101101001}
+Mi
+...[truncated]...
+011101101, cin=0 => golden={10101010010000010110}, module={x1010010001111000100}
+Mismatch! Expected {10101010010000010110}, got {x1010010001111000100}
+A=1111011011001100101, B=0101110001010110101, cin=1 => golden={10101001100100011011}, module={x0101010101100101111}
+Mismatch! Expected {10101001100100011011}, got {x0101010101100101111}
+A=0010001100101111001, B=0011111111101000100, cin=0 => golden={00110001100010111101}, module={x0001110011000111101}
+Mismatch! Expected {00110001100010111101}, got {x0001110011000111101}
+A=0010000101100101010, B=1101010110110101011, cin=0 => golden={01111011100011010101}, module={x1111010011010000001}
+Mismatch! Expected {01111011100011010101}, got {x1111010011010000001}
+A=1011010110111011100, B=1101011110010011010, cin=1 => golden={11000110101001110111}, module={x1001110111010111001}
+Mismatch! Expected {11000110101001110111}, got {x1001110111010111001}
+A=0010000001011000011, B=1101110110101010110, cin=0 => golden={01111111000000011001}, module={x1111110111110010101}
+Mismatch! Expected {01111111000000011001}, got {x1111110111110010101}
+A=0010111011001100111, B=0010011010000001010, cin=0 => golden={00101010101001110001}, module={x0000100001001101101}
+Mismatch! Expected {00101010101001110001}, got {x0000100001001101101}
+A=1101000101000111000, B=0011000011101111001, cin=0 => golden={10000001000110110001}, module={x1110000110101000001}
+Mismatch! Expected {10000001000110110001}, got {x1110000110101000001}
+A=1001011111110010100, B=1100101110110010011, cin=0 => golden={10110001110100100111}, module={x0101110001000000111}
+Mismatch! Expected {10110001110100100111}, got {x0101110001000000111}
+A=1111100101001011001, B=0110110100111011011, cin=1 => golden={10110011010000110101}, module={x0110101110001111101}
+Mismatch! Expected {10110011010000110101}, got {x0110101110001111101}
+Testbench completed.
+Passed tests:           0/         50
+Pass rate: 0.00%
+<tmp>:60: $finish called at 500 (1s)
+"
+reflect_patch,qwen25_aligned_multimodal_repair_sft_v1,1,1,1,0,best_functional,True,True,patched,,False,False,syntax_or_patch,no_adapter,,0,functional_pass,functional,unclassified,,FA_19bit,,,,,,0,patch_template,two_input_adder,"Starting testbench...
+A=1010011010100100100, B=0010101111010000001, cin=1 => golden={01101001001110100110}, module={01101001001110100110}
+Test passed.
+A=0000101011001100011, B=0010111101100001101, cin=1 => golden={00011101000101110001}, module={00011101000101110001}
+Test passed.
+A=0101000010001100101, B=1110101001000010010, cin=1 => golden={10011101011001111000}, module={10011101011001111000}
+Test passed.
+A=1111100110100001101, B=0111111000101110110, cin=1 => golden={10111011111010000100}, module={10111011111010000100}
+Test passed.
+A=1000101011111101101, B=1011111011110001100, cin=1 => golden={10100100111101111010}, module={10100100111101111010}
+Test passed.
+A=1110010010011000110, B=1111000010011000101, cin=0 => golden={11101010100110001011}, module={11101010100110001011}
+Test passed.
+A=1111111011111100101, B=0100111001001110111, cin=0 => golden={10100110101001011100}, module={10100110101001011100}
+Test passed.
+A=1001101101110001111, B=0000110100111110010, cin=0 => golden={01010100010110000001}, module={01010100010110000001}
+Test passed.
+A=0000111101011101000, B=0100100111011000101, cin=0 => golden={00101100100110101101}, module={00101100100110101101}
+Test passed.
+A=1100010100010111101, B=0110101100000101101, cin=1 => golden={10011000000011101011}, module={10011000000011101011}
+Test passed.
+A=1110110001001100011, B=0111000011100001010, cin=0 => golden={10101110100101101101}, module={10101110100101101101}
+Test passed.
+A=1000010000100100000, B=0000100010110101010, cin=1 => golden={01000110011011001011}, module={01000110011011001011}
+Test passed.
+A=0000011111010010110, B=0111011100000010011, cin=1 => golden={00111111011010101010}, module={00111111011010101010}
+Test passed.
+A=1111101011001010011, B=1111101110101101011, cin=1 => golden={11111011001110111111}, module={11111011001110111111}
+Test passed.
+A=1110100101000000010, B=1100011111010101110, cin=1 => golden={11011000100010110001}, module={11011000100010110001}
+Test passed.
+A=1010111001011001111, B=100010010010010001
+...[truncated]...
+00}
+Test passed.
+A=1011001100111111010, B=1011011110000100110, cin=1 => golden={10110101011000100001}, module={10110101011000100001}
+Test passed.
+A=0111011010010100011, B=0011010100000101111, cin=1 => golden={01010101110011010011}, module={01010101110011010011}
+Test passed.
+A=0000101011001011111, B=0010000110101000100, cin=1 => golden={00010110001110100100}, module={00010110001110100100}
+Test passed.
+A=0110011011011001011, B=0010001101011100110, cin=0 => golden={01000101000110110001}, module={01000101000110110001}
+Test passed.
+A=1111100000100101001, B=0101110001011101101, cin=0 => golden={10101010010000010110}, module={10101010010000010110}
+Test passed.
+A=1111011011001100101, B=0101110001010110101, cin=1 => golden={10101001100100011011}, module={10101001100100011011}
+Test passed.
+A=0010001100101111001, B=0011111111101000100, cin=0 => golden={00110001100010111101}, module={00110001100010111101}
+Test passed.
+A=0010000101100101010, B=1101010110110101011, cin=0 => golden={01111011100011010101}, module={01111011100011010101}
+Test passed.
+A=1011010110111011100, B=1101011110010011010, cin=1 => golden={11000110101001110111}, module={11000110101001110111}
+Test passed.
+A=0010000001011000011, B=1101110110101010110, cin=0 => golden={01111111000000011001}, module={01111111000000011001}
+Test passed.
+A=0010111011001100111, B=0010011010000001010, cin=0 => golden={00101010101001110001}, module={00101010101001110001}
+Test passed.
+A=1101000101000111000, B=0011000011101111001, cin=0 => golden={10000001000110110001}, module={10000001000110110001}
+Test passed.
+A=1001011111110010100, B=1100101110110010011, cin=0 => golden={10110001110100100111}, module={10110001110100100111}
+Test passed.
+A=1111100101001011001, B=0110110100111011011, cin=1 => golden={10110011010000110101}, module={10110011010000110101}
+Test passed.
+Testbench completed.
+Passed tests:          50/         50
+Pass rate: 100.00%
+<tmp>:60: $finish called at 500 (1s)
+"
+reflect_rag_skeleton,qwen25_aligned_multimodal_repair_sft_v1,1,1,1,0,best_functional,True,True,patched,,False,False,syntax_or_patch,no_adapter,"functional_x_propagation,functional_wrong_adder_structure,functional_x_or_unassigned,functional_wrong_arithmetic",4,functional_pass,functional,"functional_x_propagation,functional_wrong_adder_structure,functional_x_or_unassigned,functional_wrong_arithmetic",,FA_19bit,,"A,B,cin,S,cout",,,,0,patch_template,two_input_adder,"Starting testbench...
+A=1010011010100100100, B=0010101111010000001, cin=1 => golden={01101001001110100110}, module={01101001001110100110}
+Test passed.
+A=0000101011001100011, B=0010111101100001101, cin=1 => golden={00011101000101110001}, module={00011101000101110001}
+Test passed.
+A=0101000010001100101, B=1110101001000010010, cin=1 => golden={10011101011001111000}, module={10011101011001111000}
+Test passed.
+A=1111100110100001101, B=0111111000101110110, cin=1 => golden={10111011111010000100}, module={10111011111010000100}
+Test passed.
+A=1000101011111101101, B=1011111011110001100, cin=1 => golden={10100100111101111010}, module={10100100111101111010}
+Test passed.
+A=1110010010011000110, B=1111000010011000101, cin=0 => golden={11101010100110001011}, module={11101010100110001011}
+Test passed.
+A=1111111011111100101, B=0100111001001110111, cin=0 => golden={10100110101001011100}, module={10100110101001011100}
+Test passed.
+A=1001101101110001111, B=0000110100111110010, cin=0 => golden={01010100010110000001}, module={01010100010110000001}
+Test passed.
+A=0000111101011101000, B=0100100111011000101, cin=0 => golden={00101100100110101101}, module={00101100100110101101}
+Test passed.
+A=1100010100010111101, B=0110101100000101101, cin=1 => golden={10011000000011101011}, module={10011000000011101011}
+Test passed.
+A=1110110001001100011, B=0111000011100001010, cin=0 => golden={10101110100101101101}, module={10101110100101101101}
+Test passed.
+A=1000010000100100000, B=0000100010110101010, cin=1 => golden={01000110011011001011}, module={01000110011011001011}
+Test passed.
+A=0000011111010010110, B=0111011100000010011, cin=1 => golden={00111111011010101010}, module={00111111011010101010}
+Test passed.
+A=1111101011001010011, B=1111101110101101011, cin=1 => golden={11111011001110111111}, module={11111011001110111111}
+Test passed.
+A=1110100101000000010, B=1100011111010101110, cin=1 => golden={11011000100010110001}, module={11011000100010110001}
+Test passed.
+A=1010111001011001111, B=100010010010010001
+...[truncated]...
+00}
+Test passed.
+A=1011001100111111010, B=1011011110000100110, cin=1 => golden={10110101011000100001}, module={10110101011000100001}
+Test passed.
+A=0111011010010100011, B=0011010100000101111, cin=1 => golden={01010101110011010011}, module={01010101110011010011}
+Test passed.
+A=0000101011001011111, B=0010000110101000100, cin=1 => golden={00010110001110100100}, module={00010110001110100100}
+Test passed.
+A=0110011011011001011, B=0010001101011100110, cin=0 => golden={01000101000110110001}, module={01000101000110110001}
+Test passed.
+A=1111100000100101001, B=0101110001011101101, cin=0 => golden={10101010010000010110}, module={10101010010000010110}
+Test passed.
+A=1111011011001100101, B=0101110001010110101, cin=1 => golden={10101001100100011011}, module={10101001100100011011}
+Test passed.
+A=0010001100101111001, B=0011111111101000100, cin=0 => golden={00110001100010111101}, module={00110001100010111101}
+Test passed.
+A=0010000101100101010, B=1101010110110101011, cin=0 => golden={01111011100011010101}, module={01111011100011010101}
+Test passed.
+A=1011010110111011100, B=1101011110010011010, cin=1 => golden={11000110101001110111}, module={11000110101001110111}
+Test passed.
+A=0010000001011000011, B=1101110110101010110, cin=0 => golden={01111111000000011001}, module={01111111000000011001}
+Test passed.
+A=0010111011001100111, B=0010011010000001010, cin=0 => golden={00101010101001110001}, module={00101010101001110001}
+Test passed.
+A=1101000101000111000, B=0011000011101111001, cin=0 => golden={10000001000110110001}, module={10000001000110110001}
+Test passed.
+A=1001011111110010100, B=1100101110110010011, cin=0 => golden={10110001110100100111}, module={10110001110100100111}
+Test passed.
+A=1111100101001011001, B=0110110100111011011, cin=1 => golden={10110011010000110101}, module={10110011010000110101}
+Test passed.
+Testbench completed.
+Passed tests:          50/         50
+Pass rate: 100.00%
+<tmp>:60: $finish called at 500 (1s)
+"
+origin,shared_origin,2,1,1,0,origin,False,False,raw,,False,False,,,,0,,,,,,,,,,,,,,"<tmp>:20: syntax error
+<tmp>:20: error: Invalid module item.
+<tmp>:21: syntax error
+<tmp>:21: error: Invalid module item.
+<tmp>:22: syntax error
+<tmp>:22: error: Invalid module item.
+<tmp>:23: syntax error
+<tmp>:23: error: Invalid module item.
+<tmp>:24: syntax error
+<tmp>:24: error: Invalid module item.
+<tmp>:25: syntax error
+<tmp>:25: error: Invalid module item.
+<tmp>:26: syntax error
+<tmp>:26: error: Invalid module item.
+<tmp>:27: syntax error
+<tmp>:27: error: Invalid module item.
+<tmp>:28: syntax error
+<tmp>:28: error: Invalid module item.
+<tmp>:29: syntax error
+<tmp>:29: error: Invalid module item.
+<tmp>:30: syntax error
+<tmp>:30: error: Invalid module item.
+<tmp>:31: syntax error
+<tmp>:31: error: Invalid module item.
+<source_path>
+...[truncated]...
+a/tmp/reflect_syntax_77y4zt_c/candidate.v:113: syntax error
+<tmp>:113: error: Invalid module item.
+<tmp>:114: syntax error
+<tmp>:114: error: Invalid module item.
+<tmp>:115: syntax error
+<tmp>:115: error: Invalid module item.
+<tmp>:116: syntax error
+<tmp>:116: error: Invalid module item.
+<tmp>:117: syntax error
+<tmp>:117: error: Invalid module item.
+<tmp>:118: syntax error
+<tmp>:118: error: Invalid module item.
+<tmp>:119: syntax error
+<tmp>:119: error: Invalid module item.
+<tmp>:120: syntax error
+<tmp>:120: error: Invalid module item.
+<tmp>:121: syntax error
+<tmp>:121: error: Invalid module item.
+<tmp>:122: syntax error
+<tmp>:122: error: Invalid module item.
+<tmp>:123: syntax error
+<tmp>:123: error: Invalid module item.
+<tmp>:124: syntax error
+<tmp>:8: error: Invalid module item."
+reflect_patch,qwen25_aligned_multimodal_repair_sft_v1,2,1,3,2,last_attempt,False,False,raw,,False,False,syntax_or_patch,no_adapter,,0,none,syntax,unclassified,,PPA_Sklansky_19bit,,,,,,0,regenerate,The interface is correctly defined with the specified parameters and ports declarations.,"<tmp>:20: syntax error
+<tmp>:20: error: Invalid module item.
+<tmp>:21: syntax error
+<tmp>:21: error: Invalid module item.
+<tmp>:22: syntax error
+<tmp>:22: error: Invalid module item.
+<tmp>:23: syntax error
+<tmp>:23: error: Invalid module item.
+<tmp>:24: syntax error
+<tmp>:24: error: Invalid module item.
+<tmp>:25: syntax error
+<tmp>:25: error: Invalid module item.
+<tmp>:26: syntax error
+<tmp>:26: error: Invalid module item.
+<tmp>:27: syntax error
+<tmp>:27: error: Invalid module item.
+<tmp>:28: syntax error
+<tmp>:28: error: Invalid module item.
+<tmp>:29: syntax error
+<tmp>:29: error: Invalid module item.
+<tmp>:30: syntax error
+<tmp>:30: error: Invalid module item.
+<tmp>:31: syntax error
+<tmp>:31: error: Invalid module item.
+<source_path>
+...[truncated]...
+a/tmp/reflect_syntax_yvekzrj3/candidate.v:113: syntax error
+<tmp>:113: error: Invalid module item.
+<tmp>:114: syntax error
+<tmp>:114: error: Invalid module item.
+<tmp>:115: syntax error
+<tmp>:115: error: Invalid module item.
+<tmp>:116: syntax error
+<tmp>:116: error: Invalid module item.
+<tmp>:117: syntax error
+<tmp>:117: error: Invalid module item.
+<tmp>:118: syntax error
+<tmp>:118: error: Invalid module item.
+<tmp>:119: syntax error
+<tmp>:119: error: Invalid module item.
+<tmp>:120: syntax error
+<tmp>:120: error: Invalid module item.
+<tmp>:121: syntax error
+<tmp>:121: error: Invalid module item.
+<tmp>:122: syntax error
+<tmp>:122: error: Invalid module item.
+<tmp>:123: syntax error
+<tmp>:123: error: Invalid module item.
+<tmp>:124: syntax error
+<tmp>:8: error: Invalid module item."
+reflect_rag_skeleton,qwen25_aligned_multimodal_repair_sft_v1,2,1,3,2,last_attempt,False,False,raw,,False,False,syntax_or_patch,no_adapter,"nonsynth_or_bad_always,syntax_verilog2001,serial_multiplier_rule",3,none,syntax,"nonsynth_or_bad_always,syntax_verilog2001,serial_multiplier_rule",,PPA_Sklansky_19bit,,"A,B,cin,S,cout",,,,0,regenerate,ppa_adder,"<tmp>:20: syntax error
+<tmp>:20: error: Invalid module item.
+<tmp>:21: syntax error
+<tmp>:21: error: Invalid module item.
+<tmp>:22: syntax error
+<tmp>:22: error: Invalid module item.
+<tmp>:23: syntax error
+<tmp>:23: error: Invalid module item.
+<tmp>:24: syntax error
+<tmp>:24: error: Invalid module item.
+<tmp>:25: syntax error
+<tmp>:25: error: Invalid module item.
+<tmp>:26: syntax error
+<tmp>:26: error: Invalid module item.
+<tmp>:27: syntax error
+<tmp>:27: error: Invalid module item.
+<tmp>:28: syntax error
+<tmp>:28: error: Invalid module item.
+<tmp>:29: syntax error
+<tmp>:29: error: Invalid module item.
+<tmp>:30: syntax error
+<tmp>:30: error: Invalid module item.
+<tmp>:31: syntax error
+<tmp>:31: error: Invalid module item.
+<source_path>
+...[truncated]...
+a/tmp/reflect_syntax_jcih_spw/candidate.v:113: syntax error
+<tmp>:113: error: Invalid module item.
+<tmp>:114: syntax error
+<tmp>:114: error: Invalid module item.
+<tmp>:115: syntax error
+<tmp>:115: error: Invalid module item.
+<tmp>:116: syntax error
+<tmp>:116: error: Invalid module item.
+<tmp>:117: syntax error
+<tmp>:117: error: Invalid module item.
+<tmp>:118: syntax error
+<tmp>:118: error: Invalid module item.
+<tmp>:119: syntax error
+<tmp>:119: error: Invalid module item.
+<tmp>:120: syntax error
+<tmp>:120: error: Invalid module item.
+<tmp>:121: syntax error
+<tmp>:121: error: Invalid module item.
+<tmp>:122: syntax error
+<tmp>:122: error: Invalid module item.
+<tmp>:123: syntax error
+<tmp>:123: error: Invalid module item.
+<tmp>:124: syntax error
+<tmp>:8: error: Invalid module item."
+origin,shared_origin,3,1,1,0,origin,False,False,raw,,False,False,,,,0,,,,,,,,,,,,,,"<tmp>:7: syntax error
+<tmp>:1: Errors in port declarations.
+<tmp>:19: syntax error
+<tmp>:16: error: Invalid module instantiation
+<tmp>:27: error: Syntax error in left side of continuous assignment."
+reflect_patch,qwen25_aligned_multimodal_repair_sft_v1,3,1,3,2,last_attempt,False,False,raw,,False,False,syntax_or_patch,no_adapter,,0,none,syntax,unclassified,,PPA_Kogge_Stone_24bit,,,,,,0,patch_template,ppa_adder,"<tmp>:7: syntax error
+<tmp>:1: Errors in port declarations.
+<tmp>:19: syntax error
+<tmp>:16: error: Invalid module instantiation
+<tmp>:27: error: Syntax error in left side of continuous assignment."
+reflect_rag_skeleton,qwen25_aligned_multimodal_repair_sft_v1,3,1,3,2,last_attempt,False,False,raw,,False,False,syntax_or_patch,no_adapter,"bad_instantiation,nonsynth_or_bad_always,bad_instantiation_or_missing_helper,syntax_verilog2001,serial_multiplier_rule",5,none,syntax,"bad_instantiation,nonsynth_or_bad_always,bad_instantiation_or_missing_helper,syntax_verilog2001,serial_multiplier_rule,skeleton_boundary,port_mismatch",,PPA_Kogge_Stone_24bit,missing_ports:A|B|S,"A,B,cin,S,cout",missing_ports:A|B|S,,port_mismatch,1,patch_template,ppa_adder,"<tmp>:7: syntax error
+<tmp>:1: Errors in port declarations.
+<tmp>:19: syntax error
+<tmp>:16: error: Invalid module instantiation
+<tmp>:27: error: Syntax error in left side of continuous assignment."
+origin,shared_origin,4,1,1,0,origin,False,False,raw,,False,False,,,,0,,,,,,,,,,,,,,"<tmp>:12: warning: Use of SystemVerilog [size] dimension. Use at least -g2005-sv to remove this warning.
+<tmp>:15: syntax error
+<tmp>:15: error: Syntax error in left side of continuous assignment.
+<tmp>:16: syntax error
+<tmp>:16: error: Syntax error in left side of continuous assignment.
+<tmp>:17: syntax error
+<tmp>:17: error: Syntax error in left side of continuous assignment.
+<tmp>:18: syntax error
+<tmp>:18: error: Syntax error in left side of continuous assignment.
+<tmp>:19: syntax error
+<tmp>:19: error: Syntax error in left side of continuous assignment.
+<tmp>:20: syntax error
+<tmp>:20: error: Syntax error in left side of continuous assignment.
+<tmp>:21: syntax error
+<tmp>:21: error: Syntax error in left side of continuous assignment.
+<tmp>:22: syntax error
+<tmp>:22: error: Syntax error in left side of continuous assignment.
+<tmp>:23: syntax error
+<tmp>:23: error: Syntax error in left side of continuous assignment.
+<tmp>:24: syntax error
+/hom
+...[truncated]...
+p/reflect_syntax_dytfbsno/candidate.v:58: syntax error
+<tmp>:58: error: Syntax error in continuous assignment
+<tmp>:59: syntax error
+<tmp>:59: error: Syntax error in continuous assignment
+<tmp>:60: syntax error
+<tmp>:60: error: Syntax error in continuous assignment
+<tmp>:61: syntax error
+<tmp>:61: error: Syntax error in continuous assignment
+<tmp>:62: syntax error
+<tmp>:62: error: Syntax error in continuous assignment
+<tmp>:63: syntax error
+<tmp>:63: error: Syntax error in continuous assignment
+<tmp>:64: syntax error
+<tmp>:64: error: Syntax error in continuous assignment
+<tmp>:65: syntax error
+<tmp>:65: error: Syntax error in continuous assignment
+<tmp>:66: syntax error
+<tmp>:66: error: Syntax error in continuous assignment
+<tmp>:67: syntax error
+<tmp>:67: error: Syntax error in continuous assignment
+<tmp>:68: syntax error
+<tmp>:68: error: Syntax error in continuous assignment"
+reflect_patch,qwen25_aligned_multimodal_repair_sft_v1,4,1,3,2,last_attempt,False,False,raw,,False,False,syntax_or_patch,no_adapter,,0,none,syntax,unclassified,,PPA_Brent_Kung_17bit,,,,,,0,patch,ppa_adder,"<tmp>:12: warning: Use of SystemVerilog [size] dimension. Use at least -g2005-sv to remove this warning.
+<tmp>:15: syntax error
+<tmp>:15: error: Syntax error in left side of continuous assignment.
+<tmp>:16: syntax error
+<tmp>:16: error: Syntax error in left side of continuous assignment.
+<tmp>:17: syntax error
+<tmp>:17: error: Syntax error in left side of continuous assignment.
+<tmp>:18: syntax error
+<tmp>:18: error: Syntax error in left side of continuous assignment.
+<tmp>:19: syntax error
+<tmp>:19: error: Syntax error in left side of continuous assignment.
+<tmp>:20: syntax error
+<tmp>:20: error: Syntax error in left side of continuous assignment.
+<tmp>:21: syntax error
+<tmp>:21: error: Syntax error in left side of continuous assignment.
+<tmp>:22: syntax error
+<tmp>:22: error: Syntax error in left side of continuous assignment.
+<tmp>:23: syntax error
+<tmp>:23: error: Syntax error in left side of continuous assignment.
+<tmp>:24: syntax error
+/hom
+...[truncated]...
+p/reflect_syntax_v7se0uj6/candidate.v:58: syntax error
+<tmp>:58: error: Syntax error in continuous assignment
+<tmp>:59: syntax error
+<tmp>:59: error: Syntax error in continuous assignment
+<tmp>:60: syntax error
+<tmp>:60: error: Syntax error in continuous assignment
+<tmp>:61: syntax error
+<tmp>:61: error: Syntax error in continuous assignment
+<tmp>:62: syntax error
+<tmp>:62: error: Syntax error in continuous assignment
+<tmp>:63: syntax error
+<tmp>:63: error: Syntax error in continuous assignment
+<tmp>:64: syntax error
+<tmp>:64: error: Syntax error in continuous assignment
+<tmp>:65: syntax error
+<tmp>:65: error: Syntax error in continuous assignment
+<tmp>:66: syntax error
+<tmp>:66: error: Syntax error in continuous assignment
+<tmp>:67: syntax error
+<tmp>:67: error: Syntax error in continuous assignment
+<tmp>:68: syntax error
+<tmp>:68: error: Syntax error in continuous assignment"
+reflect_rag_skeleton,qwen25_aligned_multimodal_repair_sft_v1,4,1,3,2,last_attempt,False,False,raw,,False,False,syntax_or_patch,no_adapter,"nonsynth_or_bad_always,syntax_verilog2001",2,none,syntax,"nonsynth_or_bad_always,syntax_verilog2001",,PPA_Brent_Kung_17bit,,"A,B,cin,S,cout",,,,0,regenerate,ppa_adder,"<tmp>:12: warning: Use of SystemVerilog [size] dimension. Use at least -g2005-sv to remove this warning.
+<tmp>:15: syntax error
+<tmp>:15: error: Syntax error in left side of continuous assignment.
+<tmp>:16: syntax error
+<tmp>:16: error: Syntax error in left side of continuous assignment.
+<tmp>:17: syntax error
+<tmp>:17: error: Syntax error in left side of continuous assignment.
+<tmp>:18: syntax error
+<tmp>:18: error: Syntax error in left side of continuous assignment.
+<tmp>:19: syntax error
+<tmp>:19: error: Syntax error in left side of continuous assignment.
+<tmp>:20: syntax error
+<tmp>:20: error: Syntax error in left side of continuous assignment.
+<tmp>:21: syntax error
+<tmp>:21: error: Syntax error in left side of continuous assignment.
+<tmp>:22: syntax error
+<tmp>:22: error: Syntax error in left side of continuous assignment.
+<tmp>:23: syntax error
+<tmp>:23: error: Syntax error in left side of continuous assignment.
+<tmp>:24: syntax error
+/hom
+...[truncated]...
+p/reflect_syntax_s74hb8w4/candidate.v:58: syntax error
+<tmp>:58: error: Syntax error in continuous assignment
+<tmp>:59: syntax error
+<tmp>:59: error: Syntax error in continuous assignment
+<tmp>:60: syntax error
+<tmp>:60: error: Syntax error in continuous assignment
+<tmp>:61: syntax error
+<tmp>:61: error: Syntax error in continuous assignment
+<tmp>:62: syntax error
+<tmp>:62: error: Syntax error in continuous assignment
+<tmp>:63: syntax error
+<tmp>:63: error: Syntax error in continuous assignment
+<tmp>:64: syntax error
+<tmp>:64: error: Syntax error in continuous assignment
+<tmp>:65: syntax error
+<tmp>:65: error: Syntax error in continuous assignment
+<tmp>:66: syntax error
+<tmp>:66: error: Syntax error in continuous assignment
+<tmp>:67: syntax error
+<tmp>:67: error: Syntax error in continuous assignment
+<tmp>:68: syntax error
+<tmp>:68: error: Syntax error in continuous assignment"
+origin,shared_origin,5,1,1,0,origin,False,False,raw,,False,False,,,,0,,,,,,,,,,,,,,"<tmp>:15: syntax error
+<tmp>:15: error: Invalid port connection expression.
+<tmp>:18: syntax error
+<tmp>:17: error: Invalid port connection expression.
+<tmp>:14: error: Syntax error in instance port expression(s).
+<tmp>:12: error: Invalid module instantiation
+<tmp>:24: syntax error
+<tmp>:22: error: Syntax error in parameter value assignment list.
+<tmp>:26: syntax error
+<tmp>:25: error: Invalid port connection expression.
+<tmp>:24: error: Syntax error in instance port expression(s)."
+reflect_patch,qwen25_aligned_multimodal_repair_sft_v1,5,1,1,0,best_functional,True,True,raw,,False,False,syntax_or_patch,no_adapter,,0,functional_pass,functional,unclassified,,C_Skip_A_20bit,,,,,,0,patch_template,two_input_adder,"Starting testbench...
+A=01010011010100100100, B=10010101111010000001, cin=1 => golden={011101001001110100110}, module={011101001001110100110}
+Test passed.
+A=00000101011001100011, B=10010111101100001101, cin=1 => golden={010011101000101110001}, module={010011101000101110001}
+Test passed.
+A=00101000010001100101, B=01110101001000010010, cin=1 => golden={010011101011001111000}, module={010011101011001111000}
+Test passed.
+A=01111100110100001101, B=00111111000101110110, cin=1 => golden={010111011111010000100}, module={010111011111010000100}
+Test passed.
+A=01000101011111101101, B=11011111011110001100, cin=1 => golden={100100100111101111010}, module={100100100111101111010}
+Test passed.
+A=01110010010011000110, B=01111000010011000101, cin=0 => golden={011101010100110001011}, module={011101010100110001011}
+Test passed.
+A=11111111011111100101, B=00100111001001110111, cin=0 => golden={100100110101001011100}, module={100100110101001011100}
+Test passed.
+A=11001101101110001111, B=00000110100111110010, cin=0 => golden={011010100010110000001}, module={011010100010110000001}
+Test passed.
+A=00000111101011101000, B=10100100111011000101, cin=0 => golden={010101100100110101101}, module={010101100100110101101}
+Test passed.
+A=11100010100010111101, B=10110101100000101101, cin=1 => golden={110011000000011101011}, module={110011000000011101011}
+Test passed.
+A=11110110001001100011, B=00111000011100001010, cin=0 => golden={100101110100101101101}, module={100101110100101101101}
+Test passed.
+A=01000010000100100000, B=10000100010110101010, cin=1 => golden={011000110011011001011}, module={011000110011011001011}
+Test passed.
+A=00000011111010010110, B=00111011100000010011, cin=1 => golden={000111111011010101010}, module={000111111011010101010}
+Test passed.
+A=01111101011001010011, B=11111101110101101011, cin=1 => golden={101111011001110111111}, module={101111011001110111111}
+Test passed.
+A=01110100101000000010, B=01100011111010101110, cin=1 => golden={011011000100010110001}, module={0110110001000101100
+...[truncated]...
+0100110, cin=1 => golden={100110101011000100001}, module={100110101011000100001}
+Test passed.
+A=10111011010010100011, B=10011010100000101111, cin=1 => golden={101010101110011010011}, module={101010101110011010011}
+Test passed.
+A=10000101011001011111, B=10010000110101000100, cin=1 => golden={100010110001110100100}, module={100010110001110100100}
+Test passed.
+A=10110011011011001011, B=10010001101011100110, cin=0 => golden={101000101000110110001}, module={101000101000110110001}
+Test passed.
+A=11111100000100101001, B=00101110001011101101, cin=0 => golden={100101010010000010110}, module={100101010010000010110}
+Test passed.
+A=11111011011001100101, B=10101110001010110101, cin=1 => golden={110101001100100011011}, module={110101001100100011011}
+Test passed.
+A=00010001100101111001, B=00011111111101000100, cin=0 => golden={000110001100010111101}, module={000110001100010111101}
+Test passed.
+A=10010000101100101010, B=01101010110110101011, cin=0 => golden={011111011100011010101}, module={011111011100011010101}
+Test passed.
+A=11011010110111011100, B=11101011110010011010, cin=1 => golden={111000110101001110111}, module={111000110101001110111}
+Test passed.
+A=00010000001011000011, B=11101110110101010110, cin=0 => golden={011111111000000011001}, module={011111111000000011001}
+Test passed.
+A=10010111011001100111, B=00010011010000001010, cin=0 => golden={010101010101001110001}, module={010101010101001110001}
+Test passed.
+A=11101000101000111000, B=00011000011101111001, cin=0 => golden={100000001000110110001}, module={100000001000110110001}
+Test passed.
+A=01001011111110010100, B=01100101110110010011, cin=0 => golden={010110001110100100111}, module={010110001110100100111}
+Test passed.
+A=01111100101001011001, B=10110110100111011011, cin=1 => golden={100110011010000110101}, module={100110011010000110101}
+Test passed.
+Testbench completed.
+Passed tests:          50/         50
+Pass rate: 100.00%
+<tmp>:60: $finish called at 500 (1s)
+"
+reflect_rag_skeleton,qwen25_aligned_multimodal_repair_sft_v1,5,1,1,0,best_functional,True,True,raw,,False,False,syntax_or_patch,no_adapter,,0,functional_pass,functional,"skeleton_boundary,skeleton_template_enforced",,C_Skip_A_20bit,template_enforced:two_input_adder,"A,B,cin,S,cout",,,skeleton_template_enforced,1,,,"Starting testbench...
+A=01010011010100100100, B=10010101111010000001, cin=1 => golden={011101001001110100110}, module={011101001001110100110}
+Test passed.
+A=00000101011001100011, B=10010111101100001101, cin=1 => golden={010011101000101110001}, module={010011101000101110001}
+Test passed.
+A=00101000010001100101, B=01110101001000010010, cin=1 => golden={010011101011001111000}, module={010011101011001111000}
+Test passed.
+A=01111100110100001101, B=00111111000101110110, cin=1 => golden={010111011111010000100}, module={010111011111010000100}
+Test passed.
+A=01000101011111101101, B=11011111011110001100, cin=1 => golden={100100100111101111010}, module={100100100111101111010}
+Test passed.
+A=01110010010011000110, B=01111000010011000101, cin=0 => golden={011101010100110001011}, module={011101010100110001011}
+Test passed.
+A=11111111011111100101, B=00100111001001110111, cin=0 => golden={100100110101001011100}, module={100100110101001011100}
+Test passed.
+A=11001101101110001111, B=00000110100111110010, cin=0 => golden={011010100010110000001}, module={011010100010110000001}
+Test passed.
+A=00000111101011101000, B=10100100111011000101, cin=0 => golden={010101100100110101101}, module={010101100100110101101}
+Test passed.
+A=11100010100010111101, B=10110101100000101101, cin=1 => golden={110011000000011101011}, module={110011000000011101011}
+Test passed.
+A=11110110001001100011, B=00111000011100001010, cin=0 => golden={100101110100101101101}, module={100101110100101101101}
+Test passed.
+A=01000010000100100000, B=10000100010110101010, cin=1 => golden={011000110011011001011}, module={011000110011011001011}
+Test passed.
+A=00000011111010010110, B=00111011100000010011, cin=1 => golden={000111111011010101010}, module={000111111011010101010}
+Test passed.
+A=01111101011001010011, B=11111101110101101011, cin=1 => golden={101111011001110111111}, module={101111011001110111111}
+Test passed.
+A=01110100101000000010, B=01100011111010101110, cin=1 => golden={011011000100010110001}, module={0110110001000101100
+...[truncated]...
+0100110, cin=1 => golden={100110101011000100001}, module={100110101011000100001}
+Test passed.
+A=10111011010010100011, B=10011010100000101111, cin=1 => golden={101010101110011010011}, module={101010101110011010011}
+Test passed.
+A=10000101011001011111, B=10010000110101000100, cin=1 => golden={100010110001110100100}, module={100010110001110100100}
+Test passed.
+A=10110011011011001011, B=10010001101011100110, cin=0 => golden={101000101000110110001}, module={101000101000110110001}
+Test passed.
+A=11111100000100101001, B=00101110001011101101, cin=0 => golden={100101010010000010110}, module={100101010010000010110}
+Test passed.
+A=11111011011001100101, B=10101110001010110101, cin=1 => golden={110101001100100011011}, module={110101001100100011011}
+Test passed.
+A=00010001100101111001, B=00011111111101000100, cin=0 => golden={000110001100010111101}, module={000110001100010111101}
+Test passed.
+A=10010000101100101010, B=01101010110110101011, cin=0 => golden={011111011100011010101}, module={011111011100011010101}
+Test passed.
+A=11011010110111011100, B=11101011110010011010, cin=1 => golden={111000110101001110111}, module={111000110101001110111}
+Test passed.
+A=00010000001011000011, B=11101110110101010110, cin=0 => golden={011111111000000011001}, module={011111111000000011001}
+Test passed.
+A=10010111011001100111, B=00010011010000001010, cin=0 => golden={010101010101001110001}, module={010101010101001110001}
+Test passed.
+A=11101000101000111000, B=00011000011101111001, cin=0 => golden={100000001000110110001}, module={100000001000110110001}
+Test passed.
+A=01001011111110010100, B=01100101110110010011, cin=0 => golden={010110001110100100111}, module={010110001110100100111}
+Test passed.
+A=01111100101001011001, B=10110110100111011011, cin=1 => golden={100110011010000110101}, module={100110011010000110101}
+Test passed.
+Testbench completed.
+Passed tests:          50/         50
+Pass rate: 100.00%
+<tmp>:60: $finish called at 500 (1s)
+"
+origin,shared_origin,6,1,1,0,origin,False,False,raw,,False,False,,,,0,,,,,,,,,,,,,,"<tmp>:21: syntax error
+<tmp>:21: error: Syntax error in left side of continuous assignment.
+<tmp>:22: syntax error
+<tmp>:22: error: Syntax error in left side of continuous assignment.
+<tmp>:33: syntax error
+<tmp>:27: error: Syntax error in instance port expression(s).
+<tmp>:25: error: Invalid module instantiation
+<tmp>:47: syntax error
+<tmp>:47: error: Syntax error in left side of continuous assignment.
+<tmp>:48: syntax error
+<tmp>:48: error: Syntax error in left side of continuous assignment."
+reflect_patch,qwen25_aligned_multimodal_repair_sft_v1,6,1,1,0,best_functional,True,True,raw,,False,False,syntax_or_patch,no_adapter,,0,functional_pass,functional,interface_mismatch,rename_top:C_Sel_a_20bit->C_Sel_A_20bit,C_Sel_A_20bit,,,,,,0,patch_template,two_input_adder,"Starting testbench...
+A=01010011010100100100, B=10010101111010000001, cin=1 => golden={011101001001110100110}, module={011101001001110100110}
+Test passed.
+A=00000101011001100011, B=10010111101100001101, cin=1 => golden={010011101000101110001}, module={010011101000101110001}
+Test passed.
+A=00101000010001100101, B=01110101001000010010, cin=1 => golden={010011101011001111000}, module={010011101011001111000}
+Test passed.
+A=01111100110100001101, B=00111111000101110110, cin=1 => golden={010111011111010000100}, module={010111011111010000100}
+Test passed.
+A=01000101011111101101, B=11011111011110001100, cin=1 => golden={100100100111101111010}, module={100100100111101111010}
+Test passed.
+A=01110010010011000110, B=01111000010011000101, cin=0 => golden={011101010100110001011}, module={011101010100110001011}
+Test passed.
+A=11111111011111100101, B=00100111001001110111, cin=0 => golden={100100110101001011100}, module={100100110101001011100}
+Test passed.
+A=11001101101110001111, B=00000110100111110010, cin=0 => golden={011010100010110000001}, module={011010100010110000001}
+Test passed.
+A=00000111101011101000, B=10100100111011000101, cin=0 => golden={010101100100110101101}, module={010101100100110101101}
+Test passed.
+A=11100010100010111101, B=10110101100000101101, cin=1 => golden={110011000000011101011}, module={110011000000011101011}
+Test passed.
+A=11110110001001100011, B=00111000011100001010, cin=0 => golden={100101110100101101101}, module={100101110100101101101}
+Test passed.
+A=01000010000100100000, B=10000100010110101010, cin=1 => golden={011000110011011001011}, module={011000110011011001011}
+Test passed.
+A=00000011111010010110, B=00111011100000010011, cin=1 => golden={000111111011010101010}, module={000111111011010101010}
+Test passed.
+A=01111101011001010011, B=11111101110101101011, cin=1 => golden={101111011001110111111}, module={101111011001110111111}
+Test passed.
+A=01110100101000000010, B=01100011111010101110, cin=1 => golden={011011000100010110001}, module={0110110001000101100
+...[truncated]...
+0100110, cin=1 => golden={100110101011000100001}, module={100110101011000100001}
+Test passed.
+A=10111011010010100011, B=10011010100000101111, cin=1 => golden={101010101110011010011}, module={101010101110011010011}
+Test passed.
+A=10000101011001011111, B=10010000110101000100, cin=1 => golden={100010110001110100100}, module={100010110001110100100}
+Test passed.
+A=10110011011011001011, B=10010001101011100110, cin=0 => golden={101000101000110110001}, module={101000101000110110001}
+Test passed.
+A=11111100000100101001, B=00101110001011101101, cin=0 => golden={100101010010000010110}, module={100101010010000010110}
+Test passed.
+A=11111011011001100101, B=10101110001010110101, cin=1 => golden={110101001100100011011}, module={110101001100100011011}
+Test passed.
+A=00010001100101111001, B=00011111111101000100, cin=0 => golden={000110001100010111101}, module={000110001100010111101}
+Test passed.
+A=10010000101100101010, B=01101010110110101011, cin=0 => golden={011111011100011010101}, module={011111011100011010101}
+Test passed.
+A=11011010110111011100, B=11101011110010011010, cin=1 => golden={111000110101001110111}, module={111000110101001110111}
+Test passed.
+A=00010000001011000011, B=11101110110101010110, cin=0 => golden={011111111000000011001}, module={011111111000000011001}
+Test passed.
+A=10010111011001100111, B=00010011010000001010, cin=0 => golden={010101010101001110001}, module={010101010101001110001}
+Test passed.
+A=11101000101000111000, B=00011000011101111001, cin=0 => golden={100000001000110110001}, module={100000001000110110001}
+Test passed.
+A=01001011111110010100, B=01100101110110010011, cin=0 => golden={010110001110100100111}, module={010110001110100100111}
+Test passed.
+A=01111100101001011001, B=10110110100111011011, cin=1 => golden={100110011010000110101}, module={100110011010000110101}
+Test passed.
+Testbench completed.
+Passed tests:          50/         50
+Pass rate: 100.00%
+<tmp>:60: $finish called at 500 (1s)
+"
+reflect_rag_skeleton,qwen25_aligned_multimodal_repair_sft_v1,6,1,2,1,best_functional,True,True,raw,,False,False,syntax_or_patch,no_adapter,"bad_instantiation,nonsynth_or_bad_always,bad_instantiation_or_missing_helper,syntax_verilog2001,serial_multiplier_rule",5,functional_pass,functional,"bad_instantiation,nonsynth_or_bad_always,bad_instantiation_or_missing_helper,syntax_verilog2001,serial_multiplier_rule",,C_Sel_A_20bit,,"A,B,cin,S,cout",,,,0,patch_template,two_input_adder,"Starting testbench...
+A=01010011010100100100, B=10010101111010000001, cin=1 => golden={011101001001110100110}, module={011101001001110100110}
+Test passed.
+A=00000101011001100011, B=10010111101100001101, cin=1 => golden={010011101000101110001}, module={010011101000101110001}
+Test passed.
+A=00101000010001100101, B=01110101001000010010, cin=1 => golden={010011101011001111000}, module={010011101011001111000}
+Test passed.
+A=01111100110100001101, B=00111111000101110110, cin=1 => golden={010111011111010000100}, module={010111011111010000100}
+Test passed.
+A=01000101011111101101, B=11011111011110001100, cin=1 => golden={100100100111101111010}, module={100100100111101111010}
+Test passed.
+A=01110010010011000110, B=01111000010011000101, cin=0 => golden={011101010100110001011}, module={011101010100110001011}
+Test passed.
+A=11111111011111100101, B=00100111001001110111, cin=0 => golden={100100110101001011100}, module={100100110101001011100}
+Test passed.
+A=11001101101110001111, B=00000110100111110010, cin=0 => golden={011010100010110000001}, module={011010100010110000001}
+Test passed.
+A=00000111101011101000, B=10100100111011000101, cin=0 => golden={010101100100110101101}, module={010101100100110101101}
+Test passed.
+A=11100010100010111101, B=10110101100000101101, cin=1 => golden={110011000000011101011}, module={110011000000011101011}
+Test passed.
+A=11110110001001100011, B=00111000011100001010, cin=0 => golden={100101110100101101101}, module={100101110100101101101}
+Test passed.
+A=01000010000100100000, B=10000100010110101010, cin=1 => golden={011000110011011001011}, module={011000110011011001011}
+Test passed.
+A=00000011111010010110, B=00111011100000010011, cin=1 => golden={000111111011010101010}, module={000111111011010101010}
+Test passed.
+A=01111101011001010011, B=11111101110101101011, cin=1 => golden={101111011001110111111}, module={101111011001110111111}
+Test passed.
+A=01110100101000000010, B=01100011111010101110, cin=1 => golden={011011000100010110001}, module={0110110001000101100
+...[truncated]...
+0100110, cin=1 => golden={100110101011000100001}, module={100110101011000100001}
+Test passed.
+A=10111011010010100011, B=10011010100000101111, cin=1 => golden={101010101110011010011}, module={101010101110011010011}
+Test passed.
+A=10000101011001011111, B=10010000110101000100, cin=1 => golden={100010110001110100100}, module={100010110001110100100}
+Test passed.
+A=10110011011011001011, B=10010001101011100110, cin=0 => golden={101000101000110110001}, module={101000101000110110001}
+Test passed.
+A=11111100000100101001, B=00101110001011101101, cin=0 => golden={100101010010000010110}, module={100101010010000010110}
+Test passed.
+A=11111011011001100101, B=10101110001010110101, cin=1 => golden={110101001100100011011}, module={110101001100100011011}
+Test passed.
+A=00010001100101111001, B=00011111111101000100, cin=0 => golden={000110001100010111101}, module={000110001100010111101}
+Test passed.
+A=10010000101100101010, B=01101010110110101011, cin=0 => golden={011111011100011010101}, module={011111011100011010101}
+Test passed.
+A=11011010110111011100, B=11101011110010011010, cin=1 => golden={111000110101001110111}, module={111000110101001110111}
+Test passed.
+A=00010000001011000011, B=11101110110101010110, cin=0 => golden={011111111000000011001}, module={011111111000000011001}
+Test passed.
+A=10010111011001100111, B=00010011010000001010, cin=0 => golden={010101010101001110001}, module={010101010101001110001}
+Test passed.
+A=11101000101000111000, B=00011000011101111001, cin=0 => golden={100000001000110110001}, module={100000001000110110001}
+Test passed.
+A=01001011111110010100, B=01100101110110010011, cin=0 => golden={010110001110100100111}, module={010110001110100100111}
+Test passed.
+A=01111100101001011001, B=10110110100111011011, cin=1 => golden={100110011010000110101}, module={100110011010000110101}
+Test passed.
+Testbench completed.
+Passed tests:          50/         50
+Pass rate: 100.00%
+<tmp>:60: $finish called at 500 (1s)
+"
+origin,shared_origin,7,1,1,0,origin,False,False,raw,,False,False,,,,0,,,,,,,,,,,,,,"<tmp>:20: syntax error
+<tmp>:17: error: Invalid module instantiation"
+reflect_patch,qwen25_aligned_multimodal_repair_sft_v1,7,1,3,2,last_attempt,False,False,raw,,False,False,syntax_or_patch,no_adapter,,0,none,syntax,unclassified,,CLA_23bit,,,,,,0,patch_template,cla_family,"<tmp>:20: syntax error
+<tmp>:17: error: Invalid module instantiation"
+reflect_rag_skeleton,qwen25_aligned_multimodal_repair_sft_v1,7,1,3,2,last_attempt,False,False,raw,,False,False,syntax_or_patch,no_adapter,"bad_instantiation,nonsynth_or_bad_always,bad_instantiation_or_missing_helper,syntax_verilog2001,serial_multiplier_rule",5,none,syntax,"bad_instantiation,nonsynth_or_bad_always,bad_instantiation_or_missing_helper,syntax_verilog2001,serial_multiplier_rule",,CLA_23bit,,"A,B,cin,S,cout",,,,0,patch_template,cla_family,"<tmp>:20: syntax error
+<tmp>:17: error: Invalid module instantiation"
+origin,shared_origin,8,1,1,0,origin,False,False,raw,,False,False,,,,0,,,,,,,,,,,,,,"<tmp>:20: error: 'CSA_3to2_21_21_21_Cout' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:21: error: 'CSA_3to2_21_21_21_S' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:23: error: 'CSA_3to2_21_21_21_Cout' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:24: error: 'CSA_3to2_21_21_21_S' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:26: error: 'CSA_3to2_21_21_21_Cout' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:27: error: 'CSA_3to2_21_21_21_S' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:29: error: 'CSA_3to2_21_21_21_Cout' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:30: error: 'CSA_3to2_21_21_21_S' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:32: error: 'CSA_3to2_21_21_21_Cout' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:33: error: 'CSA_3to2_21_21_21_S' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:40: syntax error
+<tmp>:40: error: Syntax error in parameter value assignment list.
+<tmp>:50: syntax error
+<tmp>:45: error: Invalid module instantiation
+<tmp>:1: error: 'AdderTree_signed' has already been declared in this scope.
+<tmp>:1:      : It was declared here as a module.
+<tmp>:64: error: Module AdderTree_signed was already declared here: <tmp>:1"
+reflect_patch,qwen25_aligned_multimodal_repair_sft_v1,8,1,3,2,last_attempt,False,False,raw,,False,False,syntax_or_patch,no_adapter,,0,none,syntax,unclassified,,AdderTree_signed,,,,,,0,patch_template,Verilog.,"<tmp>:20: error: 'CSA_3to2_21_21_21_Cout' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:21: error: 'CSA_3to2_21_21_21_S' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:23: error: 'CSA_3to2_21_21_21_Cout' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:24: error: 'CSA_3to2_21_21_21_S' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:26: error: 'CSA_3to2_21_21_21_Cout' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:27: error: 'CSA_3to2_21_21_21_S' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:29: error: 'CSA_3to2_21_21_21_Cout' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:30: error: 'CSA_3to2_21_21_21_S' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:32: error: 'CSA_3to2_21_21_21_Cout' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:33: error: 'CSA_3to2_21_21_21_S' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:40: syntax error
+<tmp>:40: error: Syntax error in parameter value assignment list.
+<tmp>:50: syntax error
+<tmp>:45: error: Invalid module instantiation
+<tmp>:1: error: 'AdderTree_signed' has already been declared in this scope.
+<tmp>:1:      : It was declared here as a module.
+<tmp>:64: error: Module AdderTree_signed was already declared here: <tmp>:1"
+reflect_rag_skeleton,qwen25_aligned_multimodal_repair_sft_v1,8,1,3,2,last_attempt,False,False,raw,,False,False,syntax_or_patch,no_adapter,"bad_instantiation,nonsynth_or_bad_always,bad_instantiation_or_missing_helper,syntax_verilog2001,adder_tree_rule,serial_multiplier_rule,family_signed_sum_skeleton",7,none,syntax,"bad_instantiation,nonsynth_or_bad_always,bad_instantiation_or_missing_helper,syntax_verilog2001,adder_tree_rule,serial_multiplier_rule,family_signed_sum_skeleton,skeleton_boundary,width_or_slice",,AdderTree_signed,reversed_slice:0:3,"A1,A2,A3,A4,A5,A6,A7,A8,A9,A10,S",,reversed_slice:0:3,width_or_slice,1,patch_template,signed_multi_input_sum,"<tmp>:20: error: 'CSA_3to2_21_21_21_Cout' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:21: error: 'CSA_3to2_21_21_21_S' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:23: error: 'CSA_3to2_21_21_21_Cout' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:24: error: 'CSA_3to2_21_21_21_S' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:26: error: 'CSA_3to2_21_21_21_Cout' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:27: error: 'CSA_3to2_21_21_21_S' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:29: error: 'CSA_3to2_21_21_21_Cout' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:30: error: 'CSA_3to2_21_21_21_S' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:32: error: 'CSA_3to2_21_21_21_Cout' has already been declared in this scope.
+<tmp>:18:      : It was declared here as a net.
+<tmp>:33: error: 'CSA_3to2_21_21_21_S' has already been declared in this scope.
+<tmp>:19:      : It was declared here as a net.
+<tmp>:40: syntax error
+<tmp>:40: error: Syntax error in parameter value assignment list.
+<tmp>:50: syntax error
+<tmp>:45: error: Invalid module instantiation
+<tmp>:1: error: 'AdderTree_signed' has already been declared in this scope.
+<tmp>:1:      : It was declared here as a module.
+<tmp>:64: error: Module AdderTree_signed was already declared here: <tmp>:1"
+origin,shared_origin,9,1,1,0,origin,False,False,raw,,False,False,,,,0,,,,,,,,,,,,,,"<tmp>:1: error: 'FA_27bit' has already been declared in this scope.
+<tmp>:1:      : It was declared here as a module.
+<tmp>:19: error: Module FA_27bit was already declared here: <tmp>:1"
+reflect_patch,qwen25_aligned_multimodal_repair_sft_v1,9,1,3,2,last_attempt,False,False,raw,,False,False,syntax_or_patch,no_adapter,,0,none,syntax,unclassified,,AdderTree_unsigned,,,,,,0,patch_template,unsigned_multi_input_sum,"<tmp>:2: error: Unable to bind parameter `CSA_WIDTH' in `AdderTree_unsigned'
+<tmp>:2: error: Dimensions must be constant.
+<tmp>:2       : This MSB expression violates the rule: (('sd2)*(CSA_WIDTH))-('sd1)
+<tmp>:3: error: Unable to bind parameter `CSA_WIDTH' in `AdderTree_unsigned'
+<tmp>:3: error: Dimensions must be constant.
+<tmp>:3       : This MSB expression violates the rule: (('sd2)*(CSA_WIDTH))-('sd1)
+<tmp>:5: error: Unable to bind parameter `CSA_WIDTH' in `AdderTree_unsigned'
+<tmp>:5: error: Dimensions must be constant.
+<tmp>:5       : This MSB expression violates the rule: (('sd2)*(CSA_WIDTH))-('sd1)
+<tmp>:4: error: Unable to bind parameter `CSA_WIDTH' in `AdderTree_unsigned'
+<tmp>:4: error: Dimensions must be constant.
+<tmp>:4       : This MSB expression violates the rule: (CSA_WIDTH)-('sd1)
+8 error(s) during elaboration."
+reflect_rag_skeleton,qwen25_aligned_multimodal_repair_sft_v1,9,1,3,2,last_attempt,False,False,raw,,False,False,syntax_or_patch,no_adapter,"adder_tree_rule,family_unsigned_sum_skeleton",2,none,syntax,"adder_tree_rule,family_unsigned_sum_skeleton,skeleton_boundary,port_mismatch",,AdderTree_unsigned,missing_ports:A1|A2|A3|A4|A5|A6|A7|A8,"A1,A2,A3,A4,A5,A6,A7,A8,A9,S",missing_ports:A1|A2|A3|A4|A5|A6|A7|A8,,port_mismatch,1,patch_template,unsigned_multi_input_sum,"<tmp>:2: error: Unable to bind parameter `CSA_WIDTH' in `AdderTree_unsigned'
+<tmp>:2: error: Dimensions must be constant.
+<tmp>:2       : This MSB expression violates the rule: (('sd2)*(CSA_WIDTH))-('sd1)
+<tmp>:3: error: Unable to bind parameter `CSA_WIDTH' in `AdderTree_unsigned'
+<tmp>:3: error: Dimensions must be constant.
+<tmp>:3       : This MSB expression violates the rule: (('sd2)*(CSA_WIDTH))-('sd1)
+<tmp>:5: error: Unable to bind parameter `CSA_WIDTH' in `AdderTree_unsigned'
+<tmp>:5: error: Dimensions must be constant.
+<tmp>:5       : This MSB expression violates the rule: (('sd2)*(CSA_WIDTH))-('sd1)
+<tmp>:4: error: Unable to bind parameter `CSA_WIDTH' in `AdderTree_unsigned'
+<tmp>:4: error: Dimensions must be constant.
+<tmp>:4       : This MSB expression violates the rule: (CSA_WIDTH)-('sd1)
+8 error(s) during elaboration."
+origin,shared_origin,10,1,1,0,origin,False,False,raw,,False,False,,,,0,,,,,,,,,,,,,,"<tmp>:17: syntax error
+<tmp>:17: error: Invalid module instantiation"
+reflect_patch,qwen25_aligned_multimodal_repair_sft_v1,10,1,1,0,best_functional,True,True,raw,,False,False,syntax_or_patch,no_adapter,,0,functional_pass,functional,unclassified,,signed_addertree_19_8_PPA_Sklansky,,,,,,0,patch_template,signed_multi_input_sum,"Starting testbench...
+=> golden={{1111101010101100100010}}, module={{1111101010101100100010}}
+Test passed.
+=> golden={{1111001100110011111001}}, module={{1111001100110011111001}}
+Test passed.
+=> golden={{0001000111010000101100}}, module={{0001000111010000101100}}
+Test passed.
+=> golden={{0001101010001111000101}}, module={{0001101010001111000101}}
+Test passed.
+=> golden={{1111000101101011110000}}, module={{1111000101101011110000}}
+Test passed.
+=> golden={{1101101001101100001001}}, module={{1101101001101100001001}}
+Test passed.
+=> golden={{0001100110010010011100}}, module={{0001100110010010011100}}
+Test passed.
+=> golden={{1111001011100101110111}}, module={{1111001011100101110111}}
+Test passed.
+=> golden={{0000101000111110100110}}, module={{0000101000111110100110}}
+Test passed.
+=> golden={{1110001110111110000110}}, module={{1110001110111110000110}}
+Test passed.
+=> golden={{0000001101010011000111}}, module={{0000001101010011000111}}
+Test passed.
+=> golden={{1110110100100001110100}}, module={{1110110100100001110100}}
+Test passed.
+=> golden={{0010010011111111111100}}, module={{0010010011111111111100}}
+Test passed.
+=> golden={{1110111011110100111110}}, module={{1110111011110100111110}}
+Test passed.
+=> golden={{0010111100100110000111}}, module={{0010111100100110000111}}
+Test passed.
+=> golden={{0010100101011110100110}}, module={{0010100101011110100110}}
+Test passed.
+=> golden={{1110000111010011101001}}, module={{1110000111010011101001}}
+Test passed.
+=> golden={{0001110001000100110100}}, module={{0001110001000100110100}}
+Test passed.
+=> golden={{1101110011100111110010}}, module={{1101110011100111110010}}
+Test passed.
+=> golden={{0000011110101000110101}}, module={{0000011110101000110101}}
+Test passed.
+=> golden={{1110000001101110101010}}, module={{1110000001101110101010}}
+Test passed.
+=> golden={{1100101110000010110101}}, module={{1100101110000010110101}}
+Test passed.
+=> golden={{1110110010100101100100}}, module={{1110110010100101100100}}
+Test passed.
+=> golden={{00000111111
+...[truncated]...
+0000010000011011000000}}
+Test passed.
+=> golden={{0001000000011010110100}}, module={{0001000000011010110100}}
+Test passed.
+=> golden={{1111001000110111111001}}, module={{1111001000110111111001}}
+Test passed.
+=> golden={{0000111001101101100011}}, module={{0000111001101101100011}}
+Test passed.
+=> golden={{1110100011001011000101}}, module={{1110100011001011000101}}
+Test passed.
+=> golden={{0000010101011100000010}}, module={{0000010101011100000010}}
+Test passed.
+=> golden={{1110011111110100001101}}, module={{1110011111110100001101}}
+Test passed.
+=> golden={{0001010010100111111101}}, module={{0001010010100111111101}}
+Test passed.
+=> golden={{1100111110000111111111}}, module={{1100111110000111111111}}
+Test passed.
+=> golden={{0001110010010001111101}}, module={{0001110010010001111101}}
+Test passed.
+=> golden={{0001111110111100001001}}, module={{0001111110111100001001}}
+Test passed.
+=> golden={{1101110011101101111001}}, module={{1101110011101101111001}}
+Test passed.
+=> golden={{1111100001010011100011}}, module={{1111100001010011100011}}
+Test passed.
+=> golden={{1111010111010110101010}}, module={{1111010111010110101010}}
+Test passed.
+=> golden={{1111100110000010000101}}, module={{1111100110000010000101}}
+Test passed.
+=> golden={{0000011100110010001000}}, module={{0000011100110010001000}}
+Test passed.
+=> golden={{0000001100010000101100}}, module={{0000001100010000101100}}
+Test passed.
+=> golden={{0001000100011101010011}}, module={{0001000100011101010011}}
+Test passed.
+=> golden={{0001010100111001011010}}, module={{0001010100111001011010}}
+Test passed.
+=> golden={{0001001110001000001111}}, module={{0001001110001000001111}}
+Test passed.
+=> golden={{0010111111011011010000}}, module={{0010111111011011010000}}
+Test passed.
+=> golden={{1110111001010010000100}}, module={{1110111001010010000100}}
+Test passed.
+Testbench completed.
+Passed tests:          50/         50
+Pass rate: 100.00%
+<tmp>:73: $finish called at 510 (1s)
+"
+reflect_rag_skeleton,qwen25_aligned_multimodal_repair_sft_v1,10,1,1,0,best_functional,True,True,raw,,False,False,syntax_or_patch,no_adapter,"bad_instantiation,nonsynth_or_bad_always,bad_instantiation_or_missing_helper,syntax_verilog2001,serial_multiplier_rule,family_signed_sum_skeleton",6,functional_pass,functional,"bad_instantiation,nonsynth_or_bad_always,bad_instantiation_or_missing_helper,syntax_verilog2001,serial_multiplier_rule,family_signed_sum_skeleton",,signed_addertree_19_8_PPA_Sklansky,,"A1,A2,A3,A4,A5,A6,A7,A8,S",,,,0,patch_template,signed_multi_input_sum,"Starting testbench...
+=> golden={{1111101010101100100010}}, module={{1111101010101100100010}}
+Test passed.
+=> golden={{1111001100110011111001}}, module={{1111001100110011111001}}
+Test passed.
+=> golden={{0001000111010000101100}}, module={{0001000111010000101100}}
+Test passed.
+=> golden={{0001101010001111000101}}, module={{0001101010001111000101}}
+Test passed.
+=> golden={{1111000101101011110000}}, module={{1111000101101011110000}}
+Test passed.
+=> golden={{1101101001101100001001}}, module={{1101101001101100001001}}
+Test passed.
+=> golden={{0001100110010010011100}}, module={{0001100110010010011100}}
+Test passed.
+=> golden={{1111001011100101110111}}, module={{1111001011100101110111}}
+Test passed.
+=> golden={{0000101000111110100110}}, module={{0000101000111110100110}}
+Test passed.
+=> golden={{1110001110111110000110}}, module={{1110001110111110000110}}
+Test passed.
+=> golden={{0000001101010011000111}}, module={{0000001101010011000111}}
+Test passed.
+=> golden={{1110110100100001110100}}, module={{1110110100100001110100}}
+Test passed.
+=> golden={{0010010011111111111100}}, module={{0010010011111111111100}}
+Test passed.
+=> golden={{1110111011110100111110}}, module={{1110111011110100111110}}
+Test passed.
+=> golden={{0010111100100110000111}}, module={{0010111100100110000111}}
+Test passed.
+=> golden={{0010100101011110100110}}, module={{0010100101011110100110}}
+Test passed.
+=> golden={{1110000111010011101001}}, module={{1110000111010011101001}}
+Test passed.
+=> golden={{0001110001000100110100}}, module={{0001110001000100110100}}
+Test passed.
+=> golden={{1101110011100111110010}}, module={{1101110011100111110010}}
+Test passed.
+=> golden={{0000011110101000110101}}, module={{0000011110101000110101}}
+Test passed.
+=> golden={{1110000001101110101010}}, module={{1110000001101110101010}}
+Test passed.
+=> golden={{1100101110000010110101}}, module={{1100101110000010110101}}
+Test passed.
+=> golden={{1110110010100101100100}}, module={{1110110010100101100100}}
+Test passed.
+=> golden={{00000111111
+...[truncated]...
+0000010000011011000000}}
+Test passed.
+=> golden={{0001000000011010110100}}, module={{0001000000011010110100}}
+Test passed.
+=> golden={{1111001000110111111001}}, module={{1111001000110111111001}}
+Test passed.
+=> golden={{0000111001101101100011}}, module={{0000111001101101100011}}
+Test passed.
+=> golden={{1110100011001011000101}}, module={{1110100011001011000101}}
+Test passed.
+=> golden={{0000010101011100000010}}, module={{0000010101011100000010}}
+Test passed.
+=> golden={{1110011111110100001101}}, module={{1110011111110100001101}}
+Test passed.
+=> golden={{0001010010100111111101}}, module={{0001010010100111111101}}
+Test passed.
+=> golden={{1100111110000111111111}}, module={{1100111110000111111111}}
+Test passed.
+=> golden={{0001110010010001111101}}, module={{0001110010010001111101}}
+Test passed.
+=> golden={{0001111110111100001001}}, module={{0001111110111100001001}}
+Test passed.
+=> golden={{1101110011101101111001}}, module={{1101110011101101111001}}
+Test passed.
+=> golden={{1111100001010011100011}}, module={{1111100001010011100011}}
+Test passed.
+=> golden={{1111010111010110101010}}, module={{1111010111010110101010}}
+Test passed.
+=> golden={{1111100110000010000101}}, module={{1111100110000010000101}}
+Test passed.
+=> golden={{0000011100110010001000}}, module={{0000011100110010001000}}
+Test passed.
+=> golden={{0000001100010000101100}}, module={{0000001100010000101100}}
+Test passed.
+=> golden={{0001000100011101010011}}, module={{0001000100011101010011}}
+Test passed.
+=> golden={{0001010100111001011010}}, module={{0001010100111001011010}}
+Test passed.
+=> golden={{0001001110001000001111}}, module={{0001001110001000001111}}
+Test passed.
+=> golden={{0010111111011011010000}}, module={{0010111111011011010000}}
+Test passed.
+=> golden={{1110111001010010000100}}, module={{1110111001010010000100}}
+Test passed.
+Testbench completed.
+Passed tests:          50/         50
+Pass rate: 100.00%
+<tmp>:73: $finish called at 510 (1s)
+"
+origin,shared_origin,11,1,1,0,origin,False,False,raw,,False,False,,,,0,,,,,,,,,,,,,,"<tmp>:21: syntax error
+<tmp>:21: error: Invalid port connection expression."
+reflect_patch,qwen25_aligned_multimodal_repair_sft_v1,11,1,3,2,last_attempt,False,False,raw,,False,False,syntax_or_patch,no_adapter,,0,none,syntax,unclassified,,addertree_19_9_PPA_Sklansky,,,,,,0,regenerate,unsigned_multi_input_sum,"<tmp>:21: syntax error
+<tmp>:21: error: Invalid port connection expression."
+reflect_rag_skeleton,qwen25_aligned_multimodal_repair_sft_v1,11,1,3,2,last_attempt,False,False,raw,,False,False,syntax_or_patch,no_adapter,"nonsynth_or_bad_always,syntax_verilog2001,serial_multiplier_rule,family_unsigned_sum_skeleton",4,none,syntax,"nonsynth_or_bad_always,syntax_verilog2001,serial_multiplier_rule,family_unsigned_sum_skeleton,skeleton_boundary,port_mismatch",,addertree_19_9_PPA_Sklansky,missing_ports:A2|A3|A4|A5|A6|A7|A8|A9,"A1,A2,A3,A4,A5,A6,A7,A8,A9,S",missing_ports:A2|A3|A4|A5|A6|A7|A8|A9,,port_mismatch,1,patch_template,unsigned_multi_input_sum,"<tmp>:21: syntax error
+<tmp>:21: error: Invalid port connection expression."
+origin,shared_origin,12,1,1,0,origin,False,False,raw,,False,False,,,,0,,,,,,,,,,,,,,"<tmp>:17: error: Unknown module type: booth_multiplier
+<tmp>:26: error: Unknown module type: cs_compressor
+<tmp>:34: error: Unknown module type: cla_adder
+<tmp>:42: error: Unknown module type: adder
+5 error(s) during elaboration.
+*** These modules were missing:
+        adder referenced 1 times.
+        booth_multiplier referenced 1 times.
+        cla_adder referenced 1 times.
+        cs_compressor referenced 1 times.
+***"
+reflect_patch,qwen25_aligned_multimodal_repair_sft_v1,12,1,1,0,best_functional,True,True,raw,,False,False,syntax_or_patch,no_adapter,,0,functional_pass,functional,unclassified,,Multi_Booth_signed_even,,,,,,0,patch_template,signed_multiplier,"Starting testbench...
+=> golden={111110000100111100100100}, module={111110000100111100100100}
+Test passed.
+=> golden={001001101000101101111011}, module={001001101000101101111011}
+Test passed.
+=> golden={000111111110101100101001}, module={000111111110101100101001}
+Test passed.
+=> golden={000010010001100100011010}, module={000010010001100100011010}
+Test passed.
+=> golden={111101110010010000001101}, module={111101110010010000001101}
+Test passed.
+=> golden={111110111111011100011110}, module={111110111111011100011110}
+Test passed.
+=> golden={001110111101000010011100}, module={001110111101000010011100}
+Test passed.
+=> golden={111000110011101010010110}, module={111000110011101010010110}
+Test passed.
+=> golden={000011001011010011010010}, module={000011001011010011010010}
+Test passed.
+=> golden={000100110111010101110011}, module={000100110111010101110011}
+Test passed.
+=> golden={111001010000101000001110}, module={111001010000101000001110}
+Test passed.
+=> golden={110101101100110010111100}, module={110101101100110010111100}
+Test passed.
+=> golden={000001100100010010001000}, module={000001100100010010001000}
+Test passed.
+=> golden={001100000011100011101100}, module={001100000011100011101100}
+Test passed.
+=> golden={110011011111011111000001}, module={110011011111011111000001}
+Test passed.
+=> golden={000100001100110011011110}, module={000100001100110011011110}
+Test passed.
+=> golden={000000101101000000000000}, module={000000101101000000000000}
+Test passed.
+=> golden={111011001101000101000010}, module={111011001101000101000010}
+Test passed.
+=> golden={000010110011010100100010}, module={000010110011010100100010}
+Test passed.
+=> golden={110011011011101000110111}, module={110011011011101000110111}
+Test passed.
+=> golden={000011010101100000000111}, module={000011010101100000000111}
+Test passed.
+=> golden={000001111110100101011100}, module={000001111110100101011100}
+Test passed.
+=> golden={111011001010100001110011}, module={111011001010100001110011}
+Test passed.
+=> golden={110111010110
+...[truncated]...
+11101000001110000010010}
+Test passed.
+=> golden={111010010001011010010100}, module={111010010001011010010100}
+Test passed.
+=> golden={111110000011111011011000}, module={111110000011111011011000}
+Test passed.
+=> golden={000010010100100011011011}, module={000010010100100011011011}
+Test passed.
+=> golden={000010000001000100001011}, module={000010000001000100001011}
+Test passed.
+=> golden={000000001011111001011110}, module={000000001011111001011110}
+Test passed.
+=> golden={111100111011111001010110}, module={111100111011111001010110}
+Test passed.
+=> golden={000100001101101001001001}, module={000100001101101001001001}
+Test passed.
+=> golden={110111010100011100011000}, module={110111010100011100011000}
+Test passed.
+=> golden={000010001100001011010001}, module={000010001100001011010001}
+Test passed.
+=> golden={111110111011000001001000}, module={111110111011000001001000}
+Test passed.
+=> golden={000111001101110100100100}, module={000111001101110100100100}
+Test passed.
+=> golden={000000101010110110110011}, module={000000101010110110110011}
+Test passed.
+=> golden={111111010100100101010000}, module={111111010100100101010000}
+Test passed.
+=> golden={111111001110100000000111}, module={111111001110100000000111}
+Test passed.
+=> golden={000000000110010100001000}, module={000000000110010100001000}
+Test passed.
+=> golden={000000101100000110010000}, module={000000101100000110010000}
+Test passed.
+=> golden={000011110100100101011011}, module={000011110100100101011011}
+Test passed.
+=> golden={111111011001001011011100}, module={111111011001001011011100}
+Test passed.
+=> golden={000010100100110001000101}, module={000010100100110001000101}
+Test passed.
+=> golden={111110100000000010001101}, module={111110100000000010001101}
+Test passed.
+=> golden={000000111001111001011000}, module={000000111001111001011000}
+Test passed.
+Testbench completed.
+Passed tests:          50/         50
+Pass rate: 100.00%
+<tmp>:54: $finish called at 510 (1s)
+"
+reflect_rag_skeleton,qwen25_aligned_multimodal_repair_sft_v1,12,1,1,0,best_functional,True,True,raw,,False,False,syntax_or_patch,no_adapter,,0,functional_pass,functional,"skeleton_boundary,port_mismatch,skeleton_template_enforced",,Multi_Booth_signed_even,missing_ports:A|B|P;template_enforced:signed_multiplier,"A,B,P",missing_ports:A|B|P,,"port_mismatch,skeleton_template_enforced",2,,,"Starting testbench...
+=> golden={111110000100111100100100}, module={111110000100111100100100}
+Test passed.
+=> golden={001001101000101101111011}, module={001001101000101101111011}
+Test passed.
+=> golden={000111111110101100101001}, module={000111111110101100101001}
+Test passed.
+=> golden={000010010001100100011010}, module={000010010001100100011010}
+Test passed.
+=> golden={111101110010010000001101}, module={111101110010010000001101}
+Test passed.
+=> golden={111110111111011100011110}, module={111110111111011100011110}
+Test passed.
+=> golden={001110111101000010011100}, module={001110111101000010011100}
+Test passed.
+=> golden={111000110011101010010110}, module={111000110011101010010110}
+Test passed.
+=> golden={000011001011010011010010}, module={000011001011010011010010}
+Test passed.
+=> golden={000100110111010101110011}, module={000100110111010101110011}
+Test passed.
+=> golden={111001010000101000001110}, module={111001010000101000001110}
+Test passed.
+=> golden={110101101100110010111100}, module={110101101100110010111100}
+Test passed.
+=> golden={000001100100010010001000}, module={000001100100010010001000}
+Test passed.
+=> golden={001100000011100011101100}, module={001100000011100011101100}
+Test passed.
+=> golden={110011011111011111000001}, module={110011011111011111000001}
+Test passed.
+=> golden={000100001100110011011110}, module={000100001100110011011110}
+Test passed.
+=> golden={000000101101000000000000}, module={000000101101000000000000}
+Test passed.
+=> golden={111011001101000101000010}, module={111011001101000101000010}
+Test passed.
+=> golden={000010110011010100100010}, module={000010110011010100100010}
+Test passed.
+=> golden={110011011011101000110111}, module={110011011011101000110111}
+Test passed.
+=> golden={000011010101100000000111}, module={000011010101100000000111}
+Test passed.
+=> golden={000001111110100101011100}, module={000001111110100101011100}
+Test passed.
+=> golden={111011001010100001110011}, module={111011001010100001110011}
+Test passed.
+=> golden={110111010110
+...[truncated]...
+11101000001110000010010}
+Test passed.
+=> golden={111010010001011010010100}, module={111010010001011010010100}
+Test passed.
+=> golden={111110000011111011011000}, module={111110000011111011011000}
+Test passed.
+=> golden={000010010100100011011011}, module={000010010100100011011011}
+Test passed.
+=> golden={000010000001000100001011}, module={000010000001000100001011}
+Test passed.
+=> golden={000000001011111001011110}, module={000000001011111001011110}
+Test passed.
+=> golden={111100111011111001010110}, module={111100111011111001010110}
+Test passed.
+=> golden={000100001101101001001001}, module={000100001101101001001001}
+Test passed.
+=> golden={110111010100011100011000}, module={110111010100011100011000}
+Test passed.
+=> golden={000010001100001011010001}, module={000010001100001011010001}
+Test passed.
+=> golden={111110111011000001001000}, module={111110111011000001001000}
+Test passed.
+=> golden={000111001101110100100100}, module={000111001101110100100100}
+Test passed.
+=> golden={000000101010110110110011}, module={000000101010110110110011}
+Test passed.
+=> golden={111111010100100101010000}, module={111111010100100101010000}
+Test passed.
+=> golden={111111001110100000000111}, module={111111001110100000000111}
+Test passed.
+=> golden={000000000110010100001000}, module={000000000110010100001000}
+Test passed.
+=> golden={000000101100000110010000}, module={000000101100000110010000}
+Test passed.
+=> golden={000011110100100101011011}, module={000011110100100101011011}
+Test passed.
+=> golden={111111011001001011011100}, module={111111011001001011011100}
+Test passed.
+=> golden={000010100100110001000101}, module={000010100100110001000101}
+Test passed.
+=> golden={111110100000000010001101}, module={111110100000000010001101}
+Test passed.
+=> golden={000000111001111001011000}, module={000000111001111001011000}
+Test passed.
+Testbench completed.
+Passed tests:          50/         50
+Pass rate: 100.00%
+<tmp>:54: $finish called at 510 (1s)
+"
+origin,shared_origin,13,1,1,0,origin,True,False,raw,,False,False,,,,0,,,,,,,,,,,,,,"Starting testbench...
+=> golden={000000100100}, module={zzzzzzzzzzzz}
+Mismatch! Expected {000000100100}, got {zzzzzzzzzzzz}
+=> golden={000100111011}, module={zzzzzzzzzzzz}
+Mismatch! Expected {000100111011}, got {zzzzzzzzzzzz}
+=> golden={000010101001}, module={zzzzzzzzzzzz}
+Mismatch! Expected {000010101001}, got {zzzzzzzzzzzz}
+=> golden={001010011010}, module={zzzzzzzzzzzz}
+Mismatch! Expected {001010011010}, got {zzzzzzzzzzzz}
+=> golden={000000001101}, module={zzzzzzzzzzzz}
+Mismatch! Expected {000000001101}, got {zzzzzzzzzzzz}
+=> golden={110011011110}, module={zzzzzzzzzzzz}
+Mismatch! Expected {110011011110}, got {zzzzzzzzzzzz}
+=> golden={001000011100}, module={zzzzzzzzzzzz}
+Mismatch! Expected {001000011100}, got {zzzzzzzzzzzz}
+=> golden={000101010110}, module={zzzzzzzzzzzz}
+Mismatch! Expected {000101010110}, got {zzzzzzzzzzzz}
+=> golden={000011010010}, module={zzzzzzzzzzzz}
+Mismatch! Expected {000011010010}, got {zzzzzzzzzzzz}
+=> golden={011111110011}, module={zzzzzzzzzzzz}
+Mismatch! Expected {011111110011}, got {zzzzzzzzzzzz}
+=> golden={000100001110}, module={zzzzzzzzzzzz}
+Mismatch! Expected {000100001110}, got {zzzzzzzzzzzz}
+=> golden={001010111100}, module={zzzzzzzzzzzz}
+Mismatch! Expected {001010111100}, got {zzzzzzzzzzzz}
+=> golden={000011001000}, module={zzzzzzzzzzzz}
+Mismatch! Expected {000011001000}, got {zzzzzzzzzzzz}
+=> golden={011010101100}, module={zzzzzzzzzzzz}
+Mismatch! Expected {011010101100}, got {zzzzzzzzzzzz}
+=> golden={011010000001}, module={zzzzzzzzzzzz}
+Mismatch! Expected {011010000001}, got {zzzzzzzzzzzz}
+=> golden={000101011110}, module={zzzzzzzzzzzz}
+Mismatch! Expected {000101011110}, got {zzzzzzzzzzzz}
+=> golden={000000000000}, module={zzzzzzzzzzzz}
+Mismatch! Expected {000000000000}, got {zzzzzzzzzzzz}
+=> golden={010011000010}, module={zzzzzzzzzzzz}
+Mismatch! Expected {010011000010}, got {zzzzzzzzzzzz}
+=> golden={000110100010}, module={zzzzzzzzzzzz}
+Mismatch! Expected {000110100010}, got {zzzzzzzzzzzz}
+=> golden={000011110111}, module={zzzzzz
+...[truncated]...
+000001001011}, module={zzzzzzzzzzzz}
+Mismatch! Expected {000001001011}, got {zzzzzzzzzzzz}
+=> golden={110101011110}, module={zzzzzzzzzzzz}
+Mismatch! Expected {110101011110}, got {zzzzzzzzzzzz}
+=> golden={010100010110}, module={zzzzzzzzzzzz}
+Mismatch! Expected {010100010110}, got {zzzzzzzzzzzz}
+=> golden={010011001001}, module={zzzzzzzzzzzz}
+Mismatch! Expected {010011001001}, got {zzzzzzzzzzzz}
+=> golden={000110011000}, module={zzzzzzzzzzzz}
+Mismatch! Expected {000110011000}, got {zzzzzzzzzzzz}
+=> golden={000111010001}, module={zzzzzzzzzzzz}
+Mismatch! Expected {000111010001}, got {zzzzzzzzzzzz}
+=> golden={110000001000}, module={zzzzzzzzzzzz}
+Mismatch! Expected {110000001000}, got {zzzzzzzzzzzz}
+=> golden={001101100100}, module={zzzzzzzzzzzz}
+Mismatch! Expected {001101100100}, got {zzzzzzzzzzzz}
+=> golden={000011110011}, module={zzzzzzzzzzzz}
+Mismatch! Expected {000011110011}, got {zzzzzzzzzzzz}
+=> golden={000010010000}, module={zzzzzzzzzzzz}
+Mismatch! Expected {000010010000}, got {zzzzzzzzzzzz}
+=> golden={000110000111}, module={zzzzzzzzzzzz}
+Mismatch! Expected {000110000111}, got {zzzzzzzzzzzz}
+=> golden={000100001000}, module={zzzzzzzzzzzz}
+Mismatch! Expected {000100001000}, got {zzzzzzzzzzzz}
+=> golden={000000010000}, module={zzzzzzzzzzzz}
+Mismatch! Expected {000000010000}, got {zzzzzzzzzzzz}
+=> golden={110100011011}, module={zzzzzzzzzzzz}
+Mismatch! Expected {110100011011}, got {zzzzzzzzzzzz}
+=> golden={010001011100}, module={zzzzzzzzzzzz}
+Mismatch! Expected {010001011100}, got {zzzzzzzzzzzz}
+=> golden={101000000101}, module={zzzzzzzzzzzz}
+Mismatch! Expected {101000000101}, got {zzzzzzzzzzzz}
+=> golden={001001001101}, module={zzzzzzzzzzzz}
+Mismatch! Expected {001001001101}, got {zzzzzzzzzzzz}
+=> golden={000100011000}, module={zzzzzzzzzzzz}
+Mismatch! Expected {000100011000}, got {zzzzzzzzzzzz}
+Testbench completed.
+Passed tests:           0/         50
+Pass rate: 0.00%
+<tmp>:54: $finish called at 510 (1s)
+"
+reflect_patch,qwen25_aligned_multimodal_repair_sft_v1,13,1,1,0,best_functional,True,True,patched,,False,False,syntax_or_patch,no_adapter,,0,functional_pass,functional,unclassified,,Multi_Booth_unsigned,,,,,,0,patch_template,unsigned_multiplier,"Starting testbench...
+=> golden={000000100100}, module={000000100100}
+Test passed.
+=> golden={000100111011}, module={000100111011}
+Test passed.
+=> golden={000010101001}, module={000010101001}
+Test passed.
+=> golden={001010011010}, module={001010011010}
+Test passed.
+=> golden={000000001101}, module={000000001101}
+Test passed.
+=> golden={110011011110}, module={110011011110}
+Test passed.
+=> golden={001000011100}, module={001000011100}
+Test passed.
+=> golden={000101010110}, module={000101010110}
+Test passed.
+=> golden={000011010010}, module={000011010010}
+Test passed.
+=> golden={011111110011}, module={011111110011}
+Test passed.
+=> golden={000100001110}, module={000100001110}
+Test passed.
+=> golden={001010111100}, module={001010111100}
+Test passed.
+=> golden={000011001000}, module={000011001000}
+Test passed.
+=> golden={011010101100}, module={011010101100}
+Test passed.
+=> golden={011010000001}, module={011010000001}
+Test passed.
+=> golden={000101011110}, module={000101011110}
+Test passed.
+=> golden={000000000000}, module={000000000000}
+Test passed.
+=> golden={010011000010}, module={010011000010}
+Test passed.
+=> golden={000110100010}, module={000110100010}
+Test passed.
+=> golden={000011110111}, module={000011110111}
+Test passed.
+=> golden={001110000111}, module={001110000111}
+Test passed.
+=> golden={000001011100}, module={000001011100}
+Test passed.
+=> golden={000110110011}, module={000110110011}
+Test passed.
+=> golden={000101011110}, module={000101011110}
+Test passed.
+=> golden={001001011000}, module={001001011000}
+Test passed.
+=> golden={000111110100}, module={000111110100}
+Test passed.
+=> golden={000000011000}, module={000000011000}
+Test passed.
+=> golden={000111111000}, module={000111111000}
+Test passed.
+=> golden={100100010010}, module={100100010010}
+Test passed.
+=> golden={000100010100}, module={000100010100}
+Test passed.
+=> golden={100111011000}, module={100111011000}
+Test passed.
+=> golden={001000011011}, module={001000011011}
+Test passed.
+=> golden={000001001011}, module={000001001011}
+Test passed.
+=> golden={110101011110}, module={110101011110}
+Test passed.
+=> golden={010100010110}, module={010100010110}
+Test passed.
+=> golden={010011001001}, module={010011001001}
+Test passed.
+=> golden={000110011000}, module={000110011000}
+Test passed.
+=> golden={000111010001}, module={000111010001}
+Test passed.
+=> golden={110000001000}, module={110000001000}
+Test passed.
+=> golden={001101100100}, module={001101100100}
+Test passed.
+=> golden={000011110011}, module={000011110011}
+Test passed.
+=> golden={000010010000}, module={000010010000}
+Test passed.
+=> golden={000110000111}, module={000110000111}
+Test passed.
+=> golden={000100001000}, module={000100001000}
+Test passed.
+=> golden={000000010000}, module={000000010000}
+Test passed.
+=> golden={110100011011}, module={110100011011}
+Test passed.
+=> golden={010001011100}, module={010001011100}
+Test passed.
+=> golden={101000000101}, module={101000000101}
+Test passed.
+=> golden={001001001101}, module={001001001101}
+Test passed.
+=> golden={000100011000}, module={000100011000}
+Test passed.
+Testbench completed.
+Passed tests:          50/         50
+Pass rate: 100.00%
+<tmp>:54: $finish called at 510 (1s)
+"
+reflect_rag_skeleton,qwen25_aligned_multimodal_repair_sft_v1,13,1,1,0,best_functional,True,True,raw,,False,False,syntax_or_patch,no_adapter,,0,functional_pass,functional,"skeleton_boundary,skeleton_template_enforced",,Multi_Booth_unsigned,template_enforced:unsigned_multiplier,"A,B,P",,,skeleton_template_enforced,1,,,"Starting testbench...
+=> golden={000000100100}, module={000000100100}
+Test passed.
+=> golden={000100111011}, module={000100111011}
+Test passed.
+=> golden={000010101001}, module={000010101001}
+Test passed.
+=> golden={001010011010}, module={001010011010}
+Test passed.
+=> golden={000000001101}, module={000000001101}
+Test passed.
+=> golden={110011011110}, module={110011011110}
+Test passed.
+=> golden={001000011100}, module={001000011100}
+Test passed.
+=> golden={000101010110}, module={000101010110}
+Test passed.
+=> golden={000011010010}, module={000011010010}
+Test passed.
+=> golden={011111110011}, module={011111110011}
+Test passed.
+=> golden={000100001110}, module={000100001110}
+Test passed.
+=> golden={001010111100}, module={001010111100}
+Test passed.
+=> golden={000011001000}, module={000011001000}
+Test passed.
+=> golden={011010101100}, module={011010101100}
+Test passed.
+=> golden={011010000001}, module={011010000001}
+Test passed.
+=> golden={000101011110}, module={000101011110}
+Test passed.
+=> golden={000000000000}, module={000000000000}
+Test passed.
+=> golden={010011000010}, module={010011000010}
+Test passed.
+=> golden={000110100010}, module={000110100010}
+Test passed.
+=> golden={000011110111}, module={000011110111}
+Test passed.
+=> golden={001110000111}, module={001110000111}
+Test passed.
+=> golden={000001011100}, module={000001011100}
+Test passed.
+=> golden={000110110011}, module={000110110011}
+Test passed.
+=> golden={000101011110}, module={000101011110}
+Test passed.
+=> golden={001001011000}, module={001001011000}
+Test passed.
+=> golden={000111110100}, module={000111110100}
+Test passed.
+=> golden={000000011000}, module={000000011000}
+Test passed.
+=> golden={000111111000}, module={000111111000}
+Test passed.
+=> golden={100100010010}, module={100100010010}
+Test passed.
+=> golden={000100010100}, module={000100010100}
+Test passed.
+=> golden={100111011000}, module={100111011000}
+Test passed.
+=> golden={001000011011}, module={001000011011}
+Test passed.
+=> golden={000001001011}, module={000001001011}
+Test passed.
+=> golden={110101011110}, module={110101011110}
+Test passed.
+=> golden={010100010110}, module={010100010110}
+Test passed.
+=> golden={010011001001}, module={010011001001}
+Test passed.
+=> golden={000110011000}, module={000110011000}
+Test passed.
+=> golden={000111010001}, module={000111010001}
+Test passed.
+=> golden={110000001000}, module={110000001000}
+Test passed.
+=> golden={001101100100}, module={001101100100}
+Test passed.
+=> golden={000011110011}, module={000011110011}
+Test passed.
+=> golden={000010010000}, module={000010010000}
+Test passed.
+=> golden={000110000111}, module={000110000111}
+Test passed.
+=> golden={000100001000}, module={000100001000}
+Test passed.
+=> golden={000000010000}, module={000000010000}
+Test passed.
+=> golden={110100011011}, module={110100011011}
+Test passed.
+=> golden={010001011100}, module={010001011100}
+Test passed.
+=> golden={101000000101}, module={101000000101}
+Test passed.
+=> golden={001001001101}, module={001001001101}
+Test passed.
+=> golden={000100011000}, module={000100011000}
+Test passed.
+Testbench completed.
+Passed tests:          50/         50
+Pass rate: 100.00%
+<tmp>:54: $finish called at 510 (1s)
+"
+origin,shared_origin,14,1,1,0,origin,False,False,raw,,False,False,,,,0,,,,,,,,,,,,,,"<tmp>:16: syntax error
+<tmp>:16: error: Invalid module item.
+<tmp>:16: syntax error
+<tmp>:16: error: Invalid module instantiation
+<tmp>:16: error: Invalid module instantiation
+<tmp>:23: error: Invalid module item.
+<tmp>:23: syntax error
+<tmp>:23: error: Invalid module instantiation
+<tmp>:23: error: Invalid module instantiation
+<tmp>:42: error: Invalid module item.
+<tmp>:45: syntax error
+<tmp>:45: error: Syntax error in continuous assignment
+<tmp>:26: error: generate/endgenerate regions cannot nest."
+reflect_patch,qwen25_aligned_multimodal_repair_sft_v1,14,1,3,2,last_attempt,False,False,raw,,False,False,syntax_or_patch,no_adapter,,0,none,syntax,unclassified,,Multi_signed,,,,,,0,patch_template,ppa_adder,"<tmp>:16: syntax error
+<tmp>:16: error: Invalid module item.
+<tmp>:16: syntax error
+<tmp>:16: error: Invalid module instantiation
+<tmp>:16: error: Invalid module instantiation
+<tmp>:23: error: Invalid module item.
+<tmp>:23: syntax error
+<tmp>:23: error: Invalid module instantiation
+<tmp>:23: error: Invalid module instantiation
+<tmp>:42: error: Invalid module item.
+<tmp>:45: syntax error
+<tmp>:45: error: Syntax error in continuous assignment
+<tmp>:26: error: generate/endgenerate regions cannot nest."
+reflect_rag_skeleton,qwen25_aligned_multimodal_repair_sft_v1,14,1,3,2,last_attempt,False,False,raw,,False,False,syntax_or_patch,no_adapter,"bad_instantiation,nonsynth_or_bad_always,bad_instantiation_or_missing_helper,syntax_verilog2001,serial_multiplier_rule",5,none,syntax,"bad_instantiation,nonsynth_or_bad_always,bad_instantiation_or_missing_helper,syntax_verilog2001,serial_multiplier_rule",,Multi_signed,,"A,B,P",,,,0,patch,ppa_adderer,"<tmp>:16: syntax error
+<tmp>:16: error: Invalid module item.
+<tmp>:16: syntax error
+<tmp>:16: error: Invalid module instantiation
+<tmp>:16: error: Invalid module instantiation
+<tmp>:23: error: Invalid module item.
+<tmp>:23: syntax error
+<tmp>:23: error: Invalid module instantiation
+<tmp>:23: error: Invalid module instantiation
+<tmp>:42: error: Invalid module item.
+<tmp>:45: syntax error
+<tmp>:45: error: Syntax error in continuous assignment
+<tmp>:26: error: generate/endgenerate regions cannot nest."
+origin,shared_origin,15,1,1,0,origin,False,False,raw,,False,False,,,,0,,,,,,,,,,,,,,"<tmp>:8: syntax error
+<tmp>:8: error: Invalid module item.
+<tmp>:9: syntax error
+<tmp>:9: error: Invalid module item.
+<tmp>:10: syntax error
+<tmp>:10: error: Invalid module item.
+<tmp>:14: syntax error
+<tmp>:14: error: Malformed statement
+<tmp>:15: syntax error
+<tmp>:15: error: Malformed statement
+<tmp>:20: syntax error
+<tmp>:20: error: Malformed statement"
+reflect_patch,qwen25_aligned_multimodal_repair_sft_v1,15,1,3,2,last_attempt,False,False,raw,,False,False,syntax_or_patch,no_adapter,,0,none,syntax,unclassified,,Multi_unsigned,,,,,,0,regenerate,unknown,"<tmp>:8: syntax error
+<tmp>:8: error: Invalid module item.
+<tmp>:9: syntax error
+<tmp>:9: error: Invalid module item.
+<tmp>:10: syntax error
+<tmp>:10: error: Invalid module item.
+<tmp>:14: syntax error
+<tmp>:14: error: Malformed statement
+<tmp>:15: syntax error
+<tmp>:15: error: Malformed statement
+<tmp>:20: syntax error
+<tmp>:20: error: Malformed statement"
+reflect_rag_skeleton,qwen25_aligned_multimodal_repair_sft_v1,15,1,3,2,last_attempt,False,False,raw,,False,False,syntax_or_patch,no_adapter,"nonsynth_or_bad_always,syntax_verilog2001,serial_multiplier_rule",3,none,syntax,"nonsynth_or_bad_always,syntax_verilog2001,serial_multiplier_rule",,Multi_unsigned,,"A,B,P",,,,0,patch_template,unknown,"<tmp>:8: syntax error
+<tmp>:8: error: Invalid module item.
+<tmp>:9: syntax error
+<tmp>:9: error: Invalid module item.
+<tmp>:10: syntax error
+<tmp>:10: error: Invalid module item.
+<tmp>:14: syntax error
+<tmp>:14: error: Malformed statement
+<tmp>:15: syntax error
+<tmp>:15: error: Malformed statement
+<tmp>:20: syntax error
+<tmp>:20: error: Malformed statement"
+origin,shared_origin,16,1,1,0,origin,False,False,raw,,False,False,,,,0,,,,,,,,,,,,,,"<tmp>:13: syntax error
+<tmp>:13: error: Syntax error between internal '}' and closing '}' of repeat concatenation."
+reflect_patch,qwen25_aligned_multimodal_repair_sft_v1,16,1,3,2,last_attempt,False,False,raw,,False,False,syntax_or_patch,no_adapter,,0,none,syntax,unclassified,,booth_multiplier_9_PPA_Sklansky,,,,,,0,patch,Booth Multiplier,"<tmp>:13: syntax error
+<tmp>:13: error: Syntax error between internal '}' and closing '}' of repeat concatenation."
+reflect_rag_skeleton,qwen25_aligned_multimodal_repair_sft_v1,16,1,3,2,last_attempt,False,False,raw,,False,False,syntax_or_patch,no_adapter,"nonsynth_or_bad_always,syntax_verilog2001",2,none,syntax,"nonsynth_or_bad_always,syntax_verilog2001",,booth_multiplier_9_PPA_Sklansky,,"A,B,S",,,,0,regenerate_self_contained,ppa_adder,"<tmp>:13: syntax error
+<tmp>:13: error: Syntax error between internal '}' and closing '}' of repeat concatenation."
+origin,shared_origin,17,1,1,0,origin,False,False,raw,,False,False,,,,0,,,,,,,,,,,,,,"<tmp>:8: syntax error
+<tmp>:8: error: Invalid port connection expression.
+<tmp>:8: syntax error
+<tmp>:8: error: Invalid port connection expression.
+<tmp>:9: syntax error
+<tmp>:9: error: Invalid port connection expression.
+<tmp>:13: syntax error
+<tmp>:14: Syntax in assignment statement l-value.
+<tmp>:15: syntax error
+<tmp>:15: Syntax in assignment statement l-value.
+<tmp>:16: syntax error
+<tmp>:16: Syntax in assignment statement l-value.
+<tmp>:17: syntax error
+<tmp>:17: Syntax in assignment statement l-value.
+<tmp>:18: syntax error
+<tmp>:9: error: Malformed statement
+<tmp>:10: syntax error
+<tmp>:10: error: Malformed statement
+<tmp>:11: syntax error
+<tmp>:11: error: Malformed statement
+<tmp>:12: syntax error
+<tmp>:12: error: Malformed statement
+<tmp>:18: syntax error
+<tmp>:23: error: Malformed statement
+<tmp>:25: syntax error
+<tmp>:25: error: Malformed statement
+<tmp>:26: syntax error
+<tmp>:27: Syntax in assignment statement l-value.
+<tmp>:27: syntax error
+<tmp>:27: error: Malformed statement
+<tmp>:27: syntax error
+<tmp>:28: Syntax in assignment statement l-value.
+<tmp>:30: syntax error
+<tmp>:32: error: Invalid module item."
+reflect_patch,qwen25_aligned_multimodal_repair_sft_v1,17,1,3,2,last_attempt,False,False,raw,,False,False,syntax_or_patch,no_adapter,,0,none,syntax,unclassified,,parallel_multiplier_7_PPA_Kogge_Stone,,,,,,0,regenerate,The interface should be defined with the correct width parameter and the appropriate number of bits for the inputs and outputs.,"<tmp>:8: syntax error
+<tmp>:8: error: Invalid port connection expression.
+<tmp>:8: syntax error
+<tmp>:8: error: Invalid port connection expression.
+<tmp>:9: syntax error
+<tmp>:9: error: Invalid port connection expression.
+<tmp>:13: syntax error
+<tmp>:14: Syntax in assignment statement l-value.
+<tmp>:15: syntax error
+<tmp>:15: Syntax in assignment statement l-value.
+<tmp>:16: syntax error
+<tmp>:16: Syntax in assignment statement l-value.
+<tmp>:17: syntax error
+<tmp>:17: Syntax in assignment statement l-value.
+<tmp>:18: syntax error
+<tmp>:9: error: Malformed statement
+<tmp>:10: syntax error
+<tmp>:10: error: Malformed statement
+<tmp>:11: syntax error
+<tmp>:11: error: Malformed statement
+<tmp>:12: syntax error
+<tmp>:12: error: Malformed statement
+<tmp>:18: syntax error
+<tmp>:23: error: Malformed statement
+<tmp>:25: syntax error
+<tmp>:25: error: Malformed statement
+<tmp>:26: syntax error
+<tmp>:27: Syntax in assignment statement l-value.
+<tmp>:27: syntax error
+<tmp>:27: error: Malformed statement
+<tmp>:27: syntax error
+<tmp>:28: Syntax in assignment statement l-value.
+<tmp>:30: syntax error
+<tmp>:32: error: Invalid module item."
+reflect_rag_skeleton,qwen25_aligned_multimodal_repair_sft_v1,17,1,3,2,last_attempt,False,False,raw,,False,False,syntax_or_patch,no_adapter,"nonsynth_or_bad_always,syntax_verilog2001,serial_multiplier_rule",3,none,syntax,"nonsynth_or_bad_always,syntax_verilog2001,serial_multiplier_rule",,parallel_multiplier_7_PPA_Kogge_Stone,,"A,B,S",,,,0,regenerate_self_contained,ppa_adder,"<tmp>:8: syntax error
+<tmp>:8: error: Invalid port connection expression.
+<tmp>:8: syntax error
+<tmp>:8: error: Invalid port connection expression.
+<tmp>:9: syntax error
+<tmp>:9: error: Invalid port connection expression.
+<tmp>:13: syntax error
+<tmp>:14: Syntax in assignment statement l-value.
+<tmp>:15: syntax error
+<tmp>:15: Syntax in assignment statement l-value.
+<tmp>:16: syntax error
+<tmp>:16: Syntax in assignment statement l-value.
+<tmp>:17: syntax error
+<tmp>:17: Syntax in assignment statement l-value.
+<tmp>:18: syntax error
+<tmp>:9: error: Malformed statement
+<tmp>:10: syntax error
+<tmp>:10: error: Malformed statement
+<tmp>:11: syntax error
+<tmp>:11: error: Malformed statement
+<tmp>:12: syntax error
+<tmp>:12: error: Malformed statement
+<tmp>:18: syntax error
+<tmp>:23: error: Malformed statement
+<tmp>:25: syntax error
+<tmp>:25: error: Malformed statement
+<tmp>:26: syntax error
+<tmp>:27: Syntax in assignment statement l-value.
+<tmp>:27: syntax error
+<tmp>:27: error: Malformed statement
+<tmp>:27: syntax error
+<tmp>:28: Syntax in assignment statement l-value.
+<tmp>:30: syntax error
+<tmp>:32: error: Invalid module item."
+origin,shared_origin,18,1,1,0,origin,False,False,raw,,False,False,,,,0,,,,,,,,,,,,,,"<tmp>:21: syntax error
+<tmp>:21: error: Syntax error between internal '}' and closing '}' of repeat concatenation.
+<tmp>:12: syntax error
+<tmp>:21: error: Syntax error in left side of continuous assignment."
+reflect_patch,qwen25_aligned_multimodal_repair_sft_v1,18,1,3,2,last_attempt,False,False,raw,,False,False,syntax_or_patch,no_adapter,,0,none,syntax,unclassified,,signed_parallel_multiplier_12_C_Sel_A,,,,,,0,regenerate,unknown,"<tmp>:21: syntax error
+<tmp>:21: error: Syntax error between internal '}' and closing '}' of repeat concatenation.
+<tmp>:12: syntax error
+<tmp>:21: error: Syntax error in left side of continuous assignment."
+reflect_rag_skeleton,qwen25_aligned_multimodal_repair_sft_v1,18,1,3,2,last_attempt,False,False,raw,,False,False,syntax_or_patch,no_adapter,"nonsynth_or_bad_always,syntax_verilog2001",2,none,syntax,"nonsynth_or_bad_always,syntax_verilog2001,skeleton_boundary,port_mismatch",,signed_parallel_multiplier_12_C_Sel_A,missing_ports:A|B|S,"A,B,S",missing_ports:A|B|S,,port_mismatch,1,patch_template,unknown,"<tmp>:21: syntax error
+<tmp>:21: error: Syntax error between internal '}' and closing '}' of repeat concatenation.
+<tmp>:12: syntax error
+<tmp>:21: error: Syntax error in left side of continuous assignment."
+origin,shared_origin,19,1,1,0,origin,False,False,raw,,False,False,,,,0,,,,,,,,,,,,,,"<tmp>:81: syntax error
+<tmp>:1: error: Syntax error in variable list."
+reflect_patch,qwen25_aligned_multimodal_repair_sft_v1,19,1,3,2,best_functional,True,True,raw,,False,False,syntax_or_patch,no_adapter,,0,functional_pass,functional,unclassified,,serial_multiplier_11_PPA_Kogge_Stone,,,,,,0,patch_template,serial_multiplier,"Starting testbench...
+=> golden={{1000010110111100100100}}, module={{1000010110111100100100}}
+Test passed.
+=> golden={{1001101000101101111011}}, module={{1001101000101101111011}}
+Test passed.
+=> golden={{0001001011101100101001}}, module={{0001001011101100101001}}
+Test passed.
+=> golden={{0010010001100100011010}}, module={{0010010001100100011010}}
+Test passed.
+=> golden={{0011110010110000001101}}, module={{0011110010110000001101}}
+Test passed.
+=> golden={{0001111010011100011110}}, module={{0001111010011100011110}}
+Test passed.
+=> golden={{1110111101000010011100}}, module={{1110111101000010011100}}
+Test passed.
+=> golden={{0010010110101010010110}}, module={{0010010110101010010110}}
+Test passed.
+=> golden={{0011001011010011010010}}, module={{0011001011010011010010}}
+Test passed.
+=> golden={{0100110111010101110011}}, module={{0100110111010101110011}}
+Test passed.
+=> golden={{0101011001101000001110}}, module={{0101011001101000001110}}
+Test passed.
+=> golden={{0011010011110010111100}}, module={{0011010011110010111100}}
+Test passed.
+=> golden={{0100111010110010001000}}, module={{0100111010110010001000}}
+Test passed.
+=> golden={{0000010000000011101100}}, module={{0000010000000011101100}}
+Test passed.
+=> golden={{0000010001111111000001}}, module={{0000010001111111000001}}
+Test passed.
+=> golden={{0100001100110011011110}}, module={{0100001100110011011110}}
+Test passed.
+=> golden={{0000101101000000000000}}, module={{0000101101000000000000}}
+Test passed.
+=> golden={{0110100010000101000010}}, module={{0110100010000101000010}}
+Test passed.
+=> golden={{0000000111110100100010}}, module={{0000000111110100100010}}
+Test passed.
+=> golden={{0000000101001000110111}}, module={{0000000101001000110111}}
+Test passed.
+=> golden={{0011110101100000000111}}, module={{0011110101100000000111}}
+Test passed.
+=> golden={{0011010110100101011100}}, module={{0011010110100101011100}}
+Test passed.
+=> golden={{0000110010000001110011}}, module={{0000110010000001110011}}
+Test passed.
+=> golden={{00010110111
+...[truncated]...
+000011100110000010010}}
+Test passed.
+=> golden={{0001101000011010010100}}, module={{0001101000011010010100}}
+Test passed.
+=> golden={{0011100001111011011000}}, module={{0011100001111011011000}}
+Test passed.
+=> golden={{0011010010100011011011}}, module={{0011010010100011011011}}
+Test passed.
+=> golden={{0010000001000100001011}}, module={{0010000001000100001011}}
+Test passed.
+=> golden={{0000001011111001011110}}, module={{0000001011111001011110}}
+Test passed.
+=> golden={{0001111010111001010110}}, module={{0001111010111001010110}}
+Test passed.
+=> golden={{0011110010101001001001}}, module={{0011110010101001001001}}
+Test passed.
+=> golden={{0110000101011100011000}}, module={{0110000101011100011000}}
+Test passed.
+=> golden={{0010001100001011010001}}, module={{0010001100001011010001}}
+Test passed.
+=> golden={{0000010110100001001000}}, module={{0000010110100001001000}}
+Test passed.
+=> golden={{0111001101110100100100}}, module={{0111001101110100100100}}
+Test passed.
+=> golden={{0000101010110110110011}}, module={{0000101010110110110011}}
+Test passed.
+=> golden={{0011111001000101010000}}, module={{0011111001000101010000}}
+Test passed.
+=> golden={{0000111010000000000111}}, module={{0000111010000000000111}}
+Test passed.
+=> golden={{1101010111010100001000}}, module={{1101010111010100001000}}
+Test passed.
+=> golden={{1001110001000110010000}}, module={{1001110001000110010000}}
+Test passed.
+=> golden={{0011001110100101011011}}, module={{0011001110100101011011}}
+Test passed.
+=> golden={{0000011000001011011100}}, module={{0000011000001011011100}}
+Test passed.
+=> golden={{0010100100110001000101}}, module={{0010100100110001000101}}
+Test passed.
+=> golden={{1100001001100010001101}}, module={{1100001001100010001101}}
+Test passed.
+=> golden={{0000111000011001011000}}, module={{0000111000011001011000}}
+Test passed.
+Testbench completed.
+Passed tests:          50/         50
+Pass rate: 100.00%
+<tmp>:78: $finish called at 6300 (1s)
+"
+reflect_rag_skeleton,qwen25_aligned_multimodal_repair_sft_v1,19,1,3,2,last_attempt,False,False,raw,,False,False,syntax_or_patch,no_adapter,"nonsynth_or_bad_always,syntax_verilog2001,family_serial_multiplier_skeleton",3,none,syntax,"nonsynth_or_bad_always,syntax_verilog2001,family_serial_multiplier_skeleton",,serial_multiplier_11_PPA_Kogge_Stone,,"clk,rst_n,en,A,B,valid,S",,,,0,regenerate_self_contained,serial_multiplier,"<tmp>:81: syntax error
+<tmp>:1: error: Syntax error in variable list."
+origin,shared_origin,20,1,1,0,origin,False,False,raw,,False,False,,,,0,,,,,,,,,,,,,,"<tmp>:14: syntax error
+<tmp>:14: error: Invalid module item.
+<tmp>:15: syntax error
+<tmp>:15: error: Invalid module item.
+<tmp>:16: syntax error
+<tmp>:16: error: Invalid module item.
+<tmp>:17: syntax error
+<tmp>:17: error: Invalid module item.
+<tmp>:18: syntax error
+<tmp>:18: error: Invalid module item.
+<tmp>:19: syntax error
+<tmp>:19: error: Invalid module item.
+<tmp>:20: syntax error
+<tmp>:20: error: Invalid module item.
+<tmp>:21: syntax error
+<tmp>:21: error: Invalid module item.
+<tmp>:22: syntax error
+<tmp>:22: error: Invalid module item.
+<tmp>:23: syntax error
+<tmp>:23: error: Invalid module item.
+<tmp>:24: syntax error
+<tmp>:24: error: Invalid module item.
+<tmp>:25: syntax error
+<tmp>:25: error: Invalid module item.
+<source_path>
+...[truncated]...
+data/tmp/reflect_syntax_juih9mqz/candidate.v:98: syntax error
+<tmp>:98: error: Invalid module item.
+<tmp>:99: syntax error
+<tmp>:99: error: Invalid module item.
+<tmp>:100: syntax error
+<tmp>:100: error: Invalid module item.
+<tmp>:101: syntax error
+<tmp>:101: error: Invalid module item.
+<tmp>:102: syntax error
+<tmp>:102: error: Invalid module item.
+<tmp>:103: syntax error
+<tmp>:103: error: Invalid module item.
+<tmp>:104: syntax error
+<tmp>:104: error: Invalid module item.
+<tmp>:105: syntax error
+<tmp>:105: error: Invalid module item.
+<tmp>:106: syntax error
+<tmp>:106: error: Invalid module item.
+<tmp>:107: syntax error
+<tmp>:107: error: Invalid module item.
+<tmp>:108: syntax error
+<tmp>:108: error: Invalid module item.
+<tmp>:109: syntax error
+<tmp>:11: error: Invalid module item."
+reflect_patch,qwen25_aligned_multimodal_repair_sft_v1,20,1,1,0,best_functional,True,True,raw,,False,False,syntax_or_patch,no_adapter,,0,functional_pass,functional,unclassified,,signed_serial_multiplier_9_CLA,,,,,,0,patch_template,The module interface is correctly defined but the module body needs to be properly structured.,"Starting testbench...
+=> golden={{111001000100100100}}, module={{111001000100100100}}
+Test passed.
+=> golden={{000000001101111011}}, module={{000000001101111011}}
+Test passed.
+=> golden={{000110110100101001}}, module={{000110110100101001}}
+Test passed.
+=> golden={{000000011100011010}}, module={{000000011100011010}}
+Test passed.
+=> golden={{001111001000001101}}, module={{001111001000001101}}
+Test passed.
+=> golden={{000110100100011110}}, module={{000110100100011110}}
+Test passed.
+=> golden={{000000100010011100}}, module={{000000100010011100}}
+Test passed.
+=> golden={{111111101010010110}}, module={{111111101010010110}}
+Test passed.
+=> golden={{001000001011010010}}, module={{001000001011010010}}
+Test passed.
+=> golden={{111111001101110011}}, module={{111111001101110011}}
+Test passed.
+=> golden={{111111100000001110}}, module={{111111100000001110}}
+Test passed.
+=> golden={{111111010010111100}}, module={{111111010010111100}}
+Test passed.
+=> golden={{001011001010001000}}, module={{001011001010001000}}
+Test passed.
+=> golden={{111000011011101100}}, module={{111000011011101100}}
+Test passed.
+=> golden={{000001000111000001}}, module={{000001000111000001}}
+Test passed.
+=> golden={{111010000011011110}}, module={{111010000011011110}}
+Test passed.
+=> golden={{111001000000000000}}, module={{111001000000000000}}
+Test passed.
+=> golden={{111100101101000010}}, module={{111100101101000010}}
+Test passed.
+=> golden={{000000101100100010}}, module={{000000101100100010}}
+Test passed.
+=> golden={{000000010000110111}}, module={{000000010000110111}}
+Test passed.
+=> golden={{111000010000000111}}, module={{111000010000000111}}
+Test passed.
+=> golden={{000000000101011100}}, module={{000000000101011100}}
+Test passed.
+=> golden={{110100100001110011}}, module={{110100100001110011}}
+Test passed.
+=> golden={{001101010001011110}}, module={{001101010001011110}}
+Test passed.
+=> golden={{000010111101011000}}, module={{000010111101011000}}
+Test passed.
+=> golden={{000000011001110100}}, module={{0000000110
+...[truncated]...
+1000}}, module={{110101111011011000}}
+Test passed.
+=> golden={{111011011100111000}}, module={{111011011100111000}}
+Test passed.
+=> golden={{000000011000010010}}, module={{000000011000010010}}
+Test passed.
+=> golden={{000001001010010100}}, module={{000001001010010100}}
+Test passed.
+=> golden={{110110001011011000}}, module={{110110001011011000}}
+Test passed.
+=> golden={{000000010011011011}}, module={{000000010011011011}}
+Test passed.
+=> golden={{000101010100001011}}, module={{000101010100001011}}
+Test passed.
+=> golden={{111101001001011110}}, module={{111101001001011110}}
+Test passed.
+=> golden={{111000110001010110}}, module={{111000110001010110}}
+Test passed.
+=> golden={{000000001001001001}}, module={{000000001001001001}}
+Test passed.
+=> golden={{000110111100011000}}, module={{000110111100011000}}
+Test passed.
+=> golden={{000010101011010001}}, module={{000010101011010001}}
+Test passed.
+=> golden={{111111101001001000}}, module={{111111101001001000}}
+Test passed.
+=> golden={{000011100100100100}}, module={{000011100100100100}}
+Test passed.
+=> golden={{111101010110110011}}, module={{111101010110110011}}
+Test passed.
+=> golden={{000011101101010000}}, module={{000011101101010000}}
+Test passed.
+=> golden={{000100010000000111}}, module={{000100010000000111}}
+Test passed.
+=> golden={{000110010100001000}}, module={{000110010100001000}}
+Test passed.
+=> golden={{111101010110010000}}, module={{111101010110010000}}
+Test passed.
+=> golden={{111010010101011011}}, module={{111010010101011011}}
+Test passed.
+=> golden={{111000101011011100}}, module={{111000101011011100}}
+Test passed.
+=> golden={{000111001001000101}}, module={{000111001001000101}}
+Test passed.
+=> golden={{110100011010001101}}, module={{110100011010001101}}
+Test passed.
+=> golden={{111100011001011000}}, module={{111100011001011000}}
+Test passed.
+Testbench completed.
+Passed tests:          50/         50
+Pass rate: 100.00%
+<tmp>:78: $finish called at 6300 (1s)
+"
+reflect_rag_skeleton,qwen25_aligned_multimodal_repair_sft_v1,20,1,3,2,last_attempt,False,False,raw,,False,False,syntax_or_patch,no_adapter,"nonsynth_or_bad_always,syntax_verilog2001,serial_multiplier_rule,family_serial_multiplier_skeleton",4,none,syntax,"nonsynth_or_bad_always,syntax_verilog2001,serial_multiplier_rule,family_serial_multiplier_skeleton",,signed_serial_multiplier_9_CLA,,"clk,rst_n,en,A,B,valid,S",,,,0,regenerate_self_contained,serial_multiplier,"<tmp>:14: syntax error
+<tmp>:14: error: Invalid module item.
+<tmp>:15: syntax error
+<tmp>:15: error: Invalid module item.
+<tmp>:16: syntax error
+<tmp>:16: error: Invalid module item.
+<tmp>:17: syntax error
+<tmp>:17: error: Invalid module item.
+<tmp>:18: syntax error
+<tmp>:18: error: Invalid module item.
+<tmp>:19: syntax error
+<tmp>:19: error: Invalid module item.
+<tmp>:20: syntax error
+<tmp>:20: error: Invalid module item.
+<tmp>:21: syntax error
+<tmp>:21: error: Invalid module item.
+<tmp>:22: syntax error
+<tmp>:22: error: Invalid module item.
+<tmp>:23: syntax error
+<tmp>:23: error: Invalid module item.
+<tmp>:24: syntax error
+<tmp>:24: error: Invalid module item.
+<tmp>:25: syntax error
+<tmp>:25: error: Invalid module item.
+<source_path>
+...[truncated]...
+data/tmp/reflect_syntax_s1zl4zja/candidate.v:98: syntax error
+<tmp>:98: error: Invalid module item.
+<tmp>:99: syntax error
+<tmp>:99: error: Invalid module item.
+<tmp>:100: syntax error
+<tmp>:100: error: Invalid module item.
+<tmp>:101: syntax error
+<tmp>:101: error: Invalid module item.
+<tmp>:102: syntax error
+<tmp>:102: error: Invalid module item.
+<tmp>:103: syntax error
+<tmp>:103: error: Invalid module item.
+<tmp>:104: syntax error
+<tmp>:104: error: Invalid module item.
+<tmp>:105: syntax error
+<tmp>:105: error: Invalid module item.
+<tmp>:106: syntax error
+<tmp>:106: error: Invalid module item.
+<tmp>:107: syntax error
+<tmp>:107: error: Invalid module item.
+<tmp>:108: syntax error
+<tmp>:108: error: Invalid module item.
+<tmp>:109: syntax error
+<tmp>:11: error: Invalid module item."
+origin,shared_origin,21,1,1,0,origin,False,False,raw,,False,False,,,,0,,,,,,,,,,,,,,"<tmp>:4: syntax error
+I give up."
+reflect_patch,qwen25_aligned_multimodal_repair_sft_v1,21,1,3,2,last_attempt,False,False,raw,,False,False,syntax_or_patch,no_adapter,,0,none,syntax,unclassified,,DataReOrganize,,,,,,0,regenerate,unknown,"<tmp>:4: syntax error
+I give up."
+reflect_rag_skeleton,qwen25_aligned_multimodal_repair_sft_v1,21,1,3,2,last_attempt,False,False,raw,,False,False,syntax_or_patch,no_adapter,"nonsynth_or_bad_always,syntax_verilog2001",2,none,syntax,"nonsynth_or_bad_always,syntax_verilog2001",,DataReOrganize,,"clk,rst_n,en,din,dout",,,,0,regenerate_self_contained,unknown,"<tmp>:4: syntax error
+I give up."
+origin,shared_origin,22,1,1,0,origin,False,False,raw,,False,False,,,,0,,,,,,,,,,,,,,"<tmp>:11: syntax error
+<tmp>:11: error: Invalid module instantiation"
+reflect_patch,qwen25_aligned_multimodal_repair_sft_v1,22,1,3,2,best_syntax,True,False,raw,,False,False,syntax_or_patch,no_adapter,,0,syntax_pass,functional,unclassified,,Wino_ATZA_22_33,,,,,,0,patch_template,wino_at_transform,"Correct outputs: 0 out of 50
+Accuracy: 0.00%
+<tmp>:107: $finish called at 500 (1s)
+"
+reflect_rag_skeleton,qwen25_aligned_multimodal_repair_sft_v1,22,1,3,2,best_syntax,True,False,raw,,False,False,syntax_or_patch,no_adapter,functional_wrong_arithmetic,1,syntax_pass,functional,functional_wrong_arithmetic,,Wino_ATZA_22_33,,"din0,din1,din2,din3,din4,din5,din6,din7,din8,din9,din10,din11,din12,din13,din14,din15,dout0,dout1,dout2,dout3",,,,0,patch_template,wino_at_transform,"Correct outputs: 0 out of 50
+Accuracy: 0.00%
+<tmp>:107: $finish called at 500 (1s)
+"
+origin,shared_origin,23,1,1,0,origin,True,False,raw,,False,False,,,,0,,,,,,,,,,,,,,"Correct outputs: 0 out of 10
+Accuracy: 0.00%
+<tmp>:80: $finish called at 100 (1s)
+"
+reflect_patch,qwen25_aligned_multimodal_repair_sft_v1,23,1,3,2,best_syntax,True,False,raw,,False,False,syntax_or_patch,no_adapter,,0,syntax_pass,functional,unclassified,,Wino_BTDB_22_21,,,,,,0,patch_template,wino_bt_transform,"Correct outputs: 0 out of 10
+Accuracy: 0.00%
+<tmp>:80: $finish called at 100 (1s)
+"
+reflect_rag_skeleton,qwen25_aligned_multimodal_repair_sft_v1,23,1,3,2,best_syntax,True,False,raw,,False,False,syntax_or_patch,no_adapter,functional_wrong_arithmetic,1,syntax_pass,functional,functional_wrong_arithmetic,,Wino_BTDB_22_21,,"din0,din1,din2,din3,din4,din5,dout0,dout1,dout2,dout3,dout4,dout5",,,,0,patch_template,wino_bt_transform,"Correct outputs: 0 out of 10
+Accuracy: 0.00%
+<tmp>:80: $finish called at 100 (1s)
+"
+origin,shared_origin,24,1,1,0,origin,False,False,raw,,False,False,,,,0,,,,,,,,,,,,,,"<tmp>:31: error: 'res12' has already been declared in this scope.
+<tmp>:25:      : It was declared here as a net.
+<tmp>:32: error: 'res13' has already been declared in this scope.
+<tmp>:26:      : It was declared here as a net.
+<tmp>:33: error: 'res14' has already been declared in this scope.
+<tmp>:27:      : It was declared here as a net.
+<tmp>:34: error: 'res15' has already been declared in this scope.
+<tmp>:28:      : It was declared here as a net.
+<tmp>:35: error: 'res16' has already been declared in this scope.
+<tmp>:29:      : It was declared here as a net.
+<tmp>:36: error: 'res17' has already been declared in this scope.
+<tmp>:30:      : It was declared here as a net.
+<tmp>:37: error: 'res12' has already been declared in this scope.
+<tmp>:25:      : It was declared here as a net.
+<tmp>:38: error: 'res13' has already been declared in this scope.
+<tmp>:26:      : It was declared here as a net.
+<tmp>:39: error: 'res14' has already been declared in this scope.
+<tmp>:27:      : It was declared here as a net.
+<tmp>:40: error: 'res15' has already been declared in this scope.
+<tmp>:28:      : It was declared here as a net.
+<tmp>:42: syntax error
+<tmp>:9: error: Invalid module item."
+reflect_patch,qwen25_aligned_multimodal_repair_sft_v1,24,1,3,2,last_attempt,False,False,raw,,False,False,syntax_or_patch,no_adapter,,0,none,syntax,unclassified,,MAC_signed,,,,,,0,patch_template,The module interface is correctly defined but the same same as the provided information.,"<tmp>:31: error: 'res12' has already been declared in this scope.
+<tmp>:25:      : It was declared here as a net.
+<tmp>:32: error: 'res13' has already been declared in this scope.
+<tmp>:26:      : It was declared here as a net.
+<tmp>:33: error: 'res14' has already been declared in this scope.
+<tmp>:27:      : It was declared here as a net.
+<tmp>:34: error: 'res15' has already been declared in this scope.
+<tmp>:28:      : It was declared here as a net.
+<tmp>:35: error: 'res16' has already been declared in this scope.
+<tmp>:29:      : It was declared here as a net.
+<tmp>:36: error: 'res17' has already been declared in this scope.
+<tmp>:30:      : It was declared here as a net.
+<tmp>:37: error: 'res12' has already been declared in this scope.
+<tmp>:25:      : It was declared here as a net.
+<tmp>:38: error: 'res13' has already been declared in this scope.
+<tmp>:26:      : It was declared here as a net.
+<tmp>:39: error: 'res14' has already been declared in this scope.
+<tmp>:27:      : It was declared here as a net.
+<tmp>:40: error: 'res15' has already been declared in this scope.
+<tmp>:28:      : It was declared here as a net.
+<tmp>:42: syntax error
+<tmp>:9: error: Invalid module item."
+reflect_rag_skeleton,qwen25_aligned_multimodal_repair_sft_v1,24,1,2,1,best_functional,True,True,raw,,False,False,syntax_or_patch,no_adapter,"nonsynth_or_bad_always,syntax_verilog2001,serial_multiplier_rule",3,functional_pass,functional,"nonsynth_or_bad_always,syntax_verilog2001,serial_multiplier_rule",,MAC_signed,,"A,B,acc_in,result",,,,0,patch,signed_mac,"Starting testbench...
+=> golden={000001100011010110110111110111101010100101101}, module={000001100011010110110111110111101010100101101}
+Test passed.
+=> golden={000000110011011100010111000001000110110010100}, module={000000110011011100010111000001000110110010100}
+Test passed.
+=> golden={111111110101010100111111111001000110000011011}, module={111111110101010100111111111001000110000011011}
+Test passed.
+=> golden={111010110010011010111000101101000111000111011}, module={111010110010011010111000101101000111000111011}
+Test passed.
+=> golden={111101001001000100010010111001010101010010101}, module={111101001001000100010010111001010101010010101}
+Test passed.
+=> golden={000000100101101110010010000110011011100001000}, module={000000100101101110010010000110011011100001000}
+Test passed.
+=> golden={111101101100001001100001111010000101110000101}, module={111101101100001001100001111010000101110000101}
+Test passed.
+=> golden={000010010101011000010011110111100101011111100}, module={000010010101011000010011110111100101011111100}
+Test passed.
+=> golden={000000000010110100001001110011000110111100100}, module={000000000010110100001001110011000110111100100}
+Test passed.
+=> golden={111101101101110111011101001000100011110011110}, module={111101101101110111011101001000100011110011110}
+Test passed.
+=> golden={000001100111101111101011100000010111101011110}, module={000001100111101111101011100000010111101011110}
+Test passed.
+=> golden={000001101011110110000001110000110101111011101}, module={000001101011110110000001110000110101111011101}
+Test passed.
+=> golden={111111000100111101101000111101010110100101111}, module={111111000100111101101000111101010110100101111}
+Test passed.
+=> golden={111001111111001111000100111110110011010000110}, module={111001111111001111000100111110110011010000110}
+Test passed.
+=> golden={000100000011010011110111011001011001001111001}, module={000100000011010011110111011001011001001111001}
+Test passed.
+=> golden={000000001011111011110110000010001111001010111}, module={000000
+...[truncated]...
+000010000000111001010011110000}
+Test passed.
+=> golden={000000001100001000111001100001000101010001111}, module={000000001100001000111001100001000101010001111}
+Test passed.
+=> golden={000010010110010101110011011101011010010100000}, module={000010010110010101110011011101011010010100000}
+Test passed.
+=> golden={111011101001001111100010010011100001000110011}, module={111011101001001111100010010011100001000110011}
+Test passed.
+=> golden={000001111100001110110010011111011001110111100}, module={000001111100001110110010011111011001110111100}
+Test passed.
+=> golden={000000010110111100110110000010111000111001111}, module={000000010110111100110110000010111000111001111}
+Test passed.
+=> golden={000010101100110100101001000011011010001001000}, module={000010101100110100101001000011011010001001000}
+Test passed.
+=> golden={000001101000100001110110001110101011111110100}, module={000001101000100001110110001110101011111110100}
+Test passed.
+=> golden={111111010110000111010011000011010011000011100}, module={111111010110000111010011000011010011000011100}
+Test passed.
+=> golden={000111001000010111100001011111001100101010101}, module={000111001000010111100001011111001100101010101}
+Test passed.
+=> golden={111110010000011101000101010010101110111010000}, module={111110010000011101000101010010101110111010000}
+Test passed.
+=> golden={111101000100000011000011100100100010110111100}, module={111101000100000011000011100100100010110111100}
+Test passed.
+=> golden={000001111111100111011101001101010000100110000}, module={000001111111100111011101001101010000100110000}
+Test passed.
+=> golden={111111011100001100010110110011111001000000000}, module={111111011100001100010110110011111001000000000}
+Test passed.
+=> golden={111111010001001110011110010000111100101110000}, module={111111010001001110011110010000111100101110000}
+Test passed.
+Testbench completed.
+Passed tests:          50/         50
+Pass rate: 100.00%
+<tmp>:56: $finish called at 510 (1s)
+"
+origin,shared_origin,25,1,1,0,origin,False,False,raw,,False,False,,,,0,,,,,,,,,,,,,,"<tmp>:13: syntax error
+<tmp>:1: Errors in port declarations.
+<tmp>:20: syntax error
+I give up."
+reflect_patch,qwen25_aligned_multimodal_repair_sft_v1,25,1,3,2,last_attempt,False,False,raw,,False,False,syntax_or_patch,no_adapter,,0,none,syntax,unclassified,,PE,,,,,,0,regenerate,processing_element,"<tmp>:13: syntax error
+<tmp>:1: Errors in port declarations.
+<tmp>:20: syntax error
+I give up."
+reflect_rag_skeleton,qwen25_aligned_multimodal_repair_sft_v1,25,1,3,2,best_syntax,True,False,raw,,False,False,syntax_or_patch,no_adapter,family_processing_element_skeleton,1,syntax_pass,functional,"family_processing_element_skeleton,skeleton_boundary,helper_module_missing",,PE,missing_helper_instances:i,"clk,rst_n,w_en,w_compute,active_left,active_right,in_sum,out_sum,in_weight_above",,,helper_module_missing,1,regenerate,processing_element,"Test           1 Failed: PE output =            6, Golden output =            0
+Test           2 Failed: PE output =            7, Golden output =            0
+Test           3 Failed: PE output =            3, Golden output =            0
+Test           4 Failed: PE output = 274877906921, Golden output =            0
+Test           5 Failed: PE output = 274877906941, Golden output =            0
+Test           6 Failed: PE output = 274877906927, Golden output =            0
+Test           7 Failed: PE output =            3, Golden output =            0
+Test           8 Failed: PE output = 274877906943, Golden output =            0
+Test           9 Passed: PE output =            0, Golden output =            0
+Test          10 Failed: PE output = 274877906929, Golden output =            0
+Test          11 Failed: PE output =           21, Golden output =            0
+Test          12 Failed: PE output = 274877906921, Golden output =            0
+Test          13 Failed: PE output =           28, Golden output =            0
+Test          14 Failed: PE output = 274877906920, Golden output =            0
+Test          15 Failed: PE output =            5, Golden output =            0
+Test          16 Failed: PE output = 274877906926, Golden output =            0
+Test          17 Failed: PE output = 274877906936, Golden output =            0
+Test          18 Failed: PE output =           24, Golden output =            0
+Test          19 Failed: PE output = 274877906919, Golden output =            0
+Test          20 Passed: PE output =            0, Golden output =            0
+Test          21 Failed: PE output =            1, Golden output =            0
+Test          22 Passed: PE output =            0, Golden output =            0
+Test          23 Failed: PE output = 274877906917, Golden output =            0
+Test          24 Failed: PE output =           25, Golden output =            0
+Test          25 Failed: PE output =            2, Golden output =            0
+
+...[truncated]...
+     78 Failed: PE output = 274872664107, Golden output = 274866897005
+Test          79 Failed: PE output =      1048571, Golden output =      1048559
+Test          80 Failed: PE output =          139, Golden output =      5242739
+Test          81 Failed: PE output =           98, Golden output =      4718465
+Test          82 Failed: PE output = 274877906927, Golden output =       524255
+Test          83 Failed: PE output = 274872139799, Golden output = 274867945527
+Test          84 Failed: PE output =      1048572, Golden output =      1048558
+Test          85 Failed: PE output = 274866372705, Golden output = 274864799871
+Test          86 Failed: PE output =      5242802, Golden output = 274864799916
+Test          87 Failed: PE output = 274872664063, Golden output = 274865848423
+Test          88 Failed: PE output =      1048591, Golden output = 274868469826
+Test          89 Failed: PE output =      2097143, Golden output = 274866897001
+Test          90 Failed: PE output =            5, Golden output =      1048551
+Test          91 Failed: PE output =            1, Golden output = 274865848441
+Test          92 Failed: PE output =      2621397, Golden output = 274868469777
+Test          93 Failed: PE output = 274868469811, Golden output = 274864799865
+Test          94 Failed: PE output =      7864174, Golden output =      7864069
+Test          95 Failed: PE output =      3669983, Golden output =      3669899
+Test          96 Failed: PE output =            0, Golden output =      2621365
+Test          97 Failed: PE output =      1572851, Golden output =      1572815
+Test          98 Failed: PE output =           36, Golden output =      6815546
+Test          99 Failed: PE output = 274865848421, Golden output = 274864799865
+Test         100 Passed: PE output =      6815551, Golden output =      6815551
+Total tests:         100, Passed:           7, Pass rate: 7.00%
+<tmp>:102: $finish called at 2040000 (1ps)
+"
+origin,shared_origin,26,1,1,0,origin,False,False,raw,,False,False,,,,0,,,,,,,,,,,,,,"<tmp>:22: syntax error
+<tmp>:22: error: Invalid module item.
+<tmp>:23: syntax error
+<tmp>:23: error: Invalid module item.
+<tmp>:24: syntax error
+<tmp>:24: error: Invalid module item.
+<tmp>:25: syntax error
+<tmp>:25: error: Invalid module item.
+<tmp>:32: syntax error
+<tmp>:31: error: Malformed event control expression.
+<tmp>:18: error: Malformed statement
+<tmp>:31: error: Invalid event control."
+reflect_patch,qwen25_aligned_multimodal_repair_sft_v1,26,1,1,0,best_functional,True,True,raw,,False,False,syntax_or_patch,no_adapter,,0,functional_pass,functional,interface_mismatch,rename_top:PE->PE_row,PE_row,,,,,,0,patch_template,processing_element_row,"------------------------------------------------
+Test Summary:
+Total Tests: 50
+Passed Tests: 50
+Failed Tests: 0
+Passed Rate: 100.000000%
+------------------------------------------------
+<tmp>:129: $finish called at 1040000 (1ps)
+"
+reflect_rag_skeleton,qwen25_aligned_multimodal_repair_sft_v1,26,1,1,0,best_functional,True,True,raw,,False,False,syntax_or_patch,no_adapter,"nonsynth_or_bad_always,syntax_verilog2001,serial_multiplier_rule,family_processing_element_row_skeleton",4,functional_pass,functional,"nonsynth_or_bad_always,syntax_verilog2001,serial_multiplier_rule,family_processing_element_row_skeleton,interface_mismatch",rename_top:PE->PE_row,PE_row,,"clk,rst_n,w_en,w_compute,active_left,active_right,in_weight_above,out_weight_below,in_sum,out_sum",,,,0,patch_template,processing_element_row,"------------------------------------------------
+Test Summary:
+Total Tests: 50
+Passed Tests: 50
+Failed Tests: 0
+Passed Rate: 100.000000%
+------------------------------------------------
+<tmp>:129: $finish called at 1040000 (1ps)
+"
+origin,shared_origin,27,1,1,0,origin,False,False,raw,,False,False,,,,0,,,,,,,,,,,,,,"<tmp>:21: syntax error
+<tmp>:21: error: Invalid module instantiation
+<tmp>:23: error: 'in_weight_above' has already been declared in this scope.
+<tmp>:14:      : It was declared here as a net.
+<tmp>:24: error: 'rst_n' has already been declared in this scope.
+<tmp>:9:      : It was declared here as a net.
+<tmp>:25: error: 'w_compute' has already been declared in this scope.
+<tmp>:11:      : It was declared here as a net.
+<tmp>:26: error: 'w_en' has already been declared in this scope.
+<tmp>:10:      : It was declared here as a net.
+<tmp>:27: error: 'out_sum' has already been declared in this scope.
+<tmp>:17:      : It was declared here as a net.
+<tmp>:28: error: 'out_weight_below' has already been declared in this scope.
+<tmp>:15:      : It was declared here as a net.
+<tmp>:29: syntax error
+<tmp>:29: error: Invalid module instantiation
+<tmp>:32: syntax error
+<tmp>:32: error: Invalid module instantiation
+<tmp>:34: error: Invalid module instantiation
+<tmp>:37: syntax error
+<tmp>:37: error: Invalid module instantiation"
+reflect_patch,qwen25_aligned_multimodal_repair_sft_v1,27,1,3,2,last_attempt,False,False,raw,,False,False,syntax_or_patch,no_adapter,,0,none,syntax,unclassified,,PE_array,,,,,,0,patch_template,The interface family is a standard Verilog interface for a PE array module.,"<tmp>:21: syntax error
+<tmp>:21: error: Invalid module instantiation
+<tmp>:23: error: 'in_weight_above' has already been declared in this scope.
+<tmp>:14:      : It was declared here as a net.
+<tmp>:24: error: 'rst_n' has already been declared in this scope.
+<tmp>:9:      : It was declared here as a net.
+<tmp>:25: error: 'w_compute' has already been declared in this scope.
+<tmp>:11:      : It was declared here as a net.
+<tmp>:26: error: 'w_en' has already been declared in this scope.
+<tmp>:10:      : It was declared here as a net.
+<tmp>:27: error: 'out_sum' has already been declared in this scope.
+<tmp>:17:      : It was declared here as a net.
+<tmp>:28: error: 'out_weight_below' has already been declared in this scope.
+<tmp>:15:      : It was declared here as a net.
+<tmp>:29: syntax error
+<tmp>:29: error: Invalid module instantiation
+<tmp>:32: syntax error
+<tmp>:32: error: Invalid module instantiation
+<tmp>:34: error: Invalid module instantiation
+<tmp>:37: syntax error
+<tmp>:37: error: Invalid module instantiation"
+reflect_rag_skeleton,qwen25_aligned_multimodal_repair_sft_v1,27,1,1,0,best_functional,True,True,raw,,False,False,syntax_or_patch,no_adapter,"bad_instantiation,nonsynth_or_bad_always,bad_instantiation_or_missing_helper,syntax_verilog2001,serial_multiplier_rule,processing_element_rule,systolic_dataflow_rule,family_processing_element_array_skeleton",8,functional_pass,functional,"bad_instantiation,nonsynth_or_bad_always,bad_instantiation_or_missing_helper,syntax_verilog2001,serial_multiplier_rule,processing_element_rule,systolic_dataflow_rule,family_processing_element_array_skeleton",,PE_array,,"clk,rst_n,w_en,w_compute,active_left,active_right,in_weight_above,out_weight_below,in_sum,out_sum",,,,0,patch_template,processing_element_array,"------------------------------------------------
+Test Summary:
+Total Tests: 50
+Passed Tests: 50
+Failed Tests: 0
+Passed Rate: 100.000000%
+------------------------------------------------
+<tmp>:131: $finish called at 1550000 (1ps)
+"

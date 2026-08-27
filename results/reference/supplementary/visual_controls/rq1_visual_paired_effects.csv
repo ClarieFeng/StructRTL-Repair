@@ -1,0 +1,13 @@
+﻿stage,model,prompt_protocol,mode,control,metric,paired_cases,original_only_pass,control_only_pass,delta_original_minus_control,bootstrap_ci_low,bootstrap_ci_high,mcnemar_exact_p,floor_warning
+single_pass,qwen25_vl_7b,full_description,origin,text_only,syntax,81,11,12,-0.012345679012345678,-0.12345679012345678,0.09876543209876543,1.0,False
+single_pass,qwen25_vl_7b,full_description,origin,text_only,functional,81,0,0,0.0,0.0,0.0,1.0,True
+single_pass,qwen25_vl_7b,full_description,origin,blank_image,syntax,81,14,13,0.012345679012345678,-0.1111111111111111,0.13580246913580246,1.0,False
+single_pass,qwen25_vl_7b,full_description,origin,blank_image,functional,81,0,2,-0.024691358024691357,-0.06172839506172839,0.0,0.5,True
+single_pass,qwen25_vl_7b,full_description,origin,shuffled_image,syntax,81,13,10,0.037037037037037035,-0.07407407407407407,0.14814814814814814,0.6776394844055176,False
+single_pass,qwen25_vl_7b,full_description,origin,shuffled_image,functional,81,0,1,-0.012345679012345678,-0.037037037037037035,0.0,1.0,True
+single_pass,qwen25_vl_7b,interface_contract,origin,text_only,syntax,81,8,27,-0.2345679012345679,-0.37037037037037035,-0.09876543209876543,0.001878225477412343,False
+single_pass,qwen25_vl_7b,interface_contract,origin,text_only,functional,81,0,3,-0.037037037037037035,-0.08641975308641975,0.0,0.25,True
+single_pass,qwen25_vl_7b,interface_contract,origin,blank_image,syntax,81,6,23,-0.20987654320987653,-0.3333333333333333,-0.08641975308641975,0.002315700054168701,False
+single_pass,qwen25_vl_7b,interface_contract,origin,blank_image,functional,81,0,4,-0.04938271604938271,-0.09876543209876543,-0.012345679012345678,0.125,True
+single_pass,qwen25_vl_7b,interface_contract,origin,shuffled_image,syntax,81,14,15,-0.012345679012345678,-0.14814814814814814,0.12345679012345678,1.0,False
+single_pass,qwen25_vl_7b,interface_contract,origin,shuffled_image,functional,81,0,3,-0.037037037037037035,-0.08641975308641975,0.0,0.25,True

@@ -1,0 +1,2 @@
+dataset,model,manifest,raw_rows,expected_total,total,unique_observed,missing_cases,duplicate_cases,extra_cases,syntax_pass,compilation_pass,functional_pass,syntax_rate,compilation_rate,functional_rate
+benchmark1_81clean,InternVL3.5-8B-Instruct,<source_path>,79,81,81,79,2,0,0,18,17,1,0.2222222222222222,0.20987654320987653,0.012345679012345678

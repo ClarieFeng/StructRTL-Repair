@@ -1,0 +1,16 @@
+{
+  "module_id": 4,
+  "family": "brent_kung_adder",
+  "archive_label": "medium",
+  "label_mode": "reference_complexity",
+  "reference_complexity": "medium",
+  "reasoning_difficulty": "medium",
+  "source_test_root": "evaluation/TestSet/module4/test3",
+  "generated_case_id": "module4_medium_001",
+  "primary_candidate": "candidate_00.v",
+  "alternate_candidates": [],
+  "admitted_candidates": [
+    "candidate_00.v"
+  ],
+  "notes": "Archived as a correct golden reference-complexity variant set with a staged prefix helper for the medium tier."
+}

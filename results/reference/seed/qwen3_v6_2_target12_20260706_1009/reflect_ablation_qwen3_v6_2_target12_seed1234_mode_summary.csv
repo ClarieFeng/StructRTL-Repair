@@ -1,0 +1,4 @@
+"mode","total","syntax","functional","syntax_rate","functional_rate","patched_successes","avg_iterations","rag_hit_rate"
+"origin","12","7","1","0.583","0.083","0","1.000","0.000"
+"reflect_patch","12","10","2","0.833","0.167","0","2.750","0.000"
+"reflect_rag_skeleton","12","12","11","1.000","0.917","4","1.250","0.583"

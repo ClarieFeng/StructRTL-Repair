@@ -22,9 +22,10 @@ keywords:
   - "automated program repair"
   - "multimodal hardware design"
   - "EDA verification"
+
 preferred-citation:
   type: article
-  title: "StructRTL-Repair: A Tool-Grounded Single-Agent Framework for Verilog Generation from Circuit Diagrams"
+  title: "StructRTL-Repair: Verifier-Guided Structural RTL Repair for Verilog Generation from Circuit Diagrams"
   authors:
     - family-names: "Zheng"
       given-names: "Wei"
@@ -32,4 +33,7 @@ preferred-citation:
       given-names: "Jiahui"
     - family-names: "Hu"
       given-names: "Peng"
+    - family-names: "Huang"
+      given-names: "Anbo"
   year: 2026
+

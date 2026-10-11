@@ -6,7 +6,7 @@ StructRTL-Repair is a tool grounded single agent framework for repairing Verilog
 
 This repository accompanies:
 
-> **StructRTL-Repair: A Tool-Grounded Single-Agent Framework for Verilog Generation from Circuit Diagrams**
+> **StructRTL-Repair: Verifier-Guided Structural RTL Repair for Verilog Generation from Circuit Diagrams**
 
 ## Reproducibility objective
 
@@ -474,10 +474,10 @@ StructRTL-Repair code is released under Apache License 2.0. Author135 retains th
 
 ```bibtex
 @misc{structrtlrepair2026,
-  title   = {StructRTL-Repair: A Tool-Grounded Single-Agent Framework for Verilog Generation from Circuit Diagrams},
-  author  = {Zheng, Wei and Feng, Jiahui and Hu, Peng},
-  year    = {2026},
-  note    = {Software and replication package}
+  title  = {StructRTL-Repair: Verifier-Guided Structural RTL Repair for Verilog Generation from Circuit Diagrams},
+  author = {Zheng, Wei and Feng, Jiahui and Hu, Peng and Huang, Anbo},
+  year   = {2026},
+  note   = {Software and replication package}
 }
 ```
 
